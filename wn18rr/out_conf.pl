@@ -1,3165 +1,3167 @@
-(:-(:(tt(A,'_also_see',B),0.0008787346221441124),t(A,'_verb_group',B))), %1138 1
-(:-(:(tt(A,'_also_see',B),0.6374133949191686),t(B,'_also_see',A))), %1299 828
-(:-(:(tt(A,'_also_see',B),0.0008787346221441124),t(B,'_verb_group',A))), %1138 1
-(:-(:(tt(A,'_also_see',B),0.0010920795493734913),t(B,'_hypernym',A))), %34796 38
-(:-(:(tt(A,'_also_see',B),0.0001724336130589723),t(A,'_hypernym',B))), %34796 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.007702182284980745),t(A,'_synset_domain_topic_of',B))), %3116 24
-(:-(:(tt(A,'_derivationally_related_form',B),0.00043108403264743075),t(A,'_hypernym',B))), %34796 15
-(:-(:(tt(A,'_derivationally_related_form',B),0.0004885619036670882),t(B,'_hypernym',A))), %34796 17
-(:-(:(tt(A,'_derivationally_related_form',B),0.9322227831061753),t(B,'_derivationally_related_form',A))), %29715 27701
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031072683058632803),t(B,'_member_meronym',A))), %7402 23
-(:-(:(tt(A,'_derivationally_related_form',B),0.007381258023106547),t(B,'_synset_domain_topic_of',A))), %3116 23
-(:-(:(tt(A,'_derivationally_related_form',B),0.0029721696838692245),t(A,'_member_meronym',B))), %7402 22
-(:-(:(tt(A,'_has_part',B),0.0065005417118093175),t(A,'_member_of_domain_region',B))), %923 6
-(:-(:(tt(A,'_has_part',B),0.0010834236186348862),t(B,'_member_of_domain_region',A))), %923 1
-(:-(:(tt(A,'_has_part',B),0.002888318356867779),t(B,'_synset_domain_topic_of',A))), %3116 9
-(:-(:(tt(A,'_hypernym',B),0.004618937644341801),t(A,'_also_see',B))), %1299 6
-(:-(:(tt(A,'_hypernym',B),0.0005047955577990914),t(A,'_derivationally_related_form',B))), %29715 15
-(:-(:(tt(A,'_hypernym',B),0.029253271747498075),t(B,'_also_see',A))), %1299 38
-(:-(:(tt(A,'_hypernym',B),0.0005721016321723035),t(B,'_derivationally_related_form',A))), %29715 17
-(:-(:(tt(A,'_hypernym',B),0),t(B,'_hypernym',A))), %34796 0
-(:-(:(tt(A,'_hypernym',B),0.014938488576449912),t(B,'_verb_group',A))), %1138 17
-(:-(:(tt(A,'_hypernym',B),0.0012836970474967907),t(B,'_synset_domain_topic_of',A))), %3116 4
-(:-(:(tt(A,'_hypernym',B),0.014938488576449912),t(A,'_verb_group',B))), %1138 17
-(:-(:(tt(A,'_hypernym',B),0.005776636713735558),t(A,'_synset_domain_topic_of',B))), %3116 18
-(:-(:(tt(A,'_member_of_domain_region',B),0.0012458471760797341),t(A,'_has_part',B))), %4816 6
-(:-(:(tt(A,'_member_of_domain_region',B),0.00020764119601328904),t(B,'_has_part',A))), %4816 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.00034234851078397807),t(B,'_instance_hypernym',A))), %2921 1
-(:-(:(tt(A,'_member_meronym',B),0.000740366818105334),t(A,'_derivationally_related_form',B))), %29715 22
-(:-(:(tt(A,'_member_meronym',B),0.0007740198552919401),t(B,'_derivationally_related_form',A))), %29715 23
-(:-(:(tt(A,'_instance_hypernym',B),0.0010834236186348862),t(B,'_member_of_domain_region',A))), %923 1
-(:-(:(tt(A,'_verb_group',B),0.0007698229407236335),t(A,'_also_see',B))), %1299 1
-(:-(:(tt(A,'_verb_group',B),0.0007698229407236335),t(B,'_also_see',A))), %1299 1
-(:-(:(tt(A,'_verb_group',B),0.9314586994727593),t(B,'_verb_group',A))), %1138 1060
-(:-(:(tt(A,'_verb_group',B),0.0004885619036670882),t(B,'_hypernym',A))), %34796 17
-(:-(:(tt(A,'_verb_group',B),0.0004885619036670882),t(A,'_hypernym',B))), %34796 17
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0008076728924785462),t(A,'_derivationally_related_form',B))), %29715 24
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0006418485237483953),t(B,'_synset_domain_topic_of',A))), %3116 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0007740198552919401),t(B,'_derivationally_related_form',A))), %29715 23
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0018687707641196014),t(B,'_has_part',A))), %4816 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00011495574203931487),t(B,'_hypernym',A))), %34796 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005173008391769169),t(A,'_hypernym',B))), %34796 18
-(:-(:(tt(A,'_similar_to',B),0.925),t(B,'_similar_to',A))), %80 74
-(:-(:(tt(A,'_also_see',B),0.11135252580119501),','(t(A,'_also_see',C),t(C,'_also_see',B)))), %1841 205
-(:-(:(tt(A,'_also_see',B),0.0851063829787234),','(t(A,'_also_see',C),t(C,'_verb_group',B)))), %47 4
-(:-(:(tt(A,'_also_see',B),0.0948314606741573),','(t(A,'_also_see',C),t(B,'_also_see',C)))), %2225 211
-(:-(:(tt(A,'_also_see',B),0.08695652173913043),','(t(A,'_also_see',C),t(B,'_verb_group',C)))), %46 4
-(:-(:(tt(A,'_also_see',B),0.01263537906137184),','(t(A,'_also_see',C),t(B,'_hypernym',C)))), %554 7
-(:-(:(tt(A,'_also_see',B),0.017391304347826087),','(t(A,'_also_see',C),t(C,'_hypernym',B)))), %345 6
-(:-(:(tt(A,'_also_see',B),0.0011598587997982855),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 69
-(:-(:(tt(A,'_also_see',B),0.0011963312508307855),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 72
-(:-(:(tt(A,'_also_see',B),0.00028851702250432774),','(t(A,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',C)))), %3466 1
-(:-(:(tt(A,'_also_see',B),0.0017226528854435831),','(t(A,'_hypernym',C),t(C,'_also_see',B)))), %3483 6
-(:-(:(tt(A,'_also_see',B),1.3546302457060213e-5),','(t(A,'_hypernym',C),t(B,'_hypernym',C)))), %1254955 17
-(:-(:(tt(A,'_also_see',B),3.1484163465776714e-5),','(t(A,'_hypernym',C),t(C,'_hypernym',B)))), %31762 1
-(:-(:(tt(A,'_also_see',B),0.0700918679823069),','(t(C,'_also_see',A),t(C,'_also_see',B)))), %2939 206
-(:-(:(tt(A,'_also_see',B),0.11080934274850625),','(t(C,'_also_see',A),t(B,'_also_see',C)))), %1841 204
-(:-(:(tt(A,'_also_see',B),0.0005742176284811944),','(t(C,'_also_see',A),t(B,'_hypernym',C)))), %3483 2
-(:-(:(tt(A,'_also_see',B),0.0010491431997202284),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 63
-(:-(:(tt(A,'_also_see',B),0.0010926206085056312),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 65
-(:-(:(tt(A,'_also_see',B),0.00032278889606197545),','(t(C,'_derivationally_related_form',A),t(B,'_synset_domain_topic_of',C)))), %3098 1
-(:-(:(tt(A,'_also_see',B),0.0007429420505200594),','(t(C,'_verb_group',A),t(C,'_verb_group',B)))), %1346 1
-(:-(:(tt(A,'_also_see',B),0.0015552099533437014),','(t(C,'_verb_group',A),t(B,'_verb_group',C)))), %1286 2
-(:-(:(tt(A,'_also_see',B),0.0005181347150259067),','(t(C,'_verb_group',A),t(B,'_hypernym',C)))), %1930 1
-(:-(:(tt(A,'_also_see',B),0.001076426264800861),','(t(C,'_verb_group',A),t(C,'_hypernym',B)))), %929 1
-(:-(:(tt(A,'_also_see',B),0.01592356687898089),','(t(C,'_hypernym',A),t(C,'_also_see',B)))), %314 5
-(:-(:(tt(A,'_also_see',B),0.002152852529601722),','(t(C,'_hypernym',A),t(C,'_verb_group',B)))), %929 2
-(:-(:(tt(A,'_also_see',B),0.005797101449275362),','(t(C,'_hypernym',A),t(B,'_also_see',C)))), %345 2
-(:-(:(tt(A,'_also_see',B),0.002152852529601722),','(t(C,'_hypernym',A),t(B,'_verb_group',C)))), %929 2
-(:-(:(tt(A,'_also_see',B),0.00047226245198665073),','(t(C,'_hypernym',A),t(B,'_hypernym',C)))), %31762 15
-(:-(:(tt(A,'_also_see',B),0.0007776049766718507),','(t(A,'_verb_group',C),t(C,'_verb_group',B)))), %1286 1
-(:-(:(tt(A,'_also_see',B),0.0014903129657228018),','(t(A,'_verb_group',C),t(B,'_verb_group',C)))), %1342 2
-(:-(:(tt(A,'_also_see',B),0.0005184033177812338),','(t(A,'_verb_group',C),t(B,'_hypernym',C)))), %1929 1
-(:-(:(tt(A,'_also_see',B),0.001076426264800861),','(t(A,'_verb_group',C),t(C,'_hypernym',B)))), %929 1
-(:-(:(tt(A,'_also_see',B),2.504759042180142e-5),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.05125),','(t(A,'_also_see',C),t(C,'_derivationally_related_form',B)))), %1600 82
-(:-(:(tt(A,'_derivationally_related_form',B),0.0522713130056005),','(t(A,'_also_see',C),t(B,'_derivationally_related_form',C)))), %1607 84
-(:-(:(tt(A,'_derivationally_related_form',B),0.043478260869565216),','(t(A,'_also_see',C),t(C,'_synset_domain_topic_of',B)))), %23 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.04134762633996937),','(t(A,'_derivationally_related_form',C),t(C,'_also_see',B)))), %1959 81
-(:-(:(tt(A,'_derivationally_related_form',B),0.014237687006219532),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 847
-(:-(:(tt(A,'_derivationally_related_form',B),0.0165860400829302),','(t(A,'_derivationally_related_form',C),t(C,'_has_part',B)))), %1447 24
-(:-(:(tt(A,'_derivationally_related_form',B),0.03858717844017966),','(t(A,'_derivationally_related_form',C),t(C,'_hypernym',B)))), %24490 945
-(:-(:(tt(A,'_derivationally_related_form',B),0.00686106346483705),','(t(A,'_derivationally_related_form',C),t(C,'_member_of_domain_region',B)))), %583 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.05040448039825762),','(t(A,'_derivationally_related_form',C),t(B,'_also_see',C)))), %1607 81
-(:-(:(tt(A,'_derivationally_related_form',B),0.014056892197261731),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 846
-(:-(:(tt(A,'_derivationally_related_form',B),0.03375527426160337),','(t(A,'_derivationally_related_form',C),t(B,'_has_part',C)))), %711 24
-(:-(:(tt(A,'_derivationally_related_form',B),0.02226962457337884),','(t(A,'_derivationally_related_form',C),t(B,'_hypernym',C)))), %46880 1044
-(:-(:(tt(A,'_derivationally_related_form',B),0.06451612903225806),','(t(A,'_derivationally_related_form',C),t(B,'_member_of_domain_region',C)))), %62 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.09907120743034056),','(t(A,'_derivationally_related_form',C),t(B,'_member_meronym',C)))), %323 32
-(:-(:(tt(A,'_derivationally_related_form',B),0.30430754979157015),','(t(A,'_derivationally_related_form',C),t(B,'_verb_group',C)))), %2159 657
-(:-(:(tt(A,'_derivationally_related_form',B),0.010675129832660127),','(t(A,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',C)))), %3466 37
-(:-(:(tt(A,'_derivationally_related_form',B),0.019801980198019802),','(t(A,'_derivationally_related_form',C),t(B,'_similar_to',C)))), %101 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.1032258064516129),','(t(A,'_derivationally_related_form',C),t(C,'_member_meronym',B)))), %310 32
-(:-(:(tt(A,'_derivationally_related_form',B),0.3035304906006419),','(t(A,'_derivationally_related_form',C),t(C,'_verb_group',B)))), %2181 662
-(:-(:(tt(A,'_derivationally_related_form',B),0.016821345707656612),','(t(A,'_derivationally_related_form',C),t(C,'_synset_domain_topic_of',B)))), %1724 29
-(:-(:(tt(A,'_derivationally_related_form',B),0.018518518518518517),','(t(A,'_derivationally_related_form',C),t(C,'_similar_to',B)))), %108 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.036734693877551024),','(t(A,'_has_part',C),t(C,'_derivationally_related_form',B)))), %735 27
-(:-(:(tt(A,'_derivationally_related_form',B),0.035161744022503515),','(t(A,'_has_part',C),t(B,'_derivationally_related_form',C)))), %711 25
-(:-(:(tt(A,'_derivationally_related_form',B),0.011834319526627219),','(t(A,'_has_part',C),t(C,'_member_meronym',B)))), %169 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.02225886232481451),','(t(A,'_hypernym',C),t(C,'_derivationally_related_form',B)))), %47307 1053
-(:-(:(tt(A,'_derivationally_related_form',B),0.00014363688595231256),','(t(A,'_hypernym',C),t(B,'_member_meronym',C)))), %6962 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.022013651877133104),','(t(A,'_hypernym',C),t(B,'_derivationally_related_form',C)))), %46880 1032
-(:-(:(tt(A,'_derivationally_related_form',B),0.0029074462930059764),','(t(A,'_hypernym',C),t(B,'_synset_domain_topic_of',C)))), %12382 36
-(:-(:(tt(A,'_derivationally_related_form',B),7.96841321003542e-6),','(t(A,'_hypernym',C),t(B,'_hypernym',C)))), %1254955 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.0015353121801432957),','(t(A,'_hypernym',C),t(C,'_synset_domain_topic_of',B)))), %1954 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.04838709677419355),','(t(A,'_member_of_domain_region',C),t(C,'_derivationally_related_form',B)))), %62 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.06451612903225806),','(t(A,'_member_of_domain_region',C),t(B,'_derivationally_related_form',C)))), %62 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.08978328173374613),','(t(A,'_member_meronym',C),t(C,'_derivationally_related_form',B)))), %323 29
-(:-(:(tt(A,'_derivationally_related_form',B),0.08978328173374613),','(t(A,'_member_meronym',C),t(B,'_derivationally_related_form',C)))), %323 29
-(:-(:(tt(A,'_derivationally_related_form',B),0.00014363688595231256),','(t(A,'_member_meronym',C),t(B,'_hypernym',C)))), %6962 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0002617801047120419),','(t(A,'_member_meronym',C),t(C,'_hypernym',B)))), %3820 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.04115022310361924),','(t(C,'_also_see',A),t(C,'_derivationally_related_form',B)))), %2017 83
-(:-(:(tt(A,'_derivationally_related_form',B),0.039816232771822356),','(t(C,'_also_see',A),t(B,'_derivationally_related_form',C)))), %1959 78
-(:-(:(tt(A,'_derivationally_related_form',B),0.0421417947446703),','(t(C,'_derivationally_related_form',A),t(C,'_also_see',B)))), %2017 85
-(:-(:(tt(A,'_derivationally_related_form',B),0.01412180052956752),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 848
-(:-(:(tt(A,'_derivationally_related_form',B),0.01718213058419244),','(t(C,'_derivationally_related_form',A),t(C,'_has_part',B)))), %1455 25
-(:-(:(tt(A,'_derivationally_related_form',B),0.03819756516055233),','(t(C,'_derivationally_related_form',A),t(C,'_hypernym',B)))), %24478 935
-(:-(:(tt(A,'_derivationally_related_form',B),0.00686106346483705),','(t(C,'_derivationally_related_form',A),t(C,'_member_of_domain_region',B)))), %583 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.04875),','(t(C,'_derivationally_related_form',A),t(B,'_also_see',C)))), %1600 78
-(:-(:(tt(A,'_derivationally_related_form',B),0.014204067910573206),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 845
-(:-(:(tt(A,'_derivationally_related_form',B),0.034013605442176874),','(t(C,'_derivationally_related_form',A),t(B,'_has_part',C)))), %735 25
-(:-(:(tt(A,'_derivationally_related_form',B),0.022406831969898747),','(t(C,'_derivationally_related_form',A),t(B,'_hypernym',C)))), %47307 1060
-(:-(:(tt(A,'_derivationally_related_form',B),0.04838709677419355),','(t(C,'_derivationally_related_form',A),t(B,'_member_of_domain_region',C)))), %62 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.09907120743034056),','(t(C,'_derivationally_related_form',A),t(B,'_member_meronym',C)))), %323 32
-(:-(:(tt(A,'_derivationally_related_form',B),0.29879182156133827),','(t(C,'_derivationally_related_form',A),t(B,'_verb_group',C)))), %2152 643
-(:-(:(tt(A,'_derivationally_related_form',B),0.012265978050355068),','(t(C,'_derivationally_related_form',A),t(B,'_synset_domain_topic_of',C)))), %3098 38
-(:-(:(tt(A,'_derivationally_related_form',B),0.02),','(t(C,'_derivationally_related_form',A),t(B,'_similar_to',C)))), %100 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.08708708708708708),','(t(C,'_derivationally_related_form',A),t(C,'_member_meronym',B)))), %333 29
-(:-(:(tt(A,'_derivationally_related_form',B),0.2980193459235375),','(t(C,'_derivationally_related_form',A),t(C,'_verb_group',B)))), %2171 647
-(:-(:(tt(A,'_derivationally_related_form',B),0.016499705362404242),','(t(C,'_derivationally_related_form',A),t(C,'_synset_domain_topic_of',B)))), %1697 28
-(:-(:(tt(A,'_derivationally_related_form',B),0.01904761904761905),','(t(C,'_derivationally_related_form',A),t(C,'_similar_to',B)))), %105 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.018556701030927835),','(t(C,'_has_part',A),t(C,'_derivationally_related_form',B)))), %1455 27
-(:-(:(tt(A,'_derivationally_related_form',B),0.017277125086385625),','(t(C,'_has_part',A),t(B,'_derivationally_related_form',C)))), %1447 25
-(:-(:(tt(A,'_derivationally_related_form',B),0.0029311187103077674),','(t(C,'_has_part',A),t(B,'_synset_domain_topic_of',C)))), %2047 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.001088139281828074),','(t(C,'_has_part',A),t(C,'_member_meronym',B)))), %919 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.011099365750528542),','(t(C,'_hypernym',A),t(C,'_synset_domain_topic_of',B)))), %1892 21
-(:-(:(tt(A,'_derivationally_related_form',B),0.03893291935615655),','(t(C,'_hypernym',A),t(C,'_derivationally_related_form',B)))), %24478 953
-(:-(:(tt(A,'_derivationally_related_form',B),0.039240506329113925),','(t(C,'_hypernym',A),t(B,'_derivationally_related_form',C)))), %24490 961
-(:-(:(tt(A,'_derivationally_related_form',B),0.0015082956259426848),','(t(C,'_hypernym',A),t(B,'_synset_domain_topic_of',C)))), %2652 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.0002617801047120419),','(t(C,'_hypernym',A),t(B,'_member_meronym',C)))), %3820 1
-(:-(:(tt(A,'_derivationally_related_form',B),9.147457006952067e-5),','(t(C,'_hypernym',A),t(C,'_hypernym',B)))), %10932 1
-(:-(:(tt(A,'_derivationally_related_form',B),1.4728335845332835e-5),','(t(C,'_member_of_domain_region',A),t(C,'_member_of_domain_region',B)))), %203689 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.005145797598627788),','(t(C,'_member_of_domain_region',A),t(C,'_derivationally_related_form',B)))), %583 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.005145797598627788),','(t(C,'_member_of_domain_region',A),t(B,'_derivationally_related_form',C)))), %583 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.08708708708708708),','(t(C,'_member_meronym',A),t(C,'_derivationally_related_form',B)))), %333 29
-(:-(:(tt(A,'_derivationally_related_form',B),0.001088139281828074),','(t(C,'_member_meronym',A),t(C,'_has_part',B)))), %919 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.1032258064516129),','(t(C,'_member_meronym',A),t(B,'_derivationally_related_form',C)))), %310 32
-(:-(:(tt(A,'_derivationally_related_form',B),0.011834319526627219),','(t(C,'_member_meronym',A),t(B,'_has_part',C)))), %169 2
-(:-(:(tt(A,'_derivationally_related_form',B),1.0988527976792229e-5),','(t(C,'_member_meronym',A),t(C,'_member_meronym',B)))), %91004 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.023529411764705882),','(t(C,'_member_meronym',A),t(C,'_synset_domain_topic_of',B)))), %85 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.014925373134328358),','(t(C,'_instance_hypernym',A),t(C,'_synset_domain_topic_of',B)))), %67 1
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_instance_hypernym',A),t(C,'_instance_hypernym',B)))), %900 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.2929525564256103),','(t(C,'_verb_group',A),t(C,'_derivationally_related_form',B)))), %2171 636
-(:-(:(tt(A,'_derivationally_related_form',B),0.297111416781293),','(t(C,'_verb_group',A),t(B,'_derivationally_related_form',C)))), %2181 648
-(:-(:(tt(A,'_derivationally_related_form',B),0.009900990099009901),','(t(C,'_verb_group',A),t(C,'_synset_domain_topic_of',B)))), %101 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01708898055391868),','(t(C,'_synset_domain_topic_of',A),t(C,'_derivationally_related_form',B)))), %1697 29
-(:-(:(tt(A,'_derivationally_related_form',B),0.012156448202959831),','(t(C,'_synset_domain_topic_of',A),t(C,'_hypernym',B)))), %1892 23
-(:-(:(tt(A,'_derivationally_related_form',B),0.023529411764705882),','(t(C,'_synset_domain_topic_of',A),t(C,'_member_meronym',B)))), %85 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.043478260869565216),','(t(C,'_synset_domain_topic_of',A),t(B,'_also_see',C)))), %23 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01740139211136891),','(t(C,'_synset_domain_topic_of',A),t(B,'_derivationally_related_form',C)))), %1724 30
-(:-(:(tt(A,'_derivationally_related_form',B),0.0015353121801432957),','(t(C,'_synset_domain_topic_of',A),t(B,'_hypernym',C)))), %1954 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.009615384615384616),','(t(C,'_synset_domain_topic_of',A),t(B,'_verb_group',C)))), %104 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.010178117048346057),','(t(C,'_synset_domain_topic_of',A),t(B,'_synset_domain_topic_of',C)))), %393 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.014925373134328358),','(t(C,'_synset_domain_topic_of',A),t(C,'_instance_hypernym',B)))), %67 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.009900990099009901),','(t(C,'_synset_domain_topic_of',A),t(C,'_verb_group',B)))), %101 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01904761904761905),','(t(C,'_similar_to',A),t(C,'_derivationally_related_form',B)))), %105 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.018518518518518517),','(t(C,'_similar_to',A),t(B,'_derivationally_related_form',C)))), %108 2
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(A,'_instance_hypernym',C),t(B,'_instance_hypernym',C)))), %313386 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.29460966542750927),','(t(A,'_verb_group',C),t(C,'_derivationally_related_form',B)))), %2152 634
-(:-(:(tt(A,'_derivationally_related_form',B),0.2987494210282538),','(t(A,'_verb_group',C),t(B,'_derivationally_related_form',C)))), %2159 645
-(:-(:(tt(A,'_derivationally_related_form',B),0.009615384615384616),','(t(A,'_verb_group',C),t(C,'_synset_domain_topic_of',B)))), %104 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.011620400258231117),','(t(A,'_synset_domain_topic_of',C),t(C,'_derivationally_related_form',B)))), %3098 36
-(:-(:(tt(A,'_derivationally_related_form',B),0.002442598925256473),','(t(A,'_synset_domain_topic_of',C),t(C,'_has_part',B)))), %2047 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.001885369532428356),','(t(A,'_synset_domain_topic_of',C),t(C,'_hypernym',B)))), %2652 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.009809578765147143),','(t(A,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',C)))), %3466 34
-(:-(:(tt(A,'_derivationally_related_form',B),0.00045801308199865456),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 128
-(:-(:(tt(A,'_derivationally_related_form',B),0.002745921498950089),','(t(A,'_synset_domain_topic_of',C),t(B,'_hypernym',C)))), %12382 34
-(:-(:(tt(A,'_derivationally_related_form',B),0.007633587786259542),','(t(A,'_synset_domain_topic_of',C),t(C,'_synset_domain_topic_of',B)))), %393 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.02),','(t(A,'_similar_to',C),t(C,'_derivationally_related_form',B)))), %100 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.019801980198019802),','(t(A,'_similar_to',C),t(B,'_derivationally_related_form',C)))), %101 2
-(:-(:(tt(A,'_has_part',B),0.00040342914775592535),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 24
-(:-(:(tt(A,'_has_part',B),0.00043200850724445033),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 26
-(:-(:(tt(A,'_has_part',B),0.006191950464396285),','(t(A,'_derivationally_related_form',C),t(B,'_member_meronym',C)))), %323 2
-(:-(:(tt(A,'_has_part',B),0.03755054881571346),','(t(A,'_has_part',C),t(C,'_has_part',B)))), %3462 130
-(:-(:(tt(A,'_has_part',B),0.022482014388489208),','(t(A,'_has_part',C),t(C,'_hypernym',B)))), %2224 50
-(:-(:(tt(A,'_has_part',B),0.0019801980198019802),','(t(A,'_has_part',C),t(C,'_member_of_domain_region',B)))), %1010 2
-(:-(:(tt(A,'_has_part',B),0.01687041564792176),','(t(A,'_has_part',C),t(B,'_has_part',C)))), %4090 69
-(:-(:(tt(A,'_has_part',B),0.0423728813559322),','(t(A,'_has_part',C),t(B,'_hypernym',C)))), %1770 75
-(:-(:(tt(A,'_has_part',B),0.02666666666666667),','(t(A,'_has_part',C),t(B,'_member_of_domain_region',C)))), %75 2
-(:-(:(tt(A,'_has_part',B),0.41025641025641024),','(t(A,'_has_part',C),t(B,'_instance_hypernym',C)))), %351 144
-(:-(:(tt(A,'_has_part',B),0.004901960784313725),','(t(A,'_has_part',C),t(B,'_synset_domain_topic_of',C)))), %204 1
-(:-(:(tt(A,'_has_part',B),0.011131725417439703),','(t(A,'_has_part',C),t(C,'_instance_hypernym',B)))), %1078 12
-(:-(:(tt(A,'_has_part',B),0.006172839506172839),','(t(A,'_has_part',C),t(C,'_synset_domain_topic_of',B)))), %162 1
-(:-(:(tt(A,'_has_part',B),3.1484163465776714e-5),','(t(A,'_hypernym',C),t(C,'_hypernym',B)))), %31762 1
-(:-(:(tt(A,'_has_part',B),0.0006766662907409496),','(t(A,'_hypernym',C),t(B,'_instance_hypernym',C)))), %8867 6
-(:-(:(tt(A,'_has_part',B),0.00024228719108383137),','(t(A,'_hypernym',C),t(B,'_synset_domain_topic_of',C)))), %12382 3
-(:-(:(tt(A,'_has_part',B),0.00020239769553489966),','(t(A,'_hypernym',C),t(B,'_hypernym',C)))), %1254955 254
-(:-(:(tt(A,'_has_part',B),0.0014108794481893713),','(t(A,'_hypernym',C),t(C,'_has_part',B)))), %6379 9
-(:-(:(tt(A,'_has_part',B),1),','(t(A,'_member_of_domain_region',C),t(C,'_member_of_domain_region',B)))), %1 1
-(:-(:(tt(A,'_has_part',B),0.11627906976744186),','(t(A,'_member_of_domain_region',C),t(C,'_has_part',B)))), %43 5
-(:-(:(tt(A,'_has_part',B),0.013333333333333334),','(t(A,'_member_of_domain_region',C),t(B,'_has_part',C)))), %75 1
-(:-(:(tt(A,'_has_part',B),0.0625),','(t(A,'_member_of_domain_region',C),t(B,'_member_meronym',C)))), %16 1
-(:-(:(tt(A,'_has_part',B),0.0003996735998934204),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 24
-(:-(:(tt(A,'_has_part',B),0.0004202386955790889),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 25
-(:-(:(tt(A,'_has_part',B),0.006191950464396285),','(t(C,'_derivationally_related_form',A),t(B,'_member_meronym',C)))), %323 2
-(:-(:(tt(A,'_has_part',B),0.001088139281828074),','(t(C,'_has_part',A),t(C,'_member_meronym',B)))), %919 1
-(:-(:(tt(A,'_has_part',B),7.862871520679352e-5),','(t(C,'_has_part',A),t(C,'_member_of_domain_region',B)))), %12718 1
-(:-(:(tt(A,'_has_part',B),0.0029300962745918793),','(t(C,'_has_part',A),t(C,'_has_part',B)))), %43002 126
-(:-(:(tt(A,'_has_part',B),0.0004885197850512946),','(t(C,'_has_part',A),t(B,'_synset_domain_topic_of',C)))), %2047 1
-(:-(:(tt(A,'_has_part',B),0.0004702931493964571),','(t(C,'_has_part',A),t(B,'_hypernym',C)))), %6379 3
-(:-(:(tt(A,'_has_part',B),9.147457006952067e-5),','(t(C,'_hypernym',A),t(C,'_hypernym',B)))), %10932 1
-(:-(:(tt(A,'_has_part',B),0.003506038176860148),','(t(C,'_hypernym',A),t(C,'_has_part',B)))), %2567 9
-(:-(:(tt(A,'_has_part',B),0.0013489208633093526),','(t(C,'_hypernym',A),t(B,'_has_part',C)))), %2224 3
-(:-(:(tt(A,'_has_part',B),9.445249039733015e-5),','(t(C,'_hypernym',A),t(B,'_hypernym',C)))), %31762 3
-(:-(:(tt(A,'_has_part',B),2.945667169066567e-5),','(t(C,'_member_of_domain_region',A),t(C,'_member_of_domain_region',B)))), %203689 6
-(:-(:(tt(A,'_has_part',B),0.0003931435760339676),','(t(C,'_member_of_domain_region',A),t(C,'_has_part',B)))), %12718 5
-(:-(:(tt(A,'_has_part',B),1.0988527976792229e-5),','(t(C,'_member_meronym',A),t(C,'_member_meronym',B)))), %91004 1
-(:-(:(tt(A,'_has_part',B),0.016260162601626018),','(t(C,'_synset_domain_topic_of',A),t(C,'_has_part',B)))), %246 4
-(:-(:(tt(A,'_has_part',B),0.0029463759575721863),','(t(C,'_synset_domain_topic_of',A),t(C,'_derivationally_related_form',B)))), %1697 5
-(:-(:(tt(A,'_has_part',B),0.010178117048346057),','(t(C,'_synset_domain_topic_of',A),t(B,'_synset_domain_topic_of',C)))), %393 4
-(:-(:(tt(A,'_has_part',B),0.0034802784222737818),','(t(C,'_synset_domain_topic_of',A),t(B,'_derivationally_related_form',C)))), %1724 6
-(:-(:(tt(A,'_has_part',B),0.006172839506172839),','(t(C,'_synset_domain_topic_of',A),t(B,'_has_part',C)))), %162 1
-(:-(:(tt(A,'_has_part',B),0.00255885363357216),','(t(C,'_synset_domain_topic_of',A),t(B,'_hypernym',C)))), %1954 5
-(:-(:(tt(A,'_has_part',B),0.0036997885835095136),','(t(C,'_synset_domain_topic_of',A),t(C,'_hypernym',B)))), %1892 7
-(:-(:(tt(A,'_has_part',B),0.00021379385167174028),','(t(A,'_instance_hypernym',C),t(B,'_instance_hypernym',C)))), %313386 67
-(:-(:(tt(A,'_has_part',B),0.0030959752321981426),','(t(A,'_member_meronym',C),t(C,'_derivationally_related_form',B)))), %323 1
-(:-(:(tt(A,'_has_part',B),0.009900990099009901),','(t(A,'_member_meronym',C),t(B,'_has_part',C)))), %101 1
-(:-(:(tt(A,'_has_part',B),0.0030959752321981426),','(t(A,'_member_meronym',C),t(B,'_derivationally_related_form',C)))), %323 1
-(:-(:(tt(A,'_has_part',B),0.0006267627702914447),','(t(A,'_member_meronym',C),t(B,'_member_meronym',C)))), %3191 2
-(:-(:(tt(A,'_has_part',B),0.00043091065785693766),','(t(A,'_member_meronym',C),t(B,'_hypernym',C)))), %6962 3
-(:-(:(tt(A,'_has_part',B),0.0005235602094240838),','(t(A,'_member_meronym',C),t(C,'_hypernym',B)))), %3820 2
-(:-(:(tt(A,'_has_part',B),0.00020753717778064035),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 58
-(:-(:(tt(A,'_has_part',B),0.0019540791402051783),','(t(A,'_synset_domain_topic_of',C),t(C,'_has_part',B)))), %2047 4
-(:-(:(tt(A,'_hypernym',B),0.002696629213483146),','(t(A,'_also_see',C),t(B,'_also_see',C)))), %2225 6
-(:-(:(tt(A,'_hypernym',B),0.0018050541516245488),','(t(A,'_also_see',C),t(B,'_hypernym',C)))), %554 1
-(:-(:(tt(A,'_hypernym',B),0.043478260869565216),','(t(A,'_also_see',C),t(C,'_hypernym',B)))), %345 15
-(:-(:(tt(A,'_hypernym',B),0.015447974449487308),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 919
-(:-(:(tt(A,'_hypernym',B),0.0004083299305839118),','(t(A,'_derivationally_related_form',C),t(C,'_hypernym',B)))), %24490 10
-(:-(:(tt(A,'_hypernym',B),0.015585537684434402),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 938
-(:-(:(tt(A,'_hypernym',B),0.0008655510675129833),','(t(A,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',C)))), %3466 3
-(:-(:(tt(A,'_hypernym',B),0.0032258064516129032),','(t(A,'_derivationally_related_form',C),t(C,'_member_meronym',B)))), %310 1
-(:-(:(tt(A,'_hypernym',B),0.015081206496519721),','(t(A,'_derivationally_related_form',C),t(C,'_synset_domain_topic_of',B)))), %1724 26
-(:-(:(tt(A,'_hypernym',B),0.00463821892393321),','(t(A,'_has_part',C),t(C,'_instance_hypernym',B)))), %1078 5
-(:-(:(tt(A,'_hypernym',B),0.002200488997555012),','(t(A,'_has_part',C),t(B,'_has_part',C)))), %4090 9
-(:-(:(tt(A,'_hypernym',B),0.0005649717514124294),','(t(A,'_has_part',C),t(B,'_hypernym',C)))), %1770 1
-(:-(:(tt(A,'_hypernym',B),0.018518518518518517),','(t(A,'_has_part',C),t(C,'_synset_domain_topic_of',B)))), %162 3
-(:-(:(tt(A,'_hypernym',B),0.09667266187050359),','(t(A,'_has_part',C),t(C,'_hypernym',B)))), %2224 215
-(:-(:(tt(A,'_hypernym',B),4.227704145263915e-5),','(t(A,'_hypernym',C),t(C,'_derivationally_related_form',B)))), %47307 2
-(:-(:(tt(A,'_hypernym',B),0.00015676438313215238),','(t(A,'_hypernym',C),t(C,'_has_part',B)))), %6379 1
-(:-(:(tt(A,'_hypernym',B),0.000661167432781311),','(t(A,'_hypernym',C),t(C,'_hypernym',B)))), %31762 21
-(:-(:(tt(A,'_hypernym',B),4.266211604095563e-5),','(t(A,'_hypernym',C),t(B,'_derivationally_related_form',C)))), %46880 2
-(:-(:(tt(A,'_hypernym',B),0.0005649717514124294),','(t(A,'_hypernym',C),t(B,'_has_part',C)))), %1770 1
-(:-(:(tt(A,'_hypernym',B),1.6733667741074382e-5),','(t(A,'_hypernym',C),t(B,'_hypernym',C)))), %1254955 21
-(:-(:(tt(A,'_hypernym',B),0.00014363688595231256),','(t(A,'_hypernym',C),t(B,'_member_meronym',C)))), %6962 1
-(:-(:(tt(A,'_hypernym',B),8.076239702794379e-5),','(t(A,'_hypernym',C),t(B,'_synset_domain_topic_of',C)))), %12382 1
-(:-(:(tt(A,'_hypernym',B),0.0012690355329949238),','(t(A,'_hypernym',C),t(C,'_member_meronym',B)))), %788 1
-(:-(:(tt(A,'_hypernym',B),0.0005117707267144319),','(t(A,'_hypernym',C),t(C,'_synset_domain_topic_of',B)))), %1954 1
-(:-(:(tt(A,'_hypernym',B),0.0023817625042531474),','(t(C,'_also_see',A),t(C,'_also_see',B)))), %2939 7
-(:-(:(tt(A,'_hypernym',B),0.01),','(t(C,'_also_see',A),t(C,'_verb_group',B)))), %100 1
-(:-(:(tt(A,'_hypernym',B),0.0010863661053775121),','(t(C,'_also_see',A),t(B,'_also_see',C)))), %1841 2
-(:-(:(tt(A,'_hypernym',B),0.010638297872340425),','(t(C,'_also_see',A),t(B,'_verb_group',C)))), %94 1
-(:-(:(tt(A,'_hypernym',B),0.004306632213608958),','(t(C,'_also_see',A),t(B,'_hypernym',C)))), %3483 15
-(:-(:(tt(A,'_hypernym',B),0.050955414012738856),','(t(C,'_also_see',A),t(C,'_hypernym',B)))), %314 16
-(:-(:(tt(A,'_hypernym',B),0.015553964262518942),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 934
-(:-(:(tt(A,'_hypernym',B),0.0004085301086690089),','(t(C,'_derivationally_related_form',A),t(C,'_hypernym',B)))), %24478 10
-(:-(:(tt(A,'_hypernym',B),0.0158682131450664),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 944
-(:-(:(tt(A,'_hypernym',B),0.0009683666881859264),','(t(C,'_derivationally_related_form',A),t(B,'_synset_domain_topic_of',C)))), %3098 3
-(:-(:(tt(A,'_hypernym',B),0.003003003003003003),','(t(C,'_derivationally_related_form',A),t(C,'_member_meronym',B)))), %333 1
-(:-(:(tt(A,'_hypernym',B),0.01473187978786093),','(t(C,'_derivationally_related_form',A),t(C,'_synset_domain_topic_of',B)))), %1697 25
-(:-(:(tt(A,'_hypernym',B),0.003264417845484222),','(t(C,'_has_part',A),t(C,'_member_meronym',B)))), %919 3
-(:-(:(tt(A,'_hypernym',B),0.0005777007510109763),','(t(C,'_has_part',A),t(B,'_has_part',C)))), %3462 2
-(:-(:(tt(A,'_hypernym',B),0.002442598925256473),','(t(C,'_has_part',A),t(B,'_synset_domain_topic_of',C)))), %2047 5
-(:-(:(tt(A,'_hypernym',B),0.0004702931493964571),','(t(C,'_has_part',A),t(B,'_hypernym',C)))), %6379 3
-(:-(:(tt(A,'_hypernym',B),0.0017208501930142785),','(t(C,'_has_part',A),t(C,'_has_part',B)))), %43002 74
-(:-(:(tt(A,'_hypernym',B),0.0954421503700818),','(t(C,'_has_part',A),t(C,'_hypernym',B)))), %2567 245
-(:-(:(tt(A,'_hypernym',B),0.0031847133757961785),','(t(C,'_hypernym',A),t(C,'_also_see',B)))), %314 1
-(:-(:(tt(A,'_hypernym',B),0.00038955979742890534),','(t(C,'_hypernym',A),t(C,'_has_part',B)))), %2567 1
-(:-(:(tt(A,'_hypernym',B),0.0012806439809732895),','(t(C,'_hypernym',A),t(C,'_hypernym',B)))), %10932 14
-(:-(:(tt(A,'_hypernym',B),0.04057971014492753),','(t(C,'_hypernym',A),t(B,'_also_see',C)))), %345 14
-(:-(:(tt(A,'_hypernym',B),0.0032292787944025836),','(t(C,'_hypernym',A),t(B,'_verb_group',C)))), %929 3
-(:-(:(tt(A,'_hypernym',B),0.0007541478129713424),','(t(C,'_hypernym',A),t(B,'_synset_domain_topic_of',C)))), %2652 2
-(:-(:(tt(A,'_hypernym',B),0.0013489208633093526),','(t(C,'_hypernym',A),t(B,'_has_part',C)))), %2224 3
-(:-(:(tt(A,'_hypernym',B),0.0032292787944025836),','(t(C,'_hypernym',A),t(C,'_verb_group',B)))), %929 3
-(:-(:(tt(A,'_hypernym',B),0.0036997885835095136),','(t(C,'_hypernym',A),t(C,'_synset_domain_topic_of',B)))), %1892 7
-(:-(:(tt(A,'_hypernym',B),0.00039860103893432083),','(t(C,'_member_of_domain_usage',A),t(C,'_member_of_domain_usage',B)))), %77772 31
-(:-(:(tt(A,'_hypernym',B),0.0003232062055591467),','(t(C,'_member_of_domain_region',A),t(C,'_member_of_domain_usage',B)))), %6188 2
-(:-(:(tt(A,'_hypernym',B),5.891334338133134e-5),','(t(C,'_member_of_domain_region',A),t(C,'_member_of_domain_region',B)))), %203689 12
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_member_of_domain_region',A),t(C,'_member_meronym',B)))), %357 0
-(:-(:(tt(A,'_hypernym',B),0.003003003003003003),','(t(C,'_member_meronym',A),t(C,'_derivationally_related_form',B)))), %333 1
-(:-(:(tt(A,'_hypernym',B),0.004352557127312296),','(t(C,'_member_meronym',A),t(C,'_has_part',B)))), %919 4
-(:-(:(tt(A,'_hypernym',B),0.02666666666666667),','(t(C,'_member_meronym',A),t(C,'_hypernym',B)))), %6825 182
-(:-(:(tt(A,'_hypernym',B),0.0032258064516129032),','(t(C,'_member_meronym',A),t(B,'_derivationally_related_form',C)))), %310 1
-(:-(:(tt(A,'_hypernym',B),0.0028570172739659796),','(t(C,'_member_meronym',A),t(C,'_member_meronym',B)))), %91004 260
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_instance_hypernym',A),t(C,'_synset_domain_topic_of',B)))), %67 0
-(:-(:(tt(A,'_hypernym',B),0.005555555555555556),','(t(C,'_instance_hypernym',A),t(C,'_instance_hypernym',B)))), %900 5
-(:-(:(tt(A,'_hypernym',B),0.01),','(t(C,'_verb_group',A),t(C,'_also_see',B)))), %100 1
-(:-(:(tt(A,'_hypernym',B),0.002228826151560178),','(t(C,'_verb_group',A),t(C,'_verb_group',B)))), %1346 3
-(:-(:(tt(A,'_hypernym',B),0.0425531914893617),','(t(C,'_verb_group',A),t(B,'_also_see',C)))), %47 2
-(:-(:(tt(A,'_hypernym',B),0.0023328149300155523),','(t(C,'_verb_group',A),t(B,'_verb_group',C)))), %1286 3
-(:-(:(tt(A,'_hypernym',B),0.0015544041450777201),','(t(C,'_verb_group',A),t(B,'_hypernym',C)))), %1930 3
-(:-(:(tt(A,'_hypernym',B),0.14208826695371368),','(t(C,'_verb_group',A),t(C,'_hypernym',B)))), %929 132
-(:-(:(tt(A,'_hypernym',B),0.0017401392111368909),','(t(C,'_synset_domain_topic_of',A),t(B,'_derivationally_related_form',C)))), %1724 3
-(:-(:(tt(A,'_hypernym',B),0.0010235414534288639),','(t(C,'_synset_domain_topic_of',A),t(B,'_hypernym',C)))), %1954 2
-(:-(:(tt(A,'_hypernym',B),0.0017678255745433118),','(t(C,'_synset_domain_topic_of',A),t(C,'_derivationally_related_form',B)))), %1697 3
-(:-(:(tt(A,'_hypernym',B),0.009487666034155597),','(t(C,'_synset_domain_topic_of',A),t(C,'_synset_domain_topic_of',B)))), %527 5
-(:-(:(tt(A,'_hypernym',B),0.002642706131078224),','(t(C,'_synset_domain_topic_of',A),t(C,'_hypernym',B)))), %1892 5
-(:-(:(tt(A,'_hypernym',B),0.028169014084507043),','(t(A,'_member_meronym',C),t(C,'_instance_hypernym',B)))), %71 2
-(:-(:(tt(A,'_hypernym',B),0.022727272727272728),','(t(A,'_member_meronym',C),t(C,'_synset_domain_topic_of',B)))), %44 1
-(:-(:(tt(A,'_hypernym',B),0.02774869109947644),','(t(A,'_member_meronym',C),t(C,'_hypernym',B)))), %3820 106
-(:-(:(tt(A,'_hypernym',B),0.010638297872340425),','(t(A,'_verb_group',C),t(C,'_also_see',B)))), %94 1
-(:-(:(tt(A,'_hypernym',B),0.0023328149300155523),','(t(A,'_verb_group',C),t(C,'_verb_group',B)))), %1286 3
-(:-(:(tt(A,'_hypernym',B),0.043478260869565216),','(t(A,'_verb_group',C),t(B,'_also_see',C)))), %46 2
-(:-(:(tt(A,'_hypernym',B),0.0022354694485842027),','(t(A,'_verb_group',C),t(B,'_verb_group',C)))), %1342 3
-(:-(:(tt(A,'_hypernym',B),0.0015552099533437014),','(t(A,'_verb_group',C),t(B,'_hypernym',C)))), %1929 3
-(:-(:(tt(A,'_hypernym',B),0.14208826695371368),','(t(A,'_verb_group',C),t(C,'_hypernym',B)))), %929 132
-(:-(:(tt(A,'_hypernym',B),0.02065848934796643),','(t(A,'_synset_domain_topic_of',C),t(C,'_derivationally_related_form',B)))), %3098 64
-(:-(:(tt(A,'_hypernym',B),0.004396678065461651),','(t(A,'_synset_domain_topic_of',C),t(C,'_has_part',B)))), %2047 9
-(:-(:(tt(A,'_hypernym',B),0.003393665158371041),','(t(A,'_synset_domain_topic_of',C),t(C,'_hypernym',B)))), %2652 9
-(:-(:(tt(A,'_hypernym',B),0.013333333333333334),','(t(A,'_synset_domain_topic_of',C),t(C,'_member_of_domain_usage',B)))), %75 1
-(:-(:(tt(A,'_hypernym',B),0.017022504327755338),','(t(A,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',C)))), %3466 59
-(:-(:(tt(A,'_hypernym',B),0.0019716031889160835),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 551
-(:-(:(tt(A,'_hypernym',B),0.0013729607494750444),','(t(A,'_synset_domain_topic_of',C),t(B,'_hypernym',C)))), %12382 17
-(:-(:(tt(A,'_hypernym',B),0.005089058524173028),','(t(A,'_synset_domain_topic_of',C),t(C,'_synset_domain_topic_of',B)))), %393 2
-(:-(:(tt(A,'_member_of_domain_usage',B),0.09090909090909091),','(t(A,'_member_of_domain_usage',C),t(C,'_synset_domain_topic_of',B)))), %11 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.2),','(t(A,'_member_of_domain_usage',C),t(B,'_synset_domain_topic_of',C)))), %5 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.1962025316455696),','(t(A,'_member_of_domain_usage',C),t(B,'_hypernym',C)))), %158 31
-(:-(:(tt(A,'_member_of_domain_usage',B),0.044009779951100246),','(t(A,'_member_of_domain_usage',C),t(C,'_hypernym',B)))), %409 18
-(:-(:(tt(A,'_member_of_domain_usage',B),0.0038314176245210726),','(t(A,'_member_of_domain_region',C),t(C,'_hypernym',B)))), %522 2
-(:-(:(tt(A,'_member_of_domain_usage',B),0.0005285412262156448),','(t(C,'_synset_domain_topic_of',A),t(C,'_hypernym',B)))), %1892 1
-(:-(:(tt(A,'_member_of_domain_region',B),6.723819129265422e-5),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 4
-(:-(:(tt(A,'_member_of_domain_region',B),4.984713545128273e-5),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.005917159763313609),','(t(A,'_has_part',C),t(C,'_member_meronym',B)))), %169 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.00028885037550548814),','(t(A,'_has_part',C),t(C,'_has_part',B)))), %3462 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.013333333333333334),','(t(A,'_has_part',C),t(B,'_member_of_domain_region',C)))), %75 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.0007334963325183374),','(t(A,'_has_part',C),t(B,'_has_part',C)))), %4090 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.012658227848101266),','(t(A,'_member_of_domain_usage',C),t(B,'_hypernym',C)))), %158 2
-(:-(:(tt(A,'_member_of_domain_region',B),0.04838709677419355),','(t(A,'_member_of_domain_region',C),t(C,'_derivationally_related_form',B)))), %62 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.13953488372093023),','(t(A,'_member_of_domain_region',C),t(C,'_has_part',B)))), %43 6
-(:-(:(tt(A,'_member_of_domain_region',B),0.0210727969348659),','(t(A,'_member_of_domain_region',C),t(C,'_hypernym',B)))), %522 11
-(:-(:(tt(A,'_member_of_domain_region',B),0.04838709677419355),','(t(A,'_member_of_domain_region',C),t(B,'_derivationally_related_form',C)))), %62 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.08),','(t(A,'_member_of_domain_region',C),t(B,'_has_part',C)))), %75 6
-(:-(:(tt(A,'_member_of_domain_region',B),0.23728813559322035),','(t(A,'_member_of_domain_region',C),t(B,'_hypernym',C)))), %59 14
-(:-(:(tt(A,'_member_of_domain_region',B),0.125),','(t(A,'_member_of_domain_region',C),t(B,'_member_meronym',C)))), %16 2
-(:-(:(tt(A,'_member_of_domain_region',B),0.5),','(t(A,'_member_of_domain_region',C),t(B,'_instance_hypernym',C)))), %8 4
-(:-(:(tt(A,'_member_of_domain_region',B),0.023076923076923078),','(t(A,'_member_of_domain_region',C),t(C,'_instance_hypernym',B)))), %130 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.046511627906976744),','(t(A,'_member_of_domain_region',C),t(C,'_member_meronym',B)))), %43 2
-(:-(:(tt(A,'_member_of_domain_region',B),6.66122666489034e-5),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 4
-(:-(:(tt(A,'_member_of_domain_region',B),5.042864346949067e-5),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 3
-(:-(:(tt(A,'_member_of_domain_region',B),4.650946467606158e-5),','(t(C,'_has_part',A),t(C,'_has_part',B)))), %43002 2
-(:-(:(tt(A,'_member_of_domain_region',B),7.862871520679352e-5),','(t(C,'_member_of_domain_region',A),t(C,'_has_part',B)))), %12718 1
-(:-(:(tt(A,'_member_of_domain_region',B),0),','(t(A,'_member_meronym',C),t(B,'_hypernym',C)))), %6962 0
-(:-(:(tt(A,'_member_of_domain_region',B),3.1909530100259743e-6),','(t(A,'_instance_hypernym',C),t(B,'_instance_hypernym',C)))), %313386 1
-(:-(:(tt(A,'_member_meronym',B),0.0004706673390485796),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 28
-(:-(:(tt(A,'_member_meronym',B),0.0004652399308786388),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 28
-(:-(:(tt(A,'_member_meronym',B),2.1331058020477816e-5),','(t(A,'_derivationally_related_form',C),t(B,'_hypernym',C)))), %46880 1
-(:-(:(tt(A,'_member_meronym',B),4.083299305839118e-5),','(t(A,'_derivationally_related_form',C),t(C,'_hypernym',B)))), %24490 1
-(:-(:(tt(A,'_member_meronym',B),0.0013605442176870747),','(t(A,'_has_part',C),t(C,'_derivationally_related_form',B)))), %735 1
-(:-(:(tt(A,'_member_meronym',B),0.00028885037550548814),','(t(A,'_has_part',C),t(C,'_has_part',B)))), %3462 1
-(:-(:(tt(A,'_member_meronym',B),0.0013489208633093526),','(t(A,'_has_part',C),t(C,'_hypernym',B)))), %2224 3
-(:-(:(tt(A,'_member_meronym',B),0.011834319526627219),','(t(A,'_has_part',C),t(C,'_member_meronym',B)))), %169 2
-(:-(:(tt(A,'_member_meronym',B),0.0014064697609001407),','(t(A,'_has_part',C),t(B,'_derivationally_related_form',C)))), %711 1
-(:-(:(tt(A,'_member_meronym',B),0.0022598870056497176),','(t(A,'_has_part',C),t(B,'_hypernym',C)))), %1770 4
-(:-(:(tt(A,'_member_meronym',B),0.0002255554302469832),','(t(A,'_hypernym',C),t(B,'_instance_hypernym',C)))), %8867 2
-(:-(:(tt(A,'_member_meronym',B),8.076239702794379e-5),','(t(A,'_hypernym',C),t(B,'_synset_domain_topic_of',C)))), %12382 1
-(:-(:(tt(A,'_member_meronym',B),0.00014502512042264464),','(t(A,'_hypernym',C),t(B,'_hypernym',C)))), %1254955 182
-(:-(:(tt(A,'_member_meronym',B),0),','(t(A,'_member_of_domain_region',C),t(C,'_hypernym',B)))), %522 0
-(:-(:(tt(A,'_member_meronym',B),9.147457006952067e-5),','(t(C,'_hypernym',A),t(C,'_hypernym',B)))), %10932 1
-(:-(:(tt(A,'_member_meronym',B),0.0005162450665290013),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 31
-(:-(:(tt(A,'_member_meronym',B),0.0005210959825180702),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 31
-(:-(:(tt(A,'_member_meronym',B),2.1138520726319574e-5),','(t(C,'_derivationally_related_form',A),t(B,'_hypernym',C)))), %47307 1
-(:-(:(tt(A,'_member_meronym',B),4.085301086690089e-5),','(t(C,'_derivationally_related_form',A),t(C,'_hypernym',B)))), %24478 1
-(:-(:(tt(A,'_member_meronym',B),9.818890563555224e-6),','(t(C,'_member_of_domain_region',A),t(C,'_member_of_domain_region',B)))), %203689 2
-(:-(:(tt(A,'_member_meronym',B),0.00138217000691085),','(t(C,'_has_part',A),t(B,'_derivationally_related_form',C)))), %1447 2
-(:-(:(tt(A,'_member_meronym',B),7.862871520679352e-5),','(t(C,'_has_part',A),t(C,'_member_of_domain_region',B)))), %12718 1
-(:-(:(tt(A,'_member_meronym',B),0.002176278563656148),','(t(C,'_has_part',A),t(C,'_member_meronym',B)))), %919 2
-(:-(:(tt(A,'_member_meronym',B),0.0013745704467353953),','(t(C,'_has_part',A),t(C,'_derivationally_related_form',B)))), %1455 2
-(:-(:(tt(A,'_member_meronym',B),0.0030959752321981426),','(t(A,'_member_meronym',C),t(C,'_derivationally_related_form',B)))), %323 1
-(:-(:(tt(A,'_member_meronym',B),0.0007446016381236039),','(t(A,'_member_meronym',C),t(C,'_has_part',B)))), %1343 1
-(:-(:(tt(A,'_member_meronym',B),0.03691099476439791),','(t(A,'_member_meronym',C),t(C,'_hypernym',B)))), %3820 141
-(:-(:(tt(A,'_member_meronym',B),0.037345590347601265),','(t(A,'_member_meronym',C),t(B,'_hypernym',C)))), %6962 260
-(:-(:(tt(A,'_member_meronym',B),0.0030959752321981426),','(t(A,'_member_meronym',C),t(B,'_derivationally_related_form',C)))), %323 1
-(:-(:(tt(A,'_member_meronym',B),0.009900990099009901),','(t(A,'_member_meronym',C),t(B,'_has_part',C)))), %101 1
-(:-(:(tt(A,'_member_meronym',B),0.005494505494505495),','(t(A,'_member_meronym',C),t(B,'_instance_hypernym',C)))), %182 1
-(:-(:(tt(A,'_member_meronym',B),0.014084507042253521),','(t(A,'_member_meronym',C),t(C,'_instance_hypernym',B)))), %71 1
-(:-(:(tt(A,'_member_meronym',B),0.0006455777921239509),','(t(A,'_synset_domain_topic_of',C),t(C,'_derivationally_related_form',B)))), %3098 2
-(:-(:(tt(A,'_member_meronym',B),0.0005770340450086555),','(t(A,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',C)))), %3466 2
-(:-(:(tt(A,'_member_meronym',B),8.945568007786222e-5),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 25
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(A,'_derivationally_related_form',C),t(C,'_instance_hypernym',B)))), %82 0
-(:-(:(tt(A,'_instance_hypernym',B),0.03432282003710575),','(t(A,'_has_part',C),t(C,'_instance_hypernym',B)))), %1078 37
-(:-(:(tt(A,'_instance_hypernym',B),0.007692307692307693),','(t(A,'_member_of_domain_region',C),t(C,'_instance_hypernym',B)))), %130 1
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(C,'_derivationally_related_form',A),t(C,'_instance_hypernym',B)))), %82 0
-(:-(:(tt(A,'_instance_hypernym',B),1.9637781127110448e-5),','(t(C,'_member_of_domain_region',A),t(C,'_member_of_domain_region',B)))), %203689 4
-(:-(:(tt(A,'_instance_hypernym',B),0.0011402508551881414),','(t(C,'_member_of_domain_region',A),t(C,'_instance_hypernym',B)))), %877 1
-(:-(:(tt(A,'_instance_hypernym',B),0.035854341736694675),','(t(C,'_has_part',A),t(C,'_instance_hypernym',B)))), %1785 64
-(:-(:(tt(A,'_instance_hypernym',B),0.0033486814566764337),','(t(C,'_has_part',A),t(C,'_has_part',B)))), %43002 144
-(:-(:(tt(A,'_instance_hypernym',B),0.002337358784573432),','(t(C,'_has_part',A),t(C,'_hypernym',B)))), %2567 6
-(:-(:(tt(A,'_instance_hypernym',B),1.0988527976792229e-5),','(t(C,'_member_meronym',A),t(C,'_member_meronym',B)))), %91004 1
-(:-(:(tt(A,'_instance_hypernym',B),0.00029304029304029304),','(t(C,'_member_meronym',A),t(C,'_hypernym',B)))), %6825 2
-(:-(:(tt(A,'_instance_hypernym',B),0.003952569169960474),','(t(A,'_instance_hypernym',C),t(C,'_synset_domain_topic_of',B)))), %253 1
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(A,'_instance_hypernym',C),t(C,'_derivationally_related_form',B)))), %2477 0
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(A,'_instance_hypernym',C),t(B,'_derivationally_related_form',C)))), %1936 0
-(:-(:(tt(A,'_instance_hypernym',B),0.0015313935681470138),','(t(A,'_instance_hypernym',C),t(B,'_synset_domain_topic_of',C)))), %653 1
-(:-(:(tt(A,'_instance_hypernym',B),0.002255554302469832),','(t(A,'_instance_hypernym',C),t(B,'_hypernym',C)))), %8867 20
-(:-(:(tt(A,'_instance_hypernym',B),0.004976775049767751),','(t(A,'_instance_hypernym',C),t(C,'_hypernym',B)))), %3014 15
-(:-(:(tt(A,'_instance_hypernym',B),0.00032278889606197545),','(t(A,'_synset_domain_topic_of',C),t(C,'_derivationally_related_form',B)))), %3098 1
-(:-(:(tt(A,'_instance_hypernym',B),0.00028851702250432774),','(t(A,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',C)))), %3466 1
-(:-(:(tt(A,'_instance_hypernym',B),0.0003614009475145634),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 101
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(A,'_synset_domain_topic_of',C),t(B,'_hypernym',C)))), %12382 0
-(:-(:(tt(A,'_verb_group',B),0.0425531914893617),','(t(A,'_also_see',C),t(C,'_verb_group',B)))), %47 2
-(:-(:(tt(A,'_verb_group',B),0.021739130434782608),','(t(A,'_also_see',C),t(B,'_verb_group',C)))), %46 1
-(:-(:(tt(A,'_verb_group',B),0.0018050541516245488),','(t(A,'_also_see',C),t(B,'_hypernym',C)))), %554 1
-(:-(:(tt(A,'_verb_group',B),0.002898550724637681),','(t(A,'_also_see',C),t(C,'_hypernym',B)))), %345 1
-(:-(:(tt(A,'_verb_group',B),0.008085392502941671),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 481
-(:-(:(tt(A,'_verb_group',B),0.00790907882493686),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 476
-(:-(:(tt(A,'_verb_group',B),0.00028851702250432774),','(t(A,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',C)))), %3466 1
-(:-(:(tt(A,'_verb_group',B),0.0005742176284811944),','(t(A,'_hypernym',C),t(C,'_also_see',B)))), %3483 2
-(:-(:(tt(A,'_verb_group',B),0.0015544041450777201),','(t(A,'_hypernym',C),t(C,'_verb_group',B)))), %1930 3
-(:-(:(tt(A,'_verb_group',B),0.0018050541516245488),','(t(A,'_hypernym',C),t(B,'_also_see',C)))), %554 1
-(:-(:(tt(A,'_verb_group',B),0.0015552099533437014),','(t(A,'_hypernym',C),t(B,'_verb_group',C)))), %1929 3
-(:-(:(tt(A,'_verb_group',B),0.00010916726097748525),','(t(A,'_hypernym',C),t(B,'_hypernym',C)))), %1254955 137
-(:-(:(tt(A,'_verb_group',B),9.445249039733015e-5),','(t(A,'_hypernym',C),t(C,'_hypernym',B)))), %31762 3
-(:-(:(tt(A,'_verb_group',B),0.0013610071452875127),','(t(C,'_also_see',A),t(C,'_also_see',B)))), %2939 4
-(:-(:(tt(A,'_verb_group',B),0.02),','(t(C,'_also_see',A),t(C,'_verb_group',B)))), %100 2
-(:-(:(tt(A,'_verb_group',B),0.02127659574468085),','(t(C,'_also_see',A),t(B,'_verb_group',C)))), %94 2
-(:-(:(tt(A,'_verb_group',B),0.0005742176284811944),','(t(C,'_also_see',A),t(B,'_hypernym',C)))), %3483 2
-(:-(:(tt(A,'_verb_group',B),0.008160002664490665),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 490
-(:-(:(tt(A,'_verb_group',B),0.008102202050764834),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 482
-(:-(:(tt(A,'_verb_group',B),0.00032278889606197545),','(t(C,'_derivationally_related_form',A),t(B,'_synset_domain_topic_of',C)))), %3098 1
-(:-(:(tt(A,'_verb_group',B),0.01),','(t(C,'_verb_group',A),t(C,'_also_see',B)))), %100 1
-(:-(:(tt(A,'_verb_group',B),0.018573551263001486),','(t(C,'_verb_group',A),t(C,'_verb_group',B)))), %1346 25
-(:-(:(tt(A,'_verb_group',B),0.0425531914893617),','(t(C,'_verb_group',A),t(B,'_also_see',C)))), %47 2
-(:-(:(tt(A,'_verb_group',B),0.020995334370139968),','(t(C,'_verb_group',A),t(B,'_verb_group',C)))), %1286 27
-(:-(:(tt(A,'_verb_group',B),0.0015544041450777201),','(t(C,'_verb_group',A),t(B,'_hypernym',C)))), %1930 3
-(:-(:(tt(A,'_verb_group',B),0.0032292787944025836),','(t(C,'_verb_group',A),t(C,'_hypernym',B)))), %929 3
-(:-(:(tt(A,'_verb_group',B),0.0032292787944025836),','(t(C,'_hypernym',A),t(C,'_verb_group',B)))), %929 3
-(:-(:(tt(A,'_verb_group',B),0.002898550724637681),','(t(C,'_hypernym',A),t(B,'_also_see',C)))), %345 1
-(:-(:(tt(A,'_verb_group',B),0.0032292787944025836),','(t(C,'_hypernym',A),t(B,'_verb_group',C)))), %929 3
-(:-(:(tt(A,'_verb_group',B),9.445249039733015e-5),','(t(C,'_hypernym',A),t(B,'_hypernym',C)))), %31762 3
-(:-(:(tt(A,'_verb_group',B),0.010638297872340425),','(t(A,'_verb_group',C),t(C,'_also_see',B)))), %94 1
-(:-(:(tt(A,'_verb_group',B),0.019440124416796267),','(t(A,'_verb_group',C),t(C,'_verb_group',B)))), %1286 25
-(:-(:(tt(A,'_verb_group',B),0.021739130434782608),','(t(A,'_verb_group',C),t(B,'_also_see',C)))), %46 1
-(:-(:(tt(A,'_verb_group',B),0.018628912071535022),','(t(A,'_verb_group',C),t(B,'_verb_group',C)))), %1342 25
-(:-(:(tt(A,'_verb_group',B),0.0015552099533437014),','(t(A,'_verb_group',C),t(B,'_hypernym',C)))), %1929 3
-(:-(:(tt(A,'_verb_group',B),0.0032292787944025836),','(t(A,'_verb_group',C),t(C,'_hypernym',B)))), %929 3
-(:-(:(tt(A,'_verb_group',B),0.00032278889606197545),','(t(A,'_synset_domain_topic_of',C),t(C,'_derivationally_related_form',B)))), %3098 1
-(:-(:(tt(A,'_verb_group',B),0.00028851702250432774),','(t(A,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',C)))), %3466 1
-(:-(:(tt(A,'_verb_group',B),0.0001574419969370375),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 44
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.30434782608695654),','(t(A,'_also_see',C),t(C,'_synset_domain_topic_of',B)))), %23 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0013066557778685177),','(t(A,'_derivationally_related_form',C),t(C,'_hypernym',B)))), %24490 32
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004874768868717431),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 29
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0008655510675129833),','(t(A,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',C)))), %3466 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005150870663299216),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 31
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.007032348804500703),','(t(A,'_derivationally_related_form',C),t(B,'_has_part',C)))), %711 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00010665529010238908),','(t(A,'_derivationally_related_form',C),t(B,'_hypernym',C)))), %46880 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06554524361948956),','(t(A,'_derivationally_related_form',C),t(C,'_synset_domain_topic_of',B)))), %1724 113
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.25925925925925924),','(t(A,'_has_part',C),t(C,'_synset_domain_topic_of',B)))), %162 42
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0007334963325183374),','(t(A,'_has_part',C),t(B,'_has_part',C)))), %4090 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0014291808873720137),','(t(A,'_hypernym',C),t(B,'_derivationally_related_form',C)))), %46880 67
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.005084745762711864),','(t(A,'_hypernym',C),t(B,'_has_part',C)))), %1770 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),7.96841321003542e-6),','(t(A,'_hypernym',C),t(B,'_hypernym',C)))), %1254955 10
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006329113924050633),','(t(A,'_hypernym',C),t(B,'_member_of_domain_usage',C)))), %158 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00016152479405588758),','(t(A,'_hypernym',C),t(B,'_synset_domain_topic_of',C)))), %12382 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0012683112435791742),','(t(A,'_hypernym',C),t(C,'_derivationally_related_form',B)))), %47307 60
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.2850562947799386),','(t(A,'_hypernym',C),t(C,'_synset_domain_topic_of',B)))), %1954 557
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005352307789182042),','(t(A,'_hypernym',C),t(C,'_hypernym',B)))), %31762 17
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004957858205255329),','(t(C,'_also_see',A),t(C,'_derivationally_related_form',B)))), %2017 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.35294117647058826),','(t(C,'_also_see',A),t(C,'_synset_domain_topic_of',B)))), %17 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005104645227156713),','(t(C,'_also_see',A),t(B,'_derivationally_related_form',C)))), %1959 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0013890023694746302),','(t(C,'_derivationally_related_form',A),t(C,'_hypernym',B)))), %24478 34
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004995919998667755),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 30
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0012911555842479018),','(t(C,'_derivationally_related_form',A),t(B,'_synset_domain_topic_of',C)))), %3098 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005210959825180702),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 31
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00816326530612245),','(t(C,'_derivationally_related_form',A),t(B,'_has_part',C)))), %735 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.45540829052783e-5),','(t(C,'_derivationally_related_form',A),t(B,'_hypernym',C)))), %47307 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06776664702416028),','(t(C,'_derivationally_related_form',A),t(C,'_synset_domain_topic_of',B)))), %1697 115
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00028885037550548814),','(t(C,'_has_part',A),t(B,'_has_part',C)))), %3462 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0019540791402051783),','(t(C,'_has_part',A),t(B,'_synset_domain_topic_of',C)))), %2047 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.325473233803079e-5),','(t(C,'_has_part',A),t(C,'_has_part',B)))), %43002 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.23983739837398374),','(t(C,'_has_part',A),t(C,'_synset_domain_topic_of',B)))), %246 59
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.001168679392286716),','(t(C,'_has_part',A),t(C,'_hypernym',B)))), %2567 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),9.147457006952067e-5),','(t(C,'_hypernym',A),t(C,'_hypernym',B)))), %10932 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00012255903260070266),','(t(C,'_hypernym',A),t(C,'_derivationally_related_form',B)))), %24478 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.14534883720930233),','(t(C,'_hypernym',A),t(C,'_synset_domain_topic_of',B)))), %1892 275
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00012249897917517355),','(t(C,'_hypernym',A),t(B,'_derivationally_related_form',C)))), %24490 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0022482014388489208),','(t(C,'_hypernym',A),t(B,'_has_part',C)))), %2224 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),6.296832693155343e-5),','(t(C,'_hypernym',A),t(B,'_hypernym',C)))), %31762 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),1.2858098030139381e-5),','(t(C,'_member_of_domain_usage',A),t(C,'_member_of_domain_usage',B)))), %77772 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.29411764705882354),','(t(C,'_member_meronym',A),t(C,'_synset_domain_topic_of',B)))), %85 25
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00014652014652014652),','(t(C,'_member_meronym',A),t(C,'_hypernym',B)))), %6825 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.1044776119402985),','(t(C,'_instance_hypernym',A),t(C,'_synset_domain_topic_of',B)))), %67 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0011111111111111111),','(t(C,'_instance_hypernym',A),t(C,'_instance_hypernym',B)))), %900 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00046061722708429296),','(t(C,'_verb_group',A),t(C,'_derivationally_related_form',B)))), %2171 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.38613861386138615),','(t(C,'_verb_group',A),t(C,'_synset_domain_topic_of',B)))), %101 39
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004585052728106373),','(t(C,'_verb_group',A),t(B,'_derivationally_related_form',C)))), %2181 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005285412262156448),','(t(C,'_synset_domain_topic_of',A),t(C,'_hypernym',B)))), %1892 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0011785503830288745),','(t(C,'_synset_domain_topic_of',A),t(C,'_derivationally_related_form',B)))), %1697 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.013282732447817837),','(t(C,'_synset_domain_topic_of',A),t(C,'_synset_domain_topic_of',B)))), %527 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0017401392111368909),','(t(C,'_synset_domain_topic_of',A),t(B,'_derivationally_related_form',C)))), %1724 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006172839506172839),','(t(C,'_synset_domain_topic_of',A),t(B,'_has_part',C)))), %162 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_instance_hypernym',C),t(C,'_hypernym',B)))), %3014 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004037141703673799),','(t(A,'_instance_hypernym',C),t(C,'_derivationally_related_form',B)))), %2477 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3952569169960474),','(t(A,'_instance_hypernym',C),t(C,'_synset_domain_topic_of',B)))), %253 100
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005165289256198347),','(t(A,'_instance_hypernym',C),t(B,'_derivationally_related_form',C)))), %1936 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006191950464396285),','(t(A,'_member_meronym',C),t(C,'_derivationally_related_form',B)))), %323 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.4772727272727273),','(t(A,'_member_meronym',C),t(C,'_synset_domain_topic_of',B)))), %44 21
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006191950464396285),','(t(A,'_member_meronym',C),t(B,'_derivationally_related_form',C)))), %323 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00046468401486988845),','(t(A,'_verb_group',C),t(C,'_derivationally_related_form',B)))), %2152 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.375),','(t(A,'_verb_group',C),t(C,'_synset_domain_topic_of',B)))), %104 39
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004631773969430292),','(t(A,'_verb_group',C),t(B,'_derivationally_related_form',C)))), %2159 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.020356234096692113),','(t(A,'_synset_domain_topic_of',C),t(C,'_synset_domain_topic_of',B)))), %393 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),3.22040448280304e-5),','(t(A,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',C)))), %279468 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0009691487643353255),','(t(A,'_synset_domain_topic_of',C),t(B,'_hypernym',C)))), %12382 12
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.004147812971342383),','(t(A,'_synset_domain_topic_of',C),t(C,'_hypernym',B)))), %2652 11
-(:-(:(tt(A,'_similar_to',B),3.361909564632711e-5),','(t(A,'_derivationally_related_form',C),t(C,'_derivationally_related_form',B)))), %59490 2
-(:-(:(tt(A,'_similar_to',B),3.323142363418849e-5),','(t(A,'_derivationally_related_form',C),t(B,'_derivationally_related_form',C)))), %60184 2
-(:-(:(tt(A,'_similar_to',B),3.33061333244517e-5),','(t(C,'_derivationally_related_form',A),t(C,'_derivationally_related_form',B)))), %60049 2
-(:-(:(tt(A,'_similar_to',B),3.361909564632711e-5),','(t(C,'_derivationally_related_form',A),t(B,'_derivationally_related_form',C)))), %59490 2
-(:-(:(tt(A,'_also_see',B),0.34005037783375314),','(t(A,'_also_see',C),','(t(C,'_also_see',D),t(D,'_also_see',B))))), %2779 945
-(:-(:(tt(A,'_also_see',B),0.3275186899252403),','(t(A,'_also_see',C),','(t(C,'_also_see',D),t(B,'_also_see',D))))), %2809 920
-(:-(:(tt(A,'_also_see',B),0.03614457831325301),','(t(A,'_also_see',C),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %83 3
-(:-(:(tt(A,'_also_see',B),0.3982795698924731),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %2325 926
-(:-(:(tt(A,'_also_see',B),0.4110970996216898),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %2379 978
-(:-(:(tt(A,'_also_see',B),0.5052083333333334),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %192 97
-(:-(:(tt(A,'_also_see',B),0),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %100 0
-(:-(:(tt(A,'_also_see',B),0),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %98 0
-(:-(:(tt(A,'_also_see',B),0.0792276964047936),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %4506 357
-(:-(:(tt(A,'_also_see',B),0.3893884892086331),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %3336 1299
-(:-(:(tt(A,'_also_see',B),0.3214667141331435),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(B,'_also_see',D))))), %2809 903
-(:-(:(tt(A,'_also_see',B),0.025343189017951427),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %1894 48
-(:-(:(tt(A,'_also_see',B),0.02654867256637168),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %339 9
-(:-(:(tt(A,'_also_see',B),0.40830156713257093),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %2361 964
-(:-(:(tt(A,'_also_see',B),0.39776151528196296),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2323 924
-(:-(:(tt(A,'_also_see',B),0),','(t(A,'_also_see',C),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %47 0
-(:-(:(tt(A,'_also_see',B),0.5517241379310345),','(t(A,'_also_see',C),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %29 16
-(:-(:(tt(A,'_also_see',B),0.07894736842105263),','(t(A,'_also_see',C),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %38 3
-(:-(:(tt(A,'_also_see',B),0),','(t(A,'_also_see',C),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %49 0
-(:-(:(tt(A,'_also_see',B),0.0043859649122807015),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %456 2
-(:-(:(tt(A,'_also_see',B),0.0045045045045045045),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %444 2
-(:-(:(tt(A,'_also_see',B),0.33210332103321033),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %2981 990
-(:-(:(tt(A,'_also_see',B),2.5097566790899622e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %79689 2
-(:-(:(tt(A,'_also_see',B),0.26517434352130864),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2323 616
-(:-(:(tt(A,'_also_see',B),2.4921186746912887e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %80253 2
-(:-(:(tt(A,'_also_see',B),0.0005392629308366607),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 47
-(:-(:(tt(A,'_also_see',B),0.0005422993492407809),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3688 2
-(:-(:(tt(A,'_also_see',B),0.0001422070534698521),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7032 1
-(:-(:(tt(A,'_also_see',B),0.00018753516284303307),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 9
-(:-(:(tt(A,'_also_see',B),0.3388671875),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %3072 1041
-(:-(:(tt(A,'_also_see',B),2.5037556334501753e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %79880 2
-(:-(:(tt(A,'_also_see',B),0.27574611181168557),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2379 656
-(:-(:(tt(A,'_also_see',B),2.4921186746912887e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %80253 2
-(:-(:(tt(A,'_also_see',B),0.0005318125756701405),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 47
-(:-(:(tt(A,'_also_see',B),0.00027586206896551725),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3625 1
-(:-(:(tt(A,'_also_see',B),0.00013528138528138528),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7392 1
-(:-(:(tt(A,'_also_see',B),0.0001855402313068217),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 9
-(:-(:(tt(A,'_also_see',B),0.0014806553342050612),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 77
-(:-(:(tt(A,'_also_see',B),0.001496948528000614),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 78
-(:-(:(tt(A,'_also_see',B),0.00048192771084337347),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2075 1
-(:-(:(tt(A,'_also_see',B),0.0012785283566139989),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52404 67
-(:-(:(tt(A,'_also_see',B),0.0012666487544620581),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52106 66
-(:-(:(tt(A,'_also_see',B),0.0002044153720359771),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4892 1
-(:-(:(tt(A,'_also_see',B),0.013205282112845138),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(D,'_also_see',B))))), %833 11
-(:-(:(tt(A,'_also_see',B),0.0001311131506490101),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(B,'_hypernym',D))))), %7627 1
-(:-(:(tt(A,'_also_see',B),7.921778099678603e-5),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %88364 7
-(:-(:(tt(A,'_also_see',B),9.052128947576859e-5),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %88377 8
-(:-(:(tt(A,'_also_see',B),0.001006036217303823),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %2982 3
-(:-(:(tt(A,'_also_see',B),1.0679584692310485e-5),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %936366 10
-(:-(:(tt(A,'_also_see',B),0.005887300252312868),','(t(A,'_hypernym',C),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %2378 14
-(:-(:(tt(A,'_also_see',B),0),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %10779 0
-(:-(:(tt(A,'_also_see',B),0.0006939625260235947),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1441 1
-(:-(:(tt(A,'_also_see',B),7.924199372856222e-5),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %88337 7
-(:-(:(tt(A,'_also_see',B),9.178943503602736e-5),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %87156 8
-(:-(:(tt(A,'_also_see',B),0.02745639785874633),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %11582 318
-(:-(:(tt(A,'_also_see',B),0.00021420615200068546),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %23342 5
-(:-(:(tt(A,'_also_see',B),0.00020803861196638096),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %24034 5
-(:-(:(tt(A,'_also_see',B),3.7378546423086696e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %936366 35
-(:-(:(tt(A,'_also_see',B),0.0007002801120448179),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1428 1
-(:-(:(tt(A,'_also_see',B),1.0827784093985166e-5),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %184710 2
-(:-(:(tt(A,'_also_see',B),0.308528152782351),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(D,'_also_see',B))))), %3037 937
-(:-(:(tt(A,'_also_see',B),0.25359712230215825),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(B,'_also_see',D))))), %3336 846
-(:-(:(tt(A,'_also_see',B),0.0021026072329688814),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(B,'_hypernym',D))))), %2378 5
-(:-(:(tt(A,'_also_see',B),0.20484727755644092),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3012 617
-(:-(:(tt(A,'_also_see',B),0.21354166666666666),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3072 656
-(:-(:(tt(A,'_also_see',B),0.3032597958511689),','(t(C,'_also_see',A),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %3037 921
-(:-(:(tt(A,'_also_see',B),0.30442605253688376),','(t(C,'_also_see',A),','(t(D,'_also_see',C),t(B,'_also_see',D))))), %2779 846
-(:-(:(tt(A,'_also_see',B),0.21454666223845897),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3011 646
-(:-(:(tt(A,'_also_see',B),0.2066420664206642),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2981 616
-(:-(:(tt(A,'_also_see',B),0.02967359050445104),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %337 10
-(:-(:(tt(A,'_also_see',B),0.0006706908115358819),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %2982 2
-(:-(:(tt(A,'_also_see',B),0.01556420233463035),','(t(C,'_also_see',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %514 8
-(:-(:(tt(A,'_also_see',B),0.004484304932735426),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %446 2
-(:-(:(tt(A,'_also_see',B),0.0045871559633027525),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %436 2
-(:-(:(tt(A,'_also_see',B),0.3397542344735968),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %3011 1023
-(:-(:(tt(A,'_also_see',B),2.5e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %80000 2
-(:-(:(tt(A,'_also_see',B),0.27361287590004235),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2361 646
-(:-(:(tt(A,'_also_see',B),2.5037556334501753e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %79880 2
-(:-(:(tt(A,'_also_see',B),0.0005320533864632034),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 47
-(:-(:(tt(A,'_also_see',B),0.0005361930294906167),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3730 2
-(:-(:(tt(A,'_also_see',B),0.0001362954886193267),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7337 1
-(:-(:(tt(A,'_also_see',B),0.00020616431295742706),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 10
-(:-(:(tt(A,'_also_see',B),0.3286852589641434),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %3012 990
-(:-(:(tt(A,'_also_see',B),2.5e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %80000 2
-(:-(:(tt(A,'_also_see',B),0.2653763440860215),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2325 617
-(:-(:(tt(A,'_also_see',B),2.5097566790899622e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %79689 2
-(:-(:(tt(A,'_also_see',B),0.000520573989407451),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 46
-(:-(:(tt(A,'_also_see',B),0.00027662517289073305),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3615 1
-(:-(:(tt(A,'_also_see',B),0.00013435442697836894),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7443 1
-(:-(:(tt(A,'_also_see',B),0.00020830729492146816),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 10
-(:-(:(tt(A,'_also_see',B),0.0014348574708245648),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 75
-(:-(:(tt(A,'_also_see',B),0.0014693534844668346),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 77
-(:-(:(tt(A,'_also_see',B),0.00047664442326024784),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2098 1
-(:-(:(tt(A,'_also_see',B),0.001224411708436962),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52270 64
-(:-(:(tt(A,'_also_see',B),0.0012306745634951158),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52004 64
-(:-(:(tt(A,'_also_see',B),0.00020271639975674033),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4933 1
-(:-(:(tt(A,'_also_see',B),0.002185792349726776),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3660 8
-(:-(:(tt(A,'_also_see',B),0.0021810250817884407),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3668 8
-(:-(:(tt(A,'_also_see',B),0.0021180831347630395),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3777 8
-(:-(:(tt(A,'_also_see',B),0.0021441972661484857),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3731 8
-(:-(:(tt(A,'_also_see',B),0.006968641114982578),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %287 2
-(:-(:(tt(A,'_also_see',B),0.006802721088435374),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %294 2
-(:-(:(tt(A,'_also_see',B),0.00034272984320109673),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23342 8
-(:-(:(tt(A,'_also_see',B),0.017699115044247787),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(B,'_also_see',D))))), %339 6
-(:-(:(tt(A,'_also_see',B),0.004132231404958678),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %242 1
-(:-(:(tt(A,'_also_see',B),0.0007290755322251386),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %48006 35
-(:-(:(tt(A,'_also_see',B),0.0007627765064836003),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %48507 37
-(:-(:(tt(A,'_also_see',B),0.0008353145280472916),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %46689 39
-(:-(:(tt(A,'_also_see',B),0.09062821833161688),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %971 88
-(:-(:(tt(A,'_also_see',B),0.0007421915266467374),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %48505 36
-(:-(:(tt(A,'_also_see',B),0.0007293034110562397),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %47991 35
-(:-(:(tt(A,'_also_see',B),0.004201680672268907),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %1428 6
-(:-(:(tt(A,'_also_see',B),0.002890173410404624),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %692 2
-(:-(:(tt(A,'_also_see',B),0.01775147928994083),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %169 3
-(:-(:(tt(A,'_also_see',B),0.008298755186721992),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %241 2
-(:-(:(tt(A,'_also_see',B),7.0298769771529e-5),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %28450 2
-(:-(:(tt(A,'_also_see',B),0.004163775156141568),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %1441 6
-(:-(:(tt(A,'_also_see',B),0.002890173410404624),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %692 2
-(:-(:(tt(A,'_also_see',B),0.000555247084952804),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %1801 1
-(:-(:(tt(A,'_also_see',B),0.0004995004995004995),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2002 1
-(:-(:(tt(A,'_also_see',B),2.7320351612925258e-5),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %146411 4
-(:-(:(tt(A,'_also_see',B),0.00023912003825920613),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4182 1
-(:-(:(tt(A,'_also_see',B),0.0022130013831258644),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3615 8
-(:-(:(tt(A,'_also_see',B),0.002206896551724138),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3625 8
-(:-(:(tt(A,'_also_see',B),0.0021447721179624667),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3730 8
-(:-(:(tt(A,'_also_see',B),0.0021691973969631237),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3688 8
-(:-(:(tt(A,'_also_see',B),0.006920415224913495),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %289 2
-(:-(:(tt(A,'_also_see',B),0.006802721088435374),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %294 2
-(:-(:(tt(A,'_also_see',B),0.0003328617791462095),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %24034 8
-(:-(:(tt(A,'_also_see',B),0.00023318176518596245),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %8577 2
-(:-(:(tt(A,'_also_see',B),0.00023369946249123628),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %8558 2
-(:-(:(tt(A,'_also_see',B),0.03501945525291829),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_also_see',B))))), %514 18
-(:-(:(tt(A,'_also_see',B),0.01300578034682081),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_also_see',D))))), %692 9
-(:-(:(tt(A,'_also_see',B),1.3660175806462629e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 2
-(:-(:(tt(A,'_also_see',B),0.00020271639975674033),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %4933 1
-(:-(:(tt(A,'_also_see',B),0.0002044153720359771),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %4892 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.25122428991185114),','(t(A,'_also_see',C),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %2042 513
-(:-(:(tt(A,'_derivationally_related_form',B),0.23422090729783038),','(t(A,'_also_see',C),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %2028 475
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012903225806451613),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %2325 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012610340479192938),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %2379 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.038461538461538464),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %26 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.031207598371777476),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %2211 69
-(:-(:(tt(A,'_derivationally_related_form',B),0.05316824471959213),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1373 73
-(:-(:(tt(A,'_derivationally_related_form',B),0.13766519823788545),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %908 125
-(:-(:(tt(A,'_derivationally_related_form',B),0.12168141592920353),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %904 110
-(:-(:(tt(A,'_derivationally_related_form',B),0.3712718546451834),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %2917 1083
-(:-(:(tt(A,'_derivationally_related_form',B),0.34528367560041767),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %2873 992
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012706480304955528),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %2361 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012914334911752045),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2323 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.043478260869565216),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %23 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.031989482909728306),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %2282 73
-(:-(:(tt(A,'_derivationally_related_form',B),0.05274725274725275),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1365 72
-(:-(:(tt(A,'_derivationally_related_form',B),0.027184466019417475),','(t(A,'_also_see',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %515 14
-(:-(:(tt(A,'_derivationally_related_form',B),0.027833001988071572),','(t(A,'_also_see',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %503 14
-(:-(:(tt(A,'_derivationally_related_form',B),0.0821917808219178),','(t(A,'_also_see',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %73 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.07792207792207792),','(t(A,'_also_see',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %77 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.03333333333333333),','(t(A,'_also_see',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %30 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03125),','(t(A,'_also_see',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %32 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02197802197802198),','(t(A,'_also_see',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %91 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.045454545454545456),','(t(A,'_also_see',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %22 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.2547076313181368),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_also_see',B))))), %2018 514
-(:-(:(tt(A,'_derivationally_related_form',B),0.00115919629057187),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %2588 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.13975903614457832),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %830 116
-(:-(:(tt(A,'_derivationally_related_form',B),0.36999651931778627),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(B,'_also_see',D))))), %2873 1063
-(:-(:(tt(A,'_derivationally_related_form',B),0.0011450381679389313),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %2620 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.011502516175413372),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(B,'_hypernym',D))))), %1391 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.056910569105691054),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_verb_group',B))))), %123 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.01694915254237288),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %59 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0010063737001006373),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %2981 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.37022675651595577),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %79689 29503
-(:-(:(tt(A,'_derivationally_related_form',B),0.000318775900541919),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3137 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018753516284303307),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 90
-(:-(:(tt(A,'_derivationally_related_form',B),0.06035889070146819),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %613 37
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012914334911752045),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2323 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.36274033369469055),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %80253 29111
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012360939431396785),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %1618 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0008719996328422599),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 76
-(:-(:(tt(A,'_derivationally_related_form',B),0.05627009646302251),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %622 35
-(:-(:(tt(A,'_derivationally_related_form',B),0.002440347071583514),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3688 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.012372013651877133),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7032 87
-(:-(:(tt(A,'_derivationally_related_form',B),0.0024122219244170464),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %3731 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.015582655826558265),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %2952 46
-(:-(:(tt(A,'_derivationally_related_form',B),0.0021929824561403508),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %456 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00088261253309797),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %1133 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.004171011470281543),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %959 4
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_member_meronym',D))))), %15 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.0045045045045045045),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %444 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.5265610438024231),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %1073 565
-(:-(:(tt(A,'_derivationally_related_form',B),0.006430868167202572),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %933 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.02040816326530612),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_member_meronym',B))))), %49 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.09375),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %64 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.016261973713521942),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %4489 73
-(:-(:(tt(A,'_derivationally_related_form',B),0.0023662315853751623),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52404 124
-(:-(:(tt(A,'_derivationally_related_form',B),0.005547850208044383),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %2163 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.005041690905565251),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20628 104
-(:-(:(tt(A,'_derivationally_related_form',B),0.02982107355864811),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_also_see',D))))), %503 15
-(:-(:(tt(A,'_derivationally_related_form',B),0.002130272905231643),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52106 111
-(:-(:(tt(A,'_derivationally_related_form',B),0.012170385395537525),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %493 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.054601966159702454),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458152 25016
-(:-(:(tt(A,'_derivationally_related_form',B),0.0015698587127158557),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %637 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005672149744753262),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %3526 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.022337455125648185),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %2507 56
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012264922322158627),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4892 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.010526315789473684),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_member_meronym',B))))), %95 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02297029702970297),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %2525 58
-(:-(:(tt(A,'_derivationally_related_form',B),0.005847953216374269),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %1026 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0026109660574412533),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %383 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.25768667642752563),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %4098 1056
-(:-(:(tt(A,'_derivationally_related_form',B),0.001093693036820999),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %2743 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.036016949152542374),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %472 17
-(:-(:(tt(A,'_derivationally_related_form',B),0.2534516765285996),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(B,'_also_see',D))))), %2028 514
-(:-(:(tt(A,'_derivationally_related_form',B),0.07514450867052024),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(B,'_verb_group',D))))), %173 13
-(:-(:(tt(A,'_derivationally_related_form',B),0.0011450381679389313),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %2620 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.013537187450230928),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %6279 85
-(:-(:(tt(A,'_derivationally_related_form',B),0.07653061224489796),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(D,'_verb_group',B))))), %196 15
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009765625),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %3072 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.3719954932398598),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %79880 29715
-(:-(:(tt(A,'_derivationally_related_form',B),0.00031466331025802394),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3178 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018347867318119035),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 89
-(:-(:(tt(A,'_derivationally_related_form',B),0.05405405405405406),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %666 36
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012610340479192938),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2379 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.3623789764868603),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %80253 29082
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005938242280285036),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %1684 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009731038618645123),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 86
-(:-(:(tt(A,'_derivationally_related_form',B),0.055384615384615386),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %650 36
-(:-(:(tt(A,'_derivationally_related_form',B),0.0030344827586206895),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3625 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.012581168831168832),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7392 93
-(:-(:(tt(A,'_derivationally_related_form',B),0.0029989094874591058),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %3668 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.015755950385517935),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2983 47
-(:-(:(tt(A,'_derivationally_related_form',B),0.0022935779816513763),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %436 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.1769559902200489),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %3272 579
-(:-(:(tt(A,'_derivationally_related_form',B),0.005076142131979695),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %591 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.07317073170731707),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %41 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0022522522522522522),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %444 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00398406374501992),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_has_part',D))))), %251 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.004413387274733358),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %2719 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.017189079878665317),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %989 17
-(:-(:(tt(A,'_derivationally_related_form',B),0.0022498269363895084),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 117
-(:-(:(tt(A,'_derivationally_related_form',B),0.0024469820554649264),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %1226 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.8956674100031857),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %12556 11246
-(:-(:(tt(A,'_derivationally_related_form',B),0.12389380530973451),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %904 112
-(:-(:(tt(A,'_derivationally_related_form',B),0.002207039496411162),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 115
-(:-(:(tt(A,'_derivationally_related_form',B),0.003194888178913738),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %1252 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031791087141640646),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %35230 112
-(:-(:(tt(A,'_derivationally_related_form',B),0.0022371364653243847),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_member_of_domain_region',D))))), %447 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.001098901098901099),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %910 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.041463414634146344),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %2870 119
-(:-(:(tt(A,'_derivationally_related_form',B),0.0014457831325301205),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2075 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.038108680310515175),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %2834 108
-(:-(:(tt(A,'_derivationally_related_form',B),0.006872852233676976),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %2910 20
-(:-(:(tt(A,'_derivationally_related_form',B),0.0149818401937046),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %6608 99
-(:-(:(tt(A,'_derivationally_related_form',B),0.00392156862745098),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %15045 59
-(:-(:(tt(A,'_derivationally_related_form',B),0.12),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_of_domain_region',C),t(D,'_member_meronym',B))))), %25 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.33557046979865773),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %149 50
-(:-(:(tt(A,'_derivationally_related_form',B),0.021739130434782608),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_has_part',B))))), %138 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.04838709677419355),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_member_of_domain_region',B))))), %62 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.34965034965034963),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %143 50
-(:-(:(tt(A,'_derivationally_related_form',B),0.027777777777777776),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_has_part',D))))), %36 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0034129692832764505),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_hypernym',D))))), %293 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.007575757575757576),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_member_meronym',D))))), %132 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.1),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_synset_domain_topic_of',D))))), %10 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.2551271534044299),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %1219 311
-(:-(:(tt(A,'_derivationally_related_form',B),0.07142857142857142),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_also_see',B))))), %182 13
-(:-(:(tt(A,'_derivationally_related_form',B),0.003000545553737043),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3666 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.05920663114268798),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1689 100
-(:-(:(tt(A,'_derivationally_related_form',B),0.07792207792207792),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(B,'_also_see',D))))), %77 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.7660215053763441),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %2325 1781
-(:-(:(tt(A,'_derivationally_related_form',B),0.0024456521739130437),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3680 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.015134837644468905),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %3634 55
-(:-(:(tt(A,'_derivationally_related_form',B),0.7742738589211619),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %2410 1866
-(:-(:(tt(A,'_derivationally_related_form',B),0.014388489208633094),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %139 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.04306436990027199),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %2206 95
-(:-(:(tt(A,'_derivationally_related_form',B),0.011488511488511488),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %2002 23
-(:-(:(tt(A,'_derivationally_related_form',B),0.03125),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_also_see',D))))), %32 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.041223404255319146),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %2256 93
-(:-(:(tt(A,'_derivationally_related_form',B),0.046511627906976744),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %129 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0030004286326618087),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %2333 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.014285714285714285),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %140 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.015151515151515152),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %132 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.5643564356435643),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %404 228
-(:-(:(tt(A,'_derivationally_related_form',B),0.005128205128205128),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(D,'_member_meronym',B))))), %195 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.38461538461538464),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %143 55
-(:-(:(tt(A,'_derivationally_related_form',B),0.35664335664335667),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %143 51
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(B,'_has_part',D))))), %2 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009199632014719411),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %1087 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.005917159763313609),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %169 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.008438818565400843),','(t(A,'_derivationally_related_form',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %237 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.031026252983293555),','(t(A,'_derivationally_related_form',C),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %2514 78
-(:-(:(tt(A,'_derivationally_related_form',B),0.06557377049180328),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_also_see',B))))), %183 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.0029989094874591058),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3668 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.06487434248977206),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1711 111
-(:-(:(tt(A,'_derivationally_related_form',B),0.7738985868661679),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %2406 1862
-(:-(:(tt(A,'_derivationally_related_form',B),0.0024456521739130437),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3680 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.014697726012201887),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %3606 53
-(:-(:(tt(A,'_derivationally_related_form',B),0.766295025728988),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %2332 1787
-(:-(:(tt(A,'_derivationally_related_form',B),0.013986013986013986),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %143 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.011111111111111112),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_member_meronym',B))))), %90 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.04934049829018075),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %2047 101
-(:-(:(tt(A,'_derivationally_related_form',B),0.04299645390070922),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2256 97
-(:-(:(tt(A,'_derivationally_related_form',B),0.015658183337395118),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %114892 1799
-(:-(:(tt(A,'_derivationally_related_form',B),0.0007574801161469512),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7921 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0019059720457433292),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1574 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0006082725060827251),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %1644 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03529411764705882),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %85 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.043478260869565216),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %23 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03529411764705882),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %85 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005938242280285036),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %1684 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.003424657534246575),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %876 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.012727272727272728),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %550 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.0038022813688212928),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %263 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00398406374501992),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %251 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.003167062549485352),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %1263 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.003194888178913738),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %1252 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.006872852233676976),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %291 2
-(:-(:(tt(A,'_derivationally_related_form',B),4.3335066736002776e-5),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23076 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.16666666666666666),','(t(A,'_has_part',C),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %6 1
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(A,'_has_part',C),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %2 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.0006108735491753207),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %1637 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03571428571428571),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %84 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.038461538461538464),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %26 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03614457831325301),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %83 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012360939431396785),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %1618 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0035169988276670576),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %853 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.013257575757575758),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %528 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.5415499533146592),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %1071 580
-(:-(:(tt(A,'_derivationally_related_form',B),0.4976700838769804),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %1073 534
-(:-(:(tt(A,'_derivationally_related_form',B),0.009578544061302681),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %522 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.010141987829614604),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %493 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.0008857395925597874),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %1129 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02702702702702703),','(t(A,'_has_part',C),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %37 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.027777777777777776),','(t(A,'_has_part',C),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %36 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03278688524590164),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %122 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.03875968992248062),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %129 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.0004784688995215311),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %10450 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.01401417525773196),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %6208 87
-(:-(:(tt(A,'_derivationally_related_form',B),0.012900143334925944),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %6279 81
-(:-(:(tt(A,'_derivationally_related_form',B),0.018604651162790697),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %4300 80
-(:-(:(tt(A,'_derivationally_related_form',B),0.000995880675388167),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %88364 88
-(:-(:(tt(A,'_derivationally_related_form',B),0.006042296072507553),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %1655 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.006938828746576236),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %38335 266
-(:-(:(tt(A,'_derivationally_related_form',B),0.03067484662576687),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2282 70
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009617887006800412),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %88377 85
-(:-(:(tt(A,'_derivationally_related_form',B),0.0035169988276670576),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %853 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.012873033098209441),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %147440 1898
-(:-(:(tt(A,'_derivationally_related_form',B),0.016774891774891776),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3696 62
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031549427436316896),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %8558 27
-(:-(:(tt(A,'_derivationally_related_form',B),0.01639344262295082),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_similar_to',D))))), %122 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.008),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %125 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01783301810321535),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %3701 66
-(:-(:(tt(A,'_derivationally_related_form',B),0.0017376194613379669),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %2302 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.016260162601626018),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_similar_to',B))))), %123 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.004369992716678805),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %2746 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.004413387274733358),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %2719 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.0033926819010234124),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %35665 121
-(:-(:(tt(A,'_derivationally_related_form',B),0.0008857395925597874),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %1129 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0034345728072665343),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %35230 121
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009592744396965205),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %11467 11
-(:-(:(tt(A,'_derivationally_related_form',B),2.0291210915389923e-5),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %936366 19
-(:-(:(tt(A,'_derivationally_related_form',B),0.00013982102908277405),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %7152 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.009150326797385621),','(t(A,'_hypernym',C),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %1530 14
-(:-(:(tt(A,'_derivationally_related_form',B),0.010783608914450037),','(t(A,'_hypernym',C),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %1391 15
-(:-(:(tt(A,'_derivationally_related_form',B),0.018275016714954313),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %4487 82
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009056227854692824),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %88337 80
-(:-(:(tt(A,'_derivationally_related_form',B),0.0053285968028419185),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %1689 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.006975336263851965),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %37991 265
-(:-(:(tt(A,'_derivationally_related_form',B),0.030303030303030304),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2211 67
-(:-(:(tt(A,'_derivationally_related_form',B),0.0008834733122217633),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %87156 77
-(:-(:(tt(A,'_derivationally_related_form',B),0.003424657534246575),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %876 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.012879815518176886),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %147440 1899
-(:-(:(tt(A,'_derivationally_related_form',B),0.017039106145251396),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3580 61
-(:-(:(tt(A,'_derivationally_related_form',B),0.0033811355951964554),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %8577 29
-(:-(:(tt(A,'_derivationally_related_form',B),0.017241379310344827),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_similar_to',D))))), %116 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.008264462809917356),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %121 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01689282747161451),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %3611 61
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018066847335140017),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2214 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.017094017094017096),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_similar_to',B))))), %117 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0054585152838427945),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %916 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.006430868167202572),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %933 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0011997600479904018),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %1667 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.05456449185262745),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %458430 25014
-(:-(:(tt(A,'_derivationally_related_form',B),0.0003426931397117094),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %46689 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.05113368489060399),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %458152 23427
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %23076 0
-(:-(:(tt(A,'_derivationally_related_form',B),2.349508632308307e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %936366 22
-(:-(:(tt(A,'_derivationally_related_form',B),7.599702920704009e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %289485 22
-(:-(:(tt(A,'_derivationally_related_form',B),3.7239786988418424e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_instance_hypernym',D))))), %26853 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.000878972278566599),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %29580 26
-(:-(:(tt(A,'_derivationally_related_form',B),1.9180359312064446e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_member_meronym',B))))), %782050 15
-(:-(:(tt(A,'_derivationally_related_form',B),0.0015577082217787081),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %20543 32
-(:-(:(tt(A,'_derivationally_related_form',B),0.0027829313543599257),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %1078 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0060882800608828),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_has_part',B))))), %657 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.0001756543123133673),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %5693 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018399264029438822),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %1087 2
-(:-(:(tt(A,'_derivationally_related_form',B),4.371823596917864e-5),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %91495 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.00411522633744856),','(t(A,'_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_derivationally_related_form',B))))), %243 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.008438818565400843),','(t(A,'_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_derivationally_related_form',D))))), %237 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.014733969986357435),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3665 54
-(:-(:(tt(A,'_derivationally_related_form',B),0.013311148086522463),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3606 48
-(:-(:(tt(A,'_derivationally_related_form',B),0.03076923076923077),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_also_see',B))))), %65 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.000778816199376947),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %7704 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.002952755905511811),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %7112 21
-(:-(:(tt(A,'_derivationally_related_form',B),0.02197802197802198),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_also_see',D))))), %91 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0007574801161469512),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %7921 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0021400183430143687),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %9813 21
-(:-(:(tt(A,'_derivationally_related_form',B),0.020594965675057208),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %437 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.0014875418371141688),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %2689 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.018867924528301886),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %424 8
-(:-(:(tt(A,'_derivationally_related_form',B),0.0024509803921568627),','(t(A,'_hypernym',C),','(t(C,'_member_meronym',D),t(D,'_member_meronym',B))))), %408 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0034129692832764505),','(t(A,'_hypernym',C),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %293 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.014970059880239521),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3674 55
-(:-(:(tt(A,'_derivationally_related_form',B),0.01375894331315355),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3634 50
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005608524957936063),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1783 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0040650406504065045),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %2214 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.0030004286326618087),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2333 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.00040604190352444374),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %184710 75
-(:-(:(tt(A,'_derivationally_related_form',B),0.0021400183430143687),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %9813 21
-(:-(:(tt(A,'_derivationally_related_form',B),0.008968609865470852),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %223 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.002183406113537118),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %458 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0022371364653243847),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %447 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.005076142131979695),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %197 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.14285714285714285),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %14 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.14285714285714285),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %14 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.05384615384615385),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %650 35
-(:-(:(tt(A,'_derivationally_related_form',B),0.0594059405940594),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %606 36
-(:-(:(tt(A,'_derivationally_related_form',B),0.003484320557491289),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %861 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.002197802197802198),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %910 2
-(:-(:(tt(A,'_derivationally_related_form',B),7.254261878853827e-5),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %289485 21
-(:-(:(tt(A,'_derivationally_related_form',B),0.015384615384615385),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %130 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.007575757575757576),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %132 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.005),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %200 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.15384615384615385),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %13 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.15384615384615385),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %13 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.05466237942122187),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %622 34
-(:-(:(tt(A,'_derivationally_related_form',B),0.05636070853462158),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %621 35
-(:-(:(tt(A,'_derivationally_related_form',B),0.06666666666666667),','(t(A,'_member_meronym',C),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %15 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.06666666666666667),','(t(A,'_member_meronym',C),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %15 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.004724409448818898),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %635 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031397174254317113),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %637 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.00043949604453559916),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %6826 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.2569682151589242),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %4090 1051
-(:-(:(tt(A,'_derivationally_related_form',B),0.23889702293801854),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %4098 979
-(:-(:(tt(A,'_derivationally_related_form',B),0.014814814814814815),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %135 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.00099601593625498),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3012 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009765625),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3072 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0187207488299532),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %4487 84
-(:-(:(tt(A,'_derivationally_related_form',B),0.03420752565564424),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1754 60
-(:-(:(tt(A,'_derivationally_related_form',B),0.017543859649122806),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %1026 18
-(:-(:(tt(A,'_derivationally_related_form',B),0.017189079878665317),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %989 17
-(:-(:(tt(A,'_derivationally_related_form',B),0.25097847358121333),','(t(C,'_also_see',A),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %2044 513
-(:-(:(tt(A,'_derivationally_related_form',B),0.23538156590683845),','(t(C,'_also_see',A),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %2018 475
-(:-(:(tt(A,'_derivationally_related_form',B),0.014285714285714285),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %140 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009963467286615742),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3011 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0010063737001006373),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2981 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.019069767441860466),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %4300 82
-(:-(:(tt(A,'_derivationally_related_form',B),0.03507728894173603),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1682 59
-(:-(:(tt(A,'_derivationally_related_form',B),0.05434782608695652),','(t(C,'_also_see',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %184 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.060109289617486336),','(t(C,'_also_see',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %183 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.01654898499558694),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %4532 75
-(:-(:(tt(A,'_derivationally_related_form',B),0.01559367342392515),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %4489 70
-(:-(:(tt(A,'_derivationally_related_form',B),0.005847953216374269),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %171 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.060109289617486336),','(t(C,'_also_see',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %183 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.06593406593406594),','(t(C,'_also_see',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %182 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.03076923076923077),','(t(C,'_also_see',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %65 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.23336594911937378),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_also_see',B))))), %2044 477
-(:-(:(tt(A,'_derivationally_related_form',B),0.0011078286558345643),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %2708 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.13073394495412843),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %872 114
-(:-(:(tt(A,'_derivationally_related_form',B),0.3404182379156668),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(B,'_also_see',D))))), %2917 993
-(:-(:(tt(A,'_derivationally_related_form',B),0.001093693036820999),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %2743 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.00980392156862745),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(B,'_hypernym',D))))), %1530 15
-(:-(:(tt(A,'_derivationally_related_form',B),0.05555555555555555),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_verb_group',B))))), %126 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.015151515151515152),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %66 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009963467286615742),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %3011 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.3638625),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %80000 29109
-(:-(:(tt(A,'_derivationally_related_form',B),0.0006353240152477764),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3148 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0017730130914338728),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 86
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012706480304955528),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2361 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.3532799198798197),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %79880 28220
-(:-(:(tt(A,'_derivationally_related_form',B),0.0006108735491753207),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %1637 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0008943025006509164),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 79
-(:-(:(tt(A,'_derivationally_related_form',B),0.05636070853462158),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %621 35
-(:-(:(tt(A,'_derivationally_related_form',B),0.002412868632707775),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3730 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.011721412021262097),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7337 86
-(:-(:(tt(A,'_derivationally_related_form',B),0.05863192182410423),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %614 36
-(:-(:(tt(A,'_derivationally_related_form',B),0.0023828435266084196),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %3777 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.015573227302849569),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %3018 47
-(:-(:(tt(A,'_derivationally_related_form',B),0.002242152466367713),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %446 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0008802816901408451),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %1136 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.004106776180698152),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %974 4
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_member_meronym',D))))), %15 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.0045871559633027525),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %436 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.49859943977591037),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %1071 534
-(:-(:(tt(A,'_derivationally_related_form',B),0.0054585152838427945),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %916 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.02040816326530612),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_member_meronym',B))))), %49 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.08064516129032258),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %62 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.015225066195939982),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %4532 69
-(:-(:(tt(A,'_derivationally_related_form',B),0.0023722976850966138),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52270 124
-(:-(:(tt(A,'_derivationally_related_form',B),0.00554016620498615),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %2166 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.005532369212850626),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20606 114
-(:-(:(tt(A,'_derivationally_related_form',B),0.02912621359223301),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_also_see',D))))), %515 15
-(:-(:(tt(A,'_derivationally_related_form',B),0.002172909776171064),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52004 113
-(:-(:(tt(A,'_derivationally_related_form',B),0.011494252873563218),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %522 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.05108958837772397),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458430 23421
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031496062992125984),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %635 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005875440658049354),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %3404 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.01994415636218588),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %2507 50
-(:-(:(tt(A,'_derivationally_related_form',B),0.001216298398540442),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4933 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.011363636363636364),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_member_meronym',B))))), %88 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02058590657165479),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %2526 52
-(:-(:(tt(A,'_derivationally_related_form',B),0.005888125613346418),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %1019 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0026109660574412533),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %383 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.24009779951100244),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %4090 982
-(:-(:(tt(A,'_derivationally_related_form',B),0.0011078286558345643),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %2708 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.03640256959314775),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %467 17
-(:-(:(tt(A,'_derivationally_related_form',B),0.2335945151811949),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(B,'_also_see',D))))), %2042 477
-(:-(:(tt(A,'_derivationally_related_form',B),0.06629834254143646),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(B,'_verb_group',D))))), %181 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.00115919629057187),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %2588 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.013208762886597938),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %6208 82
-(:-(:(tt(A,'_derivationally_related_form',B),0.06341463414634146),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(D,'_verb_group',B))))), %205 13
-(:-(:(tt(A,'_derivationally_related_form',B),0.00099601593625498),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %3012 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.3634875),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %80000 29079
-(:-(:(tt(A,'_derivationally_related_form',B),0.0006457862447529867),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3097 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0017914427363246261),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 86
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012903225806451613),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2325 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.35400117958563915),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %79689 28210
-(:-(:(tt(A,'_derivationally_related_form',B),0.0006082725060827251),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %1644 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0009845638495314835),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 87
-(:-(:(tt(A,'_derivationally_related_form',B),0.0594059405940594),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %606 36
-(:-(:(tt(A,'_derivationally_related_form',B),0.0027662517289073307),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3615 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.012226252855031573),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7443 91
-(:-(:(tt(A,'_derivationally_related_form',B),0.05672609400324149),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %617 35
-(:-(:(tt(A,'_derivationally_related_form',B),0.00273224043715847),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %3660 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.015207840486650895),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2959 45
-(:-(:(tt(A,'_derivationally_related_form',B),0.002242152466367713),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %446 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.1647338685697294),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %3363 554
-(:-(:(tt(A,'_derivationally_related_form',B),0.004934210526315789),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %608 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.06666666666666667),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %45 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0021929824561403508),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %456 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0038022813688212928),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_has_part',D))))), %263 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.004369992716678805),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %2746 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.015594541910331383),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %1026 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.002334034819207959),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 122
-(:-(:(tt(A,'_derivationally_related_form',B),0.002377179080824089),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %1262 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.8365507338864071),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %12536 10487
-(:-(:(tt(A,'_derivationally_related_form',B),0.11784140969162996),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %908 107
-(:-(:(tt(A,'_derivationally_related_form',B),0.002289901534234028),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 120
-(:-(:(tt(A,'_derivationally_related_form',B),0.003167062549485352),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %1263 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031964110472451983),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %35665 114
-(:-(:(tt(A,'_derivationally_related_form',B),0.002183406113537118),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_member_of_domain_region',D))))), %458 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0023228803716608595),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %861 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.038396766588076794),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %2969 114
-(:-(:(tt(A,'_derivationally_related_form',B),0.0014299332697807435),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2098 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.035249828884325804),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %2922 103
-(:-(:(tt(A,'_derivationally_related_form',B),0.005788219271365339),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %2937 17
-(:-(:(tt(A,'_derivationally_related_form',B),0.014913276057707894),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %6169 92
-(:-(:(tt(A,'_derivationally_related_form',B),0.003604531410916581),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %15536 56
-(:-(:(tt(A,'_derivationally_related_form',B),0.08695652173913043),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_of_domain_region',C),t(D,'_member_meronym',B))))), %23 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.3493150684931507),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %146 51
-(:-(:(tt(A,'_derivationally_related_form',B),0.016),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_has_part',B))))), %125 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.046875),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_member_of_domain_region',B))))), %64 3
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(B,'_synset_domain_topic_of',D))))), %8 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.35664335664335667),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %143 51
-(:-(:(tt(A,'_derivationally_related_form',B),0.02702702702702703),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(B,'_has_part',D))))), %37 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.015384615384615385),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(B,'_member_meronym',D))))), %130 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.23805532271584243),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %1193 284
-(:-(:(tt(A,'_derivationally_related_form',B),0.06557377049180328),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_also_see',B))))), %183 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.0033622863547212102),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3569 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.055819477434679333),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1684 94
-(:-(:(tt(A,'_derivationally_related_form',B),0.0821917808219178),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(B,'_also_see',D))))), %73 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.7191304347826087),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %2300 1654
-(:-(:(tt(A,'_derivationally_related_form',B),0.0027262813522355507),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3668 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.01442569406641263),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %3674 53
-(:-(:(tt(A,'_derivationally_related_form',B),0.7238493723849372),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %2390 1730
-(:-(:(tt(A,'_derivationally_related_form',B),0.007462686567164179),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %134 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.047547547547547545),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %1998 95
-(:-(:(tt(A,'_derivationally_related_form',B),0.010549694614103275),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1801 19
-(:-(:(tt(A,'_derivationally_related_form',B),0.03333333333333333),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_also_see',D))))), %30 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.046409379579872984),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %2047 95
-(:-(:(tt(A,'_derivationally_related_form',B),0.03278688524590164),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %122 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.0040650406504065045),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %2214 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.007692307692307693),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %130 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.008130081300813009),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %123 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.5257985257985258),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %407 214
-(:-(:(tt(A,'_derivationally_related_form',B),0.004405286343612335),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(D,'_member_meronym',B))))), %227 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.363013698630137),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %146 53
-(:-(:(tt(A,'_derivationally_related_form',B),0.33557046979865773),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %149 50
-(:-(:(tt(A,'_derivationally_related_form',B),0.16666666666666666),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(B,'_has_part',D))))), %6 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018552875695732839),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %1078 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.011904761904761904),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %168 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.00411522633744856),','(t(C,'_derivationally_related_form',A),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %243 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02982107355864811),','(t(C,'_derivationally_related_form',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %2515 75
-(:-(:(tt(A,'_derivationally_related_form',B),0.05434782608695652),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_also_see',B))))), %184 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.0033622863547212102),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3569 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.061764705882352944),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1700 105
-(:-(:(tt(A,'_derivationally_related_form',B),0.7264705882352941),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %2380 1729
-(:-(:(tt(A,'_derivationally_related_form',B),0.002727768685215494),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3666 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.014188267394270123),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %3665 52
-(:-(:(tt(A,'_derivationally_related_form',B),0.7173160173160174),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %2310 1657
-(:-(:(tt(A,'_derivationally_related_form',B),0.007246376811594203),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %138 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.011235955056179775),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_member_meronym',B))))), %89 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.04704704704704705),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %1998 94
-(:-(:(tt(A,'_derivationally_related_form',B),0.04079782411604715),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2206 90
-(:-(:(tt(A,'_derivationally_related_form',B),0.014858749071880634),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %113132 1681
-(:-(:(tt(A,'_derivationally_related_form',B),0.000778816199376947),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7704 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0019430051813471502),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1544 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.014285714285714285),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %140 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.00032289312237649337),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3097 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.003131524008350731),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %958 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.01694915254237288),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %177 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.00031466331025802394),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3178 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0053285968028419185),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %1689 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.017857142857142856),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %168 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.17811477847160273),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %3363 599
-(:-(:(tt(A,'_derivationally_related_form',B),0.16962102689486552),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %3272 555
-(:-(:(tt(A,'_derivationally_related_form',B),0.002377179080824089),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %1262 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0024469820554649264),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %1226 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.004468275245755138),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %1119 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.0008802816901408451),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %1136 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00088261253309797),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %1133 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.014814814814814815),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %135 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0003176620076238882),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3148 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031779661016949155),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %944 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0056179775280898875),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %178 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.000318775900541919),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3137 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.006042296072507553),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %1655 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.006024096385542169),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %166 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %50 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.018867924528301886),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %53 1
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %1463 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.003799392097264438),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1316 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.00554016620498615),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %2166 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.005547850208044383),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %2163 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.00013982102908277405),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %7152 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.016),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %125 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.021739130434782608),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %138 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0060882800608828),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %657 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.001594896331738437),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %627 1
-(:-(:(tt(A,'_derivationally_related_form',B),5.397819281010472e-5),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %18526 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03854389721627409),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %467 18
-(:-(:(tt(A,'_derivationally_related_form',B),0.03389830508474576),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %472 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.03507728894173603),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %1682 59
-(:-(:(tt(A,'_derivationally_related_form',B),0.00189559638378536),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %48006 91
-(:-(:(tt(A,'_derivationally_related_form',B),0.0031779661016949155),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %944 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.060146359703007315),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %18721 1126
-(:-(:(tt(A,'_derivationally_related_form',B),0.05201465201465202),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %1365 71
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018760178943245305),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %48507 91
-(:-(:(tt(A,'_derivationally_related_form',B),0.015151515151515152),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %528 8
-(:-(:(tt(A,'_derivationally_related_form',B),0.00702798031112632),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %37991 267
-(:-(:(tt(A,'_derivationally_related_form',B),0.005),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %200 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.029889879391714735),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %1907 57
-(:-(:(tt(A,'_derivationally_related_form',B),0.000999000999000999),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %3003 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.011494252873563218),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_similar_to',D))))), %87 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.028154327424400417),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %1918 54
-(:-(:(tt(A,'_derivationally_related_form',B),0.011967090501121914),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %1337 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.010869565217391304),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_similar_to',B))))), %92 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.004934210526315789),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %608 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.005076142131979695),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %591 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.8954211869814933),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %12536 11225
-(:-(:(tt(A,'_derivationally_related_form',B),0.8352182223638102),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %12556 10487
-(:-(:(tt(A,'_derivationally_related_form',B),0.0003855297821756731),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %46689 18
-(:-(:(tt(A,'_derivationally_related_form',B),0.14793577981651376),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %872 129
-(:-(:(tt(A,'_derivationally_related_form',B),0.13253012048192772),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %830 110
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(D,'_synset_domain_topic_of',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.03420752565564424),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %1754 60
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018760952479125862),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %48505 91
-(:-(:(tt(A,'_derivationally_related_form',B),0.003131524008350731),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %958 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.06019977565300999),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %18721 1127
-(:-(:(tt(A,'_derivationally_related_form',B),0.05243991260014567),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %1373 72
-(:-(:(tt(A,'_derivationally_related_form',B),0.0019170261090621157),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %47991 92
-(:-(:(tt(A,'_derivationally_related_form',B),0.014545454545454545),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %550 8
-(:-(:(tt(A,'_derivationally_related_form',B),0.007121429503065084),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %38335 273
-(:-(:(tt(A,'_derivationally_related_form',B),0.005076142131979695),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %197 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %1900 57
-(:-(:(tt(A,'_derivationally_related_form',B),0.001156515034695451),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %2594 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.011363636363636364),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_similar_to',D))))), %88 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.028287061288632794),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %1909 54
-(:-(:(tt(A,'_derivationally_related_form',B),0.012167300380228136),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %1315 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.01098901098901099),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_similar_to',B))))), %91 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.004106776180698152),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %974 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.004171011470281543),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %959 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018083182640144665),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %1659 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.005532369212850626),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %20606 114
-(:-(:(tt(A,'_derivationally_related_form',B),0.0051386464999030445),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %20628 106
-(:-(:(tt(A,'_derivationally_related_form',B),0.004524886877828055),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %1547 7
-(:-(:(tt(A,'_derivationally_related_form',B),7.208038404428618e-6),','(t(C,'_hypernym',A),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %138734 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0026109660574412533),','(t(C,'_hypernym',A),','(t(D,'_member_of_domain_region',C),t(D,'_derivationally_related_form',B))))), %383 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0026109660574412533),','(t(C,'_hypernym',A),','(t(D,'_member_of_domain_region',C),t(B,'_derivationally_related_form',D))))), %383 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.017857142857142856),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %168 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.011834319526627219),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %169 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.001594896331738437),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_has_part',B))))), %627 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.06529411764705882),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %1700 111
-(:-(:(tt(A,'_derivationally_related_form',B),0.061952074810052604),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %1711 106
-(:-(:(tt(A,'_derivationally_related_form',B),0.023529411764705882),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %85 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0019430051813471502),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %1544 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.045454545454545456),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_also_see',D))))), %22 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0019059720457433292),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %1574 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.009009009009009009),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %111 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005608524957936063),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %1783 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.005597014925373134),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1608 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.0001756543123133673),','(t(C,'_hypernym',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %5693 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.058788598574821854),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %1684 99
-(:-(:(tt(A,'_derivationally_related_form',B),0.056246299585553584),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %1689 95
-(:-(:(tt(A,'_derivationally_related_form',B),0.011494252873563218),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %87 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.009994447529150472),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %1801 18
-(:-(:(tt(A,'_derivationally_related_form',B),0.0022796352583586625),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %1316 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.005597014925373134),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1608 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.00949050949050949),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2002 19
-(:-(:(tt(A,'_derivationally_related_form',B),0.0002868636919357152),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %146411 42
-(:-(:(tt(A,'_derivationally_related_form',B),0.002671541057367829),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7112 19
-(:-(:(tt(A,'_derivationally_related_form',B),0.007874015748031496),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %254 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.015237477711136326),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(D,'_derivationally_related_form',B))))), %6169 94
-(:-(:(tt(A,'_derivationally_related_form',B),0.013922518159806295),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(B,'_derivationally_related_form',D))))), %6608 92
-(:-(:(tt(A,'_derivationally_related_form',B),0.003733264675592173),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_derivationally_related_form',B))))), %15536 58
-(:-(:(tt(A,'_derivationally_related_form',B),0.0036556995679627785),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(B,'_derivationally_related_form',D))))), %15045 55
-(:-(:(tt(A,'_derivationally_related_form',B),7.208038404428618e-6),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %138734 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03125),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %64 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.03225806451612903),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %62 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.059967585089141004),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %617 37
-(:-(:(tt(A,'_derivationally_related_form',B),0.05555555555555555),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %666 37
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.008264462809917356),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %121 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.044444444444444446),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %45 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.04878048780487805),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %41 2
-(:-(:(tt(A,'_derivationally_related_form',B),2.045904993286874e-5),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %782050 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.08695652173913043),','(t(C,'_member_meronym',A),','(t(C,'_member_of_domain_region',D),t(D,'_derivationally_related_form',B))))), %23 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.12),','(t(C,'_member_meronym',A),','(t(C,'_member_of_domain_region',D),t(B,'_derivationally_related_form',D))))), %25 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.25901089689857504),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %1193 309
-(:-(:(tt(A,'_derivationally_related_form',B),0.23379819524200163),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %1219 285
-(:-(:(tt(A,'_derivationally_related_form',B),4.371823596917864e-5),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %91495 4
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_member_meronym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %89 0
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_member_meronym',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %90 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.06188925081433225),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %614 38
-(:-(:(tt(A,'_derivationally_related_form',B),0.06199021207177814),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %613 38
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.008),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %125 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.02040816326530612),','(t(C,'_member_meronym',A),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %49 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02040816326530612),','(t(C,'_member_meronym',A),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %49 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00881057268722467),','(t(C,'_member_meronym',A),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %227 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.010256410256410256),','(t(C,'_member_meronym',A),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %195 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0024509803921568627),','(t(C,'_member_meronym',A),','(t(D,'_member_meronym',C),t(B,'_hypernym',D))))), %408 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00038739669421487604),','(t(C,'_member_meronym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %7744 3
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_instance_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %10 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.05853658536585366),','(t(C,'_verb_group',A),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %205 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.0663265306122449),','(t(C,'_verb_group',A),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %196 13
-(:-(:(tt(A,'_derivationally_related_form',B),0.003278688524590164),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3660 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.006024096385542169),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %166 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02776322682032478),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1909 53
-(:-(:(tt(A,'_derivationally_related_form',B),0.15384615384615385),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %13 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.003271537622682661),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3668 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.011904761904761904),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %84 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.016615895873719193),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %3611 60
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.03627652292950034),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2922 106
-(:-(:(tt(A,'_derivationally_related_form',B),0.035638673253352154),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2834 101
-(:-(:(tt(A,'_derivationally_related_form',B),0.047619047619047616),','(t(C,'_verb_group',A),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %126 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.04878048780487805),','(t(C,'_verb_group',A),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %123 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0029123643102991793),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3777 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.017857142857142856),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %168 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.027632950990615225),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1918 53
-(:-(:(tt(A,'_derivationally_related_form',B),0.14285714285714285),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %14 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.002680246582685607),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3731 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.011764705882352941),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %85 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.017562820859227234),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %3701 65
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.7692640692640693),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %2310 1777
-(:-(:(tt(A,'_derivationally_related_form',B),0.7122641509433962),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %2332 1661
-(:-(:(tt(A,'_derivationally_related_form',B),0.036036036036036036),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %111 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.022565320665083134),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %2526 57
-(:-(:(tt(A,'_derivationally_related_form',B),0.022178217821782177),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %2525 56
-(:-(:(tt(A,'_derivationally_related_form',B),0.7769874476987447),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %2390 1857
-(:-(:(tt(A,'_derivationally_related_form',B),0.7182572614107884),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %2410 1731
-(:-(:(tt(A,'_derivationally_related_form',B),0.0423728813559322),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %118 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.008130081300813009),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %123 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.007575757575757576),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %132 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012496875781054736),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4001 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.018867924528301886),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %424 8
-(:-(:(tt(A,'_derivationally_related_form',B),0.02),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %50 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.015207840486650895),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %2959 45
-(:-(:(tt(A,'_derivationally_related_form',B),0.015085484411666107),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %2983 45
-(:-(:(tt(A,'_derivationally_related_form',B),0.002258355916892502),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %2214 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.013688212927756654),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1315 18
-(:-(:(tt(A,'_derivationally_related_form',B),0.005847953216374269),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %171 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.005447735784814436),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2937 16
-(:-(:(tt(A,'_derivationally_related_form',B),0.00584192439862543),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2910 17
-(:-(:(tt(A,'_derivationally_related_form',B),0.0013629946940563696),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %20543 28
-(:-(:(tt(A,'_derivationally_related_form',B),0.004524886877828055),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %1547 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.015151515151515152),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %66 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01694915254237288),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %59 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.015241882041086813),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3018 46
-(:-(:(tt(A,'_derivationally_related_form',B),0.015582655826558265),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2952 46
-(:-(:(tt(A,'_derivationally_related_form',B),0.002172024326672459),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %2302 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.013462976813762155),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1337 18
-(:-(:(tt(A,'_derivationally_related_form',B),0.06451612903225806),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %62 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.0625),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %64 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.007850834151128557),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %1019 8
-(:-(:(tt(A,'_derivationally_related_form',B),0.007797270955165692),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %1026 8
-(:-(:(tt(A,'_derivationally_related_form',B),0.007246376811594203),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %138 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.05084745762711865),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %118 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.045454545454545456),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %110 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.006993006993006993),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %143 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.022988505747126436),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %87 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.008968609865470852),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %223 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.011811023622047244),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %254 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.007462686567164179),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %134 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.04504504504504504),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %111 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.043859649122807015),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %114 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.007194244604316547),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %139 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03529411764705882),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %85 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.5724815724815725),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %407 233
-(:-(:(tt(A,'_derivationally_related_form',B),0.5297029702970297),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %404 214
-(:-(:(tt(A,'_derivationally_related_form',B),0.002933188484519283),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %9205 27
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_instance_hypernym',B))))), %10 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.008547008547008548),','(t(C,'_similar_to',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %117 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01098901098901099),','(t(C,'_similar_to',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %91 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.008130081300813009),','(t(C,'_similar_to',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %123 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.010869565217391304),','(t(C,'_similar_to',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %92 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0002937720329024677),','(t(A,'_instance_hypernym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %3404 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0002836074872376631),','(t(A,'_instance_hypernym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %3526 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.03180914512922465),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_derivationally_related_form',B))))), %2515 80
-(:-(:(tt(A,'_derivationally_related_form',B),0.030628480509148768),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_derivationally_related_form',D))))), %2514 77
-(:-(:(tt(A,'_derivationally_related_form',B),3.7239786988418424e-5),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %26853 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.06077348066298342),','(t(A,'_verb_group',C),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %181 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.06358381502890173),','(t(A,'_verb_group',C),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %173 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.0033195020746887966),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3615 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.0056179775280898875),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %178 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.02894736842105263),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1900 55
-(:-(:(tt(A,'_derivationally_related_form',B),0.15384615384615385),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %13 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.003310344827586207),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3625 12
-(:-(:(tt(A,'_derivationally_related_form',B),0.012048192771084338),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %83 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.01675977653631285),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %3580 60
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.039744021556079485),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2969 118
-(:-(:(tt(A,'_derivationally_related_form',B),0.03902439024390244),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2870 112
-(:-(:(tt(A,'_derivationally_related_form',B),0.0029490616621983914),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3730 11
-(:-(:(tt(A,'_derivationally_related_form',B),0.01694915254237288),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %177 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.028841111693759833),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1907 55
-(:-(:(tt(A,'_derivationally_related_form',B),0.14285714285714285),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %14 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.0027114967462039045),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3688 10
-(:-(:(tt(A,'_derivationally_related_form',B),0.011764705882352941),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %85 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.016504329004329004),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %3696 61
-(:-(:(tt(A,'_derivationally_related_form',B),0.2857142857142857),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %7 2
-(:-(:(tt(A,'_derivationally_related_form',B),0.7785714285714286),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %2380 1853
-(:-(:(tt(A,'_derivationally_related_form',B),0.7194513715710723),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %2406 1731
-(:-(:(tt(A,'_derivationally_related_form',B),0.03508771929824561),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %114 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.021938571998404467),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %2507 55
-(:-(:(tt(A,'_derivationally_related_form',B),0.02153968887116075),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %2507 54
-(:-(:(tt(A,'_derivationally_related_form',B),0.7708695652173913),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %2300 1773
-(:-(:(tt(A,'_derivationally_related_form',B),0.7118279569892473),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %2325 1655
-(:-(:(tt(A,'_derivationally_related_form',B),0.03636363636363636),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %110 4
-(:-(:(tt(A,'_derivationally_related_form',B),0.018867924528301886),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %53 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.007692307692307693),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %130 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.007142857142857143),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %140 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0011956001912960307),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4182 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.020594965675057208),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %437 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.009009009009009009),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %111 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.012360607282009942),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %7443 92
-(:-(:(tt(A,'_derivationally_related_form',B),0.011904761904761904),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %7392 88
-(:-(:(tt(A,'_derivationally_related_form',B),0.0032645447126034744),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %8577 28
-(:-(:(tt(A,'_derivationally_related_form',B),0.001156515034695451),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %2594 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.001799640071985603),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %1667 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0018083182640144665),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %1659 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0014299332697807435),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2098 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0014457831325301205),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2075 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005630177752754766),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %12433 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.000878972278566599),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %29580 26
-(:-(:(tt(A,'_derivationally_related_form',B),0.011857707509881422),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %7337 87
-(:-(:(tt(A,'_derivationally_related_form',B),0.011660978384527872),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %7032 82
-(:-(:(tt(A,'_derivationally_related_form',B),0.0030380930123860717),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %8558 26
-(:-(:(tt(A,'_derivationally_related_form',B),0.000999000999000999),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %3003 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.015769189972775165),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %113132 1784
-(:-(:(tt(A,'_derivationally_related_form',B),5.397819281010472e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_has_part',B))))), %18526 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00030052386774217783),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 44
-(:-(:(tt(A,'_derivationally_related_form',B),0.01472687393378129),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %114892 1692
-(:-(:(tt(A,'_derivationally_related_form',B),0.0006698564593301435),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %10450 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.0004114557955714363),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %184710 76
-(:-(:(tt(A,'_derivationally_related_form',B),0.00043949604453559916),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_member_meronym',D))))), %6826 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0011956001912960307),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %4182 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.0010190711894016596),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %13738 14
-(:-(:(tt(A,'_derivationally_related_form',B),0.00038739669421487604),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_member_meronym',B))))), %7744 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012496875781054736),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %4001 5
-(:-(:(tt(A,'_derivationally_related_form',B),0.003041825095057034),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %9205 28
-(:-(:(tt(A,'_derivationally_related_form',B),0.001216298398540442),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %4933 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.010309278350515464),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %291 3
-(:-(:(tt(A,'_derivationally_related_form',B),0.0012264922322158627),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %4892 6
-(:-(:(tt(A,'_derivationally_related_form',B),0.0005630177752754766),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %12433 7
-(:-(:(tt(A,'_derivationally_related_form',B),0.000784860905206244),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %11467 9
-(:-(:(tt(A,'_derivationally_related_form',B),0.004468275245755138),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %1119 5
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %8 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.1),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %10 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.0010190711894016596),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %13738 14
-(:-(:(tt(A,'_derivationally_related_form',B),0.0014875418371141688),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %2689 4
-(:-(:(tt(A,'_derivationally_related_form',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %1463 0
-(:-(:(tt(A,'_derivationally_related_form',B),0.008620689655172414),','(t(A,'_similar_to',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %116 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.011363636363636364),','(t(A,'_similar_to',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %88 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.00819672131147541),','(t(A,'_similar_to',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %122 1
-(:-(:(tt(A,'_derivationally_related_form',B),0.011494252873563218),','(t(A,'_similar_to',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %87 1
-(:-(:(tt(A,'_has_part',B),0.0007727975270479134),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %2588 2
-(:-(:(tt(A,'_has_part',B),0.0007633587786259542),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %2620 2
-(:-(:(tt(A,'_has_part',B),2.5097566790899622e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %79689 2
-(:-(:(tt(A,'_has_part',B),0.2961428116034428),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3137 929
-(:-(:(tt(A,'_has_part',B),8.334896126357025e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 4
-(:-(:(tt(A,'_has_part',B),1.2460593373456443e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %80253 1
-(:-(:(tt(A,'_has_part',B),0.0006180469715698393),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %1618 1
-(:-(:(tt(A,'_has_part',B),5.7368396897517094e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 5
-(:-(:(tt(A,'_has_part',B),0.001607717041800643),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %622 1
-(:-(:(tt(A,'_has_part',B),0.0005688282138794084),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7032 4
-(:-(:(tt(A,'_has_part',B),0),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %613 0
-(:-(:(tt(A,'_has_part',B),5.72475383558507e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52404 3
-(:-(:(tt(A,'_has_part',B),5.7574943384639004e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52106 3
-(:-(:(tt(A,'_has_part',B),6.54804519024254e-6),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458152 3
-(:-(:(tt(A,'_has_part',B),4.8477797168896646e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20628 1
-(:-(:(tt(A,'_has_part',B),1.2518778167250876e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %79880 1
-(:-(:(tt(A,'_has_part',B),0.30081812460667084),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3178 956
-(:-(:(tt(A,'_has_part',B),8.246232502525409e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 4
-(:-(:(tt(A,'_has_part',B),1.2460593373456443e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %80253 1
-(:-(:(tt(A,'_has_part',B),0.0005938242280285036),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %1684 1
-(:-(:(tt(A,'_has_part',B),5.657580592235537e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 5
-(:-(:(tt(A,'_has_part',B),0.0015384615384615385),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %650 1
-(:-(:(tt(A,'_has_part',B),0.0005411255411255411),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7392 4
-(:-(:(tt(A,'_has_part',B),0.018018018018018018),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %666 12
-(:-(:(tt(A,'_has_part',B),0.0008183306055646482),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3666 3
-(:-(:(tt(A,'_has_part',B),0.0008152173913043478),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3680 3
-(:-(:(tt(A,'_has_part',B),0.00015383432043688947),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 8
-(:-(:(tt(A,'_has_part',B),0.000172724830153917),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 9
-(:-(:(tt(A,'_has_part',B),0.0008178844056706652),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3668 3
-(:-(:(tt(A,'_has_part',B),0.0008152173913043478),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3680 3
-(:-(:(tt(A,'_has_part',B),7.833443581798558e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %114892 9
-(:-(:(tt(A,'_has_part',B),0.00012624668602449185),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7921 1
-(:-(:(tt(A,'_has_part',B),0.29744525547445255),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %1644 489
-(:-(:(tt(A,'_has_part',B),0.31116389548693585),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %1684 524
-(:-(:(tt(A,'_has_part',B),0.00894774516821761),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %2794 25
-(:-(:(tt(A,'_has_part',B),0.018115942028985508),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %828 15
-(:-(:(tt(A,'_has_part',B),0.0018779342723004694),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_member_of_domain_region',B))))), %1065 2
-(:-(:(tt(A,'_has_part',B),0.00823045267489712),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %486 4
-(:-(:(tt(A,'_has_part',B),0.17857142857142858),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(B,'_member_of_domain_region',D))))), %28 5
-(:-(:(tt(A,'_has_part',B),0.544069640914037),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %1838 1000
-(:-(:(tt(A,'_has_part',B),0.009868421052631578),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(B,'_instance_hypernym',D))))), %304 3
-(:-(:(tt(A,'_has_part',B),0.00782472613458529),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %639 5
-(:-(:(tt(A,'_has_part',B),0.02066115702479339),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %726 15
-(:-(:(tt(A,'_has_part',B),0.008403361344537815),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %119 1
-(:-(:(tt(A,'_has_part',B),0.04865334491746308),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %1151 56
-(:-(:(tt(A,'_has_part',B),0.16666666666666666),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_member_of_domain_region',D))))), %6 1
-(:-(:(tt(A,'_has_part',B),0.0044742729306487695),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %894 4
-(:-(:(tt(A,'_has_part',B),0.10721095510487086),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23076 2474
-(:-(:(tt(A,'_has_part',B),0.0024319066147859923),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2056 5
-(:-(:(tt(A,'_has_part',B),0.018867924528301886),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(D,'_synset_domain_topic_of',B))))), %53 1
-(:-(:(tt(A,'_has_part',B),1),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(D,'_member_of_domain_region',B))))), %1 1
-(:-(:(tt(A,'_has_part',B),0.7488151658767772),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(B,'_member_of_domain_region',D))))), %211 158
-(:-(:(tt(A,'_has_part',B),0.07792207792207792),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(B,'_has_part',D))))), %77 6
-(:-(:(tt(A,'_has_part',B),0.016666666666666666),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(B,'_hypernym',D))))), %60 1
-(:-(:(tt(A,'_has_part',B),0.11764705882352941),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(D,'_has_part',B))))), %51 6
-(:-(:(tt(A,'_has_part',B),0.90625),','(t(A,'_has_part',C),','(t(C,'_member_meronym',D),t(B,'_member_meronym',D))))), %160 145
-(:-(:(tt(A,'_has_part',B),0.14285714285714285),','(t(A,'_has_part',C),','(t(C,'_member_meronym',D),t(D,'_instance_hypernym',B))))), %7 1
-(:-(:(tt(A,'_has_part',B),0.31154551007941356),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %1637 510
-(:-(:(tt(A,'_has_part',B),0.3034610630407911),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %1618 491
-(:-(:(tt(A,'_has_part',B),0.0007971303308090873),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %2509 2
-(:-(:(tt(A,'_has_part',B),0.0029542097488921715),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %677 2
-(:-(:(tt(A,'_has_part',B),0.34439359267734554),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %13984 4816
-(:-(:(tt(A,'_has_part',B),0.008291873963515755),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %1206 10
-(:-(:(tt(A,'_has_part',B),0.05128205128205128),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_member_of_domain_region',D))))), %39 2
-(:-(:(tt(A,'_has_part',B),0.007616974972796518),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_has_part',D))))), %1838 14
-(:-(:(tt(A,'_has_part',B),0.0010954902318787657),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %5477 6
-(:-(:(tt(A,'_has_part',B),0.3333333333333333),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(D,'_instance_hypernym',B))))), %3 1
-(:-(:(tt(A,'_has_part',B),0.005314437555358724),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %1129 6
-(:-(:(tt(A,'_has_part',B),0.016778523489932886),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %894 15
-(:-(:(tt(A,'_has_part',B),0.007017543859649123),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_instance_hypernym',D))))), %285 2
-(:-(:(tt(A,'_has_part',B),0.004210526315789474),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %475 2
-(:-(:(tt(A,'_has_part',B),0.009378907878282617),','(t(A,'_has_part',C),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %9596 90
-(:-(:(tt(A,'_has_part',B),0.5),','(t(A,'_has_part',C),','(t(D,'_member_of_domain_region',C),t(B,'_member_of_domain_region',D))))), %2 1
-(:-(:(tt(A,'_has_part',B),0.03896103896103896),','(t(A,'_has_part',C),','(t(D,'_member_of_domain_region',C),t(B,'_has_part',D))))), %77 3
-(:-(:(tt(A,'_has_part',B),0.015873015873015872),','(t(A,'_has_part',C),','(t(D,'_member_of_domain_region',C),t(D,'_instance_hypernym',B))))), %63 1
-(:-(:(tt(A,'_has_part',B),0.15876974231088944),','(t(A,'_has_part',C),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %1203 191
-(:-(:(tt(A,'_has_part',B),0.0020060180541624875),','(t(A,'_has_part',C),','(t(D,'_instance_hypernym',C),t(D,'_has_part',B))))), %997 2
-(:-(:(tt(A,'_has_part',B),0.003355704697986577),','(t(A,'_has_part',C),','(t(D,'_instance_hypernym',C),t(D,'_member_of_domain_region',B))))), %298 1
-(:-(:(tt(A,'_has_part',B),0.12307692307692308),','(t(A,'_has_part',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %130 16
-(:-(:(tt(A,'_has_part',B),0.045454545454545456),','(t(A,'_has_part',C),','(t(D,'_instance_hypernym',C),t(B,'_member_meronym',D))))), %22 1
-(:-(:(tt(A,'_has_part',B),1),','(t(A,'_has_part',C),','(t(D,'_instance_hypernym',C),t(D,'_hypernym',B))))), %1 1
-(:-(:(tt(A,'_has_part',B),0.6333333333333333),','(t(A,'_has_part',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %30 19
-(:-(:(tt(A,'_has_part',B),0.125),','(t(A,'_has_part',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_member_of_domain_region',D))))), %8 1
-(:-(:(tt(A,'_has_part',B),0.016129032258064516),','(t(A,'_has_part',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %186 3
-(:-(:(tt(A,'_has_part',B),0.014184397163120567),','(t(A,'_has_part',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %141 2
-(:-(:(tt(A,'_has_part',B),0.005588673621460507),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %2684 15
-(:-(:(tt(A,'_has_part',B),0.015384615384615385),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_has_part',D))))), %130 2
-(:-(:(tt(A,'_has_part',B),0.01822055486082164),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %107955 1967
-(:-(:(tt(A,'_has_part',B),0.0008936550491510277),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %1119 1
-(:-(:(tt(A,'_has_part',B),0.1320754716981132),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %159 21
-(:-(:(tt(A,'_has_part',B),0.01799043062200957),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %10450 188
-(:-(:(tt(A,'_has_part',B),0.125),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %16 2
-(:-(:(tt(A,'_has_part',B),4.526730342673487e-5),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %88364 4
-(:-(:(tt(A,'_has_part',B),4.5260644737884294e-5),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %88377 4
-(:-(:(tt(A,'_has_part',B),0.0011757789535567313),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %3402 4
-(:-(:(tt(A,'_has_part',B),0.005865102639296188),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %11935 70
-(:-(:(tt(A,'_has_part',B),0.00019474196689386563),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %5135 1
-(:-(:(tt(A,'_has_part',B),0.000132890365448505),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %7525 1
-(:-(:(tt(A,'_has_part',B),4.699017264616614e-5),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %936366 44
-(:-(:(tt(A,'_has_part',B),0.00013982102908277405),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %7152 1
-(:-(:(tt(A,'_has_part',B),0.0006809669731018045),','(t(A,'_hypernym',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %8811 6
-(:-(:(tt(A,'_has_part',B),4.528113927346412e-5),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %88337 4
-(:-(:(tt(A,'_has_part',B),4.589471751801368e-5),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %87156 4
-(:-(:(tt(A,'_has_part',B),0.00032304958811177516),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %6191 2
-(:-(:(tt(A,'_has_part',B),9.735676386116926e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %20543 2
-(:-(:(tt(A,'_has_part',B),0.06923418177785172),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %36066 2497
-(:-(:(tt(A,'_has_part',B),0.0003380662609871535),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %29580 10
-(:-(:(tt(A,'_has_part',B),0.0033801352054082163),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %23076 78
-(:-(:(tt(A,'_has_part',B),6.300954968463187e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %936366 59
-(:-(:(tt(A,'_has_part',B),0.0014903129657228018),','(t(A,'_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %2684 4
-(:-(:(tt(A,'_has_part',B),0.0003894080996884735),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %7704 3
-(:-(:(tt(A,'_has_part',B),0.0003787400580734756),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %7921 3
-(:-(:(tt(A,'_has_part',B),0),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %493 0
-(:-(:(tt(A,'_has_part',B),0.00014060742407199101),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %7112 1
-(:-(:(tt(A,'_has_part',B),7.038059661090358e-5),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %184710 13
-(:-(:(tt(A,'_has_part',B),0.42857142857142855),','(t(A,'_member_of_domain_region',C),','(t(C,'_has_part',D),t(B,'_member_of_domain_region',D))))), %14 6
-(:-(:(tt(A,'_has_part',B),0.1282051282051282),','(t(A,'_member_of_domain_region',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %39 5
-(:-(:(tt(A,'_has_part',B),0.07692307692307693),','(t(A,'_member_of_domain_region',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %13 1
-(:-(:(tt(A,'_has_part',B),0.03225806451612903),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %31 1
-(:-(:(tt(A,'_has_part',B),0.125),','(t(A,'_member_of_domain_region',C),','(t(C,'_member_meronym',D),t(B,'_member_meronym',D))))), %16 2
-(:-(:(tt(A,'_has_part',B),0.0054333061668024995),','(t(A,'_member_of_domain_region',C),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %7362 40
-(:-(:(tt(A,'_has_part',B),0.4171597633136095),','(t(A,'_member_of_domain_region',C),','(t(D,'_member_of_domain_region',C),t(D,'_has_part',B))))), %2366 987
-(:-(:(tt(A,'_has_part',B),0.1111111111111111),','(t(A,'_member_of_domain_region',C),','(t(D,'_hypernym',C),t(B,'_member_of_domain_region',D))))), %9 1
-(:-(:(tt(A,'_has_part',B),0.07894736842105263),','(t(A,'_member_of_domain_region',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %38 3
-(:-(:(tt(A,'_has_part',B),0.0007385524372230429),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %2708 2
-(:-(:(tt(A,'_has_part',B),0.0007291286912139992),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %2743 2
-(:-(:(tt(A,'_has_part',B),2.5e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %80000 2
-(:-(:(tt(A,'_has_part',B),0.3084498094027954),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3148 971
-(:-(:(tt(A,'_has_part',B),8.246572518297083e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 4
-(:-(:(tt(A,'_has_part',B),1.2518778167250876e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %79880 1
-(:-(:(tt(A,'_has_part',B),0.0006108735491753207),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %1637 1
-(:-(:(tt(A,'_has_part',B),5.660142409183015e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 5
-(:-(:(tt(A,'_has_part',B),0.001610305958132045),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %621 1
-(:-(:(tt(A,'_has_part',B),0.0005451819544773068),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7337 4
-(:-(:(tt(A,'_has_part',B),0),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %614 0
-(:-(:(tt(A,'_has_part',B),5.739429883298259e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52270 3
-(:-(:(tt(A,'_has_part',B),5.768787016383355e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52004 3
-(:-(:(tt(A,'_has_part',B),0),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458430 0
-(:-(:(tt(A,'_has_part',B),4.8529554498689704e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20606 1
-(:-(:(tt(A,'_has_part',B),1.25e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %80000 1
-(:-(:(tt(A,'_has_part',B),0.29996771068776235),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3097 929
-(:-(:(tt(A,'_has_part',B),8.332291796858727e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 4
-(:-(:(tt(A,'_has_part',B),1.2548783395449811e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %79689 1
-(:-(:(tt(A,'_has_part',B),0.0006082725060827251),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %1644 1
-(:-(:(tt(A,'_has_part',B),5.6584129283418585e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 5
-(:-(:(tt(A,'_has_part',B),0.0016501650165016502),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %606 1
-(:-(:(tt(A,'_has_part',B),0.0005374177079134758),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7443 4
-(:-(:(tt(A,'_has_part',B),0.019448946515397084),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %617 12
-(:-(:(tt(A,'_has_part',B),0.0002801905295601009),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3569 1
-(:-(:(tt(A,'_has_part',B),0.0002726281352235551),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3668 1
-(:-(:(tt(A,'_has_part',B),0.00017218289649894778),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 9
-(:-(:(tt(A,'_has_part',B),0.00019082512785283565),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 10
-(:-(:(tt(A,'_has_part',B),0.0002801905295601009),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3569 1
-(:-(:(tt(A,'_has_part',B),0.00027277686852154935),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3666 1
-(:-(:(tt(A,'_has_part',B),9.723155252271682e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %113132 11
-(:-(:(tt(A,'_has_part',B),0.00025960539979231567),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7704 2
-(:-(:(tt(A,'_has_part',B),0.00032289312237649337),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3097 1
-(:-(:(tt(A,'_has_part',B),0.00031466331025802394),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3178 1
-(:-(:(tt(A,'_has_part',B),0.042692122323968844),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %64321 2746
-(:-(:(tt(A,'_has_part',B),0.0005599104143337066),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %7144 4
-(:-(:(tt(A,'_has_part',B),0.0005004065803465316),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_member_of_domain_region',B))))), %15987 8
-(:-(:(tt(A,'_has_part',B),0.0051685151286744915),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_instance_hypernym',D))))), %9287 48
-(:-(:(tt(A,'_has_part',B),0.006109979633401222),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_member_of_domain_region',D))))), %491 3
-(:-(:(tt(A,'_has_part',B),0.001358695652173913),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %13984 19
-(:-(:(tt(A,'_has_part',B),0.0032304958811177516),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %6191 20
-(:-(:(tt(A,'_has_part',B),0.00019811788013868252),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %10095 2
-(:-(:(tt(A,'_has_part',B),0.006071118820468344),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %1153 7
-(:-(:(tt(A,'_has_part',B),0),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %1119 0
-(:-(:(tt(A,'_has_part',B),0.0022181556036155936),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %36066 80
-(:-(:(tt(A,'_has_part',B),0.0055248618784530384),','(t(C,'_has_part',A),','(t(C,'_member_of_domain_region',D),t(D,'_has_part',B))))), %1448 8
-(:-(:(tt(A,'_has_part',B),0.000683526999316473),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %1463 1
-(:-(:(tt(A,'_has_part',B),0.0003176620076238882),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3148 1
-(:-(:(tt(A,'_has_part',B),0.000318775900541919),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3137 1
-(:-(:(tt(A,'_has_part',B),0.0004197695931344351),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %64321 27
-(:-(:(tt(A,'_has_part',B),0.0019184652278177458),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %2085 4
-(:-(:(tt(A,'_has_part',B),0.0034782608695652175),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %575 2
-(:-(:(tt(A,'_has_part',B),0.0005882859356616065),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %69694 41
-(:-(:(tt(A,'_has_part',B),0.0002698909640505236),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %18526 5
-(:-(:(tt(A,'_has_part',B),0.006191950464396285),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %323 2
-(:-(:(tt(A,'_has_part',B),0.00024996875390576176),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %48006 12
-(:-(:(tt(A,'_has_part',B),0.00024738697507576226),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %48507 12
-(:-(:(tt(A,'_has_part',B),0.0011956954962136308),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %2509 3
-(:-(:(tt(A,'_has_part',B),0.0006464124111182935),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %1547 1
-(:-(:(tt(A,'_has_part',B),0.023503077783995522),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %1787 42
-(:-(:(tt(A,'_has_part',B),0.8328445747800587),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %1364 1136
-(:-(:(tt(A,'_has_part',B),6.425496369594551e-5),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %46689 3
-(:-(:(tt(A,'_has_part',B),0.0002473971755489125),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %48505 12
-(:-(:(tt(A,'_has_part',B),0.0002500468837907108),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %47991 12
-(:-(:(tt(A,'_has_part',B),0.001539753639417693),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %7144 11
-(:-(:(tt(A,'_has_part',B),4.8529554498689704e-5),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %20606 1
-(:-(:(tt(A,'_has_part',B),4.8477797168896646e-5),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %20628 1
-(:-(:(tt(A,'_has_part',B),7.0298769771529e-5),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %28450 2
-(:-(:(tt(A,'_has_part',B),0.0004182350480970305),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %2391 1
-(:-(:(tt(A,'_has_part',B),2.379309524376026e-5),','(t(C,'_hypernym',A),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %42029 1
-(:-(:(tt(A,'_has_part',B),0.0005151604356785399),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %13588 7
-(:-(:(tt(A,'_has_part',B),0.015151515151515152),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %132 2
-(:-(:(tt(A,'_has_part',B),0),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %1783 0
-(:-(:(tt(A,'_has_part',B),0.0012437810945273632),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1608 2
-(:-(:(tt(A,'_has_part',B),0.03197158081705151),','(t(C,'_hypernym',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %563 18
-(:-(:(tt(A,'_has_part',B),0.00015709202177432023),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %146411 23
-(:-(:(tt(A,'_has_part',B),0.00020066889632107025),','(t(C,'_member_of_domain_region',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %14950 3
-(:-(:(tt(A,'_has_part',B),0.0010466222645099904),','(t(C,'_member_of_domain_region',A),','(t(C,'_has_part',D),t(D,'_member_of_domain_region',B))))), %10510 11
-(:-(:(tt(A,'_has_part',B),0.0001606425702811245),','(t(C,'_member_of_domain_region',A),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %37350 6
-(:-(:(tt(A,'_has_part',B),0.0011785503830288745),','(t(C,'_member_of_domain_region',A),','(t(C,'_has_part',D),t(B,'_instance_hypernym',D))))), %3394 4
-(:-(:(tt(A,'_has_part',B),0.0002502032901732658),','(t(C,'_member_of_domain_region',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %15987 4
-(:-(:(tt(A,'_has_part',B),0.00025826446280991736),','(t(C,'_member_meronym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %7744 2
-(:-(:(tt(A,'_has_part',B),1.2786906208042963e-6),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %782050 1
-(:-(:(tt(A,'_has_part',B),0.06526097923808293),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_has_part',B))))), %15461 1009
-(:-(:(tt(A,'_has_part',B),0.0010046885465505692),','(t(C,'_member_meronym',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %8958 9
-(:-(:(tt(A,'_has_part',B),0.0010416666666666667),','(t(C,'_instance_hypernym',A),','(t(C,'_has_part',D),t(D,'_member_of_domain_region',B))))), %960 1
-(:-(:(tt(A,'_has_part',B),0.010498687664041995),','(t(C,'_instance_hypernym',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %381 4
-(:-(:(tt(A,'_has_part',B),0.0009033423667570009),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %2214 2
-(:-(:(tt(A,'_has_part',B),0.0022813688212927757),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1315 3
-(:-(:(tt(A,'_has_part',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %161 0
-(:-(:(tt(A,'_has_part',B),0.009433962264150943),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %212 2
-(:-(:(tt(A,'_has_part',B),0.009174311926605505),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %218 2
-(:-(:(tt(A,'_has_part',B),0.0010214504596527069),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2937 3
-(:-(:(tt(A,'_has_part',B),0.006968641114982578),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %287 2
-(:-(:(tt(A,'_has_part',B),0.001718213058419244),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2910 5
-(:-(:(tt(A,'_has_part',B),0.0006814973470281848),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %20543 14
-(:-(:(tt(A,'_has_part',B),0.001292824822236587),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %1547 2
-(:-(:(tt(A,'_has_part',B),0.0008688097306689834),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %2302 2
-(:-(:(tt(A,'_has_part',B),0.0014958863126402393),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1337 2
-(:-(:(tt(A,'_has_part',B),0.03867403314917127),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %543 21
-(:-(:(tt(A,'_has_part',B),0.0037974683544303796),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_member_of_domain_region',C),t(D,'_has_part',B))))), %790 3
-(:-(:(tt(A,'_has_part',B),0.007246376811594203),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %138 1
-(:-(:(tt(A,'_has_part',B),0.006993006993006993),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %143 1
-(:-(:(tt(A,'_has_part',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %283 0
-(:-(:(tt(A,'_has_part',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %286 0
-(:-(:(tt(A,'_has_part',B),0.0625),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %16 1
-(:-(:(tt(A,'_has_part',B),0.013452914798206279),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %223 3
-(:-(:(tt(A,'_has_part',B),0.011811023622047244),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %254 3
-(:-(:(tt(A,'_has_part',B),0.016666666666666666),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %60 1
-(:-(:(tt(A,'_has_part',B),0.007462686567164179),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %134 1
-(:-(:(tt(A,'_has_part',B),0.007194244604316547),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %139 1
-(:-(:(tt(A,'_has_part',B),0.4521072796934866),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %522 236
-(:-(:(tt(A,'_has_part',B),0.0010863661053775121),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %9205 10
-(:-(:(tt(A,'_has_part',B),0.05),','(t(A,'_instance_hypernym',C),','(t(C,'_has_part',D),t(B,'_member_of_domain_region',D))))), %20 1
-(:-(:(tt(A,'_has_part',B),0.022774327122153208),','(t(A,'_instance_hypernym',C),','(t(C,'_has_part',D),t(B,'_instance_hypernym',D))))), %483 11
-(:-(:(tt(A,'_has_part',B),5.097879282218597e-5),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %58848 3
-(:-(:(tt(A,'_has_part',B),3.7239786988418424e-5),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %26853 1
-(:-(:(tt(A,'_has_part',B),3.398586188145731e-5),','(t(A,'_instance_hypernym',C),','(t(D,'_hypernym',C),t(B,'_instance_hypernym',D))))), %58848 2
-(:-(:(tt(A,'_has_part',B),0.0003230321955421557),','(t(A,'_instance_hypernym',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %9287 3
-(:-(:(tt(A,'_has_part',B),0.008264462809917356),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_instance_hypernym',D))))), %121 1
-(:-(:(tt(A,'_has_part',B),0.0005433306166802499),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_member_of_domain_region',D))))), %7362 4
-(:-(:(tt(A,'_has_part',B),0.00027789356676392944),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %107955 30
-(:-(:(tt(A,'_has_part',B),0.005952380952380952),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_hypernym',D))))), %168 1
-(:-(:(tt(A,'_has_part',B),0.0004682274247491639),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_member_of_domain_region',B))))), %14950 7
-(:-(:(tt(A,'_has_part',B),0.028295118661577755),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_has_part',B))))), %69694 1972
-(:-(:(tt(A,'_has_part',B),0.0018977450323732976),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_member_meronym',B))))), %8958 17
-(:-(:(tt(A,'_has_part',B),0.006369426751592357),','(t(A,'_instance_hypernym',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %314 2
-(:-(:(tt(A,'_has_part',B),0.005555555555555556),','(t(A,'_instance_hypernym',C),','(t(C,'_member_meronym',D),t(B,'_instance_hypernym',D))))), %2340 13
-(:-(:(tt(A,'_has_part',B),0.00018052869116698904),','(t(A,'_instance_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %38775 7
-(:-(:(tt(A,'_has_part',B),0.0033003300330033004),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %606 2
-(:-(:(tt(A,'_has_part',B),0.003076923076923077),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %650 2
-(:-(:(tt(A,'_has_part',B),0.0011614401858304297),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %861 1
-(:-(:(tt(A,'_has_part',B),0.001098901098901099),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %910 1
-(:-(:(tt(A,'_has_part',B),3.4544104185018224e-5),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %289485 10
-(:-(:(tt(A,'_has_part',B),0.0005934718100890207),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %1685 1
-(:-(:(tt(A,'_has_part',B),0.004830917874396135),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %621 3
-(:-(:(tt(A,'_has_part',B),0.00482315112540193),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %622 3
-(:-(:(tt(A,'_has_part',B),0.8084577114427861),','(t(A,'_member_meronym',C),','(t(D,'_member_meronym',C),t(D,'_has_part',B))))), %804 650
-(:-(:(tt(A,'_has_part',B),0.006299212598425197),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %635 4
-(:-(:(tt(A,'_has_part',B),0.006279434850863423),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %637 4
-(:-(:(tt(A,'_has_part',B),0.004158004158004158),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %2405 10
-(:-(:(tt(A,'_has_part',B),0.00015661707126076742),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %6385 1
-(:-(:(tt(A,'_has_part',B),0.00016212710765239947),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_member_meronym',B))))), %6168 1
-(:-(:(tt(A,'_has_part',B),0.0125),','(t(A,'_member_meronym',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %80 1
-(:-(:(tt(A,'_has_part',B),0.0001464986815118664),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %6826 1
-(:-(:(tt(A,'_has_part',B),0.001658374792703151),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %1206 2
-(:-(:(tt(A,'_has_part',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %1667 0
-(:-(:(tt(A,'_has_part',B),0.0012055455093429777),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %1659 2
-(:-(:(tt(A,'_has_part',B),8.839232047519711e-6),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %113132 1
-(:-(:(tt(A,'_has_part',B),0.011713267839792724),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_has_part',B))))), %18526 217
-(:-(:(tt(A,'_has_part',B),7.513096693554446e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 11
-(:-(:(tt(A,'_has_part',B),5.157962604771115e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_instance_hypernym',D))))), %38775 2
-(:-(:(tt(A,'_has_part',B),8.703826201998399e-6),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %114892 1
-(:-(:(tt(A,'_has_part',B),0.0004784688995215311),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %10450 5
-(:-(:(tt(A,'_has_part',B),9.74500568458665e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %184710 18
-(:-(:(tt(A,'_has_part',B),0.00010863661053775122),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %9205 1
-(:-(:(tt(A,'_has_part',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %11467 0
-(:-(:(tt(A,'_has_part',B),0.00014558159848595138),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %13738 2
-(:-(:(tt(A,'_has_part',B),0.0007437709185570844),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %2689 2
-(:-(:(tt(A,'_hypernym',B),0.0034408602150537634),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %2325 8
-(:-(:(tt(A,'_hypernym',B),0.003362757461118117),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %2379 8
-(:-(:(tt(A,'_hypernym',B),0),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %100 0
-(:-(:(tt(A,'_hypernym',B),0.02631578947368421),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(B,'_also_see',D))))), %38 1
-(:-(:(tt(A,'_hypernym',B),0.0019973368841544607),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %4506 9
-(:-(:(tt(A,'_hypernym',B),0.11203319502074689),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %241 27
-(:-(:(tt(A,'_hypernym',B),0.0020983213429256594),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %3336 7
-(:-(:(tt(A,'_hypernym',B),0.002491990032039872),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(B,'_also_see',D))))), %2809 7
-(:-(:(tt(A,'_hypernym',B),0.0015839493136219642),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %1894 3
-(:-(:(tt(A,'_hypernym',B),0.56047197640118),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %339 190
-(:-(:(tt(A,'_hypernym',B),0.10256410256410256),','(t(A,'_also_see',C),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %39 4
-(:-(:(tt(A,'_hypernym',B),0.002964845404489623),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %2361 7
-(:-(:(tt(A,'_hypernym',B),0.003013344812742144),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2323 7
-(:-(:(tt(A,'_hypernym',B),0.0125),','(t(A,'_also_see',C),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %80 1
-(:-(:(tt(A,'_hypernym',B),0.012195121951219513),','(t(A,'_also_see',C),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %82 1
-(:-(:(tt(A,'_hypernym',B),0.10256410256410256),','(t(A,'_also_see',C),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %39 4
-(:-(:(tt(A,'_hypernym',B),0.002890173410404624),','(t(A,'_also_see',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %692 2
-(:-(:(tt(A,'_hypernym',B),0.0258887171561051),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %2588 67
-(:-(:(tt(A,'_hypernym',B),0.026717557251908396),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %2620 70
-(:-(:(tt(A,'_hypernym',B),0.03389830508474576),','(t(A,'_derivationally_related_form',C),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %59 2
-(:-(:(tt(A,'_hypernym',B),0.0033545790003354577),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %2981 10
-(:-(:(tt(A,'_hypernym',B),0.0007654757871224385),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %79689 61
-(:-(:(tt(A,'_hypernym',B),0.001275103602167676),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3137 4
-(:-(:(tt(A,'_hypernym',B),0.2765518534725261),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 13272
-(:-(:(tt(A,'_hypernym',B),0.018941024537236333),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2323 44
-(:-(:(tt(A,'_hypernym',B),0.0008099385692746688),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %80253 65
-(:-(:(tt(A,'_hypernym',B),0.006798516687268232),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %1618 11
-(:-(:(tt(A,'_hypernym',B),0.001285052090504383),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 112
-(:-(:(tt(A,'_hypernym',B),0.001607717041800643),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %622 1
-(:-(:(tt(A,'_hypernym',B),0.009490238611713666),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3688 35
-(:-(:(tt(A,'_hypernym',B),0.0007110352673492605),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7032 5
-(:-(:(tt(A,'_hypernym',B),0.011695906432748537),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_instance_hypernym',B))))), %171 2
-(:-(:(tt(A,'_hypernym',B),0.0032626427406199023),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %613 2
-(:-(:(tt(A,'_hypernym',B),0.009380863039399626),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %3731 35
-(:-(:(tt(A,'_hypernym',B),0.0013550135501355014),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %2952 4
-(:-(:(tt(A,'_hypernym',B),0.006578947368421052),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %456 3
-(:-(:(tt(A,'_hypernym',B),0.006756756756756757),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %444 3
-(:-(:(tt(A,'_hypernym',B),0.0010718113612004287),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %933 1
-(:-(:(tt(A,'_hypernym',B),0),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %959 0
-(:-(:(tt(A,'_hypernym',B),0.01949317738791423),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %1026 20
-(:-(:(tt(A,'_hypernym',B),0.030951835737729944),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52404 1622
-(:-(:(tt(A,'_hypernym',B),0.03120561931447434),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52106 1626
-(:-(:(tt(A,'_hypernym',B),0.004088307440719542),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4892 20
-(:-(:(tt(A,'_hypernym',B),4.1470952871536084e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458152 19
-(:-(:(tt(A,'_hypernym',B),0.0009695559433779329),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20628 20
-(:-(:(tt(A,'_hypernym',B),0.02989427633977397),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %2743 82
-(:-(:(tt(A,'_hypernym',B),0.030534351145038167),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %2620 80
-(:-(:(tt(A,'_hypernym',B),0.07407407407407407),','(t(A,'_derivationally_related_form',C),','(t(D,'_also_see',C),t(D,'_synset_domain_topic_of',B))))), %27 2
-(:-(:(tt(A,'_hypernym',B),0.0029296875),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %3072 9
-(:-(:(tt(A,'_hypernym',B),0.0007886830245368052),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %79880 63
-(:-(:(tt(A,'_hypernym',B),0.0012586532410320957),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3178 4
-(:-(:(tt(A,'_hypernym',B),0.2840002473869751),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 13776
-(:-(:(tt(A,'_hypernym',B),0.0045045045045045045),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %666 3
-(:-(:(tt(A,'_hypernym',B),0.019756200084068937),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2379 47
-(:-(:(tt(A,'_hypernym',B),0.0008348597560215818),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %80253 67
-(:-(:(tt(A,'_hypernym',B),0.006532066508313539),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %1684 11
-(:-(:(tt(A,'_hypernym',B),0.0012559828914762892),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 111
-(:-(:(tt(A,'_hypernym',B),0.010206896551724139),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3625 37
-(:-(:(tt(A,'_hypernym',B),0.000946969696969697),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7392 7
-(:-(:(tt(A,'_hypernym',B),0.005714285714285714),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_instance_hypernym',B))))), %175 1
-(:-(:(tt(A,'_hypernym',B),0.010359869138495093),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %3668 38
-(:-(:(tt(A,'_hypernym',B),0.0013409319477036541),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2983 4
-(:-(:(tt(A,'_hypernym',B),0.020642201834862386),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %436 9
-(:-(:(tt(A,'_hypernym',B),0.0975609756097561),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %41 4
-(:-(:(tt(A,'_hypernym',B),0.02252252252252252),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %444 10
-(:-(:(tt(A,'_hypernym',B),0.0003677822728944465),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %2719 1
-(:-(:(tt(A,'_hypernym',B),0.004980386124144296),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 259
-(:-(:(tt(A,'_hypernym',B),0.0012742911755336094),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %12556 16
-(:-(:(tt(A,'_hypernym',B),0.004970636778873834),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 259
-(:-(:(tt(A,'_hypernym',B),0.00048192771084337347),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2075 1
-(:-(:(tt(A,'_hypernym',B),0.0009328358208955224),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_member_meronym',B))))), %1072 1
-(:-(:(tt(A,'_hypernym',B),0.00584192439862543),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %2910 17
-(:-(:(tt(A,'_hypernym',B),0.06147540983606557),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %244 15
-(:-(:(tt(A,'_hypernym',B),0.006711409395973154),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %149 1
-(:-(:(tt(A,'_hypernym',B),0.003281378178835111),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %1219 4
-(:-(:(tt(A,'_hypernym',B),0.006993006993006993),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %143 1
-(:-(:(tt(A,'_hypernym',B),0.007575757575757576),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_member_meronym',D))))), %132 1
-(:-(:(tt(A,'_hypernym',B),0.015548281505728314),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3666 57
-(:-(:(tt(A,'_hypernym',B),0.01684782608695652),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3680 62
-(:-(:(tt(A,'_hypernym',B),0.03597122302158273),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %139 5
-(:-(:(tt(A,'_hypernym',B),0.001813236627379873),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %2206 4
-(:-(:(tt(A,'_hypernym',B),0.0017730496453900709),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %2256 4
-(:-(:(tt(A,'_hypernym',B),0.0026845637583892616),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %745 2
-(:-(:(tt(A,'_hypernym',B),0.015484515484515484),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %2002 31
-(:-(:(tt(A,'_hypernym',B),0.016260162601626018),','(t(A,'_derivationally_related_form',C),','(t(D,'_similar_to',C),t(D,'_derivationally_related_form',B))))), %123 2
-(:-(:(tt(A,'_hypernym',B),0.015503875968992248),','(t(A,'_derivationally_related_form',C),','(t(D,'_similar_to',C),t(B,'_derivationally_related_form',D))))), %129 2
-(:-(:(tt(A,'_hypernym',B),0.012048192771084338),','(t(A,'_derivationally_related_form',C),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %83 1
-(:-(:(tt(A,'_hypernym',B),0.1242603550295858),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %169 21
-(:-(:(tt(A,'_hypernym',B),0.015539803707742638),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3668 57
-(:-(:(tt(A,'_hypernym',B),0.01576086956521739),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3680 58
-(:-(:(tt(A,'_hypernym',B),0.03496503496503497),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %143 5
-(:-(:(tt(A,'_hypernym',B),0.012701514411333659),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %2047 26
-(:-(:(tt(A,'_hypernym',B),0.002061855670103093),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %970 2
-(:-(:(tt(A,'_hypernym',B),0.01588310038119441),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1574 25
-(:-(:(tt(A,'_hypernym',B),0.010638297872340425),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2256 24
-(:-(:(tt(A,'_hypernym',B),0.0005918601817358911),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %114892 68
-(:-(:(tt(A,'_hypernym',B),0.0011362201742204268),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7921 9
-(:-(:(tt(A,'_hypernym',B),0.013986013986013986),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %286 4
-(:-(:(tt(A,'_hypernym',B),0.01639344262295082),','(t(A,'_derivationally_related_form',C),','(t(C,'_similar_to',D),t(D,'_derivationally_related_form',B))))), %122 2
-(:-(:(tt(A,'_hypernym',B),0.015503875968992248),','(t(A,'_derivationally_related_form',C),','(t(C,'_similar_to',D),t(B,'_derivationally_related_form',D))))), %129 2
-(:-(:(tt(A,'_hypernym',B),0.0024330900243309003),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %1644 4
-(:-(:(tt(A,'_hypernym',B),0.02631578947368421),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %76 2
-(:-(:(tt(A,'_hypernym',B),0.0023752969121140144),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %1684 4
-(:-(:(tt(A,'_hypernym',B),0.006259780907668232),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %639 4
-(:-(:(tt(A,'_hypernym',B),0),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %50 0
-(:-(:(tt(A,'_hypernym',B),0.08574879227053141),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %828 71
-(:-(:(tt(A,'_hypernym',B),0.05555555555555555),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %18 1
-(:-(:(tt(A,'_hypernym',B),0.07494407158836688),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %894 67
-(:-(:(tt(A,'_hypernym',B),0.0016467325359681053),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23076 38
-(:-(:(tt(A,'_hypernym',B),0.024319066147859923),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2056 50
-(:-(:(tt(A,'_hypernym',B),0.009708737864077669),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %103 1
-(:-(:(tt(A,'_hypernym',B),0.0011185682326621924),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %894 1
-(:-(:(tt(A,'_hypernym',B),0.002443494196701283),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %1637 4
-(:-(:(tt(A,'_hypernym',B),0.028985507246376812),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %69 2
-(:-(:(tt(A,'_hypernym',B),0.002472187886279357),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %1618 4
-(:-(:(tt(A,'_hypernym',B),0.00014302059496567506),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %13984 2
-(:-(:(tt(A,'_hypernym',B),0.001088139281828074),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_has_part',D))))), %1838 2
-(:-(:(tt(A,'_hypernym',B),0.00018258170531312764),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %5477 1
-(:-(:(tt(A,'_hypernym',B),0.59824631327222),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %2509 1501
-(:-(:(tt(A,'_hypernym',B),0.014705882352941176),','(t(A,'_has_part',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %136 2
-(:-(:(tt(A,'_hypernym',B),0.00037257824143070045),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %2684 1
-(:-(:(tt(A,'_hypernym',B),0.0010526315789473684),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %10450 11
-(:-(:(tt(A,'_hypernym',B),0.08333333333333333),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %132 11
-(:-(:(tt(A,'_hypernym',B),0.15069469184182402),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %2807 423
-(:-(:(tt(A,'_hypernym',B),0.19608664161875877),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %88364 17327
-(:-(:(tt(A,'_hypernym',B),0.2014098690835851),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %88377 17800
-(:-(:(tt(A,'_hypernym',B),0.008034433285509325),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %38335 308
-(:-(:(tt(A,'_hypernym',B),0.5389811940843527),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %5477 2952
-(:-(:(tt(A,'_hypernym',B),0.0005842259006815969),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %5135 3
-(:-(:(tt(A,'_hypernym',B),0.00015661707126076742),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %6385 1
-(:-(:(tt(A,'_hypernym',B),0.03275535420978549),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %936366 30671
-(:-(:(tt(A,'_hypernym',B),7.0298769771529e-5),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %28450 2
-(:-(:(tt(A,'_hypernym',B),0.00011349449551696743),','(t(A,'_hypernym',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %8811 1
-(:-(:(tt(A,'_hypernym',B),0.013409961685823755),','(t(A,'_hypernym',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %522 7
-(:-(:(tt(A,'_hypernym',B),0.3851412944393801),','(t(A,'_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_instance_hypernym',B))))), %2194 845
-(:-(:(tt(A,'_hypernym',B),0.2015803117606439),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %88337 17807
-(:-(:(tt(A,'_hypernym',B),0.19880444260865573),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %87156 17327
-(:-(:(tt(A,'_hypernym',B),0.007896607091153168),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %37991 300
-(:-(:(tt(A,'_hypernym',B),0.07557790043171758),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %91495 6915
-(:-(:(tt(A,'_hypernym',B),0.000654407434068451),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %458430 300
-(:-(:(tt(A,'_hypernym',B),0.09365290723479805),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %4506 422
-(:-(:(tt(A,'_hypernym',B),0.0006722659728649007),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %458152 308
-(:-(:(tt(A,'_hypernym',B),0.00013000520020800833),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %23076 3
-(:-(:(tt(A,'_hypernym',B),2.135916938462097e-6),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %936366 2
-(:-(:(tt(A,'_hypernym',B),2.4180872929512754e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %289485 7
-(:-(:(tt(A,'_hypernym',B),0.74527190558804),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %46689 34796
-(:-(:(tt(A,'_hypernym',B),0.010064425315359211),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %184710 1859
-(:-(:(tt(A,'_hypernym',B),0.021739130434782608),','(t(A,'_member_of_domain_usage',C),','(t(D,'_member_of_domain_usage',C),t(B,'_hypernym',D))))), %46 1
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(D,'_verb_group',B))))), %151 0
-(:-(:(tt(A,'_hypernym',B),0.011690647482014389),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(B,'_also_see',D))))), %3336 39
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(B,'_verb_group',D))))), %150 0
-(:-(:(tt(A,'_hypernym',B),0.30072090628218334),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %971 292
-(:-(:(tt(A,'_hypernym',B),0.015604249667994688),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3012 47
-(:-(:(tt(A,'_hypernym',B),0.015299479166666666),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3072 47
-(:-(:(tt(A,'_hypernym',B),0.002967359050445104),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %337 1
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %88 0
-(:-(:(tt(A,'_hypernym',B),0.0029355897081678466),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %11582 34
-(:-(:(tt(A,'_hypernym',B),0.05917159763313609),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %169 10
-(:-(:(tt(A,'_hypernym',B),0.0016463615409944023),','(t(C,'_also_see',A),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %3037 5
-(:-(:(tt(A,'_hypernym',B),0.0024009603841536613),','(t(C,'_also_see',A),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %833 2
-(:-(:(tt(A,'_hypernym',B),0.015609432082364663),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3011 47
-(:-(:(tt(A,'_hypernym',B),0.015431063401543106),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2981 46
-(:-(:(tt(A,'_hypernym',B),0.10256410256410256),','(t(C,'_also_see',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %78 8
-(:-(:(tt(A,'_hypernym',B),0.00946372239747634),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %634 6
-(:-(:(tt(A,'_hypernym',B),0.00911854103343465),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %658 6
-(:-(:(tt(A,'_hypernym',B),0.0006706908115358819),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %2982 2
-(:-(:(tt(A,'_hypernym',B),0.12786885245901639),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %305 39
-(:-(:(tt(A,'_hypernym',B),0.0975609756097561),','(t(C,'_also_see',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %82 8
-(:-(:(tt(A,'_hypernym',B),0.09523809523809523),','(t(C,'_also_see',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %21 2
-(:-(:(tt(A,'_hypernym',B),0.09523809523809523),','(t(C,'_also_see',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %21 2
-(:-(:(tt(A,'_hypernym',B),0.025480059084194977),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %2708 69
-(:-(:(tt(A,'_hypernym',B),0.026613197229310975),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %2743 73
-(:-(:(tt(A,'_hypernym',B),0.030303030303030304),','(t(C,'_derivationally_related_form',A),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %66 2
-(:-(:(tt(A,'_hypernym',B),0.0036532713384257723),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_also_see',B))))), %3011 11
-(:-(:(tt(A,'_hypernym',B),0.0007625),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %80000 61
-(:-(:(tt(A,'_hypernym',B),0.0012706480304955528),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3148 4
-(:-(:(tt(A,'_hypernym',B),0.2843830532934749),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 13794
-(:-(:(tt(A,'_hypernym',B),0.01905972045743329),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2361 45
-(:-(:(tt(A,'_hypernym',B),0.000813720580871307),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %79880 65
-(:-(:(tt(A,'_hypernym',B),0.006719609040928528),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %1637 11
-(:-(:(tt(A,'_hypernym',B),0.001154669051473335),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 102
-(:-(:(tt(A,'_hypernym',B),0.001610305958132045),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %621 1
-(:-(:(tt(A,'_hypernym',B),0.009919571045576408),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3730 37
-(:-(:(tt(A,'_hypernym',B),0.0006814774430966335),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7337 5
-(:-(:(tt(A,'_hypernym',B),0.011363636363636364),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_instance_hypernym',B))))), %176 2
-(:-(:(tt(A,'_hypernym',B),0.0016286644951140066),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_member_meronym',B))))), %614 1
-(:-(:(tt(A,'_hypernym',B),0.009796134498279057),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %3777 37
-(:-(:(tt(A,'_hypernym',B),0.0013253810470510272),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %3018 4
-(:-(:(tt(A,'_hypernym',B),0.006726457399103139),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %446 3
-(:-(:(tt(A,'_hypernym',B),0.006880733944954129),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %436 3
-(:-(:(tt(A,'_hypernym',B),0.001091703056768559),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %916 1
-(:-(:(tt(A,'_hypernym',B),0.001026694045174538),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %974 1
-(:-(:(tt(A,'_hypernym',B),0.019627085377821395),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %1019 20
-(:-(:(tt(A,'_hypernym',B),0.031126841400420893),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52270 1627
-(:-(:(tt(A,'_hypernym',B),0.031305284208907005),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52004 1628
-(:-(:(tt(A,'_hypernym',B),0.004054327995134806),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4933 20
-(:-(:(tt(A,'_hypernym',B),4.7989878498353074e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458430 22
-(:-(:(tt(A,'_hypernym',B),0.0008250024264777249),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20606 17
-(:-(:(tt(A,'_hypernym',B),0.0310192023633678),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %2708 84
-(:-(:(tt(A,'_hypernym',B),0.03168469860896445),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %2588 82
-(:-(:(tt(A,'_hypernym',B),0.07407407407407407),','(t(C,'_derivationally_related_form',A),','(t(D,'_also_see',C),t(D,'_synset_domain_topic_of',B))))), %27 2
-(:-(:(tt(A,'_hypernym',B),0.0033200531208499337),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_also_see',B))))), %3012 10
-(:-(:(tt(A,'_hypernym',B),0.0008),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %80000 64
-(:-(:(tt(A,'_hypernym',B),0.0012915724895059735),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3097 4
-(:-(:(tt(A,'_hypernym',B),0.27671541057367827),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 13284
-(:-(:(tt(A,'_hypernym',B),0.0032414910858995136),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_member_meronym',B))))), %617 2
-(:-(:(tt(A,'_hypernym',B),0.01935483870967742),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2325 45
-(:-(:(tt(A,'_hypernym',B),0.0008533172708905871),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %79689 68
-(:-(:(tt(A,'_hypernym',B),0.006690997566909975),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %1644 11
-(:-(:(tt(A,'_hypernym',B),0.0011656330632384229),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 103
-(:-(:(tt(A,'_hypernym',B),0.00995850622406639),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3615 36
-(:-(:(tt(A,'_hypernym',B),0.0009404809888485826),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7443 7
-(:-(:(tt(A,'_hypernym',B),0.005714285714285714),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_instance_hypernym',B))))), %175 1
-(:-(:(tt(A,'_hypernym',B),0.010109289617486339),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %3660 37
-(:-(:(tt(A,'_hypernym',B),0.0013518080432578573),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2959 4
-(:-(:(tt(A,'_hypernym',B),0.020179372197309416),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %446 9
-(:-(:(tt(A,'_hypernym',B),0.08888888888888889),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %45 4
-(:-(:(tt(A,'_hypernym',B),0.021929824561403508),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %456 10
-(:-(:(tt(A,'_hypernym',B),0.0003641660597232338),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %2746 1
-(:-(:(tt(A,'_hypernym',B),0.004974172565525158),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 260
-(:-(:(tt(A,'_hypernym',B),0.0014358647096362476),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %12536 18
-(:-(:(tt(A,'_hypernym',B),0.005075948400885428),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 266
-(:-(:(tt(A,'_hypernym',B),0.00047664442326024784),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2098 1
-(:-(:(tt(A,'_hypernym',B),0.0009182736455463728),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_member_meronym',B))))), %1089 1
-(:-(:(tt(A,'_hypernym',B),0.005107252298263534),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %2937 15
-(:-(:(tt(A,'_hypernym',B),0.0653061224489796),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %245 16
-(:-(:(tt(A,'_hypernym',B),0.00684931506849315),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %146 1
-(:-(:(tt(A,'_hypernym',B),0.003352891869237217),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %1193 4
-(:-(:(tt(A,'_hypernym',B),0.006993006993006993),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %143 1
-(:-(:(tt(A,'_hypernym',B),0.007692307692307693),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(B,'_member_meronym',D))))), %130 1
-(:-(:(tt(A,'_hypernym',B),0.015690669655365648),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3569 56
-(:-(:(tt(A,'_hypernym',B),0.01663031624863686),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3668 61
-(:-(:(tt(A,'_hypernym',B),0.03731343283582089),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %134 5
-(:-(:(tt(A,'_hypernym',B),0.0025025025025025025),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %1998 5
-(:-(:(tt(A,'_hypernym',B),0.002442598925256473),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %2047 5
-(:-(:(tt(A,'_hypernym',B),0.002688172043010753),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %744 2
-(:-(:(tt(A,'_hypernym',B),0.014991671293725709),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1801 27
-(:-(:(tt(A,'_hypernym',B),0.008620689655172414),','(t(C,'_derivationally_related_form',A),','(t(D,'_similar_to',C),t(D,'_derivationally_related_form',B))))), %116 1
-(:-(:(tt(A,'_hypernym',B),0.00819672131147541),','(t(C,'_derivationally_related_form',A),','(t(D,'_similar_to',C),t(B,'_derivationally_related_form',D))))), %122 1
-(:-(:(tt(A,'_hypernym',B),0.012048192771084338),','(t(C,'_derivationally_related_form',A),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %83 1
-(:-(:(tt(A,'_hypernym',B),0.11904761904761904),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %168 20
-(:-(:(tt(A,'_hypernym',B),0.015690669655365648),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3569 56
-(:-(:(tt(A,'_hypernym',B),0.015548281505728314),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3666 57
-(:-(:(tt(A,'_hypernym',B),0.036231884057971016),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %138 5
-(:-(:(tt(A,'_hypernym',B),0.012012012012012012),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %1998 24
-(:-(:(tt(A,'_hypernym',B),0.003188097768331562),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %941 3
-(:-(:(tt(A,'_hypernym',B),0.015544041450777202),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1544 24
-(:-(:(tt(A,'_hypernym',B),0.009972801450589302),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2206 22
-(:-(:(tt(A,'_hypernym',B),0.0006010677792313404),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %113132 68
-(:-(:(tt(A,'_hypernym',B),0.0009086188992731049),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7704 7
-(:-(:(tt(A,'_hypernym',B),0.014134275618374558),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %283 4
-(:-(:(tt(A,'_hypernym',B),0.008620689655172414),','(t(C,'_derivationally_related_form',A),','(t(C,'_similar_to',D),t(D,'_derivationally_related_form',B))))), %116 1
-(:-(:(tt(A,'_hypernym',B),0.008130081300813009),','(t(C,'_derivationally_related_form',A),','(t(C,'_similar_to',D),t(B,'_derivationally_related_form',D))))), %123 1
-(:-(:(tt(A,'_hypernym',B),0.006993006993006993),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %143 1
-(:-(:(tt(A,'_hypernym',B),0.0016144656118824668),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3097 5
-(:-(:(tt(A,'_hypernym',B),0.0015733165512901196),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3178 5
-(:-(:(tt(A,'_hypernym',B),0.003131524008350731),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %958 3
-(:-(:(tt(A,'_hypernym',B),6.218808787176817e-5),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %64321 4
-(:-(:(tt(A,'_hypernym',B),0.3071108622620381),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %7144 2194
-(:-(:(tt(A,'_hypernym',B),6.255082254331645e-5),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_member_of_domain_region',B))))), %15987 1
-(:-(:(tt(A,'_hypernym',B),0.0041753653444676405),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_synset_domain_topic_of',D))))), %479 2
-(:-(:(tt(A,'_hypernym',B),0.0002860411899313501),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %13984 4
-(:-(:(tt(A,'_hypernym',B),0.0009691487643353255),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %6191 6
-(:-(:(tt(A,'_hypernym',B),0.0014858841010401188),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %10095 15
-(:-(:(tt(A,'_hypernym',B),0.0016081628126213053),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %36066 58
-(:-(:(tt(A,'_hypernym',B),0.20689655172413793),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(D,'_member_meronym',B))))), %29 6
-(:-(:(tt(A,'_hypernym',B),0.033093525179856115),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %2085 69
-(:-(:(tt(A,'_hypernym',B),0.01756587202007528),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2391 42
-(:-(:(tt(A,'_hypernym',B),0.013513513513513514),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %148 2
-(:-(:(tt(A,'_hypernym',B),0.0015883100381194409),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3148 5
-(:-(:(tt(A,'_hypernym',B),0.0015938795027095952),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3137 5
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %944 0
-(:-(:(tt(A,'_hypernym',B),0.0003109404393588408),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %64321 20
-(:-(:(tt(A,'_hypernym',B),0.07624633431085044),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %1023 78
-(:-(:(tt(A,'_hypernym',B),0.00047961630695443646),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %2085 1
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %575 0
-(:-(:(tt(A,'_hypernym',B),0.0002796420581655481),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %7152 2
-(:-(:(tt(A,'_hypernym',B),0.0021994134897360706),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %1364 3
-(:-(:(tt(A,'_hypernym',B),0.0010649627263045794),','(t(C,'_has_part',A),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %939 1
-(:-(:(tt(A,'_hypernym',B),0.010638297872340425),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1316 14
-(:-(:(tt(A,'_hypernym',B),0.0021253985122210413),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %941 2
-(:-(:(tt(A,'_hypernym',B),0.002061855670103093),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %970 2
-(:-(:(tt(A,'_hypernym',B),0.002050580997949419),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %1463 3
-(:-(:(tt(A,'_hypernym',B),0.006191950464396285),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_has_part',B))))), %323 2
-(:-(:(tt(A,'_hypernym',B),0.07142857142857142),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(D,'_instance_hypernym',B))))), %14 1
-(:-(:(tt(A,'_hypernym',B),0.0015220700152207),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %657 1
-(:-(:(tt(A,'_hypernym',B),0.01594896331738437),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %627 10
-(:-(:(tt(A,'_hypernym',B),0.0005813953488372093),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %1720 1
-(:-(:(tt(A,'_hypernym',B),0.009523809523809525),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(D,'_member_meronym',B))))), %210 2
-(:-(:(tt(A,'_hypernym',B),1.4348437455161133e-5),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %69694 1
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %323 0
-(:-(:(tt(A,'_hypernym',B),0.000971607470581885),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %18526 18
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %1454 0
-(:-(:(tt(A,'_hypernym',B),0.05128205128205128),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %39 2
-(:-(:(tt(A,'_hypernym',B),0.008849557522123894),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(B,'_also_see',D))))), %339 3
-(:-(:(tt(A,'_hypernym',B),0.0371900826446281),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %242 9
-(:-(:(tt(A,'_hypernym',B),0.0022497187851518562),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %48006 108
-(:-(:(tt(A,'_hypernym',B),0.001059322033898305),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %944 1
-(:-(:(tt(A,'_hypernym',B),0.0009080711500454036),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %18721 17
-(:-(:(tt(A,'_hypernym',B),0.0022058671944255467),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %48507 107
-(:-(:(tt(A,'_hypernym',B),0.001893939393939394),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %528 1
-(:-(:(tt(A,'_hypernym',B),0.006731488406881077),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %1337 9
-(:-(:(tt(A,'_hypernym',B),0.058823529411764705),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %17 1
-(:-(:(tt(A,'_hypernym',B),0.00039856516540454366),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %2509 1
-(:-(:(tt(A,'_hypernym',B),0.019026301063234472),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %1787 34
-(:-(:(tt(A,'_hypernym',B),4.2836642463963677e-5),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %46689 2
-(:-(:(tt(A,'_hypernym',B),0.0029940119760479044),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(D,'_member_meronym',B))))), %334 1
-(:-(:(tt(A,'_hypernym',B),0.8839023401884307),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %9871 8725
-(:-(:(tt(A,'_hypernym',B),0.024390243902439025),','(t(C,'_hypernym',A),','(t(C,'_member_of_domain_usage',D),t(B,'_member_of_domain_usage',D))))), %41 1
-(:-(:(tt(A,'_hypernym',B),0.024096385542168676),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(B,'_also_see',D))))), %83 2
-(:-(:(tt(A,'_hypernym',B),0.0007125044531528322),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %2807 2
-(:-(:(tt(A,'_hypernym',B),0.1115702479338843),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %242 27
-(:-(:(tt(A,'_hypernym',B),0.0019997938356870427),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %48505 97
-(:-(:(tt(A,'_hypernym',B),0.0010438413361169101),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %958 1
-(:-(:(tt(A,'_hypernym',B),0.001068319000053416),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %18721 20
-(:-(:(tt(A,'_hypernym',B),0.0020420495509574713),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %47991 98
-(:-(:(tt(A,'_hypernym',B),0.0018181818181818182),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %550 1
-(:-(:(tt(A,'_hypernym',B),0.00532319391634981),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %1315 7
-(:-(:(tt(A,'_hypernym',B),0.0006998880179171332),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %7144 5
-(:-(:(tt(A,'_hypernym',B),0.026860660324566313),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %1787 48
-(:-(:(tt(A,'_hypernym',B),0.00847457627118644),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %118 1
-(:-(:(tt(A,'_hypernym',B),0.00038948393378773126),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %5135 2
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %161 0
-(:-(:(tt(A,'_hypernym',B),0.002585649644473174),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %1547 4
-(:-(:(tt(A,'_hypernym',B),0.008298755186721992),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %241 2
-(:-(:(tt(A,'_hypernym',B),0.0009727626459143969),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %2056 2
-(:-(:(tt(A,'_hypernym',B),0.00020261371694863743),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %9871 2
-(:-(:(tt(A,'_hypernym',B),2.379309524376026e-5),','(t(C,'_hypernym',A),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %42029 1
-(:-(:(tt(A,'_hypernym',B),0.00023573785950023574),','(t(C,'_hypernym',A),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_usage',B))))), %4242 1
-(:-(:(tt(A,'_hypernym',B),7.208038404428618e-6),','(t(C,'_hypernym',A),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %138734 1
-(:-(:(tt(A,'_hypernym',B),0.0010303208713570797),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %13588 14
-(:-(:(tt(A,'_hypernym',B),0.007263922518159807),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %1239 9
-(:-(:(tt(A,'_hypernym',B),0.0012300123001230013),','(t(C,'_hypernym',A),','(t(D,'_instance_hypernym',C),t(D,'_instance_hypernym',B))))), %813 1
-(:-(:(tt(A,'_hypernym',B),0.000925925925925926),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %1080 1
-(:-(:(tt(A,'_hypernym',B),0.0009737098344693282),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %1027 1
-(:-(:(tt(A,'_hypernym',B),0.06213872832369942),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %692 43
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %431 0
-(:-(:(tt(A,'_hypernym',B),0.003109452736318408),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1608 5
-(:-(:(tt(A,'_hypernym',B),0.0016142050040355124),','(t(C,'_hypernym',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %1239 2
-(:-(:(tt(A,'_hypernym',B),0.000970873786407767),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %1030 1
-(:-(:(tt(A,'_hypernym',B),0.0009293680297397769),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %1076 1
-(:-(:(tt(A,'_hypernym',B),0.06213872832369942),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %692 43
-(:-(:(tt(A,'_hypernym',B),0.001519756838905775),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %1316 2
-(:-(:(tt(A,'_hypernym',B),0.004997223764575236),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %1801 9
-(:-(:(tt(A,'_hypernym',B),0.004495504495504496),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %2002 9
-(:-(:(tt(A,'_hypernym',B),0.0005873875596778931),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %146411 86
-(:-(:(tt(A,'_hypernym',B),0.000843644544431946),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7112 6
-(:-(:(tt(A,'_hypernym',B),0.006840796019900498),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1608 11
-(:-(:(tt(A,'_hypernym',B),0.0024875621890547263),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(D,'_member_meronym',B))))), %402 1
-(:-(:(tt(A,'_hypernym',B),0.0008539709649871904),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(B,'_has_part',D))))), %1171 1
-(:-(:(tt(A,'_hypernym',B),7.954816641476414e-5),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(B,'_hypernym',D))))), %12571 1
-(:-(:(tt(A,'_hypernym',B),0.013228960955530705),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(D,'_hypernym',B))))), %42029 556
-(:-(:(tt(A,'_hypernym',B),0.001141552511415525),','(t(C,'_member_of_domain_region',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %876 1
-(:-(:(tt(A,'_hypernym',B),0.0011376564277588168),','(t(C,'_member_of_domain_region',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %879 1
-(:-(:(tt(A,'_hypernym',B),0.0004344048653344917),','(t(C,'_member_of_domain_region',A),','(t(C,'_has_part',D),t(D,'_member_meronym',B))))), %2302 1
-(:-(:(tt(A,'_hypernym',B),9.83671060397403e-5),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_usage',D),t(B,'_hypernym',D))))), %10166 1
-(:-(:(tt(A,'_hypernym',B),6.436663233779608e-5),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_derivationally_related_form',B))))), %15536 1
-(:-(:(tt(A,'_hypernym',B),0.004036501506480027),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %138734 560
-(:-(:(tt(A,'_hypernym',B),6.646726487205052e-5),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(B,'_derivationally_related_form',D))))), %15045 1
-(:-(:(tt(A,'_hypernym',B),6.988608568034104e-5),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(B,'_hypernym',D))))), %14309 1
-(:-(:(tt(A,'_hypernym',B),0.00029342723004694836),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_instance_hypernym',B))))), %3408 1
-(:-(:(tt(A,'_hypernym',B),0.0005321979776476849),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_member_meronym',B))))), %1879 1
-(:-(:(tt(A,'_hypernym',B),0.001141552511415525),','(t(C,'_member_of_domain_region',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %876 1
-(:-(:(tt(A,'_hypernym',B),0.0011376564277588168),','(t(C,'_member_of_domain_region',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %879 1
-(:-(:(tt(A,'_hypernym',B),9.514747859181732e-5),','(t(C,'_member_of_domain_region',A),','(t(D,'_has_part',C),t(D,'_member_of_domain_region',B))))), %10510 1
-(:-(:(tt(A,'_hypernym',B),0.0032414910858995136),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %617 2
-(:-(:(tt(A,'_hypernym',B),0.0045045045045045045),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %666 3
-(:-(:(tt(A,'_hypernym',B),0.1826086956521739),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %115 21
-(:-(:(tt(A,'_hypernym',B),0.022222222222222223),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %45 1
-(:-(:(tt(A,'_hypernym',B),0.024390243902439025),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %41 1
-(:-(:(tt(A,'_hypernym',B),0.2288135593220339),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %118 27
-(:-(:(tt(A,'_hypernym',B),0.00030632562413845916),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %6529 2
-(:-(:(tt(A,'_hypernym',B),0.08026030368763558),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(D,'_member_meronym',B))))), %922 74
-(:-(:(tt(A,'_hypernym',B),1.9180359312064446e-5),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %782050 15
-(:-(:(tt(A,'_hypernym',B),0.0008312551953449709),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(B,'_has_part',D))))), %1203 1
-(:-(:(tt(A,'_hypernym',B),0.00020766162085359856),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %91495 19
-(:-(:(tt(A,'_hypernym',B),5.431712510320254e-5),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_member_meronym',B))))), %92052 5
-(:-(:(tt(A,'_hypernym',B),0.4987488960847807),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %13588 6777
-(:-(:(tt(A,'_hypernym',B),0.0016286644951140066),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %614 1
-(:-(:(tt(A,'_hypernym',B),0.0032626427406199023),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %613 2
-(:-(:(tt(A,'_hypernym',B),0.1981981981981982),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %111 22
-(:-(:(tt(A,'_hypernym',B),0.22727272727272727),','(t(C,'_member_meronym',A),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %44 10
-(:-(:(tt(A,'_hypernym',B),0.24550898203592814),','(t(C,'_member_meronym',A),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %334 82
-(:-(:(tt(A,'_hypernym',B),0.0005321979776476849),','(t(C,'_member_meronym',A),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %1879 1
-(:-(:(tt(A,'_hypernym',B),0.006283967391304348),','(t(C,'_member_meronym',A),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %5888 37
-(:-(:(tt(A,'_hypernym',B),0.00942945291791596),','(t(C,'_member_meronym',A),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %92052 868
-(:-(:(tt(A,'_hypernym',B),0.0625),','(t(C,'_member_meronym',A),','(t(D,'_member_meronym',C),t(D,'_has_part',B))))), %16 1
-(:-(:(tt(A,'_hypernym',B),0.00011163206072784104),','(t(C,'_member_meronym',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %8958 1
-(:-(:(tt(A,'_hypernym',B),0.0011621900826446281),','(t(C,'_member_meronym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %7744 9
-(:-(:(tt(A,'_hypernym',B),0.012658227848101266),','(t(C,'_member_meronym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %79 1
-(:-(:(tt(A,'_hypernym',B),0.041666666666666664),','(t(C,'_instance_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %24 1
-(:-(:(tt(A,'_hypernym',B),0.034482758620689655),','(t(C,'_instance_hypernym',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %29 1
-(:-(:(tt(A,'_hypernym',B),0.007874015748031496),','(t(C,'_instance_hypernym',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %381 3
-(:-(:(tt(A,'_hypernym',B),0.0625),','(t(C,'_instance_hypernym',A),','(t(C,'_member_of_domain_region',D),t(B,'_member_meronym',D))))), %16 1
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_instance_hypernym',A),','(t(C,'_member_of_domain_region',D),t(D,'_instance_hypernym',B))))), %77 0
-(:-(:(tt(A,'_hypernym',B),0.041666666666666664),','(t(C,'_instance_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %24 1
-(:-(:(tt(A,'_hypernym',B),0.007532956685499058),','(t(C,'_instance_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %531 4
-(:-(:(tt(A,'_hypernym',B),0.02564102564102564),','(t(C,'_instance_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %39 1
-(:-(:(tt(A,'_hypernym',B),9.905894006934126e-5),','(t(C,'_instance_hypernym',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %10095 1
-(:-(:(tt(A,'_hypernym',B),0.0026246719160104987),','(t(C,'_instance_hypernym',A),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %381 1
-(:-(:(tt(A,'_hypernym',B),0.00045578851412944393),','(t(C,'_instance_hypernym',A),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %2194 1
-(:-(:(tt(A,'_hypernym',B),0.4797047970479705),','(t(C,'_instance_hypernym',A),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %813 390
-(:-(:(tt(A,'_hypernym',B),0.006944444444444444),','(t(C,'_instance_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %144 1
-(:-(:(tt(A,'_hypernym',B),0.0008698173383589446),','(t(C,'_instance_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %3449 3
-(:-(:(tt(A,'_hypernym',B),0.02040816326530612),','(t(C,'_instance_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %49 1
-(:-(:(tt(A,'_hypernym',B),0.07407407407407407),','(t(C,'_verb_group',A),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %81 6
-(:-(:(tt(A,'_hypernym',B),0.015300546448087432),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3660 56
-(:-(:(tt(A,'_hypernym',B),0.015267175572519083),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3668 56
-(:-(:(tt(A,'_hypernym',B),0.0031545741324921135),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %634 2
-(:-(:(tt(A,'_hypernym',B),0.020905923344947737),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %287 6
-(:-(:(tt(A,'_hypernym',B),0.025),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_also_see',D))))), %80 2
-(:-(:(tt(A,'_hypernym',B),0.020761245674740483),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %289 6
-(:-(:(tt(A,'_hypernym',B),0.0019706965984063064),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23342 46
-(:-(:(tt(A,'_hypernym',B),0.07972270363951472),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %577 46
-(:-(:(tt(A,'_hypernym',B),0.07692307692307693),','(t(C,'_verb_group',A),','(t(D,'_also_see',C),t(D,'_verb_group',B))))), %26 2
-(:-(:(tt(A,'_hypernym',B),0.08695652173913043),','(t(C,'_verb_group',A),','(t(D,'_also_see',C),t(B,'_verb_group',D))))), %23 2
-(:-(:(tt(A,'_hypernym',B),0.11764705882352941),','(t(C,'_verb_group',A),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %34 4
-(:-(:(tt(A,'_hypernym',B),0.015620863118877415),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3777 59
-(:-(:(tt(A,'_hypernym',B),0.015813454837845083),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3731 59
-(:-(:(tt(A,'_hypernym',B),0.015224358974358974),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %1248 19
-(:-(:(tt(A,'_hypernym',B),0.014539579967689823),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %1238 18
-(:-(:(tt(A,'_hypernym',B),0.0005117707267144319),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %1954 1
-(:-(:(tt(A,'_hypernym',B),0.7475728155339806),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1030 770
-(:-(:(tt(A,'_hypernym',B),0.01098901098901099),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %91 1
-(:-(:(tt(A,'_hypernym',B),0.059233449477351915),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %287 17
-(:-(:(tt(A,'_hypernym',B),0.04),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %100 4
-(:-(:(tt(A,'_hypernym',B),0.061224489795918366),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %294 18
-(:-(:(tt(A,'_hypernym',B),0.016025641025641024),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %1248 20
-(:-(:(tt(A,'_hypernym',B),0.01484375),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %1280 19
-(:-(:(tt(A,'_hypernym',B),0.0004892367906066536),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %2044 1
-(:-(:(tt(A,'_hypernym',B),0.7601851851851852),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1080 821
-(:-(:(tt(A,'_hypernym',B),0.024390243902439025),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %123 3
-(:-(:(tt(A,'_hypernym',B),0.015151515151515152),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %132 2
-(:-(:(tt(A,'_hypernym',B),0.0014996250937265683),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4001 6
-(:-(:(tt(A,'_hypernym',B),0.01749049429657795),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1315 23
-(:-(:(tt(A,'_hypernym',B),0.0006759040216289286),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %2959 2
-(:-(:(tt(A,'_hypernym',B),0.0006704659738518271),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %2983 2
-(:-(:(tt(A,'_hypernym',B),0.05303030303030303),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %132 7
-(:-(:(tt(A,'_hypernym',B),0.06547619047619048),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %168 11
-(:-(:(tt(A,'_hypernym',B),0.0030643513789581204),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2937 9
-(:-(:(tt(A,'_hypernym',B),0.003436426116838488),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2910 10
-(:-(:(tt(A,'_hypernym',B),0.019417475728155338),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %103 2
-(:-(:(tt(A,'_hypernym',B),0.0002920702915835078),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %20543 6
-(:-(:(tt(A,'_hypernym',B),0.005171299288946348),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %1547 8
-(:-(:(tt(A,'_hypernym',B),0.015151515151515152),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_also_see',C),t(D,'_derivationally_related_form',B))))), %66 1
-(:-(:(tt(A,'_hypernym',B),0.01694915254237288),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_also_see',C),t(B,'_derivationally_related_form',D))))), %59 1
-(:-(:(tt(A,'_hypernym',B),0.01720269259536275),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1337 23
-(:-(:(tt(A,'_hypernym',B),0.0006626905235255136),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3018 2
-(:-(:(tt(A,'_hypernym',B),0.0006775067750677507),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2952 2
-(:-(:(tt(A,'_hypernym',B),0.05303030303030303),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %132 7
-(:-(:(tt(A,'_hypernym',B),0.04),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_has_part',C),t(B,'_has_part',D))))), %50 2
-(:-(:(tt(A,'_hypernym',B),0.08148148148148149),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %135 11
-(:-(:(tt(A,'_hypernym',B),0.0009813542688910696),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %1019 1
-(:-(:(tt(A,'_hypernym',B),0.011904761904761904),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %168 2
-(:-(:(tt(A,'_hypernym',B),0.0009746588693957114),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %1026 1
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %119 0
-(:-(:(tt(A,'_hypernym',B),0.007462686567164179),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %134 1
-(:-(:(tt(A,'_hypernym',B),0.03333333333333333),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %30 1
-(:-(:(tt(A,'_hypernym',B),0.007246376811594203),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %138 1
-(:-(:(tt(A,'_hypernym',B),0.037037037037037035),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %27 1
-(:-(:(tt(A,'_hypernym',B),0.006993006993006993),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %143 1
-(:-(:(tt(A,'_hypernym',B),0.016666666666666666),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %60 1
-(:-(:(tt(A,'_hypernym',B),0.02702702702702703),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %37 1
-(:-(:(tt(A,'_hypernym',B),0.1),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_instance_hypernym',B))))), %10 1
-(:-(:(tt(A,'_hypernym',B),0.0006518196632265073),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %9205 6
-(:-(:(tt(A,'_hypernym',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %1656 0
-(:-(:(tt(A,'_hypernym',B),0.6403712296983759),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %431 276
-(:-(:(tt(A,'_hypernym',B),0.8529411764705882),','(t(C,'_similar_to',A),','(t(D,'_similar_to',C),t(D,'_hypernym',B))))), %34 29
-(:-(:(tt(A,'_hypernym',B),0.8787878787878788),','(t(C,'_similar_to',A),','(t(C,'_similar_to',D),t(D,'_hypernym',B))))), %33 29
-(:-(:(tt(A,'_hypernym',B),0.07614213197969544),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %197 15
-(:-(:(tt(A,'_hypernym',B),0.004048582995951417),','(t(A,'_member_meronym',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %247 1
-(:-(:(tt(A,'_hypernym',B),0.01288981288981289),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %2405 31
-(:-(:(tt(A,'_hypernym',B),6.908820837003645e-6),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %289485 2
-(:-(:(tt(A,'_hypernym',B),0.002287021154945683),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %3498 8
-(:-(:(tt(A,'_hypernym',B),0.010089020771513354),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %1685 17
-(:-(:(tt(A,'_hypernym',B),0.07),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %200 14
-(:-(:(tt(A,'_hypernym',B),0.045454545454545456),','(t(A,'_member_meronym',C),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %22 1
-(:-(:(tt(A,'_hypernym',B),0.0015748031496062992),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %635 1
-(:-(:(tt(A,'_hypernym',B),0.0015698587127158557),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %637 1
-(:-(:(tt(A,'_hypernym',B),0.02127659574468085),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %47 1
-(:-(:(tt(A,'_hypernym',B),0.00392156862745098),','(t(A,'_member_meronym',C),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %255 1
-(:-(:(tt(A,'_hypernym',B),0.988465571478504),','(t(A,'_member_meronym',C),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %2861 2828
-(:-(:(tt(A,'_hypernym',B),0.018867924528301886),','(t(A,'_member_meronym',C),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %53 1
-(:-(:(tt(A,'_hypernym',B),0.0011719894520949312),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %6826 8
-(:-(:(tt(A,'_hypernym',B),0.047619047619047616),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_member_meronym',B))))), %21 1
-(:-(:(tt(A,'_hypernym',B),0.02564102564102564),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %39 1
-(:-(:(tt(A,'_hypernym',B),0.0001076773985140519),','(t(A,'_instance_hypernym',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %9287 1
-(:-(:(tt(A,'_hypernym',B),1.852623778426196e-5),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %107955 2
-(:-(:(tt(A,'_hypernym',B),0.07792207792207792),','(t(A,'_verb_group',C),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %77 6
-(:-(:(tt(A,'_hypernym',B),0.014661134163208852),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3615 53
-(:-(:(tt(A,'_hypernym',B),0.014620689655172414),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3625 53
-(:-(:(tt(A,'_hypernym',B),0.00303951367781155),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_also_see',B))))), %658 2
-(:-(:(tt(A,'_hypernym',B),0.02040816326530612),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %294 6
-(:-(:(tt(A,'_hypernym',B),0.024390243902439025),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_also_see',D))))), %82 2
-(:-(:(tt(A,'_hypernym',B),0.02040816326530612),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %294 6
-(:-(:(tt(A,'_hypernym',B),0.0018723475076974287),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %24034 45
-(:-(:(tt(A,'_hypernym',B),0.08103448275862069),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %580 47
-(:-(:(tt(A,'_hypernym',B),0.07692307692307693),','(t(A,'_verb_group',C),','(t(D,'_also_see',C),t(D,'_verb_group',B))))), %26 2
-(:-(:(tt(A,'_hypernym',B),0.08695652173913043),','(t(A,'_verb_group',C),','(t(D,'_also_see',C),t(B,'_verb_group',D))))), %23 2
-(:-(:(tt(A,'_hypernym',B),0.125),','(t(A,'_verb_group',C),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %32 4
-(:-(:(tt(A,'_hypernym',B),0.015013404825737266),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3730 56
-(:-(:(tt(A,'_hypernym',B),0.015184381778741865),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3688 56
-(:-(:(tt(A,'_hypernym',B),0.0140625),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %1280 18
-(:-(:(tt(A,'_hypernym',B),0.014539579967689823),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %1238 18
-(:-(:(tt(A,'_hypernym',B),0.0005053057099545225),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %1979 1
-(:-(:(tt(A,'_hypernym',B),0.7611524163568774),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1076 819
-(:-(:(tt(A,'_hypernym',B),0.011363636363636364),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %88 1
-(:-(:(tt(A,'_hypernym',B),0.06228373702422145),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %289 18
-(:-(:(tt(A,'_hypernym',B),0.04081632653061224),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %98 4
-(:-(:(tt(A,'_hypernym',B),0.05782312925170068),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %294 17
-(:-(:(tt(A,'_hypernym',B),0.015347334410339256),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %1238 19
-(:-(:(tt(A,'_hypernym',B),0.015347334410339256),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %1238 19
-(:-(:(tt(A,'_hypernym',B),0.0005027652086475615),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %1989 1
-(:-(:(tt(A,'_hypernym',B),0.7497565725413826),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1027 770
-(:-(:(tt(A,'_hypernym',B),0.015384615384615385),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %130 2
-(:-(:(tt(A,'_hypernym',B),0.007142857142857143),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %140 1
-(:-(:(tt(A,'_hypernym',B),0.0014347202295552368),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4182 6
-(:-(:(tt(A,'_hypernym',B),0.005911594787048233),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %7443 44
-(:-(:(tt(A,'_hypernym',B),0.024390243902439025),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %82 2
-(:-(:(tt(A,'_hypernym',B),0.005817099567099567),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %7392 43
-(:-(:(tt(A,'_hypernym',B),0.0016322723563017372),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %8577 14
-(:-(:(tt(A,'_hypernym',B),0.013878180416345412),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %2594 36
-(:-(:(tt(A,'_hypernym',B),0.022222222222222223),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %45 1
-(:-(:(tt(A,'_hypernym',B),0.013937282229965157),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %574 8
-(:-(:(tt(A,'_hypernym',B),0.007371007371007371),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %407 3
-(:-(:(tt(A,'_hypernym',B),0.0011997600479904018),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %1667 2
-(:-(:(tt(A,'_hypernym',B),0.022905364677516575),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %1659 38
-(:-(:(tt(A,'_hypernym',B),0.002321262766945218),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2154 5
-(:-(:(tt(A,'_hypernym',B),0.005243088655862726),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2098 11
-(:-(:(tt(A,'_hypernym',B),0.005783132530120482),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2075 12
-(:-(:(tt(A,'_hypernym',B),0.0012064666613045927),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %12433 15
-(:-(:(tt(A,'_hypernym',B),0.000676132521974307),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %29580 20
-(:-(:(tt(A,'_hypernym',B),0.0034782608695652175),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %575 2
-(:-(:(tt(A,'_hypernym',B),0.0196078431372549),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %102 2
-(:-(:(tt(A,'_hypernym',B),0.006133296987869702),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %7337 45
-(:-(:(tt(A,'_hypernym',B),0.025),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %80 2
-(:-(:(tt(A,'_hypernym',B),0.006257110352673493),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %7032 44
-(:-(:(tt(A,'_hypernym',B),0.001635896237438654),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %8558 14
-(:-(:(tt(A,'_hypernym',B),0.012987012987012988),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %3003 39
-(:-(:(tt(A,'_hypernym',B),0.009727626459143969),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_also_see',B))))), %514 5
-(:-(:(tt(A,'_hypernym',B),0.0006894600997065375),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %113132 78
-(:-(:(tt(A,'_hypernym',B),0.0009176292777717802),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_has_part',B))))), %18526 17
-(:-(:(tt(A,'_hypernym',B),0.01699325870323951),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 2488
-(:-(:(tt(A,'_hypernym',B),0.005165289256198347),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_member_meronym',B))))), %7744 40
-(:-(:(tt(A,'_hypernym',B),0.02745664739884393),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_also_see',D))))), %692 19
-(:-(:(tt(A,'_hypernym',B),0.0006005640079378895),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %114892 69
-(:-(:(tt(A,'_hypernym',B),0.002679425837320574),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %10450 28
-(:-(:(tt(A,'_hypernym',B),0.0010015700286936278),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %184710 185
-(:-(:(tt(A,'_hypernym',B),0.00366246703779666),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_member_meronym',D))))), %6826 25
-(:-(:(tt(A,'_hypernym',B),0.003347680535628886),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %4182 14
-(:-(:(tt(A,'_hypernym',B),0.0008734895909157083),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %13738 12
-(:-(:(tt(A,'_hypernym',B),0.004639025804581038),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_instance_hypernym',B))))), %3449 16
-(:-(:(tt(A,'_hypernym',B),0.0029992501874531365),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %4001 12
-(:-(:(tt(A,'_hypernym',B),0.0021727322107550242),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %9205 20
-(:-(:(tt(A,'_hypernym',B),0.0008936550491510277),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %1119 1
-(:-(:(tt(A,'_hypernym',B),0.009527670788566795),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %4933 47
-(:-(:(tt(A,'_hypernym',B),0.008789860997547016),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %4892 43
-(:-(:(tt(A,'_hypernym',B),0.0005630177752754766),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %12433 7
-(:-(:(tt(A,'_hypernym',B),0.0006976541379611058),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %11467 8
-(:-(:(tt(A,'_hypernym',B),0.0024875621890547263),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_member_meronym',B))))), %402 1
-(:-(:(tt(A,'_hypernym',B),0.009408602150537635),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %744 7
-(:-(:(tt(A,'_hypernym',B),0.006711409395973154),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %745 5
-(:-(:(tt(A,'_hypernym',B),0.0015286067841024894),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %13738 21
-(:-(:(tt(A,'_hypernym',B),0.002734107997265892),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_has_part',B))))), %1463 4
-(:-(:(tt(A,'_hypernym',B),0.85),','(t(A,'_similar_to',C),','(t(D,'_similar_to',C),t(D,'_hypernym',B))))), %40 34
-(:-(:(tt(A,'_hypernym',B),0.8529411764705882),','(t(A,'_similar_to',C),','(t(C,'_similar_to',D),t(D,'_hypernym',B))))), %34 29
-(:-(:(tt(A,'_member_of_domain_usage',B),0.3),','(t(A,'_member_of_domain_usage',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %210 63
-(:-(:(tt(A,'_member_of_domain_usage',B),0.3118811881188119),','(t(A,'_member_of_domain_usage',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %202 63
-(:-(:(tt(A,'_member_of_domain_usage',B),0.0031847133757961785),','(t(A,'_member_of_domain_usage',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %314 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.024390243902439025),','(t(A,'_member_of_domain_usage',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %41 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.12032378035440823),','(t(A,'_member_of_domain_usage',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %4571 550
-(:-(:(tt(A,'_member_of_domain_usage',B),0.008547008547008548),','(t(A,'_member_of_domain_usage',C),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %117 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.0027548209366391185),','(t(A,'_member_of_domain_usage',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %363 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.2930232558139535),','(t(A,'_member_of_domain_usage',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %215 63
-(:-(:(tt(A,'_member_of_domain_usage',B),0.3),','(t(A,'_member_of_domain_usage',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %210 63
-(:-(:(tt(A,'_member_of_domain_usage',B),0.004201680672268907),','(t(A,'_member_of_domain_usage',C),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %238 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.2),','(t(A,'_member_of_domain_usage',C),','(t(D,'_hypernym',C),t(D,'_member_meronym',B))))), %5 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.005555555555555556),','(t(A,'_member_of_domain_usage',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %180 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.3512004466778336),','(t(A,'_member_of_domain_usage',C),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %1791 629
-(:-(:(tt(A,'_member_of_domain_usage',B),0.010744985673352435),','(t(A,'_member_of_domain_usage',C),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %2792 30
-(:-(:(tt(A,'_member_of_domain_usage',B),0.14285714285714285),','(t(A,'_member_of_domain_usage',C),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %7 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.012213740458015267),','(t(A,'_member_of_domain_usage',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %1310 16
-(:-(:(tt(A,'_member_of_domain_usage',B),0.0022222222222222222),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %450 1
-(:-(:(tt(A,'_member_of_domain_usage',B),0.016638935108153077),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_member_of_domain_usage',B))))), %601 10
-(:-(:(tt(A,'_member_of_domain_usage',B),0.04219409282700422),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_member_of_domain_usage',B))))), %237 10
-(:-(:(tt(A,'_member_of_domain_region',B),1.147367937950342e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 1
-(:-(:(tt(A,'_member_of_domain_region',B),1.1315161184471073e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.001632208922742111),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %1838 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.025974025974025976),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(B,'_has_part',D))))), %77 2
-(:-(:(tt(A,'_member_of_domain_region',B),0.001841620626151013),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %543 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.00625),','(t(A,'_has_part',C),','(t(C,'_member_meronym',D),t(B,'_member_meronym',D))))), %160 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.014925373134328358),','(t(A,'_has_part',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %67 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.18078638021888935),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_member_of_domain_region',B))))), %4934 892
-(:-(:(tt(A,'_member_of_domain_region',B),0.0008291873963515755),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %1206 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.007692307692307693),','(t(A,'_has_part',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %130 1
-(:-(:(tt(A,'_member_of_domain_region',B),8.336807002917882e-5),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %107955 9
-(:-(:(tt(A,'_member_of_domain_region',B),0.005555555555555556),','(t(A,'_member_of_domain_usage',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %180 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.3525641025641026),','(t(A,'_member_of_domain_region',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %156 55
-(:-(:(tt(A,'_member_of_domain_region',B),0.3548387096774194),','(t(A,'_member_of_domain_region',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %155 55
-(:-(:(tt(A,'_member_of_domain_region',B),0.016129032258064516),','(t(A,'_member_of_domain_region',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %62 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.002183406113537118),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %458 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.0038910505836575876),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %257 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.0022371364653243847),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %447 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.03225806451612903),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %31 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.14265129682997119),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %4164 594
-(:-(:(tt(A,'_member_of_domain_region',B),0.0022222222222222222),','(t(A,'_member_of_domain_region',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %450 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.35625),','(t(A,'_member_of_domain_region',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %160 57
-(:-(:(tt(A,'_member_of_domain_region',B),0.34615384615384615),','(t(A,'_member_of_domain_region',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %156 54
-(:-(:(tt(A,'_member_of_domain_region',B),0.016129032258064516),','(t(A,'_member_of_domain_region',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %62 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.18737270875763748),','(t(A,'_member_of_domain_region',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %491 92
-(:-(:(tt(A,'_member_of_domain_region',B),0.5),','(t(A,'_member_of_domain_region',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %2 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.043478260869565216),','(t(A,'_member_of_domain_region',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %23 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.06320541760722348),','(t(A,'_member_of_domain_region',C),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %443 28
-(:-(:(tt(A,'_member_of_domain_region',B),0.235039470333588),','(t(A,'_member_of_domain_region',C),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %3927 923
-(:-(:(tt(A,'_member_of_domain_region',B),0.19767441860465115),','(t(A,'_member_of_domain_region',C),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %86 17
-(:-(:(tt(A,'_member_of_domain_region',B),0.006622516556291391),','(t(A,'_member_of_domain_region',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %151 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.02),','(t(A,'_member_of_domain_region',C),','(t(C,'_instance_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %150 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.026079869600651995),','(t(A,'_member_of_domain_region',C),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %7362 192
-(:-(:(tt(A,'_member_of_domain_region',B),0.05555555555555555),','(t(A,'_member_of_domain_region',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %18 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.05263157894736842),','(t(A,'_member_of_domain_region',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %19 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.018785733732643615),','(t(A,'_member_of_domain_region',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %7346 138
-(:-(:(tt(A,'_member_of_domain_region',B),0.02127659574468085),','(t(A,'_member_of_domain_region',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_instance_hypernym',D))))), %47 1
-(:-(:(tt(A,'_member_of_domain_region',B),6.255082254331645e-5),','(t(C,'_member_of_domain_region',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %15987 1
-(:-(:(tt(A,'_member_of_domain_region',B),6.688963210702341e-5),','(t(C,'_member_of_domain_region',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %14950 1
-(:-(:(tt(A,'_member_of_domain_region',B),1.132028481836603e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 1
-(:-(:(tt(A,'_member_of_domain_region',B),1.1316825856683717e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.04731985077557432),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_member_of_domain_region',B))))), %15279 723
-(:-(:(tt(A,'_member_of_domain_region',B),3.109404393588408e-5),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %64321 2
-(:-(:(tt(A,'_member_of_domain_region',B),0.007596685082872928),','(t(C,'_has_part',A),','(t(C,'_member_of_domain_region',D),t(D,'_has_part',B))))), %1448 11
-(:-(:(tt(A,'_member_of_domain_region',B),0.0008203445447087777),','(t(C,'_has_part',A),','(t(C,'_member_of_domain_region',D),t(B,'_hypernym',D))))), %1219 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.00013997760358342665),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %7144 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.0562957402889848),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_member_of_domain_region',B))))), %15987 900
-(:-(:(tt(A,'_member_of_domain_region',B),0.002036659877800407),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_member_of_domain_region',D))))), %491 1
-(:-(:(tt(A,'_member_of_domain_region',B),7.151029748283753e-5),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %13984 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.0020876826722338203),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_synset_domain_topic_of',D))))), %479 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.00012437617574353633),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %64321 8
-(:-(:(tt(A,'_member_of_domain_region',B),4.30453123654834e-5),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %69694 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.0022624434389140274),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(D,'_has_part',B))))), %442 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.0001076773985140519),','(t(A,'_instance_hypernym',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %9287 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.05986622073578595),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_member_of_domain_region',B))))), %14950 895
-(:-(:(tt(A,'_member_of_domain_region',B),0.00013583265417006248),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_member_of_domain_region',D))))), %7362 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.0070921985815602835),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %141 1
-(:-(:(tt(A,'_member_of_domain_region',B),9.26311889213098e-6),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %107955 1
-(:-(:(tt(A,'_member_of_domain_region',B),0.00010043906218612793),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_has_part',B))))), %69694 7
-(:-(:(tt(A,'_member_of_domain_region',B),0.002898550724637681),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(D,'_member_meronym',B))))), %345 1
-(:-(:(tt(A,'_member_of_domain_region',B),0),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %58848 0
-(:-(:(tt(A,'_member_of_domain_region',B),0.0049504950495049506),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %606 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.003076923076923077),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %650 2
-(:-(:(tt(A,'_member_of_domain_region',B),0.004830917874396135),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %621 3
-(:-(:(tt(A,'_member_of_domain_region',B),0.003215434083601286),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %622 2
-(:-(:(tt(A,'_member_meronym',B),4.1674480631785125e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 2
-(:-(:(tt(A,'_member_meronym',B),0.00028862201809534563),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %79689 23
-(:-(:(tt(A,'_member_meronym',B),0.003825310806503028),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3137 12
-(:-(:(tt(A,'_member_meronym',B),0.00029905424096295465),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %80253 24
-(:-(:(tt(A,'_member_meronym',B),0.001607717041800643),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %622 1
-(:-(:(tt(A,'_member_meronym',B),2.294735875900684e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 2
-(:-(:(tt(A,'_member_meronym',B),4.801899806177862e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458152 22
-(:-(:(tt(A,'_member_meronym',B),6.184674376894056e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 3
-(:-(:(tt(A,'_member_meronym',B),0.00028793189784677014),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %79880 23
-(:-(:(tt(A,'_member_meronym',B),0.003775959723096287),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3178 12
-(:-(:(tt(A,'_member_meronym',B),0.00029905424096295465),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %80253 24
-(:-(:(tt(A,'_member_meronym',B),0.003076923076923077),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %650 2
-(:-(:(tt(A,'_member_meronym',B),3.394548355341322e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 3
-(:-(:(tt(A,'_member_meronym',B),0.00027277686852154935),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3666 1
-(:-(:(tt(A,'_member_meronym',B),0.0002717391304347826),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3680 1
-(:-(:(tt(A,'_member_meronym',B),1.9229290054611184e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 1
-(:-(:(tt(A,'_member_meronym',B),1.9191647794879668e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 1
-(:-(:(tt(A,'_member_meronym',B),0.0002726281352235551),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3668 1
-(:-(:(tt(A,'_member_meronym',B),0.0002717391304347826),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3680 1
-(:-(:(tt(A,'_member_meronym',B),3.4815304807993595e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %114892 4
-(:-(:(tt(A,'_member_meronym',B),0.0018248175182481751),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %1644 3
-(:-(:(tt(A,'_member_meronym',B),0.0011876484560570072),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %1684 2
-(:-(:(tt(A,'_member_meronym',B),0.001141552511415525),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %876 1
-(:-(:(tt(A,'_member_meronym',B),0.005454545454545455),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %550 3
-(:-(:(tt(A,'_member_meronym',B),0.001170046801872075),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23076 27
-(:-(:(tt(A,'_member_meronym',B),0.010425716768027803),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %1151 12
-(:-(:(tt(A,'_member_meronym',B),0.00048638132295719845),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2056 1
-(:-(:(tt(A,'_member_meronym',B),0.08536585365853659),','(t(A,'_has_part',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %82 7
-(:-(:(tt(A,'_member_meronym',B),0.012345679012345678),','(t(A,'_has_part',C),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %81 1
-(:-(:(tt(A,'_member_meronym',B),0.0018326206475259622),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %1637 3
-(:-(:(tt(A,'_member_meronym',B),0.0012360939431396785),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %1618 2
-(:-(:(tt(A,'_member_meronym',B),0.0011723329425556857),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %853 1
-(:-(:(tt(A,'_member_meronym',B),0.005681818181818182),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %528 3
-(:-(:(tt(A,'_member_meronym',B),0.4682352941176471),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_member_meronym',B))))), %425 199
-(:-(:(tt(A,'_member_meronym',B),0.09090909090909091),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %11 1
-(:-(:(tt(A,'_member_meronym',B),9.569377990430622e-5),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %10450 1
-(:-(:(tt(A,'_member_meronym',B),2.6085822355549757e-5),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %38335 1
-(:-(:(tt(A,'_member_meronym',B),2.135916938462097e-6),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %936366 2
-(:-(:(tt(A,'_member_meronym',B),0.00839859266825559),','(t(A,'_hypernym',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %8811 74
-(:-(:(tt(A,'_member_meronym',B),2.6322023637177227e-5),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %37991 1
-(:-(:(tt(A,'_member_meronym',B),3.053901358986105e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %458430 14
-(:-(:(tt(A,'_member_meronym',B),0.008658014193465891),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_member_meronym',B))))), %782050 6771
-(:-(:(tt(A,'_member_meronym',B),3.27402259512127e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %458152 15
-(:-(:(tt(A,'_member_meronym',B),4.3335066736002776e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %23076 1
-(:-(:(tt(A,'_member_meronym',B),1.601937703846573e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %936366 15
-(:-(:(tt(A,'_member_meronym',B),6.563379795153463e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %289485 19
-(:-(:(tt(A,'_member_meronym',B),3.7239786988418424e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_instance_hypernym',D))))), %26853 1
-(:-(:(tt(A,'_member_meronym',B),3.380662609871535e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %29580 1
-(:-(:(tt(A,'_member_meronym',B),7.954816641476414e-5),','(t(A,'_hypernym',C),','(t(D,'_member_of_domain_usage',C),t(D,'_member_of_domain_usage',B))))), %12571 1
-(:-(:(tt(A,'_member_meronym',B),0.0015220700152207),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_has_part',B))))), %657 1
-(:-(:(tt(A,'_member_meronym',B),0.00303951367781155),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(B,'_synset_domain_topic_of',D))))), %329 1
-(:-(:(tt(A,'_member_meronym',B),0.00014060742407199101),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %7112 1
-(:-(:(tt(A,'_member_meronym',B),4.3311136375940664e-5),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %184710 8
-(:-(:(tt(A,'_member_meronym',B),0.01282051282051282),','(t(A,'_member_of_domain_region',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %156 2
-(:-(:(tt(A,'_member_meronym',B),0.012903225806451613),','(t(A,'_member_of_domain_region',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %155 2
-(:-(:(tt(A,'_member_meronym',B),0.01875),','(t(A,'_member_of_domain_region',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %160 3
-(:-(:(tt(A,'_member_meronym',B),0.019230769230769232),','(t(A,'_member_of_domain_region',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %156 3
-(:-(:(tt(A,'_member_meronym',B),0.36303630363036304),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %606 220
-(:-(:(tt(A,'_member_meronym',B),0.36923076923076925),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %650 240
-(:-(:(tt(A,'_member_meronym',B),0.015228426395939087),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %197 3
-(:-(:(tt(A,'_member_meronym',B),0.5615763546798029),','(t(A,'_member_meronym',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %609 342
-(:-(:(tt(A,'_member_meronym',B),0.009549795361527967),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(D,'_has_part',B))))), %733 7
-(:-(:(tt(A,'_member_meronym',B),0.0016632016632016633),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %2405 4
-(:-(:(tt(A,'_member_meronym',B),0.023341451197816814),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %289485 6757
-(:-(:(tt(A,'_member_meronym',B),0.0031446540880503146),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %3498 11
-(:-(:(tt(A,'_member_meronym',B),0.5853658536585366),','(t(A,'_member_meronym',C),','(t(C,'_member_of_domain_region',D),t(B,'_member_of_domain_region',D))))), %123 72
-(:-(:(tt(A,'_member_meronym',B),0.37681159420289856),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %621 234
-(:-(:(tt(A,'_member_meronym',B),0.3553054662379421),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %622 221
-(:-(:(tt(A,'_member_meronym',B),0.015),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %200 3
-(:-(:(tt(A,'_member_meronym',B),0.16312741312741313),','(t(A,'_member_meronym',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %1036 169
-(:-(:(tt(A,'_member_meronym',B),0.16666666666666666),','(t(A,'_member_meronym',C),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %6 1
-(:-(:(tt(A,'_member_meronym',B),0.006299212598425197),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %635 4
-(:-(:(tt(A,'_member_meronym',B),0.006279434850863423),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %637 4
-(:-(:(tt(A,'_member_meronym',B),0.0029757243539545813),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %6385 19
-(:-(:(tt(A,'_member_meronym',B),0.26902286902286904),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_member_meronym',D))))), %2405 647
-(:-(:(tt(A,'_member_meronym',B),0.00819672131147541),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_instance_hypernym',D))))), %244 2
-(:-(:(tt(A,'_member_meronym',B),0.047619047619047616),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %21 1
-(:-(:(tt(A,'_member_meronym',B),0.9040511727078892),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %938 848
-(:-(:(tt(A,'_member_meronym',B),0.011940298507462687),','(t(A,'_member_meronym',C),','(t(D,'_member_of_domain_region',C),t(D,'_member_of_domain_region',B))))), %1340 16
-(:-(:(tt(A,'_member_meronym',B),0.9593053395541732),','(t(A,'_member_meronym',C),','(t(D,'_member_meronym',C),t(D,'_member_meronym',B))))), %7716 7402
-(:-(:(tt(A,'_member_meronym',B),0.08176100628930817),','(t(A,'_member_meronym',C),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %2226 182
-(:-(:(tt(A,'_member_meronym',B),0.018867924528301886),','(t(A,'_member_meronym',C),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %53 1
-(:-(:(tt(A,'_member_meronym',B),0),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(B,'_synset_domain_topic_of',D))))), %3 0
-(:-(:(tt(A,'_member_meronym',B),0.9950998869204674),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(B,'_member_meronym',D))))), %2653 2640
-(:-(:(tt(A,'_member_meronym',B),0.000944822373393802),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %5292 5
-(:-(:(tt(A,'_member_meronym',B),0.1744807121661721),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %1685 294
-(:-(:(tt(A,'_member_meronym',B),0),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_member_meronym',D))))), %1 0
-(:-(:(tt(A,'_member_meronym',B),0.007471432757105186),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %6826 51
-(:-(:(tt(A,'_member_meronym',B),0.02564102564102564),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %39 1
-(:-(:(tt(A,'_member_meronym',B),2.778935667639294e-5),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %107955 3
-(:-(:(tt(A,'_member_meronym',B),0.005952380952380952),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_hypernym',D))))), %168 1
-(:-(:(tt(A,'_member_meronym',B),0.0001721812494619336),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_has_part',B))))), %69694 12
-(:-(:(tt(A,'_member_meronym',B),0.01707970529135968),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_member_meronym',B))))), %8958 153
-(:-(:(tt(A,'_member_meronym',B),2.5789813023855576e-5),','(t(A,'_instance_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %38775 1
-(:-(:(tt(A,'_member_meronym',B),2.061643129574271e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 1
-(:-(:(tt(A,'_member_meronym',B),0.0003),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %80000 24
-(:-(:(tt(A,'_member_meronym',B),0),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_has_part',B))))), %3148 0
-(:-(:(tt(A,'_member_meronym',B),0.00030045067601402103),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %79880 24
-(:-(:(tt(A,'_member_meronym',B),0.001610305958132045),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %621 1
-(:-(:(tt(A,'_member_meronym',B),1.132028481836603e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 1
-(:-(:(tt(A,'_member_meronym',B),5.0171236611914575e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458430 23
-(:-(:(tt(A,'_member_meronym',B),4.166145898429363e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 2
-(:-(:(tt(A,'_member_meronym',B),0.0003),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %80000 24
-(:-(:(tt(A,'_member_meronym',B),0),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_has_part',B))))), %3097 0
-(:-(:(tt(A,'_member_meronym',B),0.00030117080149079546),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %79689 24
-(:-(:(tt(A,'_member_meronym',B),0.0033003300330033004),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %606 2
-(:-(:(tt(A,'_member_meronym',B),2.2633651713367434e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 2
-(:-(:(tt(A,'_member_meronym',B),0.0002801905295601009),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %3569 1
-(:-(:(tt(A,'_member_meronym',B),0.0002726281352235551),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %3668 1
-(:-(:(tt(A,'_member_meronym',B),1.913143294432753e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 1
-(:-(:(tt(A,'_member_meronym',B),1.9082512785283566e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 1
-(:-(:(tt(A,'_member_meronym',B),0.0002801905295601009),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %3569 1
-(:-(:(tt(A,'_member_meronym',B),0.00027277686852154935),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %3666 1
-(:-(:(tt(A,'_member_meronym',B),3.5356928190078845e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %113132 4
-(:-(:(tt(A,'_member_meronym',B),0.00032289312237649337),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3097 1
-(:-(:(tt(A,'_member_meronym',B),0.00031466331025802394),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3178 1
-(:-(:(tt(A,'_member_meronym',B),0.039305041298775274),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_member_meronym',B))))), %3511 138
-(:-(:(tt(A,'_member_meronym',B),0.0002153547970281038),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_instance_hypernym',D))))), %9287 2
-(:-(:(tt(A,'_member_meronym',B),0.0015026296018031556),','(t(C,'_has_part',A),','(t(C,'_member_of_domain_region',D),t(D,'_member_meronym',B))))), %1331 2
-(:-(:(tt(A,'_member_meronym',B),0.00013345789403443215),','(t(C,'_has_part',A),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %7493 1
-(:-(:(tt(A,'_member_meronym',B),0.0003176620076238882),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3148 1
-(:-(:(tt(A,'_member_meronym',B),0.000318775900541919),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3137 1
-(:-(:(tt(A,'_member_meronym',B),0.015220700152207),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %657 10
-(:-(:(tt(A,'_member_meronym',B),2.0830729492146816e-5),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %48006 1
-(:-(:(tt(A,'_member_meronym',B),0.005),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %200 1
-(:-(:(tt(A,'_member_meronym',B),0.0005595970900951316),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %1787 1
-(:-(:(tt(A,'_member_meronym',B),0.0017563023410225107),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %46689 82
-(:-(:(tt(A,'_member_meronym',B),0.00010130685847431871),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %9871 1
-(:-(:(tt(A,'_member_meronym',B),0.011299435028248588),','(t(C,'_hypernym',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %1239 14
-(:-(:(tt(A,'_member_meronym',B),2.061643129574271e-5),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %48505 1
-(:-(:(tt(A,'_member_meronym',B),0.005076142131979695),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %197 1
-(:-(:(tt(A,'_member_meronym',B),0.0012285012285012285),','(t(C,'_hypernym',A),','(t(D,'_instance_hypernym',C),t(D,'_member_of_domain_region',B))))), %814 1
-(:-(:(tt(A,'_member_meronym',B),2.7320351612925258e-5),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %146411 4
-(:-(:(tt(A,'_member_meronym',B),2.379309524376026e-5),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(D,'_hypernym',B))))), %42029 1
-(:-(:(tt(A,'_member_meronym',B),6.988608568034104e-5),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(B,'_hypernym',D))))), %14309 1
-(:-(:(tt(A,'_member_meronym',B),7.208038404428618e-6),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %138734 1
-(:-(:(tt(A,'_member_meronym',B),0.0004344048653344917),','(t(C,'_member_of_domain_region',A),','(t(C,'_has_part',D),t(D,'_member_meronym',B))))), %2302 1
-(:-(:(tt(A,'_member_meronym',B),0.0016207455429497568),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %617 1
-(:-(:(tt(A,'_member_meronym',B),0.003003003003003003),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %666 2
-(:-(:(tt(A,'_member_meronym',B),0.011764705882352941),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %85 1
-(:-(:(tt(A,'_member_meronym',B),4.7311552969758966e-5),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %782050 37
-(:-(:(tt(A,'_member_meronym',B),0.0016286644951140066),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %614 1
-(:-(:(tt(A,'_member_meronym',B),0.0032626427406199023),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %613 2
-(:-(:(tt(A,'_member_meronym',B),0.011363636363636364),','(t(C,'_member_meronym',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %88 1
-(:-(:(tt(A,'_member_meronym',B),0.010526315789473684),','(t(C,'_member_meronym',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %95 1
-(:-(:(tt(A,'_member_meronym',B),0.00029437739181630853),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_hypernym',B))))), %13588 4
-(:-(:(tt(A,'_member_meronym',B),0),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %134 0
-(:-(:(tt(A,'_member_meronym',B),0.009486857205311765),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %91495 868
-(:-(:(tt(A,'_member_meronym',B),0.06802676747925086),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_member_meronym',B))))), %92052 6262
-(:-(:(tt(A,'_member_meronym',B),0.0014204545454545455),','(t(C,'_member_meronym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %7744 11
-(:-(:(tt(A,'_member_meronym',B),0.034482758620689655),','(t(C,'_instance_hypernym',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %29 1
-(:-(:(tt(A,'_member_meronym',B),0.007874015748031496),','(t(C,'_instance_hypernym',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %381 3
-(:-(:(tt(A,'_member_meronym',B),0.0003379520108144643),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %2959 1
-(:-(:(tt(A,'_member_meronym',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %2983 0
-(:-(:(tt(A,'_member_meronym',B),0.0003313452617627568),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3018 1
-(:-(:(tt(A,'_member_meronym',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2952 0
-(:-(:(tt(A,'_member_meronym',B),0.03333333333333333),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %30 1
-(:-(:(tt(A,'_member_meronym',B),0.00028993911278631486),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_instance_hypernym',B))))), %3449 1
-(:-(:(tt(A,'_member_meronym',B),2.6517696142559136e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %113132 3
-(:-(:(tt(A,'_member_meronym',B),0.00019138755980861245),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %10450 2
-(:-(:(tt(A,'_member_meronym',B),2.6111478605995196e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %114892 3
-(:-(:(tt(A,'_member_meronym',B),0.0011719894520949312),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_member_meronym',D))))), %6826 8
-(:-(:(tt(A,'_member_meronym',B),4.872502842293325e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %184710 9
-(:-(:(tt(A,'_member_meronym',B),8.196105483877577e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 12
-(:-(:(tt(A,'_member_meronym',B),3.380662609871535e-5),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %29580 1
-(:-(:(tt(A,'_instance_hypernym',B),0.4502923976608187),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_instance_hypernym',B))))), %171 77
-(:-(:(tt(A,'_instance_hypernym',B),2.0837240315892563e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 1
-(:-(:(tt(A,'_instance_hypernym',B),0.4514285714285714),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_instance_hypernym',B))))), %175 79
-(:-(:(tt(A,'_instance_hypernym',B),2.0615581256313523e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 1
-(:-(:(tt(A,'_instance_hypernym',B),2.1826817300808466e-6),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458152 1
-(:-(:(tt(A,'_instance_hypernym',B),0.028169014084507043),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %639 18
-(:-(:(tt(A,'_instance_hypernym',B),0.1111111111111111),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %18 2
-(:-(:(tt(A,'_instance_hypernym',B),4.3335066736002776e-5),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23076 1
-(:-(:(tt(A,'_instance_hypernym',B),0.3333333333333333),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_instance_hypernym',B))))), %3 1
-(:-(:(tt(A,'_instance_hypernym',B),0.012987012987012988),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(B,'_has_part',D))))), %77 1
-(:-(:(tt(A,'_instance_hypernym',B),0.03636363636363636),','(t(A,'_has_part',C),','(t(C,'_member_of_domain_region',D),t(D,'_instance_hypernym',B))))), %110 4
-(:-(:(tt(A,'_instance_hypernym',B),0.07936507936507936),','(t(A,'_has_part',C),','(t(D,'_member_of_domain_region',C),t(D,'_instance_hypernym',B))))), %63 5
-(:-(:(tt(A,'_instance_hypernym',B),0.00021453089244851257),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %13984 3
-(:-(:(tt(A,'_instance_hypernym',B),0.5672082717872969),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %677 384
-(:-(:(tt(A,'_instance_hypernym',B),0.42857142857142855),','(t(A,'_has_part',C),','(t(D,'_member_meronym',C),t(D,'_instance_hypernym',B))))), %14 6
-(:-(:(tt(A,'_instance_hypernym',B),0.5),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(D,'_instance_hypernym',B))))), %2 1
-(:-(:(tt(A,'_instance_hypernym',B),0.05384615384615385),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_has_part',D))))), %130 7
-(:-(:(tt(A,'_instance_hypernym',B),0.18181818181818182),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_member_meronym',D))))), %44 8
-(:-(:(tt(A,'_instance_hypernym',B),0.0011177347242921013),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %2684 3
-(:-(:(tt(A,'_instance_hypernym',B),0.0017873100983020554),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %1119 2
-(:-(:(tt(A,'_instance_hypernym',B),0.00028708133971291867),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %10450 3
-(:-(:(tt(A,'_instance_hypernym',B),0.16666666666666666),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %12 2
-(:-(:(tt(A,'_instance_hypernym',B),0.00016152479405588758),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %6191 1
-(:-(:(tt(A,'_instance_hypernym',B),0.07692307692307693),','(t(A,'_member_of_domain_region',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %13 1
-(:-(:(tt(A,'_instance_hypernym',B),1),','(t(A,'_member_of_domain_region',C),','(t(C,'_member_of_domain_region',D),t(D,'_instance_hypernym',B))))), %1 1
-(:-(:(tt(A,'_instance_hypernym',B),0.72),','(t(A,'_member_of_domain_region',C),','(t(D,'_member_of_domain_region',C),t(D,'_instance_hypernym',B))))), %150 108
-(:-(:(tt(A,'_instance_hypernym',B),0.002036659877800407),','(t(A,'_member_of_domain_region',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %491 1
-(:-(:(tt(A,'_instance_hypernym',B),0.10256410256410256),','(t(A,'_member_of_domain_region',C),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %39 4
-(:-(:(tt(A,'_instance_hypernym',B),0.125),','(t(A,'_member_of_domain_region',C),','(t(D,'_member_meronym',C),t(B,'_hypernym',D))))), %8 1
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(A,'_member_of_domain_region',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %151 0
-(:-(:(tt(A,'_instance_hypernym',B),0.3333333333333333),','(t(A,'_member_of_domain_region',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_instance_hypernym',B))))), %3 1
-(:-(:(tt(A,'_instance_hypernym',B),0.4431818181818182),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_instance_hypernym',B))))), %176 78
-(:-(:(tt(A,'_instance_hypernym',B),4.123286259148542e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 2
-(:-(:(tt(A,'_instance_hypernym',B),0.42857142857142855),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_instance_hypernym',B))))), %175 75
-(:-(:(tt(A,'_instance_hypernym',B),4.166145898429363e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 2
-(:-(:(tt(A,'_instance_hypernym',B),2.181358113561503e-6),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458430 1
-(:-(:(tt(A,'_instance_hypernym',B),0.007838745800671893),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %7144 56
-(:-(:(tt(A,'_instance_hypernym',B),0.00032304958811177516),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %6191 2
-(:-(:(tt(A,'_instance_hypernym',B),4.664106590382612e-5),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_has_part',B))))), %64321 3
-(:-(:(tt(A,'_instance_hypernym',B),0.166617137196632),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %10095 1682
-(:-(:(tt(A,'_instance_hypernym',B),0.0004182350480970305),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2391 1
-(:-(:(tt(A,'_instance_hypernym',B),0.0223463687150838),','(t(C,'_has_part',A),','(t(C,'_member_of_domain_region',D),t(D,'_instance_hypernym',B))))), %1790 40
-(:-(:(tt(A,'_instance_hypernym',B),0.006842619745845552),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %1023 7
-(:-(:(tt(A,'_instance_hypernym',B),0.0007462570544612179),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %64321 48
-(:-(:(tt(A,'_instance_hypernym',B),0.017892644135188866),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %2012 36
-(:-(:(tt(A,'_instance_hypernym',B),0.5142857142857142),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(D,'_instance_hypernym',B))))), %35 18
-(:-(:(tt(A,'_instance_hypernym',B),0.0027624309392265192),','(t(C,'_has_part',A),','(t(D,'_member_of_domain_region',C),t(D,'_has_part',B))))), %1448 4
-(:-(:(tt(A,'_instance_hypernym',B),0.07317073170731707),','(t(C,'_has_part',A),','(t(D,'_member_of_domain_region',C),t(D,'_instance_hypernym',B))))), %41 3
-(:-(:(tt(A,'_instance_hypernym',B),0.05142857142857143),','(t(C,'_has_part',A),','(t(D,'_member_meronym',C),t(D,'_instance_hypernym',B))))), %175 9
-(:-(:(tt(A,'_instance_hypernym',B),0.001519756838905775),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %1316 2
-(:-(:(tt(A,'_instance_hypernym',B),0.0017441860465116279),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %1720 3
-(:-(:(tt(A,'_instance_hypernym',B),0.0002642007926023778),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %3785 1
-(:-(:(tt(A,'_instance_hypernym',B),1.4348437455161133e-5),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %69694 1
-(:-(:(tt(A,'_instance_hypernym',B),0.06190476190476191),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(D,'_member_meronym',B))))), %210 13
-(:-(:(tt(A,'_instance_hypernym',B),0.024886877828054297),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(D,'_has_part',B))))), %442 11
-(:-(:(tt(A,'_instance_hypernym',B),0.00010795638562020944),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %18526 2
-(:-(:(tt(A,'_instance_hypernym',B),0.034482758620689655),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %29 1
-(:-(:(tt(A,'_instance_hypernym',B),0.02127659574468085),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_instance_hypernym',B))))), %47 1
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(C,'_member_of_domain_region',A),','(t(C,'_instance_hypernym',D),t(D,'_hypernym',B))))), %814 0
-(:-(:(tt(A,'_instance_hypernym',B),7.208038404428618e-6),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_hypernym',B))))), %138734 1
-(:-(:(tt(A,'_instance_hypernym',B),0.000544069640914037),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_synset_domain_topic_of',B))))), %1838 1
-(:-(:(tt(A,'_instance_hypernym',B),0.05575117370892019),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_instance_hypernym',B))))), %3408 190
-(:-(:(tt(A,'_instance_hypernym',B),0.002245298905416784),','(t(C,'_member_of_domain_region',A),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %3563 8
-(:-(:(tt(A,'_instance_hypernym',B),1),','(t(C,'_member_of_domain_region',A),','(t(D,'_member_of_domain_region',C),t(D,'_instance_hypernym',B))))), %1 1
-(:-(:(tt(A,'_instance_hypernym',B),0.003125),','(t(C,'_member_of_domain_region',A),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %960 3
-(:-(:(tt(A,'_instance_hypernym',B),1.2786906208042963e-6),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %782050 1
-(:-(:(tt(A,'_instance_hypernym',B),0.0005696382796923954),','(t(C,'_member_meronym',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %3511 2
-(:-(:(tt(A,'_instance_hypernym',B),4.371823596917864e-5),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %91495 4
-(:-(:(tt(A,'_instance_hypernym',B),0.3069679849340866),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_instance_hypernym',B))))), %531 163
-(:-(:(tt(A,'_instance_hypernym',B),0.1016949152542373),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %118 12
-(:-(:(tt(A,'_instance_hypernym',B),0.0026246719160104987),','(t(C,'_instance_hypernym',A),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %381 1
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %407 0
-(:-(:(tt(A,'_instance_hypernym',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %404 0
-(:-(:(tt(A,'_instance_hypernym',B),0.002320185614849188),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %431 1
-(:-(:(tt(A,'_instance_hypernym',B),0.03333333333333333),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_member_of_domain_region',C),t(D,'_instance_hypernym',B))))), %30 1
-(:-(:(tt(A,'_instance_hypernym',B),0.006550612508059317),','(t(A,'_instance_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %38775 254
-(:-(:(tt(A,'_instance_hypernym',B),0.000132890365448505),','(t(A,'_instance_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %7525 1
-(:-(:(tt(A,'_instance_hypernym',B),0.7088870431893688),','(t(A,'_instance_hypernym',C),','(t(D,'_hypernym',C),t(D,'_hypernym',B))))), %2408 1707
-(:-(:(tt(A,'_instance_hypernym',B),0.16666666666666666),','(t(A,'_instance_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_instance_hypernym',B))))), %6 1
-(:-(:(tt(A,'_instance_hypernym',B),0.0009832841691248771),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %1017 1
-(:-(:(tt(A,'_instance_hypernym',B),0.2848644431441389),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_instance_hypernym',B))))), %10254 2921
-(:-(:(tt(A,'_instance_hypernym',B),0.10687818865676088),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %26853 2870
-(:-(:(tt(A,'_instance_hypernym',B),0.0002852253280091272),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %3506 1
-(:-(:(tt(A,'_instance_hypernym',B),0.010526315789473684),','(t(A,'_member_meronym',C),','(t(C,'_has_part',D),t(D,'_instance_hypernym',B))))), %190 2
-(:-(:(tt(A,'_instance_hypernym',B),1),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(D,'_instance_hypernym',B))))), %1 1
-(:-(:(tt(A,'_instance_hypernym',B),0.875),','(t(A,'_member_meronym',C),','(t(D,'_member_meronym',C),t(D,'_instance_hypernym',B))))), %128 112
-(:-(:(tt(A,'_instance_hypernym',B),0.05128205128205128),','(t(A,'_member_meronym',C),','(t(D,'_has_part',C),t(D,'_instance_hypernym',B))))), %39 2
-(:-(:(tt(A,'_instance_hypernym',B),0.0001464986815118664),','(t(A,'_member_meronym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %6826 1
-(:-(:(tt(A,'_instance_hypernym',B),0.0005998800239952009),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_hypernym',D))))), %1667 1
-(:-(:(tt(A,'_instance_hypernym',B),0.00010928140645170103),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 16
-(:-(:(tt(A,'_instance_hypernym',B),0.00012913223140495868),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_member_meronym',B))))), %7744 1
-(:-(:(tt(A,'_instance_hypernym',B),1.624167614097775e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %184710 3
-(:-(:(tt(A,'_instance_hypernym',B),0.061177152797912436),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_instance_hypernym',B))))), %3449 211
-(:-(:(tt(A,'_instance_hypernym',B),0.31785714285714284),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_instance_hypernym',C),t(D,'_instance_hypernym',B))))), %280 89
-(:-(:(tt(A,'_instance_hypernym',B),3.380662609871535e-5),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %29580 1
-(:-(:(tt(A,'_verb_group',B),0.004301075268817204),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %2325 10
-(:-(:(tt(A,'_verb_group',B),0.004203446826397646),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %2379 10
-(:-(:(tt(A,'_verb_group',B),0.0013315579227696406),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %4506 6
-(:-(:(tt(A,'_verb_group',B),0.004659042778483694),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %2361 11
-(:-(:(tt(A,'_verb_group',B),0.004735256134309083),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2323 11
-(:-(:(tt(A,'_verb_group',B),0.05128205128205128),','(t(A,'_also_see',C),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %39 2
-(:-(:(tt(A,'_verb_group',B),0.05128205128205128),','(t(A,'_also_see',C),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %39 2
-(:-(:(tt(A,'_verb_group',B),0.001445086705202312),','(t(A,'_also_see',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %692 1
-(:-(:(tt(A,'_verb_group',B),0.0007084661707403471),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 34
-(:-(:(tt(A,'_verb_group',B),0.2313052800857679),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %3731 863
-(:-(:(tt(A,'_verb_group',B),0.0038743004735256135),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2323 9
-(:-(:(tt(A,'_verb_group',B),0.0001370665271080209),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %80253 11
-(:-(:(tt(A,'_verb_group',B),0.0006769470833907017),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 59
-(:-(:(tt(A,'_verb_group',B),0.22044468546637744),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3688 813
-(:-(:(tt(A,'_verb_group',B),0.0001422070534698521),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7032 1
-(:-(:(tt(A,'_verb_group',B),0.0001129390505590483),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %79689 9
-(:-(:(tt(A,'_verb_group',B),0.0021929824561403508),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %456 1
-(:-(:(tt(A,'_verb_group',B),0.0022522522522522522),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %444 1
-(:-(:(tt(A,'_verb_group',B),0.001011373177620029),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52404 53
-(:-(:(tt(A,'_verb_group',B),0.0009595823897439835),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52106 50
-(:-(:(tt(A,'_verb_group',B),0.001839738348323794),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4892 9
-(:-(:(tt(A,'_verb_group',B),0.0007215453439709732),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 35
-(:-(:(tt(A,'_verb_group',B),0.24073064340239914),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %3668 883
-(:-(:(tt(A,'_verb_group',B),0.0037831021437578815),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2379 9
-(:-(:(tt(A,'_verb_group',B),0.0001370665271080209),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %80253 11
-(:-(:(tt(A,'_verb_group',B),0.0006675945098837933),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 59
-(:-(:(tt(A,'_verb_group',B),0.22924137931034483),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3625 831
-(:-(:(tt(A,'_verb_group',B),0.00013528138528138528),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7392 1
-(:-(:(tt(A,'_verb_group',B),0.00012518778167250875),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %79880 10
-(:-(:(tt(A,'_verb_group',B),0.006880733944954129),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %436 3
-(:-(:(tt(A,'_verb_group',B),0.0022522522522522522),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %444 1
-(:-(:(tt(A,'_verb_group',B),0.002457002457002457),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %407 1
-(:-(:(tt(A,'_verb_group',B),0.0010191523728943928),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 53
-(:-(:(tt(A,'_verb_group',B),0.000978774037538863),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 51
-(:-(:(tt(A,'_verb_group',B),0.00048192771084337347),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2075 1
-(:-(:(tt(A,'_verb_group',B),0.013422818791946308),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %149 2
-(:-(:(tt(A,'_verb_group',B),0.013986013986013986),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %143 2
-(:-(:(tt(A,'_verb_group',B),0.045454545454545456),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %132 6
-(:-(:(tt(A,'_verb_group',B),0.04285714285714286),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %140 6
-(:-(:(tt(A,'_verb_group',B),0.013986013986013986),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %143 2
-(:-(:(tt(A,'_verb_group',B),0.013986013986013986),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %143 2
-(:-(:(tt(A,'_verb_group',B),4.351913100999199e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %114892 5
-(:-(:(tt(A,'_verb_group',B),0.0002622263012980202),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(B,'_hypernym',D))))), %7627 2
-(:-(:(tt(A,'_verb_group',B),0.0014250089063056644),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %2807 4
-(:-(:(tt(A,'_verb_group',B),0.0006676927255443393),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %88364 59
-(:-(:(tt(A,'_verb_group',B),0.0006336490263303801),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %88377 56
-(:-(:(tt(A,'_verb_group',B),0.00011684973124561814),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %8558 1
-(:-(:(tt(A,'_verb_group',B),0.000942507068803016),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %1061 1
-(:-(:(tt(A,'_verb_group',B),0.0009718172983479105),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %1029 1
-(:-(:(tt(A,'_verb_group',B),5.126200652309033e-5),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %936366 48
-(:-(:(tt(A,'_verb_group',B),0.0002622263012980202),','(t(A,'_hypernym',C),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %7627 2
-(:-(:(tt(A,'_verb_group',B),0.0024509803921568627),','(t(A,'_hypernym',C),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %408 1
-(:-(:(tt(A,'_verb_group',B),0.0006678968042835957),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %88337 59
-(:-(:(tt(A,'_verb_group',B),0.0006425260452521915),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %87156 56
-(:-(:(tt(A,'_verb_group',B),0.00023318176518596245),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %8577 2
-(:-(:(tt(A,'_verb_group',B),0.0032520325203252032),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(D,'_also_see',B))))), %615 2
-(:-(:(tt(A,'_verb_group',B),0.011252446183953033),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %2044 23
-(:-(:(tt(A,'_verb_group',B),0.012066365007541479),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %1989 24
-(:-(:(tt(A,'_verb_group',B),0.0005566379070414695),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %10779 6
-(:-(:(tt(A,'_verb_group',B),0.0131852879944483),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1441 19
-(:-(:(tt(A,'_verb_group',B),0.0003453634950785702),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_also_see',B))))), %11582 4
-(:-(:(tt(A,'_verb_group',B),0.03975666181132722),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %23342 928
-(:-(:(tt(A,'_verb_group',B),0.0013315579227696406),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_also_see',D))))), %4506 6
-(:-(:(tt(A,'_verb_group',B),0.03594907214779063),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %24034 864
-(:-(:(tt(A,'_verb_group',B),5.232996499232138e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %936366 49
-(:-(:(tt(A,'_verb_group',B),0.0032102728731942215),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(D,'_also_see',B))))), %623 2
-(:-(:(tt(A,'_verb_group',B),0.011258955987717503),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %1954 22
-(:-(:(tt(A,'_verb_group',B),0.011622031328954016),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %1979 23
-(:-(:(tt(A,'_verb_group',B),0.0005566379070414695),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %10779 6
-(:-(:(tt(A,'_verb_group',B),0.012605042016806723),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1428 18
-(:-(:(tt(A,'_verb_group',B),4.3311136375940664e-5),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %184710 8
-(:-(:(tt(A,'_verb_group',B),0),','(t(C,'_also_see',A),','(t(C,'_also_see',D),t(D,'_hypernym',B))))), %971 0
-(:-(:(tt(A,'_verb_group',B),0.0006640106241699867),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3012 2
-(:-(:(tt(A,'_verb_group',B),0.0003255208333333333),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3072 1
-(:-(:(tt(A,'_verb_group',B),0.0003453634950785702),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %11582 4
-(:-(:(tt(A,'_verb_group',B),0.0032102728731942215),','(t(C,'_also_see',A),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %623 2
-(:-(:(tt(A,'_verb_group',B),0.0006642311524410495),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3011 2
-(:-(:(tt(A,'_verb_group',B),0.0003354579000335458),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2981 1
-(:-(:(tt(A,'_verb_group',B),0.0032520325203252032),','(t(C,'_also_see',A),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %615 2
-(:-(:(tt(A,'_verb_group',B),0.22240437158469945),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3660 814
-(:-(:(tt(A,'_verb_group',B),0.22709923664122136),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3668 833
-(:-(:(tt(A,'_verb_group',B),0.035),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %200 7
-(:-(:(tt(A,'_verb_group',B),0.09407665505226481),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %287 27
-(:-(:(tt(A,'_verb_group',B),0.09342560553633218),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %289 27
-(:-(:(tt(A,'_verb_group',B),0.03701482306571845),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %23342 864
-(:-(:(tt(A,'_verb_group',B),0.0017331022530329288),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %577 1
-(:-(:(tt(A,'_verb_group',B),0.22239872915011913),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3777 840
-(:-(:(tt(A,'_verb_group',B),0.21870812114714555),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3731 816
-(:-(:(tt(A,'_verb_group',B),0.0365296803652968),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %219 8
-(:-(:(tt(A,'_verb_group',B),0.8653846153846154),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %1248 1080
-(:-(:(tt(A,'_verb_group',B),0.8562197092084006),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %1238 1060
-(:-(:(tt(A,'_verb_group',B),0.011258955987717503),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %1954 22
-(:-(:(tt(A,'_verb_group',B),0.02330097087378641),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1030 24
-(:-(:(tt(A,'_verb_group',B),0.08710801393728224),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %287 25
-(:-(:(tt(A,'_verb_group',B),0.08503401360544217),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %294 25
-(:-(:(tt(A,'_verb_group',B),0.000942507068803016),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %1061 1
-(:-(:(tt(A,'_verb_group',B),0.8661858974358975),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %1248 1081
-(:-(:(tt(A,'_verb_group',B),0.828125),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %1280 1060
-(:-(:(tt(A,'_verb_group',B),0.011252446183953033),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %2044 23
-(:-(:(tt(A,'_verb_group',B),0.022222222222222223),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1080 24
-(:-(:(tt(A,'_verb_group',B),0.056910569105691054),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %123 7
-(:-(:(tt(A,'_verb_group',B),0.045454545454545456),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %132 6
-(:-(:(tt(A,'_verb_group',B),0.02474381404648838),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4001 99
-(:-(:(tt(A,'_verb_group',B),0.0007215750953509947),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 35
-(:-(:(tt(A,'_verb_group',B),0.23590150913423352),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %3777 891
-(:-(:(tt(A,'_verb_group',B),0.0038119440914866584),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_also_see',D))))), %2361 9
-(:-(:(tt(A,'_verb_group',B),0.00012518778167250875),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %79880 10
-(:-(:(tt(A,'_verb_group',B),0.0007018576587386939),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 62
-(:-(:(tt(A,'_verb_group',B),0.22439678284182304),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %3730 837
-(:-(:(tt(A,'_verb_group',B),0.0002725909772386534),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %7337 2
-(:-(:(tt(A,'_verb_group',B),0.0001),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %80000 8
-(:-(:(tt(A,'_verb_group',B),0.006726457399103139),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %446 3
-(:-(:(tt(A,'_verb_group',B),0.006880733944954129),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %436 3
-(:-(:(tt(A,'_verb_group',B),0.001052228811938014),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52270 55
-(:-(:(tt(A,'_verb_group',B),0.0009999230828397815),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52004 52
-(:-(:(tt(A,'_verb_group',B),0.0018244475978106628),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4933 9
-(:-(:(tt(A,'_verb_group',B),0.0006874140732408449),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 33
-(:-(:(tt(A,'_verb_group',B),0.23579234972677596),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %3660 863
-(:-(:(tt(A,'_verb_group',B),0.003870967741935484),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_also_see',D))))), %2325 9
-(:-(:(tt(A,'_verb_group',B),0.0001129390505590483),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %79689 9
-(:-(:(tt(A,'_verb_group',B),0.0007016432031143905),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 62
-(:-(:(tt(A,'_verb_group',B),0.22461964038727525),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %3615 812
-(:-(:(tt(A,'_verb_group',B),0.00013435442697836894),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %7443 1
-(:-(:(tt(A,'_verb_group',B),0.0001),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %80000 8
-(:-(:(tt(A,'_verb_group',B),0.006726457399103139),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_derivationally_related_form',B))))), %446 3
-(:-(:(tt(A,'_verb_group',B),0.0021929824561403508),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_derivationally_related_form',D))))), %456 1
-(:-(:(tt(A,'_verb_group',B),0.0017421602787456446),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %574 1
-(:-(:(tt(A,'_verb_group',B),0.0010904916778266692),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 57
-(:-(:(tt(A,'_verb_group',B),0.0010495382031905961),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 55
-(:-(:(tt(A,'_verb_group',B),0.00047664442326024784),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %2098 1
-(:-(:(tt(A,'_verb_group',B),0.0136986301369863),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_derivationally_related_form',B))))), %146 2
-(:-(:(tt(A,'_verb_group',B),0.013986013986013986),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(B,'_derivationally_related_form',D))))), %143 2
-(:-(:(tt(A,'_verb_group',B),0.056910569105691054),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %123 7
-(:-(:(tt(A,'_verb_group',B),0.05384615384615385),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %130 7
-(:-(:(tt(A,'_verb_group',B),0.0136986301369863),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(D,'_derivationally_related_form',B))))), %146 2
-(:-(:(tt(A,'_verb_group',B),0.013422818791946308),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(B,'_derivationally_related_form',D))))), %149 2
-(:-(:(tt(A,'_verb_group',B),4.4196160237598555e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %113132 5
-(:-(:(tt(A,'_verb_group',B),0.0024509803921568627),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(B,'_hypernym',D))))), %408 1
-(:-(:(tt(A,'_verb_group',B),0.0006874140732408449),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %48006 33
-(:-(:(tt(A,'_verb_group',B),0.0007215453439709732),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %48507 35
-(:-(:(tt(A,'_verb_group',B),0),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(D,'_also_see',B))))), %971 0
-(:-(:(tt(A,'_verb_group',B),0.0014250089063056644),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(B,'_hypernym',D))))), %2807 4
-(:-(:(tt(A,'_verb_group',B),0),','(t(C,'_hypernym',A),','(t(D,'_also_see',C),t(D,'_hypernym',B))))), %242 0
-(:-(:(tt(A,'_verb_group',B),0.0007215750953509947),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %48505 35
-(:-(:(tt(A,'_verb_group',B),0.0007084661707403471),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %47991 34
-(:-(:(tt(A,'_verb_group',B),0.023148148148148147),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %1080 25
-(:-(:(tt(A,'_verb_group',B),0.05128205128205128),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(B,'_also_see',D))))), %39 2
-(:-(:(tt(A,'_verb_group',B),0.021421616358325218),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %1027 22
-(:-(:(tt(A,'_verb_group',B),0.01330532212885154),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %1428 19
-(:-(:(tt(A,'_verb_group',B),0.008670520231213872),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %692 6
-(:-(:(tt(A,'_verb_group',B),0.0017331022530329288),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %577 1
-(:-(:(tt(A,'_verb_group',B),0.0017241379310344827),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %580 1
-(:-(:(tt(A,'_verb_group',B),0.02330097087378641),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %1030 24
-(:-(:(tt(A,'_verb_group',B),0.05128205128205128),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(B,'_also_see',D))))), %39 2
-(:-(:(tt(A,'_verb_group',B),0.020446096654275093),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %1076 22
-(:-(:(tt(A,'_verb_group',B),0.012491325468424705),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %1441 18
-(:-(:(tt(A,'_verb_group',B),0.008670520231213872),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %692 6
-(:-(:(tt(A,'_verb_group',B),4.7810615322619204e-5),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %146411 7
-(:-(:(tt(A,'_verb_group',B),0.23955739972337484),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3615 866
-(:-(:(tt(A,'_verb_group',B),0.2449655172413793),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3625 888
-(:-(:(tt(A,'_verb_group',B),0.03902439024390244),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %205 8
-(:-(:(tt(A,'_verb_group',B),0.09523809523809523),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_verb_group',B))))), %294 28
-(:-(:(tt(A,'_verb_group',B),0.09183673469387756),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_verb_group',D))))), %294 27
-(:-(:(tt(A,'_verb_group',B),0.03861196638096031),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %24034 928
-(:-(:(tt(A,'_verb_group',B),0.0017241379310344827),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %580 1
-(:-(:(tt(A,'_verb_group',B),0.2394101876675603),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3730 893
-(:-(:(tt(A,'_verb_group',B),0.23481561822125813),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3688 866
-(:-(:(tt(A,'_verb_group',B),0.04128440366972477),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %218 9
-(:-(:(tt(A,'_verb_group',B),0.8890625),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_verb_group',B))))), %1280 1138
-(:-(:(tt(A,'_verb_group',B),0.8707592891760905),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(B,'_verb_group',D))))), %1238 1078
-(:-(:(tt(A,'_verb_group',B),0.011622031328954016),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(B,'_hypernym',D))))), %1979 23
-(:-(:(tt(A,'_verb_group',B),0.022304832713754646),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_hypernym',B))))), %1076 24
-(:-(:(tt(A,'_verb_group',B),0.09688581314878893),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(D,'_verb_group',B))))), %289 28
-(:-(:(tt(A,'_verb_group',B),0.09183673469387756),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(B,'_verb_group',D))))), %294 27
-(:-(:(tt(A,'_verb_group',B),0.0009718172983479105),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %1029 1
-(:-(:(tt(A,'_verb_group',B),0.8820678513731826),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_verb_group',B))))), %1238 1092
-(:-(:(tt(A,'_verb_group',B),0.8715670436187399),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(B,'_verb_group',D))))), %1238 1079
-(:-(:(tt(A,'_verb_group',B),0.012066365007541479),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(B,'_hypernym',D))))), %1989 24
-(:-(:(tt(A,'_verb_group',B),0.023369036027263874),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_hypernym',B))))), %1027 24
-(:-(:(tt(A,'_verb_group',B),0.06153846153846154),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_derivationally_related_form',B))))), %130 8
-(:-(:(tt(A,'_verb_group',B),0.05),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_derivationally_related_form',D))))), %140 7
-(:-(:(tt(A,'_verb_group',B),0.025585844093735054),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4182 107
-(:-(:(tt(A,'_verb_group',B),7.279079924297569e-5),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %13738 1
-(:-(:(tt(A,'_verb_group',B),0.00013435442697836894),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %7443 1
-(:-(:(tt(A,'_verb_group',B),0.00013528138528138528),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %7392 1
-(:-(:(tt(A,'_verb_group',B),0.03669724770642202),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_verb_group',D))))), %218 8
-(:-(:(tt(A,'_verb_group',B),0.0003497726477789437),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %8577 3
-(:-(:(tt(A,'_verb_group',B),0.0365296803652968),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_verb_group',B))))), %219 8
-(:-(:(tt(A,'_verb_group',B),0.0002725909772386534),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %7337 2
-(:-(:(tt(A,'_verb_group',B),0.0001422070534698521),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %7032 1
-(:-(:(tt(A,'_verb_group',B),0.03414634146341464),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_verb_group',D))))), %205 7
-(:-(:(tt(A,'_verb_group',B),0.00023369946249123628),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %8558 2
-(:-(:(tt(A,'_verb_group',B),0.035),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_verb_group',B))))), %200 7
-(:-(:(tt(A,'_verb_group',B),4.4196160237598555e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %113132 5
-(:-(:(tt(A,'_verb_group',B),0.02599350162459385),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_verb_group',B))))), %4001 104
-(:-(:(tt(A,'_verb_group',B),7.279079924297569e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_synset_domain_topic_of',D))))), %13738 1
-(:-(:(tt(A,'_verb_group',B),0.023672883787661407),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_verb_group',D))))), %4182 99
-(:-(:(tt(A,'_verb_group',B),4.351913100999199e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %114892 5
-(:-(:(tt(A,'_verb_group',B),4.3311136375940664e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %184710 8
-(:-(:(tt(A,'_verb_group',B),4.0980527419387885e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 6
-(:-(:(tt(A,'_verb_group',B),0.0018244475978106628),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %4933 9
-(:-(:(tt(A,'_verb_group',B),0.001839738348323794),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %4892 9
-(:-(:(tt(A,'_verb_group',B),8.043111075363951e-5),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_synset_domain_topic_of',D))))), %12433 1
-(:-(:(tt(A,'_verb_group',B),0.0017421602787456446),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(D,'_derivationally_related_form',B))))), %574 1
-(:-(:(tt(A,'_verb_group',B),0.002457002457002457),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_derivationally_related_form',D))))), %407 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.5),','(t(A,'_also_see',C),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %14 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0007283321194464676),','(t(A,'_also_see',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1373 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.6842105263157895),','(t(A,'_also_see',C),','(t(D,'_also_see',C),t(D,'_synset_domain_topic_of',B))))), %19 13
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0007326007326007326),','(t(A,'_also_see',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1365 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06451612903225806),','(t(A,'_also_see',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %31 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0022026431718061676),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %908 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0022123893805309734),','(t(A,'_also_see',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %904 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.334896126357025e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %47991 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005019513358179925),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %79689 40
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.37025745257452575),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %2952 1093
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005108843283117142),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %80253 41
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.001607717041800643),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %622 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.294735875900684e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %87156 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.109375),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %64 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0020855057351407717),','(t(A,'_derivationally_related_form',C),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %959 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004363001745200698),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20628 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005343103579879398),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52404 28
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.07017543859649122),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %1026 72
-(:-(:(tt(A,'_synset_domain_topic_of',B),5.674972498210201e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458152 26
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005565577860515104),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52106 29
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0008176614881439084),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4892 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006085192697768763),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %493 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.246232502525409e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48507 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00048823234852278416),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %79880 39
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3794837412001341),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2983 1132
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004984237349382577),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %80253 40
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %650 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.2630322368942147e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88377 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %407 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.02564102564102564),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %39 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.008460236886632826),','(t(A,'_derivationally_related_form',C),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %591 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),7.691716021844474e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.014089347079037801),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %2910 41
-(:-(:(tt(A,'_synset_domain_topic_of',B),9.595823897439834e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0023961661341853034),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %1252 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.125),','(t(A,'_derivationally_related_form',C),','(t(D,'_member_meronym',C),t(D,'_synset_domain_topic_of',B))))), %24 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.02877697841726619),','(t(A,'_derivationally_related_form',C),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %139 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06435643564356436),','(t(A,'_derivationally_related_form',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %404 26
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.23076923076923078),','(t(A,'_derivationally_related_form',C),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %13 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.027972027972027972),','(t(A,'_derivationally_related_form',C),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %143 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0044472681067344345),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1574 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00010444591442398078),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %114892 12
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0010099734881959348),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7921 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.045454545454545456),','(t(A,'_derivationally_related_form',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %286 13
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.013157894736842105),','(t(A,'_has_part',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %76 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.12),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %50 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.000544069640914037),','(t(A,'_has_part',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %1838 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.003436426116838488),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %291 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %894 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.09243697478991597),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %119 11
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_has_part',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2056 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03333333333333333),','(t(A,'_has_part',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %30 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.014492753623188406),','(t(A,'_has_part',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %69 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.7086092715231788),','(t(A,'_has_part',C),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %151 107
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.08737864077669903),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %103 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0022371364653243847),','(t(A,'_has_part',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %894 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.125),','(t(A,'_has_part',C),','(t(C,'_instance_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %16 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),9.569377990430622e-5),','(t(A,'_has_part',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %10450 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00032216494845360824),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(D,'_derivationally_related_form',B))))), %6208 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.053824362606232294),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %353 19
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00031852205765249244),','(t(A,'_hypernym',C),','(t(C,'_also_see',D),t(B,'_derivationally_related_form',D))))), %6279 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.817145957677699e-5),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %147440 13
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00048655193093225614),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %88377 43
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005842486562280906),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %8558 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0035169988276670576),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %853 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0004979403376940835),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %88364 44
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.02997393570807993),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %2302 69
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0011216903612886397),','(t(A,'_hypernym',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %38335 43
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.09003215434083602),','(t(A,'_hypernym',C),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %311 28
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0003973885892705081),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %35230 14
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.001771479185119575),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %1129 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.135916938462097e-5),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %936366 20
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0003925417075564279),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %35665 14
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0467644084934277),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %3956 185
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.000281195079086116),','(t(A,'_hypernym',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %28450 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3333333333333333),','(t(A,'_hypernym',C),','(t(D,'_also_see',C),t(D,'_synset_domain_topic_of',B))))), %15 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.138903960933261e-5),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %147440 12
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005048418926981504),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %87156 44
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0008161361781508686),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %8577 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0091324200913242),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %876 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005094128168264714),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %88337 45
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03523035230352303),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2214 78
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0012371351109473295),','(t(A,'_hypernym',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %37991 47
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0006464124111182935),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %1547 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0779816513761468),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %218 17
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0023995200959808036),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %1667 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00016757436112274822),','(t(A,'_hypernym',C),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %11935 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),5.545389009038984e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_has_part',B))))), %36066 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),9.597975699670615e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %458430 44
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.12408119554106022),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %20543 2549
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.730726920323387e-5),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %458152 40
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0016467325359681053),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %23076 38
-(:-(:(tt(A,'_synset_domain_topic_of',B),6.407750815386291e-6),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %936366 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.11869436201780416),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_synset_domain_topic_of',B))))), %337 40
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0001756543123133673),','(t(A,'_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_hypernym',B))))), %5693 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06060606060606061),','(t(A,'_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %264 16
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00037257824143070045),','(t(A,'_hypernym',C),','(t(D,'_instance_hypernym',C),t(B,'_has_part',D))))), %2684 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.20689655172413793),','(t(A,'_hypernym',C),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %58 12
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.013888888888888888),','(t(A,'_hypernym',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %1656 23
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.1072961373390558),','(t(A,'_hypernym',C),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %233 25
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.22580645161290322),','(t(A,'_hypernym',C),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %62 14
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.053811659192825115),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %223 12
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00011369173298684424),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %184710 21
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0016304901661061857),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %9813 16
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.003925967470555244),','(t(A,'_hypernym',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1783 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.2857142857142857),','(t(C,'_also_see',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %7 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00033200531208499334),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3012 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0003255208333333333),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3072 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00022286605749944285),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %4487 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005701254275940707),','(t(C,'_also_see',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1754 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.46153846153846156),','(t(C,'_also_see',A),','(t(D,'_also_see',C),t(D,'_synset_domain_topic_of',B))))), %13 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00033211557622052476),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3011 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0003354579000335458),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %2981 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00023255813953488373),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %4300 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005945303210463733),','(t(C,'_also_see',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1682 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.023391812865497075),','(t(C,'_also_see',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %171 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.25),','(t(C,'_also_see',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %4 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.246572518297083e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %48505 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.000525),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %80000 42
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3780649436713055),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %3018 1141
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005132699048572859),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %79880 41
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.001610305958132045),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_member_meronym',D))))), %621 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.264056963673206e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %88337 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.08064516129032258),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %62 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.002053388090349076),','(t(C,'_derivationally_related_form',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %974 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005338250994855867),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %20606 11
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005548115553854983),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52270 29
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06967615309126594),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %1019 71
-(:-(:(tt(A,'_synset_domain_topic_of',B),5.6715310952599087e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %458430 26
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005768787016383355),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52004 30
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0008108655990269613),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_synset_domain_topic_of',D))))), %4933 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0038314176245210726),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %522 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),8.332291796858727e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %48006 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005125),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %80000 41
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.36938154782020954),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %2959 1093
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005019513358179925),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %79689 40
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_member_meronym',D))))), %606 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.2633651713367434e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %88364 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %574 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.023809523809523808),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %42 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.008223684210526315),','(t(C,'_derivationally_related_form',A),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %608 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),7.652573177731012e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.013278855975485188),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %2937 39
-(:-(:(tt(A,'_synset_domain_topic_of',B),9.541256392641782e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0023752969121140144),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %1263 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.13636363636363635),','(t(C,'_derivationally_related_form',A),','(t(D,'_member_meronym',C),t(D,'_synset_domain_topic_of',B))))), %22 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.029850746268656716),','(t(C,'_derivationally_related_form',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %134 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.05896805896805897),','(t(C,'_derivationally_related_form',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %407 24
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.25),','(t(C,'_derivationally_related_form',A),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %12 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.028985507246376812),','(t(C,'_derivationally_related_form',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %138 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0045336787564766836),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1544 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00010607078457023654),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %113132 12
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0010384215991692627),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7704 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.045936395759717315),','(t(C,'_derivationally_related_form',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %283 13
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0012915724895059735),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3097 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06293706293706294),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %143 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0012586532410320957),','(t(C,'_has_part',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3178 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3443830570902394),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %543 187
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006263048016701462),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_synset_domain_topic_of',D))))), %479 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0007151029748283753),','(t(C,'_has_part',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %13984 10
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.1015625),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %128 13
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0002772694504519492),','(t(C,'_has_part',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %36066 10
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0012706480304955528),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3148 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.07432432432432433),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %148 11
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.001275103602167676),','(t(C,'_has_part',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3137 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_hypernym',B))))), %1023 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.02830188679245283),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %212 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0011098779134295228),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %901 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005878894767783657),','(t(C,'_has_part',A),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %3402 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0749185667752443),','(t(C,'_has_part',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %307 23
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.18181818181818182),','(t(C,'_has_part',A),','(t(D,'_member_meronym',C),t(D,'_synset_domain_topic_of',B))))), %11 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.019157088122605363),','(t(C,'_has_part',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %522 10
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3181818181818182),','(t(C,'_has_part',A),','(t(C,'_instance_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %22 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.1),','(t(C,'_has_part',A),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %10 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.05128205128205128),','(t(C,'_has_part',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %39 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.18181818181818182),','(t(C,'_hypernym',A),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %11 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00014430906879419464),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %48507 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.000333000333000333),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_synset_domain_topic_of',D))))), %3003 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.6322023637177227e-5),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %37991 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00010415364746073408),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %48006 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0344053851907255),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %1337 46
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0006944073500347204),','(t(C,'_hypernym',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %18721 13
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.08148148148148149),','(t(C,'_hypernym',A),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %135 11
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.8808823529411764),','(t(C,'_hypernym',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %680 599
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0007478233000373912),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %18721 14
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00010308215647871353),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %48505 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03574144486692015),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %1315 47
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00014586068221124793),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %47991 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00038550501156515033),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_synset_domain_topic_of',D))))), %2594 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),2.6085822355549757e-5),','(t(C,'_hypernym',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %38335 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00013997760358342665),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %7144 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.08695652173913043),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %161 14
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0012055455093429777),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(B,'_synset_domain_topic_of',D))))), %1659 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(C,'_hypernym',A),','(t(D,'_has_part',C),t(B,'_hypernym',D))))), %5135 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03878474466709761),','(t(C,'_hypernym',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %1547 60
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.16216216216216217),','(t(C,'_hypernym',A),','(t(D,'_member_meronym',C),t(D,'_synset_domain_topic_of',B))))), %37 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.05),','(t(C,'_hypernym',A),','(t(D,'_instance_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %60 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.07058823529411765),','(t(C,'_hypernym',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %85 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.016241299303944315),','(t(C,'_hypernym',A),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %431 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.13333333333333333),','(t(C,'_hypernym',A),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %30 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.06896551724137931),','(t(C,'_hypernym',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %87 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03543307086614173),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %254 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),6.147079112908183e-5),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %146411 9
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.000421822272215973),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %7112 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00808457711442786),','(t(C,'_hypernym',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %1608 13
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.017699115044247787),','(t(C,'_member_of_domain_usage',A),','(t(C,'_member_of_domain_usage',D),t(D,'_synset_domain_topic_of',B))))), %904 16
-(:-(:(tt(A,'_synset_domain_topic_of',B),6.255082254331645e-5),','(t(C,'_member_of_domain_region',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %15987 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.07127312295973885),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_synset_domain_topic_of',B))))), %1838 131
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0008802816901408451),','(t(C,'_member_of_domain_region',A),','(t(C,'_member_of_domain_region',D),t(D,'_instance_hypernym',B))))), %3408 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00020267531414673692),','(t(C,'_member_of_domain_region',A),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %4934 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),6.688963210702341e-5),','(t(C,'_member_of_domain_region',A),','(t(C,'_instance_hypernym',D),t(B,'_instance_hypernym',D))))), %14950 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03225806451612903),','(t(C,'_member_meronym',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %124 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.16666666666666666),','(t(C,'_member_meronym',A),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %6 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.013559322033898305),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %590 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00016212710765239947),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(B,'_member_meronym',D))))), %6168 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),1.2786906208042963e-6),','(t(C,'_member_meronym',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %782050 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),1.092955899229466e-5),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(B,'_hypernym',D))))), %91495 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.373134328358209),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %134 50
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(C,'_member_meronym',A),','(t(C,'_member_meronym',D),t(D,'_member_meronym',B))))), %92052 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.035398230088495575),','(t(C,'_member_meronym',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %113 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.10891089108910891),','(t(C,'_member_meronym',A),','(t(D,'_member_meronym',C),t(D,'_synset_domain_topic_of',B))))), %101 11
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.13333333333333333),','(t(C,'_member_meronym',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %30 4
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.25),','(t(C,'_member_meronym',A),','(t(C,'_instance_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %4 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.18181818181818182),','(t(C,'_instance_hypernym',A),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %11 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.40336134453781514),','(t(C,'_instance_hypernym',A),','(t(C,'_instance_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %119 48
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.14285714285714285),','(t(C,'_instance_hypernym',A),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %7 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3333333333333333),','(t(C,'_instance_hypernym',A),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %3 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.14285714285714285),','(t(C,'_verb_group',A),','(t(C,'_also_see',D),t(D,'_synset_domain_topic_of',B))))), %7 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0002726281352235551),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3668 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.011904761904761904),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %84 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00027693159789531985),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(B,'_hypernym',D))))), %3611 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.000273224043715847),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3660 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.05),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %100 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.003666841278156103),','(t(C,'_verb_group',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1909 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00034223134839151266),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2922 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.25806451612903225),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %31 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0007057163020465773),','(t(C,'_verb_group',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2834 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0021645021645021645),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %2310 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.7297297297297297),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %111 81
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.002572898799313894),','(t(C,'_verb_group',A),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %2332 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0002680246582685607),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3731 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.011764705882352941),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %85 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0002701972439881113),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(B,'_hypernym',D))))), %3701 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005295207836907599),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3777 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.052083333333333336),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %96 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0036496350364963502),','(t(C,'_verb_group',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1918 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.056451612903225805),','(t(C,'_verb_group',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %124 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.002510460251046025),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %2390 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.7457627118644068),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %118 88
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.002904564315352697),','(t(C,'_verb_group',A),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %2410 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.07142857142857142),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %14 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00024993751562109475),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4001 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0023584905660377358),','(t(C,'_verb_group',A),','(t(C,'_synset_domain_topic_of',D),t(B,'_hypernym',D))))), %424 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %69 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.07575757575757576),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %132 10
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0022813688212927757),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1315 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.02631578947368421),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %38 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006211180124223602),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_has_part',D),t(D,'_hypernym',B))))), %161 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0006809669731018045),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2937 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03571428571428571),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %168 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0010309278350515464),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2910 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.009708737864077669),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %103 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.003683241252302026),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %543 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.02),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_has_part',C),t(B,'_has_part',D))))), %50 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %76 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.07575757575757576),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %132 10
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.002243829468960359),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1337 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.037037037037037035),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %27 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0009813542688910696),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %1019 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.041666666666666664),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %168 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0009746588693957114),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %1026 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.008403361344537815),','(t(C,'_synset_domain_topic_of',A),','(t(D,'_hypernym',C),t(B,'_has_part',D))))), %119 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.037037037037037035),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %27 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.6031746031746031),','(t(C,'_synset_domain_topic_of',A),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %63 38
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.05226480836236934),','(t(A,'_instance_hypernym',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %287 15
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.16666666666666666),','(t(A,'_instance_hypernym',C),','(t(D,'_member_meronym',C),t(D,'_synset_domain_topic_of',B))))), %6 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.16322517207472959),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %1017 166
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00867953969182758),','(t(A,'_instance_hypernym',C),','(t(D,'_instance_hypernym',C),t(D,'_instance_hypernym',B))))), %10254 89
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0035087719298245615),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(B,'_has_part',D))))), %285 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),3.7239786988418424e-5),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %26853 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.007389162561576354),','(t(A,'_instance_hypernym',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %406 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.08571428571428572),','(t(A,'_member_meronym',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %35 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.25),','(t(A,'_member_meronym',C),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %8 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.09090909090909091),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %88 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),3.4544104185018223e-6),','(t(A,'_member_meronym',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %289485 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.47058823529411764),','(t(A,'_member_meronym',C),','(t(C,'_member_meronym',D),t(D,'_synset_domain_topic_of',B))))), %17 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.2),','(t(A,'_member_meronym',C),','(t(D,'_instance_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %5 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.09090909090909091),','(t(A,'_member_meronym',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %33 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.2553191489361702),','(t(A,'_member_meronym',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %47 12
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00027586206896551725),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %3625 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.012048192771084338),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(B,'_has_part',D))))), %83 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00027662517289073305),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %3615 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.05154639175257732),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %97 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0036842105263157894),','(t(A,'_verb_group',C),','(t(C,'_derivationally_related_form',D),t(D,'_hypernym',B))))), %1900 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0006736274840013472),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %2969 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.25),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %32 8
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0010452961672473868),','(t(A,'_verb_group',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %2870 3
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0021008403361344537),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_derivationally_related_form',B))))), %2380 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.7456140350877193),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(D,'_synset_domain_topic_of',B))))), %114 85
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0024937655860349127),','(t(A,'_verb_group',C),','(t(D,'_verb_group',C),t(B,'_derivationally_related_form',D))))), %2406 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00027114967462039046),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %3688 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.011764705882352941),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(B,'_has_part',D))))), %85 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0005361930294906167),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %3730 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.05319148936170213),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %94 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0036706869428421605),','(t(A,'_verb_group',C),','(t(D,'_derivationally_related_form',C),t(D,'_hypernym',B))))), %1907 7
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.04838709677419355),','(t(A,'_verb_group',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %124 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.002173913043478261),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_derivationally_related_form',B))))), %2300 5
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.7363636363636363),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(D,'_synset_domain_topic_of',B))))), %110 81
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0025806451612903226),','(t(A,'_verb_group',C),','(t(C,'_verb_group',D),t(B,'_derivationally_related_form',D))))), %2325 6
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.009009009009009009),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_hypernym',B))))), %111 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.0625),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(D,'_synset_domain_topic_of',B))))), %16 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00023912003825920613),','(t(A,'_verb_group',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %4182 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.2932957140937794),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_derivationally_related_form',B))))), %7443 2183
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3022186147186147),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_derivationally_related_form',D))))), %7392 2234
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(B,'_instance_hypernym',D))))), %1843 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.7712418300653595),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_derivationally_related_form',D),t(D,'_synset_domain_topic_of',B))))), %765 590
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.6616915422885572),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(B,'_has_part',D))))), %1206 798
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.8536036036036037),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_has_part',D),t(D,'_synset_domain_topic_of',B))))), %444 379
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(D,'_hypernym',B))))), %2154 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.002551020408163265),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_instance_hypernym',D))))), %392 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.08728870858688303),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %29580 2582
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.5584415584415584),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_hypernym',D),t(D,'_synset_domain_topic_of',B))))), %154 86
-(:-(:(tt(A,'_synset_domain_topic_of',B),1),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_has_part',C),t(D,'_synset_domain_topic_of',B))))), %2 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.42588726513569936),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_has_part',C),t(D,'_has_part',B))))), %479 204
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.30870928172277495),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_derivationally_related_form',B))))), %7337 2265
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.31043799772468716),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_derivationally_related_form',D))))), %7032 2183
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(B,'_instance_hypernym',D))))), %2568 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.8685612788632326),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_derivationally_related_form',C),t(D,'_synset_domain_topic_of',B))))), %1126 978
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.008671286638616837),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_derivationally_related_form',B))))), %113132 981
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00010795638562020944),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_has_part',B))))), %18526 2
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.006085608321779101),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_hypernym',B))))), %146411 891
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.005178776590189047),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_derivationally_related_form',D))))), %114892 595
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.03626794258373206),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_has_part',D))))), %10450 379
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.00045476693194737697),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(B,'_hypernym',D))))), %184710 84
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.3385116784356328),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_synset_domain_topic_of',C),t(D,'_synset_domain_topic_of',B))))), %9205 3116
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.5588972431077694),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(D,'_synset_domain_topic_of',B))))), %1596 892
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(D,'_hypernym',C),t(B,'_hypernym',D))))), %11467 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_instance_hypernym',D),t(D,'_derivationally_related_form',B))))), %0 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_instance_hypernym',D),t(B,'_derivationally_related_form',D))))), %0 0
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.047619047619047616),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_instance_hypernym',D),t(B,'_hypernym',D))))), %21 1
-(:-(:(tt(A,'_synset_domain_topic_of',B),0.02685980492065803),','(t(A,'_synset_domain_topic_of',C),','(t(C,'_synset_domain_topic_of',D),t(B,'_synset_domain_topic_of',D))))), %13738 369
-(:-(:(tt(A,'_similar_to',B),0.03348729792147806),','(t(A,'_similar_to',C),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %866 29
-(:-(:(tt(A,'_similar_to',B),1.9229290054611184e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52004 1
-(:-(:(tt(A,'_similar_to',B),1.9191647794879668e-5),','(t(A,'_derivationally_related_form',C),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52106 1
-(:-(:(tt(A,'_similar_to',B),1.9082512785283566e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52404 1
-(:-(:(tt(A,'_similar_to',B),1.9191647794879668e-5),','(t(A,'_derivationally_related_form',C),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52106 1
-(:-(:(tt(A,'_similar_to',B),1.913143294432753e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(D,'_derivationally_related_form',B))))), %52270 1
-(:-(:(tt(A,'_similar_to',B),1.9082512785283566e-5),','(t(C,'_derivationally_related_form',A),','(t(D,'_hypernym',C),t(B,'_derivationally_related_form',D))))), %52404 1
-(:-(:(tt(A,'_similar_to',B),1.913143294432753e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(D,'_derivationally_related_form',B))))), %52270 1
-(:-(:(tt(A,'_similar_to',B),1.9229290054611184e-5),','(t(C,'_derivationally_related_form',A),','(t(C,'_hypernym',D),t(B,'_derivationally_related_form',D))))), %52004 1
-(:-(:(tt(A,'_similar_to',B),0.0308839190628328),','(t(C,'_similar_to',A),','(t(C,'_hypernym',D),t(B,'_hypernym',D))))), %939 29
-(:-(:(tt(A,'_similar_to',B),0.03348729792147806),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(B,'_similar_to',D))))), %866 29
-(:-(:(tt(A,'_similar_to',B),0.0362087326943557),','(t(A,'_hypernym',C),','(t(D,'_hypernym',C),t(D,'_similar_to',B))))), %939 34
+out([
+(tt(A,'_also_see',B):0.00084674 :-   r(A,'_verb_group',B)), % 1181 1
+(tt(A,'_also_see',B):0.652239 :-   r(A,i('_also_see'),B)), % 1340 874
+(tt(A,'_also_see',B):0.00084674 :-   r(A,i('_verb_group'),B)), % 1181 1
+(tt(A,'_also_see',B):0.00108424 :-   r(A,i('_hypernym'),B)), % 35970 39
+(tt(A,'_also_see',B):0.000166806 :-   r(A,'_hypernym',B)), % 35970 6
+(tt(A,'_derivationally_related_form',B):0.0074511 :-   r(A,'_synset_domain_topic_of',B)), % 3221 24
+(tt(A,'_derivationally_related_form',B):0.000472616 :-   r(A,'_hypernym',B)), % 35970 17
+(tt(A,'_derivationally_related_form',B):0.000472616 :-   r(A,i('_hypernym'),B)), % 35970 17
+(tt(A,'_derivationally_related_form',B):0.965901 :-   r(A,i('_derivationally_related_form'),B)), % 30793 29743
+(tt(A,'_derivationally_related_form',B):0.00312704 :-   r(A,i('_member_meronym'),B)), % 7675 24
+(tt(A,'_derivationally_related_form',B):0.00776156 :-   r(A,i('_synset_domain_topic_of'),B)), % 3221 25
+(tt(A,'_derivationally_related_form',B):0.00299674 :-   r(A,'_member_meronym',B)), % 7675 23
+(tt(A,'_has_part',B):0.00731452 :-   r(A,'_member_of_domain_region',B)), % 957 7
+(tt(A,'_has_part',B):0.00104493 :-   r(A,i('_member_of_domain_region'),B)), % 957 1
+(tt(A,'_has_part',B):0.00310463 :-   r(A,i('_synset_domain_topic_of'),B)), % 3221 10
+(tt(A,'_hypernym',B):0.00447761 :-   r(A,'_also_see',B)), % 1340 6
+(tt(A,'_hypernym',B):0.000552074 :-   r(A,'_derivationally_related_form',B)), % 30793 17
+(tt(A,'_hypernym',B):0.0291045 :-   r(A,i('_also_see'),B)), % 1340 39
+(tt(A,'_hypernym',B):0.000552074 :-   r(A,i('_derivationally_related_form'),B)), % 30793 17
+(tt(A,'_hypernym',B):5.56019e-05 :-   r(A,i('_hypernym'),B)), % 35970 2
+(tt(A,'_hypernym',B):0.0152413 :-   r(A,i('_verb_group'),B)), % 1181 18
+(tt(A,'_hypernym',B):0.00124185 :-   r(A,i('_synset_domain_topic_of'),B)), % 3221 4
+(tt(A,'_hypernym',B):0.0152413 :-   r(A,'_verb_group',B)), % 1181 18
+(tt(A,'_hypernym',B):0.00620925 :-   r(A,'_synset_domain_topic_of',B)), % 3221 20
+(tt(A,'_member_of_domain_region',B):0.00140845 :-   r(A,'_has_part',B)), % 4970 7
+(tt(A,'_member_of_domain_region',B):0.000201207 :-   r(A,i('_has_part'),B)), % 4970 1
+(tt(A,'_member_of_domain_region',B):0.000330251 :-   r(A,i('_instance_hypernym'),B)), % 3028 1
+(tt(A,'_member_meronym',B):0.000746923 :-   r(A,'_derivationally_related_form',B)), % 30793 23
+(tt(A,'_member_meronym',B):0.000779398 :-   r(A,i('_derivationally_related_form'),B)), % 30793 24
+(tt(A,'_instance_hypernym',B):0.00104493 :-   r(A,i('_member_of_domain_region'),B)), % 957 1
+(tt(A,'_verb_group',B):0.000746269 :-   r(A,'_also_see',B)), % 1340 1
+(tt(A,'_verb_group',B):0.000746269 :-   r(A,i('_also_see'),B)), % 1340 1
+(tt(A,'_verb_group',B):0.966977 :-   r(A,i('_verb_group'),B)), % 1181 1142
+(tt(A,'_verb_group',B):0.000500417 :-   r(A,i('_hypernym'),B)), % 35970 18
+(tt(A,'_verb_group',B):0.000500417 :-   r(A,'_hypernym',B)), % 35970 18
+(tt(A,'_synset_domain_topic_of',B):0.000779398 :-   r(A,'_derivationally_related_form',B)), % 30793 24
+(tt(A,'_synset_domain_topic_of',B):0.000620925 :-   r(A,i('_synset_domain_topic_of'),B)), % 3221 2
+(tt(A,'_synset_domain_topic_of',B):0.000811873 :-   r(A,i('_derivationally_related_form'),B)), % 30793 25
+(tt(A,'_synset_domain_topic_of',B):0.00201207 :-   r(A,i('_has_part'),B)), % 4970 10
+(tt(A,'_synset_domain_topic_of',B):0.000111204 :-   r(A,i('_hypernym'),B)), % 35970 4
+(tt(A,'_synset_domain_topic_of',B):0.000556019 :-   r(A,'_hypernym',B)), % 35970 20
+(tt(A,'_similar_to',B):0.963855 :-   r(A,i('_similar_to'),B)), % 83 80
+(tt(A,'_also_see',B):0.11938 :-   r(A,'_also_see',C),  r(C,'_also_see',B)), % 1935 231
+(tt(A,'_also_see',B):0.166667 :-   r(A,'_also_see',C),  r(C,'_verb_group',B)), % 54 9
+(tt(A,'_also_see',B):0.10087 :-   r(A,'_also_see',C),  r(C,i('_also_see'),B)), % 2300 232
+(tt(A,'_also_see',B):0.163636 :-   r(A,'_also_see',C),  r(C,i('_verb_group'),B)), % 55 9
+(tt(A,'_also_see',B):0.0122164 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),B)), % 573 7
+(tt(A,'_also_see',B):0.0162162 :-   r(A,'_also_see',C),  r(C,'_hypernym',B)), % 370 6
+(tt(A,'_also_see',B):0.0011442 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 72
+(tt(A,'_also_see',B):0.00115622 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 73
+(tt(A,'_also_see',B):0.000268962 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),B)), % 3718 1
+(tt(A,'_also_see',B):0.00161769 :-   r(A,'_hypernym',C),  r(C,'_also_see',B)), % 3709 6
+(tt(A,'_also_see',B):1.41268e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),B)), % 1344960 19
+(tt(A,'_also_see',B):2.93634e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',B)), % 34056 1
+(tt(A,'_also_see',B):0.0749196 :-   r(A,i('_also_see'),C),  r(C,'_also_see',B)), % 3110 233
+(tt(A,'_also_see',B):0.119897 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),B)), % 1935 232
+(tt(A,'_also_see',B):0.000539229 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),B)), % 3709 2
+(tt(A,'_also_see',B):0.00108948 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 69
+(tt(A,'_also_see',B):0.00111242 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 70
+(tt(A,'_also_see',B):0.000270563 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),B)), % 3696 1
+(tt(A,'_also_see',B):0.000714796 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',B)), % 1399 1
+(tt(A,'_also_see',B):0.00145349 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),B)), % 1376 2
+(tt(A,'_also_see',B):0.000490918 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),B)), % 2037 1
+(tt(A,'_also_see',B):0.000996016 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',B)), % 1004 1
+(tt(A,'_also_see',B):0.0145349 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',B)), % 344 5
+(tt(A,'_also_see',B):0.00199203 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',B)), % 1004 2
+(tt(A,'_also_see',B):0.00540541 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),B)), % 370 2
+(tt(A,'_also_see',B):0.0019861 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),B)), % 1007 2
+(tt(A,'_also_see',B):0.000469814 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),B)), % 34056 16
+(tt(A,'_also_see',B):0.000726744 :-   r(A,'_verb_group',C),  r(C,'_verb_group',B)), % 1376 1
+(tt(A,'_also_see',B):0.00142045 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),B)), % 1408 2
+(tt(A,'_also_see',B):0.000488998 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),B)), % 2045 1
+(tt(A,'_also_see',B):0.000993049 :-   r(A,'_verb_group',C),  r(C,'_hypernym',B)), % 1007 1
+(tt(A,'_also_see',B):2.33396e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 7
+(tt(A,'_derivationally_related_form',B):0.050289 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',B)), % 1730 87
+(tt(A,'_derivationally_related_form',B):0.0510441 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),B)), % 1724 88
+(tt(A,'_derivationally_related_form',B):0.0384615 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',B)), % 26 1
+(tt(A,'_derivationally_related_form',B):0.0411932 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',B)), % 2112 87
+(tt(A,'_derivationally_related_form',B):0.0147793 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 930
+(tt(A,'_derivationally_related_form',B):0.0187581 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',B)), % 1546 29
+(tt(A,'_derivationally_related_form',B):0.040471 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',B)), % 26241 1062
+(tt(A,'_derivationally_related_form',B):0.00665557 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_of_domain_region',B)), % 601 4
+(tt(A,'_derivationally_related_form',B):0.050464 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),B)), % 1724 87
+(tt(A,'_derivationally_related_form',B):0.0147616 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 932
+(tt(A,'_derivationally_related_form',B):0.0377604 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),B)), % 768 29
+(tt(A,'_derivationally_related_form',B):0.0233406 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),B)), % 50470 1178
+(tt(A,'_derivationally_related_form',B):0.0588235 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_of_domain_region'),B)), % 68 4
+(tt(A,'_derivationally_related_form',B):0.101408 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),B)), % 355 36
+(tt(A,'_derivationally_related_form',B):0.31266 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),B)), % 2338 731
+(tt(A,'_derivationally_related_form',B):0.0115654 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),B)), % 3718 43
+(tt(A,'_derivationally_related_form',B):0.0183486 :-   r(A,'_derivationally_related_form',C),  r(C,i('_similar_to'),B)), % 109 2
+(tt(A,'_derivationally_related_form',B):0.107143 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',B)), % 336 36
+(tt(A,'_derivationally_related_form',B):0.314974 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',B)), % 2324 732
+(tt(A,'_derivationally_related_form',B):0.0174768 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',B)), % 1831 32
+(tt(A,'_derivationally_related_form',B):0.018018 :-   r(A,'_derivationally_related_form',C),  r(C,'_similar_to',B)), % 111 2
+(tt(A,'_derivationally_related_form',B):0.037323 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',B)), % 777 29
+(tt(A,'_derivationally_related_form',B):0.0377604 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),B)), % 768 29
+(tt(A,'_derivationally_related_form',B):0.0111111 :-   r(A,'_has_part',C),  r(C,'_member_meronym',B)), % 180 2
+(tt(A,'_derivationally_related_form',B):0.0229439 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',B)), % 50558 1160
+(tt(A,'_derivationally_related_form',B):0.000134662 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),B)), % 7426 1
+(tt(A,'_derivationally_related_form',B):0.0231226 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),B)), % 50470 1167
+(tt(A,'_derivationally_related_form',B):0.00312636 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),B)), % 13754 43
+(tt(A,'_derivationally_related_form',B):8.9222e-06 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),B)), % 1344960 12
+(tt(A,'_derivationally_related_form',B):0.00142993 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',B)), % 2098 3
+(tt(A,'_derivationally_related_form',B):0.0447761 :-   r(A,'_member_of_domain_region',C),  r(C,'_derivationally_related_form',B)), % 67 3
+(tt(A,'_derivationally_related_form',B):0.0588235 :-   r(A,'_member_of_domain_region',C),  r(C,i('_derivationally_related_form'),B)), % 68 4
+(tt(A,'_derivationally_related_form',B):0.1 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',B)), % 350 35
+(tt(A,'_derivationally_related_form',B):0.0957746 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),B)), % 355 34
+(tt(A,'_derivationally_related_form',B):0.000134662 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),B)), % 7426 1
+(tt(A,'_derivationally_related_form',B):0.000247525 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',B)), % 4040 1
+(tt(A,'_derivationally_related_form',B):0.0410256 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',B)), % 2145 88
+(tt(A,'_derivationally_related_form',B):0.0407197 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),B)), % 2112 86
+(tt(A,'_derivationally_related_form',B):0.0414918 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',B)), % 2145 89
+(tt(A,'_derivationally_related_form',B):0.0146527 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 928
+(tt(A,'_derivationally_related_form',B):0.0188925 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',B)), % 1535 29
+(tt(A,'_derivationally_related_form',B):0.0401417 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',B)), % 26257 1054
+(tt(A,'_derivationally_related_form',B):0.00665557 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_of_domain_region',B)), % 601 4
+(tt(A,'_derivationally_related_form',B):0.049711 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),B)), % 1730 86
+(tt(A,'_derivationally_related_form',B):0.0147793 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 930
+(tt(A,'_derivationally_related_form',B):0.037323 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),B)), % 777 29
+(tt(A,'_derivationally_related_form',B):0.023122 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),B)), % 50558 1169
+(tt(A,'_derivationally_related_form',B):0.0447761 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_of_domain_region'),B)), % 67 3
+(tt(A,'_derivationally_related_form',B):0.108571 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),B)), % 350 38
+(tt(A,'_derivationally_related_form',B):0.307332 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),B)), % 2346 721
+(tt(A,'_derivationally_related_form',B):0.0113636 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),B)), % 3696 42
+(tt(A,'_derivationally_related_form',B):0.0181818 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_similar_to'),B)), % 110 2
+(tt(A,'_derivationally_related_form',B):0.0979827 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',B)), % 347 34
+(tt(A,'_derivationally_related_form',B):0.309442 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',B)), % 2330 721
+(tt(A,'_derivationally_related_form',B):0.0170236 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',B)), % 1821 31
+(tt(A,'_derivationally_related_form',B):0.018018 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_similar_to',B)), % 111 2
+(tt(A,'_derivationally_related_form',B):0.0188925 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',B)), % 1535 29
+(tt(A,'_derivationally_related_form',B):0.0187581 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),B)), % 1546 29
+(tt(A,'_derivationally_related_form',B):0.00320513 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),B)), % 2184 7
+(tt(A,'_derivationally_related_form',B):0.000956023 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',B)), % 1046 1
+(tt(A,'_derivationally_related_form',B):0.0113805 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',B)), % 2021 23
+(tt(A,'_derivationally_related_form',B):0.0399893 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',B)), % 26257 1050
+(tt(A,'_derivationally_related_form',B):0.0403186 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),B)), % 26241 1058
+(tt(A,'_derivationally_related_form',B):0.00167001 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),B)), % 2994 5
+(tt(A,'_derivationally_related_form',B):0.000247525 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),B)), % 4040 1
+(tt(A,'_derivationally_related_form',B):8.94134e-05 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',B)), % 11184 1
+(tt(A,'_derivationally_related_form',B):2.75636e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',B)), % 217678 6
+(tt(A,'_derivationally_related_form',B):0.00499168 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_derivationally_related_form',B)), % 601 3
+(tt(A,'_derivationally_related_form',B):0.00499168 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_derivationally_related_form'),B)), % 601 3
+(tt(A,'_derivationally_related_form',B):0.100865 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',B)), % 347 35
+(tt(A,'_derivationally_related_form',B):0.000956023 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',B)), % 1046 1
+(tt(A,'_derivationally_related_form',B):0.113095 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),B)), % 336 38
+(tt(A,'_derivationally_related_form',B):0.0111111 :-   r(A,i('_member_meronym'),C),  r(C,i('_has_part'),B)), % 180 2
+(tt(A,'_derivationally_related_form',B):1.01798e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',B)), % 98234 1
+(tt(A,'_derivationally_related_form',B):0.0227273 :-   r(A,i('_member_meronym'),C),  r(C,'_synset_domain_topic_of',B)), % 88 2
+(tt(A,'_derivationally_related_form',B):0.0144928 :-   r(A,i('_instance_hypernym'),C),  r(C,'_synset_domain_topic_of',B)), % 69 1
+(tt(A,'_derivationally_related_form',B):0.00106724 :-   r(A,i('_instance_hypernym'),C),  r(C,'_instance_hypernym',B)), % 937 1
+(tt(A,'_derivationally_related_form',B):0.30515 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',B)), % 2330 711
+(tt(A,'_derivationally_related_form',B):0.310671 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),B)), % 2324 722
+(tt(A,'_derivationally_related_form',B):0.00943396 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',B)), % 106 1
+(tt(A,'_derivationally_related_form',B):0.0164745 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',B)), % 1821 30
+(tt(A,'_derivationally_related_form',B):0.0123701 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',B)), % 2021 25
+(tt(A,'_derivationally_related_form',B):0.0227273 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_member_meronym',B)), % 88 2
+(tt(A,'_derivationally_related_form',B):0.0384615 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_also_see'),B)), % 26 1
+(tt(A,'_derivationally_related_form',B):0.0169306 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),B)), % 1831 31
+(tt(A,'_derivationally_related_form',B):0.00142993 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),B)), % 2098 3
+(tt(A,'_derivationally_related_form',B):0.00917431 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),B)), % 109 1
+(tt(A,'_derivationally_related_form',B):0.00995025 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),B)), % 402 4
+(tt(A,'_derivationally_related_form',B):0.0144928 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_instance_hypernym',B)), % 69 1
+(tt(A,'_derivationally_related_form',B):0.00943396 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',B)), % 106 1
+(tt(A,'_derivationally_related_form',B):0.018018 :-   r(A,i('_similar_to'),C),  r(C,'_derivationally_related_form',B)), % 111 2
+(tt(A,'_derivationally_related_form',B):0.018018 :-   r(A,i('_similar_to'),C),  r(C,i('_derivationally_related_form'),B)), % 111 2
+(tt(A,'_derivationally_related_form',B):3.02313e-06 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),B)), % 330783 1
+(tt(A,'_derivationally_related_form',B):0.303069 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',B)), % 2346 711
+(tt(A,'_derivationally_related_form',B):0.308383 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),B)), % 2338 721
+(tt(A,'_derivationally_related_form',B):0.00917431 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',B)), % 109 1
+(tt(A,'_derivationally_related_form',B):0.0108225 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',B)), % 3696 40
+(tt(A,'_derivationally_related_form',B):0.00320513 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',B)), % 2184 7
+(tt(A,'_derivationally_related_form',B):0.00167001 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',B)), % 2994 5
+(tt(A,'_derivationally_related_form',B):0.0110274 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),B)), % 3718 41
+(tt(A,'_derivationally_related_form',B):0.000486796 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 146
+(tt(A,'_derivationally_related_form',B):0.00290824 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),B)), % 13754 40
+(tt(A,'_derivationally_related_form',B):0.00995025 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',B)), % 402 4
+(tt(A,'_derivationally_related_form',B):0.0181818 :-   r(A,'_similar_to',C),  r(C,'_derivationally_related_form',B)), % 110 2
+(tt(A,'_derivationally_related_form',B):0.0183486 :-   r(A,'_similar_to',C),  r(C,i('_derivationally_related_form'),B)), % 109 2
+(tt(A,'_has_part',B):0.000429075 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 27
+(tt(A,'_has_part',B):0.000427641 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 27
+(tt(A,'_has_part',B):0.0056338 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),B)), % 355 2
+(tt(A,'_has_part',B):0.0401201 :-   r(A,'_has_part',C),  r(C,'_has_part',B)), % 3664 147
+(tt(A,'_has_part',B):0.0238704 :-   r(A,'_has_part',C),  r(C,'_hypernym',B)), % 2346 56
+(tt(A,'_has_part',B):0.00188679 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',B)), % 1060 2
+(tt(A,'_has_part',B):0.0179203 :-   r(A,'_has_part',C),  r(C,i('_has_part'),B)), % 4241 76
+(tt(A,'_has_part',B):0.0504997 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),B)), % 1901 96
+(tt(A,'_has_part',B):0.025 :-   r(A,'_has_part',C),  r(C,i('_member_of_domain_region'),B)), % 80 2
+(tt(A,'_has_part',B):0.430446 :-   r(A,'_has_part',C),  r(C,i('_instance_hypernym'),B)), % 381 164
+(tt(A,'_has_part',B):0.00480769 :-   r(A,'_has_part',C),  r(C,i('_synset_domain_topic_of'),B)), % 208 1
+(tt(A,'_has_part',B):0.0124888 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',B)), % 1121 14
+(tt(A,'_has_part',B):0.00588235 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',B)), % 170 1
+(tt(A,'_has_part',B):2.93634e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',B)), % 34056 1
+(tt(A,'_has_part',B):0.000636875 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),B)), % 9421 6
+(tt(A,'_has_part',B):0.000218118 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),B)), % 13754 3
+(tt(A,'_has_part',B):0.000208185 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),B)), % 1344960 280
+(tt(A,'_has_part',B):0.00160725 :-   r(A,'_hypernym',C),  r(C,'_has_part',B)), % 6844 11
+(tt(A,'_has_part',B):1 :-   r(A,'_member_of_domain_region',C),  r(C,'_member_of_domain_region',B)), % 1 1
+(tt(A,'_has_part',B):0.116279 :-   r(A,'_member_of_domain_region',C),  r(C,'_has_part',B)), % 43 5
+(tt(A,'_has_part',B):0.0125 :-   r(A,'_member_of_domain_region',C),  r(C,i('_has_part'),B)), % 80 1
+(tt(A,'_has_part',B):0.0625 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_meronym'),B)), % 16 1
+(tt(A,'_has_part',B):0.000426318 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 27
+(tt(A,'_has_part',B):0.000429075 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 27
+(tt(A,'_has_part',B):0.00571429 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),B)), % 350 2
+(tt(A,'_has_part',B):0.000956023 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',B)), % 1046 1
+(tt(A,'_has_part',B):7.44934e-05 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',B)), % 13424 1
+(tt(A,'_has_part',B):0.00305371 :-   r(A,i('_has_part'),C),  r(C,'_has_part',B)), % 45191 138
+(tt(A,'_has_part',B):0.000457875 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),B)), % 2184 1
+(tt(A,'_has_part',B):0.00043834 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),B)), % 6844 3
+(tt(A,'_has_part',B):8.94134e-05 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',B)), % 11184 1
+(tt(A,'_has_part',B):0.00402194 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',B)), % 2735 11
+(tt(A,'_has_part',B):0.00127877 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),B)), % 2346 3
+(tt(A,'_has_part',B):8.80902e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),B)), % 34056 3
+(tt(A,'_has_part',B):2.75636e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',B)), % 217678 6
+(tt(A,'_has_part',B):0.000372467 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',B)), % 13424 5
+(tt(A,'_has_part',B):1.01798e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',B)), % 98234 1
+(tt(A,'_has_part',B):0.0153257 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_has_part',B)), % 261 4
+(tt(A,'_has_part',B):0.00329489 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',B)), % 1821 6
+(tt(A,'_has_part',B):0.00995025 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),B)), % 402 4
+(tt(A,'_has_part',B):0.0032769 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),B)), % 1831 6
+(tt(A,'_has_part',B):0.00588235 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),B)), % 170 1
+(tt(A,'_has_part',B):0.00285987 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),B)), % 2098 6
+(tt(A,'_has_part',B):0.00395844 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',B)), % 2021 8
+(tt(A,'_has_part',B):0.00024185 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),B)), % 330783 80
+(tt(A,'_has_part',B):0.00285714 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',B)), % 350 1
+(tt(A,'_has_part',B):0.00952381 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),B)), % 105 1
+(tt(A,'_has_part',B):0.0028169 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),B)), % 355 1
+(tt(A,'_has_part',B):0.00061106 :-   r(A,'_member_meronym',C),  r(C,i('_member_meronym'),B)), % 3273 2
+(tt(A,'_has_part',B):0.000403986 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),B)), % 7426 3
+(tt(A,'_has_part',B):0.00049505 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',B)), % 4040 2
+(tt(A,'_has_part',B):0.00021339 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 64
+(tt(A,'_has_part',B):0.0018315 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',B)), % 2184 4
+(tt(A,'_hypernym',B):0.0026087 :-   r(A,'_also_see',C),  r(C,i('_also_see'),B)), % 2300 6
+(tt(A,'_hypernym',B):0.0017452 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),B)), % 573 1
+(tt(A,'_hypernym',B):0.0432432 :-   r(A,'_also_see',C),  r(C,'_hypernym',B)), % 370 16
+(tt(A,'_hypernym',B):0.0164161 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 1033
+(tt(A,'_hypernym',B):0.0004573 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',B)), % 26241 12
+(tt(A,'_hypernym',B):0.0162345 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 1025
+(tt(A,'_hypernym',B):0.000806885 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),B)), % 3718 3
+(tt(A,'_hypernym',B):0.00297619 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',B)), % 336 1
+(tt(A,'_hypernym',B):0.0174768 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',B)), % 1831 32
+(tt(A,'_hypernym',B):0.0044603 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',B)), % 1121 5
+(tt(A,'_hypernym',B):0.00259373 :-   r(A,'_has_part',C),  r(C,i('_has_part'),B)), % 4241 11
+(tt(A,'_hypernym',B):0.000526039 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),B)), % 1901 1
+(tt(A,'_hypernym',B):0.0176471 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',B)), % 170 3
+(tt(A,'_hypernym',B):0.099318 :-   r(A,'_has_part',C),  r(C,'_hypernym',B)), % 2346 233
+(tt(A,'_hypernym',B):3.95585e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',B)), % 50558 2
+(tt(A,'_hypernym',B):0.000146113 :-   r(A,'_hypernym',C),  r(C,'_has_part',B)), % 6844 1
+(tt(A,'_hypernym',B):0.000704722 :-   r(A,'_hypernym',C),  r(C,'_hypernym',B)), % 34056 24
+(tt(A,'_hypernym',B):3.96275e-05 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),B)), % 50470 2
+(tt(A,'_hypernym',B):0.000526039 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),B)), % 1901 1
+(tt(A,'_hypernym',B):1.78444e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),B)), % 1344960 24
+(tt(A,'_hypernym',B):0.000134662 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),B)), % 7426 1
+(tt(A,'_hypernym',B):7.27061e-05 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),B)), % 13754 1
+(tt(A,'_hypernym',B):0.00109769 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',B)), % 911 1
+(tt(A,'_hypernym',B):0.000476644 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',B)), % 2098 1
+(tt(A,'_hypernym',B):0.0022508 :-   r(A,i('_also_see'),C),  r(C,'_also_see',B)), % 3110 7
+(tt(A,'_hypernym',B):0.00892857 :-   r(A,i('_also_see'),C),  r(C,'_verb_group',B)), % 112 1
+(tt(A,'_hypernym',B):0.00103359 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),B)), % 1935 2
+(tt(A,'_hypernym',B):0.00943396 :-   r(A,i('_also_see'),C),  r(C,i('_verb_group'),B)), % 106 1
+(tt(A,'_hypernym',B):0.00431383 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),B)), % 3709 16
+(tt(A,'_hypernym',B):0.0523256 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',B)), % 344 18
+(tt(A,'_hypernym',B):0.0164685 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 1043
+(tt(A,'_hypernym',B):0.000457021 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',B)), % 26257 12
+(tt(A,'_hypernym',B):0.0164479 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 1035
+(tt(A,'_hypernym',B):0.000811688 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),B)), % 3696 3
+(tt(A,'_hypernym',B):0.00288184 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',B)), % 347 1
+(tt(A,'_hypernym',B):0.0164745 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',B)), % 1821 30
+(tt(A,'_hypernym',B):0.00286807 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',B)), % 1046 3
+(tt(A,'_hypernym',B):0.000545852 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),B)), % 3664 2
+(tt(A,'_hypernym',B):0.00274725 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),B)), % 2184 6
+(tt(A,'_hypernym',B):0.00043834 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),B)), % 6844 3
+(tt(A,'_hypernym',B):0.00210219 :-   r(A,i('_has_part'),C),  r(C,'_has_part',B)), % 45191 95
+(tt(A,'_hypernym',B):0.0990859 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',B)), % 2735 271
+(tt(A,'_hypernym',B):0.00290698 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',B)), % 344 1
+(tt(A,'_hypernym',B):0.000365631 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',B)), % 2735 1
+(tt(A,'_hypernym',B):0.0013412 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',B)), % 11184 15
+(tt(A,'_hypernym',B):0.0405405 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),B)), % 370 15
+(tt(A,'_hypernym',B):0.00297915 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),B)), % 1007 3
+(tt(A,'_hypernym',B):0.000668003 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),B)), % 2994 2
+(tt(A,'_hypernym',B):0.00127877 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),B)), % 2346 3
+(tt(A,'_hypernym',B):0.00298805 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',B)), % 1004 3
+(tt(A,'_hypernym',B):0.00445324 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',B)), % 2021 9
+(tt(A,'_hypernym',B):0.000438426 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',B)), % 82112 36
+(tt(A,'_hypernym',B):0.000312598 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_usage',B)), % 6398 2
+(tt(A,'_hypernym',B):5.97212e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',B)), % 217678 13
+(tt(A,'_hypernym',B):0.00228833 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_meronym',B)), % 437 1
+(tt(A,'_hypernym',B):0.00288184 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',B)), % 347 1
+(tt(A,'_hypernym',B):0.00382409 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',B)), % 1046 4
+(tt(A,'_hypernym',B):0.0277778 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',B)), % 7308 203
+(tt(A,'_hypernym',B):0.00297619 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),B)), % 336 1
+(tt(A,'_hypernym',B):0.00289106 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',B)), % 98234 284
+(tt(A,'_hypernym',B):0.0144928 :-   r(A,i('_instance_hypernym'),C),  r(C,'_synset_domain_topic_of',B)), % 69 1
+(tt(A,'_hypernym',B):0.00533618 :-   r(A,i('_instance_hypernym'),C),  r(C,'_instance_hypernym',B)), % 937 5
+(tt(A,'_hypernym',B):0.00892857 :-   r(A,i('_verb_group'),C),  r(C,'_also_see',B)), % 112 1
+(tt(A,'_hypernym',B):0.00214439 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',B)), % 1399 3
+(tt(A,'_hypernym',B):0.037037 :-   r(A,i('_verb_group'),C),  r(C,i('_also_see'),B)), % 54 2
+(tt(A,'_hypernym',B):0.00290698 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),B)), % 1376 4
+(tt(A,'_hypernym',B):0.00147275 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),B)), % 2037 3
+(tt(A,'_hypernym',B):0.143426 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',B)), % 1004 144
+(tt(A,'_hypernym',B):0.00163845 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),B)), % 1831 3
+(tt(A,'_hypernym',B):0.000953289 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),B)), % 2098 2
+(tt(A,'_hypernym',B):0.00164745 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',B)), % 1821 3
+(tt(A,'_hypernym',B):0.0093985 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',B)), % 532 5
+(tt(A,'_hypernym',B):0.00296883 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',B)), % 2021 6
+(tt(A,'_hypernym',B):0.0263158 :-   r(A,'_member_meronym',C),  r(C,'_instance_hypernym',B)), % 76 2
+(tt(A,'_hypernym',B):0.0222222 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',B)), % 45 1
+(tt(A,'_hypernym',B):0.0279703 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',B)), % 4040 113
+(tt(A,'_hypernym',B):0.00943396 :-   r(A,'_verb_group',C),  r(C,'_also_see',B)), % 106 1
+(tt(A,'_hypernym',B):0.00218023 :-   r(A,'_verb_group',C),  r(C,'_verb_group',B)), % 1376 3
+(tt(A,'_hypernym',B):0.0363636 :-   r(A,'_verb_group',C),  r(C,i('_also_see'),B)), % 55 2
+(tt(A,'_hypernym',B):0.00284091 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),B)), % 1408 4
+(tt(A,'_hypernym',B):0.00146699 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),B)), % 2045 3
+(tt(A,'_hypernym',B):0.142999 :-   r(A,'_verb_group',C),  r(C,'_hypernym',B)), % 1007 144
+(tt(A,'_hypernym',B):0.0183983 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',B)), % 3696 68
+(tt(A,'_hypernym',B):0.00457875 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',B)), % 2184 10
+(tt(A,'_hypernym',B):0.00334001 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',B)), % 2994 10
+(tt(A,'_hypernym',B):0.0128205 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_member_of_domain_usage',B)), % 78 1
+(tt(A,'_hypernym',B):0.0169446 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),B)), % 3718 63
+(tt(A,'_hypernym',B):0.00210389 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 631
+(tt(A,'_hypernym',B):0.00138142 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),B)), % 13754 19
+(tt(A,'_hypernym',B):0.00497512 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',B)), % 402 2
+(tt(A,'_member_of_domain_usage',B):0.0909091 :-   r(A,'_member_of_domain_usage',C),  r(C,'_synset_domain_topic_of',B)), % 11 1
+(tt(A,'_member_of_domain_usage',B):0.2 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_synset_domain_topic_of'),B)), % 5 1
+(tt(A,'_member_of_domain_usage',B):0.215569 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_hypernym'),B)), % 167 36
+(tt(A,'_member_of_domain_usage',B):0.0464037 :-   r(A,'_member_of_domain_usage',C),  r(C,'_hypernym',B)), % 431 20
+(tt(A,'_member_of_domain_usage',B):0.00358423 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',B)), % 558 2
+(tt(A,'_member_of_domain_usage',B):0.000494805 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',B)), % 2021 1
+(tt(A,'_member_of_domain_region',B):6.35667e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 4
+(tt(A,'_member_of_domain_region',B):4.75157e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 3
+(tt(A,'_member_of_domain_region',B):0.00555556 :-   r(A,'_has_part',C),  r(C,'_member_meronym',B)), % 180 1
+(tt(A,'_member_of_domain_region',B):0.000272926 :-   r(A,'_has_part',C),  r(C,'_has_part',B)), % 3664 1
+(tt(A,'_member_of_domain_region',B):0.0125 :-   r(A,'_has_part',C),  r(C,i('_member_of_domain_region'),B)), % 80 1
+(tt(A,'_member_of_domain_region',B):0.00070738 :-   r(A,'_has_part',C),  r(C,i('_has_part'),B)), % 4241 3
+(tt(A,'_member_of_domain_region',B):0.011976 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_hypernym'),B)), % 167 2
+(tt(A,'_member_of_domain_region',B):0.0895522 :-   r(A,'_member_of_domain_region',C),  r(C,'_derivationally_related_form',B)), % 67 6
+(tt(A,'_member_of_domain_region',B):0.139535 :-   r(A,'_member_of_domain_region',C),  r(C,'_has_part',B)), % 43 6
+(tt(A,'_member_of_domain_region',B):0.0215054 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',B)), % 558 12
+(tt(A,'_member_of_domain_region',B):0.0882353 :-   r(A,'_member_of_domain_region',C),  r(C,i('_derivationally_related_form'),B)), % 68 6
+(tt(A,'_member_of_domain_region',B):0.075 :-   r(A,'_member_of_domain_region',C),  r(C,i('_has_part'),B)), % 80 6
+(tt(A,'_member_of_domain_region',B):0.262295 :-   r(A,'_member_of_domain_region',C),  r(C,i('_hypernym'),B)), % 61 16
+(tt(A,'_member_of_domain_region',B):0.125 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_meronym'),B)), % 16 2
+(tt(A,'_member_of_domain_region',B):0.5 :-   r(A,'_member_of_domain_region',C),  r(C,i('_instance_hypernym'),B)), % 8 4
+(tt(A,'_member_of_domain_region',B):0.0211268 :-   r(A,'_member_of_domain_region',C),  r(C,'_instance_hypernym',B)), % 142 3
+(tt(A,'_member_of_domain_region',B):0.0425532 :-   r(A,'_member_of_domain_region',C),  r(C,'_member_meronym',B)), % 47 2
+(tt(A,'_member_of_domain_region',B):6.31582e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 4
+(tt(A,'_member_of_domain_region',B):4.7675e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 3
+(tt(A,'_member_of_domain_region',B):4.42566e-05 :-   r(A,i('_has_part'),C),  r(C,'_has_part',B)), % 45191 2
+(tt(A,'_member_of_domain_region',B):7.44934e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',B)), % 13424 1
+(tt(A,'_member_of_domain_region',B):0.000134662 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),B)), % 7426 1
+(tt(A,'_member_of_domain_region',B):3.02313e-06 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),B)), % 330783 1
+(tt(A,'_member_meronym',B):0.000524426 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 33
+(tt(A,'_member_meronym',B):0.000538511 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 34
+(tt(A,'_member_meronym',B):1.98138e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),B)), % 50470 1
+(tt(A,'_member_meronym',B):3.81083e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',B)), % 26241 1
+(tt(A,'_member_meronym',B):0.001287 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',B)), % 777 1
+(tt(A,'_member_meronym',B):0.000272926 :-   r(A,'_has_part',C),  r(C,'_has_part',B)), % 3664 1
+(tt(A,'_member_meronym',B):0.00127877 :-   r(A,'_has_part',C),  r(C,'_hypernym',B)), % 2346 3
+(tt(A,'_member_meronym',B):0.0111111 :-   r(A,'_has_part',C),  r(C,'_member_meronym',B)), % 180 2
+(tt(A,'_member_meronym',B):0.00130208 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),B)), % 768 1
+(tt(A,'_member_meronym',B):0.00210416 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),B)), % 1901 4
+(tt(A,'_member_meronym',B):0.000212292 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),B)), % 9421 2
+(tt(A,'_member_meronym',B):7.27061e-05 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),B)), % 13754 1
+(tt(A,'_member_meronym',B):0.000150934 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),B)), % 1344960 203
+(tt(A,'_member_meronym',B):0.00179211 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',B)), % 558 1
+(tt(A,'_member_meronym',B):8.94134e-05 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',B)), % 11184 1
+(tt(A,'_member_meronym',B):0.000552634 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 35
+(tt(A,'_member_meronym',B):0.000587992 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 37
+(tt(A,'_member_meronym',B):1.97793e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),B)), % 50558 1
+(tt(A,'_member_meronym',B):3.80851e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',B)), % 26257 1
+(tt(A,'_member_meronym',B):9.18788e-06 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',B)), % 217678 2
+(tt(A,'_member_meronym',B):0.00129366 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),B)), % 1546 2
+(tt(A,'_member_meronym',B):7.44934e-05 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',B)), % 13424 1
+(tt(A,'_member_meronym',B):0.00191205 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',B)), % 1046 2
+(tt(A,'_member_meronym',B):0.00130293 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',B)), % 1535 2
+(tt(A,'_member_meronym',B):0.00285714 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',B)), % 350 1
+(tt(A,'_member_meronym',B):0.000712758 :-   r(A,'_member_meronym',C),  r(C,'_has_part',B)), % 1403 1
+(tt(A,'_member_meronym',B):0.0383663 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',B)), % 4040 155
+(tt(A,'_member_meronym',B):0.038244 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),B)), % 7426 284
+(tt(A,'_member_meronym',B):0.0028169 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),B)), % 355 1
+(tt(A,'_member_meronym',B):0.00952381 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),B)), % 105 1
+(tt(A,'_member_meronym',B):0.00526316 :-   r(A,'_member_meronym',C),  r(C,i('_instance_hypernym'),B)), % 190 1
+(tt(A,'_member_meronym',B):0.0131579 :-   r(A,'_member_meronym',C),  r(C,'_instance_hypernym',B)), % 76 1
+(tt(A,'_member_meronym',B):0.000541126 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',B)), % 3696 2
+(tt(A,'_member_meronym',B):0.000537924 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),B)), % 3718 2
+(tt(A,'_member_meronym',B):9.0024e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 27
+(tt(A,'_instance_hypernym',B):0.0116279 :-   r(A,'_derivationally_related_form',C),  r(C,'_instance_hypernym',B)), % 86 1
+(tt(A,'_instance_hypernym',B):0.0383586 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',B)), % 1121 43
+(tt(A,'_instance_hypernym',B):0.00704225 :-   r(A,'_member_of_domain_region',C),  r(C,'_instance_hypernym',B)), % 142 1
+(tt(A,'_instance_hypernym',B):0.0113636 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_instance_hypernym',B)), % 88 1
+(tt(A,'_instance_hypernym',B):1.83758e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',B)), % 217678 4
+(tt(A,'_instance_hypernym',B):0.00108932 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_instance_hypernym',B)), % 918 1
+(tt(A,'_instance_hypernym',B):0.040555 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',B)), % 1874 76
+(tt(A,'_instance_hypernym',B):0.00362904 :-   r(A,i('_has_part'),C),  r(C,'_has_part',B)), % 45191 164
+(tt(A,'_instance_hypernym',B):0.00219378 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',B)), % 2735 6
+(tt(A,'_instance_hypernym',B):1.01798e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',B)), % 98234 1
+(tt(A,'_instance_hypernym',B):0.000273673 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',B)), % 7308 2
+(tt(A,'_instance_hypernym',B):0.00367647 :-   r(A,'_instance_hypernym',C),  r(C,'_synset_domain_topic_of',B)), % 272 1
+(tt(A,'_instance_hypernym',B):0.000382848 :-   r(A,'_instance_hypernym',C),  r(C,'_derivationally_related_form',B)), % 2612 1
+(tt(A,'_instance_hypernym',B):0.000387597 :-   r(A,'_instance_hypernym',C),  r(C,i('_derivationally_related_form'),B)), % 2580 1
+(tt(A,'_instance_hypernym',B):0.00143678 :-   r(A,'_instance_hypernym',C),  r(C,i('_synset_domain_topic_of'),B)), % 696 1
+(tt(A,'_instance_hypernym',B):0.00222906 :-   r(A,'_instance_hypernym',C),  r(C,i('_hypernym'),B)), % 9421 21
+(tt(A,'_instance_hypernym',B):0.00478316 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',B)), % 3136 15
+(tt(A,'_instance_hypernym',B):0.000270563 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',B)), % 3696 1
+(tt(A,'_instance_hypernym',B):0.000268962 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),B)), % 3718 1
+(tt(A,'_instance_hypernym',B):0.000380101 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 114
+(tt(A,'_instance_hypernym',B):7.27061e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),B)), % 13754 1
+(tt(A,'_verb_group',B):0.037037 :-   r(A,'_also_see',C),  r(C,'_verb_group',B)), % 54 2
+(tt(A,'_verb_group',B):0.0181818 :-   r(A,'_also_see',C),  r(C,i('_verb_group'),B)), % 55 1
+(tt(A,'_verb_group',B):0.0017452 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),B)), % 573 1
+(tt(A,'_verb_group',B):0.0027027 :-   r(A,'_also_see',C),  r(C,'_hypernym',B)), % 370 1
+(tt(A,'_verb_group',B):0.00835902 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 526
+(tt(A,'_verb_group',B):0.00829941 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 524
+(tt(A,'_verb_group',B):0.000268962 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),B)), % 3718 1
+(tt(A,'_verb_group',B):0.000539229 :-   r(A,'_hypernym',C),  r(C,'_also_see',B)), % 3709 2
+(tt(A,'_verb_group',B):0.00196367 :-   r(A,'_hypernym',C),  r(C,'_verb_group',B)), % 2037 4
+(tt(A,'_verb_group',B):0.0017452 :-   r(A,'_hypernym',C),  r(C,i('_also_see'),B)), % 573 1
+(tt(A,'_verb_group',B):0.00146699 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),B)), % 2045 3
+(tt(A,'_verb_group',B):0.000112271 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),B)), % 1344960 151
+(tt(A,'_verb_group',B):8.80902e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',B)), % 34056 3
+(tt(A,'_verb_group',B):0.00289389 :-   r(A,i('_also_see'),C),  r(C,'_also_see',B)), % 3110 9
+(tt(A,'_verb_group',B):0.0178571 :-   r(A,i('_also_see'),C),  r(C,'_verb_group',B)), % 112 2
+(tt(A,'_verb_group',B):0.0188679 :-   r(A,i('_also_see'),C),  r(C,i('_verb_group'),B)), % 106 2
+(tt(A,'_verb_group',B):0.000539229 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),B)), % 3709 2
+(tt(A,'_verb_group',B):0.00836847 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 530
+(tt(A,'_verb_group',B):0.00839081 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 528
+(tt(A,'_verb_group',B):0.000270563 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),B)), % 3696 1
+(tt(A,'_verb_group',B):0.00892857 :-   r(A,i('_verb_group'),C),  r(C,'_also_see',B)), % 112 1
+(tt(A,'_verb_group',B):0.0178699 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',B)), % 1399 25
+(tt(A,'_verb_group',B):0.037037 :-   r(A,i('_verb_group'),C),  r(C,i('_also_see'),B)), % 54 2
+(tt(A,'_verb_group',B):0.0196221 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),B)), % 1376 27
+(tt(A,'_verb_group',B):0.00196367 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),B)), % 2037 4
+(tt(A,'_verb_group',B):0.00298805 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',B)), % 1004 3
+(tt(A,'_verb_group',B):0.00398406 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',B)), % 1004 4
+(tt(A,'_verb_group',B):0.0027027 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),B)), % 370 1
+(tt(A,'_verb_group',B):0.00397219 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),B)), % 1007 4
+(tt(A,'_verb_group',B):8.80902e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),B)), % 34056 3
+(tt(A,'_verb_group',B):0.00943396 :-   r(A,'_verb_group',C),  r(C,'_also_see',B)), % 106 1
+(tt(A,'_verb_group',B):0.0181686 :-   r(A,'_verb_group',C),  r(C,'_verb_group',B)), % 1376 25
+(tt(A,'_verb_group',B):0.0181818 :-   r(A,'_verb_group',C),  r(C,i('_also_see'),B)), % 55 1
+(tt(A,'_verb_group',B):0.0177557 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),B)), % 1408 25
+(tt(A,'_verb_group',B):0.00146699 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),B)), % 2045 3
+(tt(A,'_verb_group',B):0.00297915 :-   r(A,'_verb_group',C),  r(C,'_hypernym',B)), % 1007 3
+(tt(A,'_verb_group',B):0.000270563 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',B)), % 3696 1
+(tt(A,'_verb_group',B):0.000268962 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),B)), % 3718 1
+(tt(A,'_verb_group',B):0.000156708 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 47
+(tt(A,'_synset_domain_topic_of',B):0.269231 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',B)), % 26 7
+(tt(A,'_synset_domain_topic_of',B):0.00141001 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',B)), % 26241 37
+(tt(A,'_synset_domain_topic_of',B):0.000524426 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 33
+(tt(A,'_synset_domain_topic_of',B):0.00107585 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),B)), % 3718 4
+(tt(A,'_synset_domain_topic_of',B):0.000506834 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 32
+(tt(A,'_synset_domain_topic_of',B):0.00911458 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),B)), % 768 7
+(tt(A,'_synset_domain_topic_of',B):9.90688e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),B)), % 50470 5
+(tt(A,'_synset_domain_topic_of',B):0.0704533 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',B)), % 1831 129
+(tt(A,'_synset_domain_topic_of',B):0.270588 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',B)), % 170 46
+(tt(A,'_synset_domain_topic_of',B):0.00070738 :-   r(A,'_has_part',C),  r(C,i('_has_part'),B)), % 4241 3
+(tt(A,'_synset_domain_topic_of',B):0.00140678 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),B)), % 50470 71
+(tt(A,'_synset_domain_topic_of',B):0.00526039 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),B)), % 1901 10
+(tt(A,'_synset_domain_topic_of',B):8.17868e-06 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),B)), % 1344960 11
+(tt(A,'_synset_domain_topic_of',B):0.00598802 :-   r(A,'_hypernym',C),  r(C,i('_member_of_domain_usage'),B)), % 167 1
+(tt(A,'_synset_domain_topic_of',B):0.000145412 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),B)), % 13754 2
+(tt(A,'_synset_domain_topic_of',B):0.00126587 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',B)), % 50558 64
+(tt(A,'_synset_domain_topic_of',B):0.303146 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',B)), % 2098 636
+(tt(A,'_synset_domain_topic_of',B):0.000557905 :-   r(A,'_hypernym',C),  r(C,'_hypernym',B)), % 34056 19
+(tt(A,'_synset_domain_topic_of',B):0.0004662 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',B)), % 2145 1
+(tt(A,'_synset_domain_topic_of',B):0.333333 :-   r(A,i('_also_see'),C),  r(C,'_synset_domain_topic_of',B)), % 18 6
+(tt(A,'_synset_domain_topic_of',B):0.000473485 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),B)), % 2112 1
+(tt(A,'_synset_domain_topic_of',B):0.0015234 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',B)), % 26257 40
+(tt(A,'_synset_domain_topic_of',B):0.000536845 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 34
+(tt(A,'_synset_domain_topic_of',B):0.00108225 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),B)), % 3696 4
+(tt(A,'_synset_domain_topic_of',B):0.000524426 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 33
+(tt(A,'_synset_domain_topic_of',B):0.00900901 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),B)), % 777 7
+(tt(A,'_synset_domain_topic_of',B):9.88963e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),B)), % 50558 5
+(tt(A,'_synset_domain_topic_of',B):0.0719385 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',B)), % 1821 131
+(tt(A,'_synset_domain_topic_of',B):0.000272926 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),B)), % 3664 1
+(tt(A,'_synset_domain_topic_of',B):0.0018315 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),B)), % 2184 4
+(tt(A,'_synset_domain_topic_of',B):2.21283e-05 :-   r(A,i('_has_part'),C),  r(C,'_has_part',B)), % 45191 1
+(tt(A,'_synset_domain_topic_of',B):0.249042 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',B)), % 261 65
+(tt(A,'_synset_domain_topic_of',B):0.00109689 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',B)), % 2735 3
+(tt(A,'_synset_domain_topic_of',B):8.94134e-05 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',B)), % 11184 1
+(tt(A,'_synset_domain_topic_of',B):0.000114255 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',B)), % 26257 3
+(tt(A,'_synset_domain_topic_of',B):0.150421 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',B)), % 2021 304
+(tt(A,'_synset_domain_topic_of',B):0.000114325 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),B)), % 26241 3
+(tt(A,'_synset_domain_topic_of',B):0.00255754 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),B)), % 2346 6
+(tt(A,'_synset_domain_topic_of',B):5.87268e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),B)), % 34056 2
+(tt(A,'_synset_domain_topic_of',B):1.21785e-05 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',B)), % 82112 1
+(tt(A,'_synset_domain_topic_of',B):0.306818 :-   r(A,i('_member_meronym'),C),  r(C,'_synset_domain_topic_of',B)), % 88 27
+(tt(A,'_synset_domain_topic_of',B):0.000136836 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',B)), % 7308 1
+(tt(A,'_synset_domain_topic_of',B):0.101449 :-   r(A,i('_instance_hypernym'),C),  r(C,'_synset_domain_topic_of',B)), % 69 7
+(tt(A,'_synset_domain_topic_of',B):0.00106724 :-   r(A,i('_instance_hypernym'),C),  r(C,'_instance_hypernym',B)), % 937 1
+(tt(A,'_synset_domain_topic_of',B):0.000429185 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',B)), % 2330 1
+(tt(A,'_synset_domain_topic_of',B):0.396226 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',B)), % 106 42
+(tt(A,'_synset_domain_topic_of',B):0.000430293 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),B)), % 2324 1
+(tt(A,'_synset_domain_topic_of',B):0.000494805 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',B)), % 2021 1
+(tt(A,'_synset_domain_topic_of',B):0.00164745 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',B)), % 1821 3
+(tt(A,'_synset_domain_topic_of',B):0.0131579 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',B)), % 532 7
+(tt(A,'_synset_domain_topic_of',B):0.00163845 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),B)), % 1831 3
+(tt(A,'_synset_domain_topic_of',B):0.00588235 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),B)), % 170 1
+(tt(A,'_synset_domain_topic_of',B):0.000318878 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',B)), % 3136 1
+(tt(A,'_synset_domain_topic_of',B):0.000382848 :-   r(A,'_instance_hypernym',C),  r(C,'_derivationally_related_form',B)), % 2612 1
+(tt(A,'_synset_domain_topic_of',B):0.415441 :-   r(A,'_instance_hypernym',C),  r(C,'_synset_domain_topic_of',B)), % 272 113
+(tt(A,'_synset_domain_topic_of',B):0.000387597 :-   r(A,'_instance_hypernym',C),  r(C,i('_derivationally_related_form'),B)), % 2580 1
+(tt(A,'_synset_domain_topic_of',B):0.00571429 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',B)), % 350 2
+(tt(A,'_synset_domain_topic_of',B):0.488889 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',B)), % 45 22
+(tt(A,'_synset_domain_topic_of',B):0.0056338 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),B)), % 355 2
+(tt(A,'_synset_domain_topic_of',B):0.000426257 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',B)), % 2346 1
+(tt(A,'_synset_domain_topic_of',B):0.385321 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',B)), % 109 42
+(tt(A,'_synset_domain_topic_of',B):0.000427716 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),B)), % 2338 1
+(tt(A,'_synset_domain_topic_of',B):0.0248756 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',B)), % 402 10
+(tt(A,'_synset_domain_topic_of',B):3.66764e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),B)), % 299920 11
+(tt(A,'_synset_domain_topic_of',B):0.000872473 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),B)), % 13754 12
+(tt(A,'_synset_domain_topic_of',B):0.00367401 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',B)), % 2994 11
+(tt(A,'_similar_to',B):3.17834e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',B)), % 62926 2
+(tt(A,'_similar_to',B):3.16771e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),B)), % 63137 2
+(tt(A,'_similar_to',B):3.15791e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',B)), % 63333 2
+(tt(A,'_similar_to',B):3.17834e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),B)), % 62926 2
+(tt(A,'_also_see',B):0.326072 :-   r(A,'_also_see',C),  r(C,'_also_see',D),  r(D,'_also_see',B)), % 2984 973
+(tt(A,'_also_see',B):0.317588 :-   r(A,'_also_see',C),  r(C,'_also_see',D),  r(D,i('_also_see'),B)), % 2985 948
+(tt(A,'_also_see',B):0.0322581 :-   r(A,'_also_see',C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 93 3
+(tt(A,'_also_see',B):0.397088 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 2541 1009
+(tt(A,'_also_see',B):0.404949 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 2546 1031
+(tt(A,'_also_see',B):0.483254 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 209 101
+(tt(A,'_also_see',B):0.00877193 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 114 1
+(tt(A,'_also_see',B):0.00900901 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 111 1
+(tt(A,'_also_see',B):0.0784114 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 4910 385
+(tt(A,'_also_see',B):0.378745 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 3538 1340
+(tt(A,'_also_see',B):0.312563 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,i('_also_see'),B)), % 2985 933
+(tt(A,'_also_see',B):0.0241737 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 2027 49
+(tt(A,'_also_see',B):0.0245902 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 366 9
+(tt(A,'_also_see',B):0.394503 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 2583 1019
+(tt(A,'_also_see',B):0.394366 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 2556 1008
+(tt(A,'_also_see',B):0.0192308 :-   r(A,'_also_see',C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 52 1
+(tt(A,'_also_see',B):0.551724 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 29 16
+(tt(A,'_also_see',B):0.0789474 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 38 3
+(tt(A,'_also_see',B):0.0185185 :-   r(A,'_also_see',C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 54 1
+(tt(A,'_also_see',B):0.00391389 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 511 2
+(tt(A,'_also_see',B):0.00392157 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 510 2
+(tt(A,'_also_see',B):0.328927 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 3253 1070
+(tt(A,'_also_see',B):2.35743e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 84838 2
+(tt(A,'_also_see',B):0.270736 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2556 692
+(tt(A,'_also_see',B):2.35391e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84965 2
+(tt(A,'_also_see',B):0.000501882 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 48
+(tt(A,'_also_see',B):0.000494315 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4046 2
+(tt(A,'_also_see',B):0.000124008 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8064 1
+(tt(A,'_also_see',B):0.000190894 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 10
+(tt(A,'_also_see',B):0.334559 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 3264 1092
+(tt(A,'_also_see',B):2.35471e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 84936 2
+(tt(A,'_also_see',B):0.278869 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2546 710
+(tt(A,'_also_see',B):2.35391e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84965 2
+(tt(A,'_also_see',B):0.000502155 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 48
+(tt(A,'_also_see',B):0.000498132 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4015 2
+(tt(A,'_also_see',B):0.000123274 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8112 1
+(tt(A,'_also_see',B):0.000190053 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 10
+(tt(A,'_also_see',B):0.00156818 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 91
+(tt(A,'_also_see',B):0.00160417 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 93
+(tt(A,'_also_see',B):0.000419287 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2385 1
+(tt(A,'_also_see',B):0.00136071 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58058 79
+(tt(A,'_also_see',B):0.00136268 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 57974 79
+(tt(A,'_also_see',B):0.000175654 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5693 1
+(tt(A,'_also_see',B):0.0127315 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,'_also_see',B)), % 864 11
+(tt(A,'_also_see',B):0.000123062 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,i('_hypernym'),B)), % 8126 1
+(tt(A,'_also_see',B):8.34011e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 95922 8
+(tt(A,'_also_see',B):8.36925e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 95588 8
+(tt(A,'_also_see',B):0.000925926 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 3240 3
+(tt(A,'_also_see',B):1.06557e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1032314 11
+(tt(A,'_also_see',B):0.00561798 :-   r(A,'_hypernym',C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 2492 14
+(tt(A,'_also_see',B):8.50123e-05 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 11763 1
+(tt(A,'_also_see',B):0.000630517 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1586 1
+(tt(A,'_also_see',B):8.30832e-05 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 96289 8
+(tt(A,'_also_see',B):8.3647e-05 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 95640 8
+(tt(A,'_also_see',B):0.0258022 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 13526 349
+(tt(A,'_also_see',B):0.000228973 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 26204 6
+(tt(A,'_also_see',B):0.000225361 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 26624 6
+(tt(A,'_also_see',B):3.87479e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1032314 40
+(tt(A,'_also_see',B):0.000632911 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1580 1
+(tt(A,'_also_see',B):9.52417e-06 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 209992 2
+(tt(A,'_also_see',B):0.298979 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,'_also_see',B)), % 3231 966
+(tt(A,'_also_see',B):0.250424 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,i('_also_see'),B)), % 3538 886
+(tt(A,'_also_see',B):0.00200642 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,i('_hypernym'),B)), % 2492 5
+(tt(A,'_also_see',B):0.211991 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3269 693
+(tt(A,'_also_see',B):0.217525 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3264 710
+(tt(A,'_also_see',B):0.294646 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 3231 952
+(tt(A,'_also_see',B):0.296917 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),D),  r(D,i('_also_see'),B)), % 2984 886
+(tt(A,'_also_see',B):0.21296 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3287 700
+(tt(A,'_also_see',B):0.212727 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3253 692
+(tt(A,'_also_see',B):0.0277008 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 361 10
+(tt(A,'_also_see',B):0.000617284 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 3240 2
+(tt(A,'_also_see',B):0.014218 :-   r(A,i('_also_see'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 633 9
+(tt(A,'_also_see',B):0.00395257 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 506 2
+(tt(A,'_also_see',B):0.00396825 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 504 2
+(tt(A,'_also_see',B):0.328567 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 3287 1080
+(tt(A,'_also_see',B):2.34847e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 85162 2
+(tt(A,'_also_see',B):0.271003 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2583 700
+(tt(A,'_also_see',B):2.35471e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84936 2
+(tt(A,'_also_see',B):0.000498499 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 48
+(tt(A,'_also_see',B):0.000490557 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4077 2
+(tt(A,'_also_see',B):0.00012332 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8109 1
+(tt(A,'_also_see',B):0.000208737 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 11
+(tt(A,'_also_see',B):0.327623 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 3269 1071
+(tt(A,'_also_see',B):2.34847e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 85162 2
+(tt(A,'_also_see',B):0.272727 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2541 693
+(tt(A,'_also_see',B):2.35743e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84838 2
+(tt(A,'_also_see',B):0.000489981 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 47
+(tt(A,'_also_see',B):0.000497018 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4024 2
+(tt(A,'_also_see',B):0.000123916 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8070 1
+(tt(A,'_also_see',B):0.000209864 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 11
+(tt(A,'_also_see',B):0.001532 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 89
+(tt(A,'_also_see',B):0.0015674 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 91
+(tt(A,'_also_see',B):0.000397456 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2516 1
+(tt(A,'_also_see',B):0.00132544 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58094 77
+(tt(A,'_also_see',B):0.00132692 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 58029 77
+(tt(A,'_also_see',B):0.000173491 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5764 1
+(tt(A,'_also_see',B):0.00199005 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4020 8
+(tt(A,'_also_see',B):0.00199352 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4013 8
+(tt(A,'_also_see',B):0.00196078 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4080 8
+(tt(A,'_also_see',B):0.0019758 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4049 8
+(tt(A,'_also_see',B):0.00628931 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 318 2
+(tt(A,'_also_see',B):0.00611621 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 327 2
+(tt(A,'_also_see',B):0.000305297 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 26204 8
+(tt(A,'_also_see',B):0.0163934 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,i('_also_see'),B)), % 366 6
+(tt(A,'_also_see',B):0.003663 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 273 1
+(tt(A,'_also_see',B):0.000744062 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 52415 39
+(tt(A,'_also_see',B):0.000760211 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 52617 40
+(tt(A,'_also_see',B):0.000818163 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 48890 40
+(tt(A,'_also_see',B):0.0868744 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 1059 92
+(tt(A,'_also_see',B):0.000740066 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 52698 39
+(tt(A,'_also_see',B):0.000744488 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 52385 39
+(tt(A,'_also_see',B):0.00379747 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 1580 6
+(tt(A,'_also_see',B):0.00258732 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 773 2
+(tt(A,'_also_see',B):0.0162162 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 185 3
+(tt(A,'_also_see',B):0.0075188 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 266 2
+(tt(A,'_also_see',B):9.5584e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 31386 3
+(tt(A,'_also_see',B):0.0037831 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 1586 6
+(tt(A,'_also_see',B):0.00258732 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 773 2
+(tt(A,'_also_see',B):0.000453721 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2204 1
+(tt(A,'_also_see',B):0.00044964 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2224 1
+(tt(A,'_also_see',B):2.50612e-05 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 159609 4
+(tt(A,'_also_see',B):0.000216216 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4625 1
+(tt(A,'_also_see',B):0.00198807 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4024 8
+(tt(A,'_also_see',B):0.00199253 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4015 8
+(tt(A,'_also_see',B):0.00196223 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4077 8
+(tt(A,'_also_see',B):0.00197726 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4046 8
+(tt(A,'_also_see',B):0.00628931 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 318 2
+(tt(A,'_also_see',B):0.00613497 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 326 2
+(tt(A,'_also_see',B):0.000300481 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 26624 8
+(tt(A,'_also_see',B):0.000198334 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 10084 2
+(tt(A,'_also_see',B):0.000199541 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 10023 2
+(tt(A,'_also_see',B):0.0300158 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_also_see',B)), % 633 19
+(tt(A,'_also_see',B):0.011655 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_also_see'),B)), % 858 10
+(tt(A,'_also_see',B):1.25306e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 2
+(tt(A,'_also_see',B):0.000173491 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 5764 1
+(tt(A,'_also_see',B):0.000175654 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 5693 1
+(tt(A,'_derivationally_related_form',B):0.240699 :-   r(A,'_also_see',C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 2231 537
+(tt(A,'_derivationally_related_form',B):0.233544 :-   r(A,'_also_see',C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 2218 518
+(tt(A,'_derivationally_related_form',B):0.00118064 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 2541 3
+(tt(A,'_derivationally_related_form',B):0.00117832 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 2546 3
+(tt(A,'_derivationally_related_form',B):0.0357143 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 28 1
+(tt(A,'_derivationally_related_form',B):0.0337214 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 2491 84
+(tt(A,'_derivationally_related_form',B):0.0549669 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1510 83
+(tt(A,'_derivationally_related_form',B):0.132931 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 993 132
+(tt(A,'_derivationally_related_form',B):0.125502 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 996 125
+(tt(A,'_derivationally_related_form',B):0.365526 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 3127 1143
+(tt(A,'_derivationally_related_form',B):0.354693 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 3090 1096
+(tt(A,'_derivationally_related_form',B):0.00116144 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 2583 3
+(tt(A,'_derivationally_related_form',B):0.00117371 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 2556 3
+(tt(A,'_derivationally_related_form',B):0.037037 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 27 1
+(tt(A,'_derivationally_related_form',B):0.0337302 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 2520 85
+(tt(A,'_derivationally_related_form',B):0.0547132 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1517 83
+(tt(A,'_derivationally_related_form',B):0.0275229 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 545 15
+(tt(A,'_derivationally_related_form',B):0.0275735 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 544 15
+(tt(A,'_derivationally_related_form',B):0.0769231 :-   r(A,'_also_see',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 78 6
+(tt(A,'_derivationally_related_form',B):0.0722892 :-   r(A,'_also_see',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 83 6
+(tt(A,'_derivationally_related_form',B):0.027027 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 37 1
+(tt(A,'_derivationally_related_form',B):0.025641 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 39 1
+(tt(A,'_derivationally_related_form',B):0.024 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 125 3
+(tt(A,'_derivationally_related_form',B):0.0434783 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 23 1
+(tt(A,'_derivationally_related_form',B):0.244112 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_also_see',B)), % 2208 539
+(tt(A,'_derivationally_related_form',B):0.00101833 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 2946 3
+(tt(A,'_derivationally_related_form',B):0.144723 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 919 133
+(tt(A,'_derivationally_related_form',B):0.366667 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,i('_also_see'),B)), % 3090 1133
+(tt(A,'_derivationally_related_form',B):0.0010211 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 2938 3
+(tt(A,'_derivationally_related_form',B):0.0111549 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,i('_hypernym'),B)), % 1524 17
+(tt(A,'_derivationally_related_form',B):0.0482759 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_verb_group',B)), % 145 7
+(tt(A,'_derivationally_related_form',B):0.0135135 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 74 1
+(tt(A,'_derivationally_related_form',B):0.000922226 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 3253 3
+(tt(A,'_derivationally_related_form',B):0.361725 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 84838 30688
+(tt(A,'_derivationally_related_form',B):0.000292141 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3423 1
+(tt(A,'_derivationally_related_form',B):0.0018135 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 95
+(tt(A,'_derivationally_related_form',B):0.0578035 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 692 40
+(tt(A,'_derivationally_related_form',B):0.00117371 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2556 3
+(tt(A,'_derivationally_related_form',B):0.358583 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84965 30467
+(tt(A,'_derivationally_related_form',B):0.00110926 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 1803 2
+(tt(A,'_derivationally_related_form',B):0.000961941 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 92
+(tt(A,'_derivationally_related_form',B):0.0524823 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 705 37
+(tt(A,'_derivationally_related_form',B):0.00296589 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4046 12
+(tt(A,'_derivationally_related_form',B):0.0117808 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8064 95
+(tt(A,'_derivationally_related_form',B):0.00296369 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 4049 12
+(tt(A,'_derivationally_related_form',B):0.0152032 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 3223 49
+(tt(A,'_derivationally_related_form',B):0.00391389 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 511 2
+(tt(A,'_derivationally_related_form',B):0.00083682 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 1195 1
+(tt(A,'_derivationally_related_form',B):0.00472144 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1059 5
+(tt(A,'_derivationally_related_form',B):0.0666667 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_member_meronym'),B)), % 15 1
+(tt(A,'_derivationally_related_form',B):0.00392157 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 510 2
+(tt(A,'_derivationally_related_form',B):0.525809 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 1143 601
+(tt(A,'_derivationally_related_form',B):0.00576369 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1041 6
+(tt(A,'_derivationally_related_form',B):0.0196078 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_member_meronym',B)), % 51 1
+(tt(A,'_derivationally_related_form',B):0.102941 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 68 7
+(tt(A,'_derivationally_related_form',B):0.0162009 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 4938 80
+(tt(A,'_derivationally_related_form',B):0.00225636 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58058 131
+(tt(A,'_derivationally_related_form',B):0.00507614 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 2364 12
+(tt(A,'_derivationally_related_form',B):0.00545919 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22714 124
+(tt(A,'_derivationally_related_form',B):0.0294118 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_also_see'),B)), % 544 16
+(tt(A,'_derivationally_related_form',B):0.00222514 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 57974 129
+(tt(A,'_derivationally_related_form',B):0.0110906 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 541 6
+(tt(A,'_derivationally_related_form',B):0.052485 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 512032 26874
+(tt(A,'_derivationally_related_form',B):0.00143678 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 696 1
+(tt(A,'_derivationally_related_form',B):0.00050813 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 3936 2
+(tt(A,'_derivationally_related_form',B):0.022415 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 2766 62
+(tt(A,'_derivationally_related_form',B):0.00122958 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5693 7
+(tt(A,'_derivationally_related_form',B):0.00980392 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_member_meronym',B)), % 102 1
+(tt(A,'_derivationally_related_form',B):0.02267 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 2779 63
+(tt(A,'_derivationally_related_form',B):0.00699913 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 1143 8
+(tt(A,'_derivationally_related_form',B):0.00240385 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 416 1
+(tt(A,'_derivationally_related_form',B):0.248615 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 4513 1122
+(tt(A,'_derivationally_related_form',B):0.000987817 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 3037 3
+(tt(A,'_derivationally_related_form',B):0.0339623 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 530 18
+(tt(A,'_derivationally_related_form',B):0.243012 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,i('_also_see'),B)), % 2218 539
+(tt(A,'_derivationally_related_form',B):0.0769231 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,i('_verb_group'),B)), % 195 15
+(tt(A,'_derivationally_related_form',B):0.0010211 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 2938 3
+(tt(A,'_derivationally_related_form',B):0.0137516 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 6981 96
+(tt(A,'_derivationally_related_form',B):0.0714286 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,'_verb_group',B)), % 224 16
+(tt(A,'_derivationally_related_form',B):0.000919118 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 3264 3
+(tt(A,'_derivationally_related_form',B):0.362544 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 84936 30793
+(tt(A,'_derivationally_related_form',B):0.000294898 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3391 1
+(tt(A,'_derivationally_related_form',B):0.00176749 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 93
+(tt(A,'_derivationally_related_form',B):0.0546985 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 713 39
+(tt(A,'_derivationally_related_form',B):0.00117832 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2546 3
+(tt(A,'_derivationally_related_form',B):0.358453 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84965 30456
+(tt(A,'_derivationally_related_form',B):0.0010917 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 1832 2
+(tt(A,'_derivationally_related_form',B):0.000952002 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 91
+(tt(A,'_derivationally_related_form',B):0.0540541 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 703 38
+(tt(A,'_derivationally_related_form',B):0.00348692 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4015 14
+(tt(A,'_derivationally_related_form',B):0.0124507 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8112 101
+(tt(A,'_derivationally_related_form',B):0.00348866 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 4013 14
+(tt(A,'_derivationally_related_form',B):0.0146008 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 3219 47
+(tt(A,'_derivationally_related_form',B):0.00198413 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 504 1
+(tt(A,'_derivationally_related_form',B):0.172261 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 3605 621
+(tt(A,'_derivationally_related_form',B):0.0045045 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 666 3
+(tt(A,'_derivationally_related_form',B):0.0555556 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 54 3
+(tt(A,'_derivationally_related_form',B):0.00196078 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 510 1
+(tt(A,'_derivationally_related_form',B):0.00374532 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_has_part'),B)), % 267 1
+(tt(A,'_derivationally_related_form',B):0.00398142 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 3014 12
+(tt(A,'_derivationally_related_form',B):0.0159292 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 1130 18
+(tt(A,'_derivationally_related_form',B):0.00222303 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 129
+(tt(A,'_derivationally_related_form',B):0.00224551 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 1336 3
+(tt(A,'_derivationally_related_form',B):0.890856 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 13276 11827
+(tt(A,'_derivationally_related_form',B):0.128514 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 996 128
+(tt(A,'_derivationally_related_form',B):0.00224238 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 130
+(tt(A,'_derivationally_related_form',B):0.00367377 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 1361 5
+(tt(A,'_derivationally_related_form',B):0.00345269 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 39100 135
+(tt(A,'_derivationally_related_form',B):0.0019685 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_member_of_domain_region'),B)), % 508 1
+(tt(A,'_derivationally_related_form',B):0.001 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 1000 1
+(tt(A,'_derivationally_related_form',B):0.0411255 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 3234 133
+(tt(A,'_derivationally_related_form',B):0.00167715 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2385 4
+(tt(A,'_derivationally_related_form',B):0.0386293 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 3210 124
+(tt(A,'_derivationally_related_form',B):0.00647349 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 3244 21
+(tt(A,'_derivationally_related_form',B):0.0152392 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 7087 108
+(tt(A,'_derivationally_related_form',B):0.00370588 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 17000 63
+(tt(A,'_derivationally_related_form',B):0.0967742 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_meronym',B)), % 31 3
+(tt(A,'_derivationally_related_form',B):0.339506 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 162 55
+(tt(A,'_derivationally_related_form',B):0.0096463 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_has_part',B)), % 311 3
+(tt(A,'_derivationally_related_form',B):0.0151515 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_member_of_domain_region',B)), % 198 3
+(tt(A,'_derivationally_related_form',B):0.345912 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 159 55
+(tt(A,'_derivationally_related_form',B):0.0232558 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_has_part'),B)), % 43 1
+(tt(A,'_derivationally_related_form',B):0.00299401 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_hypernym'),B)), % 334 1
+(tt(A,'_derivationally_related_form',B):0.00680272 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_member_meronym'),B)), % 147 1
+(tt(A,'_derivationally_related_form',B):0.0769231 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 13 1
+(tt(A,'_derivationally_related_form',B):0.250367 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 1362 341
+(tt(A,'_derivationally_related_form',B):0.0663507 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_also_see',B)), % 211 14
+(tt(A,'_derivationally_related_form',B):0.00273564 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 4021 11
+(tt(A,'_derivationally_related_form',B):0.060241 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1909 115
+(tt(A,'_derivationally_related_form',B):0.0722892 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,i('_also_see'),B)), % 83 6
+(tt(A,'_derivationally_related_form',B):0.760343 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 2562 1948
+(tt(A,'_derivationally_related_form',B):0.00224271 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4013 9
+(tt(A,'_derivationally_related_form',B):0.0149963 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 4001 60
+(tt(A,'_derivationally_related_form',B):0.764231 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 2600 1987
+(tt(A,'_derivationally_related_form',B):0.0204082 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 147 3
+(tt(A,'_derivationally_related_form',B):0.0406504 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 2460 100
+(tt(A,'_derivationally_related_form',B):0.011241 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 2224 25
+(tt(A,'_derivationally_related_form',B):0.025641 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_also_see'),B)), % 39 1
+(tt(A,'_derivationally_related_form',B):0.0415658 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 2478 103
+(tt(A,'_derivationally_related_form',B):0.0486111 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 144 7
+(tt(A,'_derivationally_related_form',B):0.00332471 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 2707 9
+(tt(A,'_derivationally_related_form',B):0.013245 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 151 2
+(tt(A,'_derivationally_related_form',B):0.013986 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 143 2
+(tt(A,'_derivationally_related_form',B):0.552511 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 438 242
+(tt(A,'_derivationally_related_form',B):0.00454545 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,'_member_meronym',B)), % 220 1
+(tt(A,'_derivationally_related_form',B):0.354037 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 161 57
+(tt(A,'_derivationally_related_form',B):0.345912 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 159 55
+(tt(A,'_derivationally_related_form',B):0.166667 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,i('_has_part'),B)), % 6 1
+(tt(A,'_derivationally_related_form',B):0.000863558 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 1158 1
+(tt(A,'_derivationally_related_form',B):0.00564972 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 177 1
+(tt(A,'_derivationally_related_form',B):0.00760456 :-   r(A,'_derivationally_related_form',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 263 2
+(tt(A,'_derivationally_related_form',B):0.0315315 :-   r(A,'_derivationally_related_form',C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 2664 84
+(tt(A,'_derivationally_related_form',B):0.0616114 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_also_see',B)), % 211 13
+(tt(A,'_derivationally_related_form',B):0.00273768 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 4018 11
+(tt(A,'_derivationally_related_form',B):0.0652632 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1900 124
+(tt(A,'_derivationally_related_form',B):0.765365 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 2587 1980
+(tt(A,'_derivationally_related_form',B):0.00224271 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4013 9
+(tt(A,'_derivationally_related_form',B):0.0147389 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 4003 59
+(tt(A,'_derivationally_related_form',B):0.76252 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 2556 1949
+(tt(A,'_derivationally_related_form',B):0.0201342 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 149 3
+(tt(A,'_derivationally_related_form',B):0.0108696 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_member_meronym',B)), % 92 1
+(tt(A,'_derivationally_related_form',B):0.045879 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2463 113
+(tt(A,'_derivationally_related_form',B):0.0423729 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2478 105
+(tt(A,'_derivationally_related_form',B):0.0152686 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 126076 1925
+(tt(A,'_derivationally_related_form',B):0.00077873 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8989 7
+(tt(A,'_derivationally_related_form',B):0.00222717 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1796 4
+(tt(A,'_derivationally_related_form',B):0.000550055 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 1818 1
+(tt(A,'_derivationally_related_form',B):0.032967 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 91 3
+(tt(A,'_derivationally_related_form',B):0.037037 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 27 1
+(tt(A,'_derivationally_related_form',B):0.0322581 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 93 3
+(tt(A,'_derivationally_related_form',B):0.0010917 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 1832 2
+(tt(A,'_derivationally_related_form',B):0.00319829 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 938 3
+(tt(A,'_derivationally_related_form',B):0.0130506 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 613 8
+(tt(A,'_derivationally_related_form',B):0.003663 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 273 1
+(tt(A,'_derivationally_related_form',B):0.00374532 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 267 1
+(tt(A,'_derivationally_related_form',B):0.00293902 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 1361 4
+(tt(A,'_derivationally_related_form',B):0.00293902 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 1361 4
+(tt(A,'_derivationally_related_form',B):0.00993377 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 302 3
+(tt(A,'_derivationally_related_form',B):4.0008e-05 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 24995 1
+(tt(A,'_derivationally_related_form',B):0.166667 :-   r(A,'_has_part',C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 6 1
+(tt(A,'_derivationally_related_form',B):0.166667 :-   r(A,'_has_part',C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 6 1
+(tt(A,'_derivationally_related_form',B):0.000549451 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 1820 1
+(tt(A,'_derivationally_related_form',B):0.0326087 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 92 3
+(tt(A,'_derivationally_related_form',B):0.0357143 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 28 1
+(tt(A,'_derivationally_related_form',B):0.0319149 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 94 3
+(tt(A,'_derivationally_related_form',B):0.00110926 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 1803 2
+(tt(A,'_derivationally_related_form',B):0.0031746 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 945 3
+(tt(A,'_derivationally_related_form',B):0.013267 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 603 8
+(tt(A,'_derivationally_related_form',B):0.531278 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 1135 603
+(tt(A,'_derivationally_related_form',B):0.508311 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 1143 581
+(tt(A,'_derivationally_related_form',B):0.00875657 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 571 5
+(tt(A,'_derivationally_related_form',B):0.00924214 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 541 5
+(tt(A,'_derivationally_related_form',B):0.000805802 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1241 1
+(tt(A,'_derivationally_related_form',B):0.0222222 :-   r(A,'_has_part',C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 45 1
+(tt(A,'_derivationally_related_form',B):0.0232558 :-   r(A,'_has_part',C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 43 1
+(tt(A,'_derivationally_related_form',B):0.05 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 140 7
+(tt(A,'_derivationally_related_form',B):0.0486111 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 144 7
+(tt(A,'_derivationally_related_form',B):0.000605536 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 11560 7
+(tt(A,'_derivationally_related_form',B):0.0137581 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 6905 95
+(tt(A,'_derivationally_related_form',B):0.0131786 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 6981 92
+(tt(A,'_derivationally_related_form',B):0.0193018 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 4870 94
+(tt(A,'_derivationally_related_form',B):0.000948687 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 95922 91
+(tt(A,'_derivationally_related_form',B):0.00582319 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 1889 11
+(tt(A,'_derivationally_related_form',B):0.00765185 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 42212 323
+(tt(A,'_derivationally_related_form',B):0.0329365 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2520 83
+(tt(A,'_derivationally_related_form',B):0.000920618 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 95588 88
+(tt(A,'_derivationally_related_form',B):0.0031746 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 945 3
+(tt(A,'_derivationally_related_form',B):0.0130455 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 167261 2182
+(tt(A,'_derivationally_related_form',B):0.0171779 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4075 70
+(tt(A,'_derivationally_related_form',B):0.00289335 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 10023 29
+(tt(A,'_derivationally_related_form',B):0.0153846 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_similar_to'),B)), % 130 2
+(tt(A,'_derivationally_related_form',B):0.0078125 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 128 1
+(tt(A,'_derivationally_related_form',B):0.0177035 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 4067 72
+(tt(A,'_derivationally_related_form',B):0.00199045 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 2512 5
+(tt(A,'_derivationally_related_form',B):0.0153846 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_similar_to',B)), % 130 2
+(tt(A,'_derivationally_related_form',B):0.00397614 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 3018 12
+(tt(A,'_derivationally_related_form',B):0.00398142 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 3014 12
+(tt(A,'_derivationally_related_form',B):0.00366226 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 39320 144
+(tt(A,'_derivationally_related_form',B):0.000805802 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 1241 1
+(tt(A,'_derivationally_related_form',B):0.00365729 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 39100 143
+(tt(A,'_derivationally_related_form',B):0.00110167 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 12708 14
+(tt(A,'_derivationally_related_form',B):2.42174e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1032314 25
+(tt(A,'_derivationally_related_form',B):0.000120963 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 8267 1
+(tt(A,'_derivationally_related_form',B):0.0100313 :-   r(A,'_hypernym',C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 1595 16
+(tt(A,'_derivationally_related_form',B):0.0111549 :-   r(A,'_hypernym',C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 1524 17
+(tt(A,'_derivationally_related_form',B):0.0191847 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 5004 96
+(tt(A,'_derivationally_related_form',B):0.000945072 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 96289 91
+(tt(A,'_derivationally_related_form',B):0.00543774 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 1839 10
+(tt(A,'_derivationally_related_form',B):0.00781714 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 42087 329
+(tt(A,'_derivationally_related_form',B):0.0329185 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2491 82
+(tt(A,'_derivationally_related_form',B):0.000930573 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 95640 89
+(tt(A,'_derivationally_related_form',B):0.00319829 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 938 3
+(tt(A,'_derivationally_related_form',B):0.0130455 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 167261 2182
+(tt(A,'_derivationally_related_form',B):0.0169658 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4067 69
+(tt(A,'_derivationally_related_form',B):0.00307418 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 10084 31
+(tt(A,'_derivationally_related_form',B):0.015873 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_similar_to'),B)), % 126 2
+(tt(A,'_derivationally_related_form',B):0.0078125 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 128 1
+(tt(A,'_derivationally_related_form',B):0.0175352 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 4049 71
+(tt(A,'_derivationally_related_form',B):0.00200803 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 2490 5
+(tt(A,'_derivationally_related_form',B):0.015873 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_similar_to',B)), % 126 2
+(tt(A,'_derivationally_related_form',B):0.00478469 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 1045 5
+(tt(A,'_derivationally_related_form',B):0.00576369 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 1041 6
+(tt(A,'_derivationally_related_form',B):0.00164926 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1819 3
+(tt(A,'_derivationally_related_form',B):0.0527105 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 509993 26882
+(tt(A,'_derivationally_related_form',B):0.000368173 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 48890 18
+(tt(A,'_derivationally_related_form',B):0.0507917 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 512032 26007
+(tt(A,'_derivationally_related_form',B):4.0008e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 24995 1
+(tt(A,'_derivationally_related_form',B):2.42174e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1032314 25
+(tt(A,'_derivationally_related_form',B):7.34683e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 313060 23
+(tt(A,'_derivationally_related_form',B):3.52187e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_instance_hypernym'),B)), % 28394 1
+(tt(A,'_derivationally_related_form',B):0.000871394 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 33280 29
+(tt(A,'_derivationally_related_form',B):1.85144e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_member_meronym',B)), % 864193 16
+(tt(A,'_derivationally_related_form',B):0.00147394 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 22389 33
+(tt(A,'_derivationally_related_form',B):0.00258844 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 1159 3
+(tt(A,'_derivationally_related_form',B):0.00437637 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_has_part',B)), % 914 4
+(tt(A,'_derivationally_related_form',B):0.000136537 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 7324 1
+(tt(A,'_derivationally_related_form',B):0.00172712 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 1158 2
+(tt(A,'_derivationally_related_form',B):3.96412e-05 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 100905 4
+(tt(A,'_derivationally_related_form',B):0.00743494 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 269 2
+(tt(A,'_derivationally_related_form',B):0.00760456 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 263 2
+(tt(A,'_derivationally_related_form',B):0.0150451 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 3988 60
+(tt(A,'_derivationally_related_form',B):0.0139895 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4003 56
+(tt(A,'_derivationally_related_form',B):0.0263158 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_also_see',B)), % 76 2
+(tt(A,'_derivationally_related_form',B):0.000901612 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 8873 8
+(tt(A,'_derivationally_related_form',B):0.00306636 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 8153 25
+(tt(A,'_derivationally_related_form',B):0.024 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_also_see'),B)), % 125 3
+(tt(A,'_derivationally_related_form',B):0.00077873 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 8989 7
+(tt(A,'_derivationally_related_form',B):0.00209351 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 11464 24
+(tt(A,'_derivationally_related_form',B):0.0203666 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 491 10
+(tt(A,'_derivationally_related_form',B):0.00131752 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 3036 4
+(tt(A,'_derivationally_related_form',B):0.0168067 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 476 8
+(tt(A,'_derivationally_related_form',B):0.00192308 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',D),  r(D,'_member_meronym',B)), % 520 1
+(tt(A,'_derivationally_related_form',B):0.00299401 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 334 1
+(tt(A,'_derivationally_related_form',B):0.0151172 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 3969 60
+(tt(A,'_derivationally_related_form',B):0.0142464 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4001 57
+(tt(A,'_derivationally_related_form',B):0.000490677 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 2038 1
+(tt(A,'_derivationally_related_form',B):0.00331736 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2713 9
+(tt(A,'_derivationally_related_form',B):0.00332471 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2707 9
+(tt(A,'_derivationally_related_form',B):0.000400015 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 209992 84
+(tt(A,'_derivationally_related_form',B):0.00209351 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 11464 24
+(tt(A,'_derivationally_related_form',B):0.00809717 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 247 2
+(tt(A,'_derivationally_related_form',B):0.00195695 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 511 1
+(tt(A,'_derivationally_related_form',B):0.0019685 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 508 1
+(tt(A,'_derivationally_related_form',B):0.00460829 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 217 1
+(tt(A,'_derivationally_related_form',B):0.125 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 16 2
+(tt(A,'_derivationally_related_form',B):0.117647 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 17 2
+(tt(A,'_derivationally_related_form',B):0.0526316 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 703 37
+(tt(A,'_derivationally_related_form',B):0.0555556 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 684 38
+(tt(A,'_derivationally_related_form',B):0.002997 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 1001 3
+(tt(A,'_derivationally_related_form',B):0.002 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 1000 2
+(tt(A,'_derivationally_related_form',B):7.02741e-05 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 313060 22
+(tt(A,'_derivationally_related_form',B):0.0138889 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 144 2
+(tt(A,'_derivationally_related_form',B):0.00680272 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 147 1
+(tt(A,'_derivationally_related_form',B):0.00440529 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 227 1
+(tt(A,'_derivationally_related_form',B):0.111111 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 18 2
+(tt(A,'_derivationally_related_form',B):0.105263 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 19 2
+(tt(A,'_derivationally_related_form',B):0.0510638 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 705 36
+(tt(A,'_derivationally_related_form',B):0.0528571 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 700 37
+(tt(A,'_derivationally_related_form',B):0.0666667 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 15 1
+(tt(A,'_derivationally_related_form',B):0.0666667 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 15 1
+(tt(A,'_derivationally_related_form',B):0.004329 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 693 3
+(tt(A,'_derivationally_related_form',B):0.00287356 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 696 2
+(tt(A,'_derivationally_related_form',B):0.000403714 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 7431 3
+(tt(A,'_derivationally_related_form',B):0.249335 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 4508 1124
+(tt(A,'_derivationally_related_form',B):0.240195 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 4513 1084
+(tt(A,'_derivationally_related_form',B):0.0125786 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 159 2
+(tt(A,'_derivationally_related_form',B):0.000917712 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3269 3
+(tt(A,'_derivationally_related_form',B):0.000919118 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3264 3
+(tt(A,'_derivationally_related_form',B):0.019984 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 5004 100
+(tt(A,'_derivationally_related_form',B):0.0362967 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1901 69
+(tt(A,'_derivationally_related_form',B):0.0168291 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 1129 19
+(tt(A,'_derivationally_related_form',B):0.0159292 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 1130 18
+(tt(A,'_derivationally_related_form',B):0.240807 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 2230 537
+(tt(A,'_derivationally_related_form',B):0.234601 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 2208 518
+(tt(A,'_derivationally_related_form',B):0.012987 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 154 2
+(tt(A,'_derivationally_related_form',B):0.000912686 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3287 3
+(tt(A,'_derivationally_related_form',B):0.000922226 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3253 3
+(tt(A,'_derivationally_related_form',B):0.0199179 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 4870 97
+(tt(A,'_derivationally_related_form',B):0.0369973 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1865 69
+(tt(A,'_derivationally_related_form',B):0.0571429 :-   r(A,i('_also_see'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 210 12
+(tt(A,'_derivationally_related_form',B):0.0616114 :-   r(A,i('_also_see'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 211 13
+(tt(A,'_derivationally_related_form',B):0.0159984 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 4938 79
+(tt(A,'_derivationally_related_form',B):0.0153908 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 4938 76
+(tt(A,'_derivationally_related_form',B):0.00549451 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 182 1
+(tt(A,'_derivationally_related_form',B):0.0619048 :-   r(A,i('_also_see'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 210 13
+(tt(A,'_derivationally_related_form',B):0.0663507 :-   r(A,i('_also_see'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 211 14
+(tt(A,'_derivationally_related_form',B):0.0263158 :-   r(A,i('_also_see'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 76 2
+(tt(A,'_derivationally_related_form',B):0.232735 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_also_see',B)), % 2230 519
+(tt(A,'_derivationally_related_form',B):0.000990099 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 3030 3
+(tt(A,'_derivationally_related_form',B):0.137858 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 943 130
+(tt(A,'_derivationally_related_form',B):0.350815 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,i('_also_see'),B)), % 3127 1097
+(tt(A,'_derivationally_related_form',B):0.000987817 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 3037 3
+(tt(A,'_derivationally_related_form',B):0.0100313 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,i('_hypernym'),B)), % 1595 16
+(tt(A,'_derivationally_related_form',B):0.0482759 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_verb_group',B)), % 145 7
+(tt(A,'_derivationally_related_form',B):0.012987 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 77 1
+(tt(A,'_derivationally_related_form',B):0.000912686 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 3287 3
+(tt(A,'_derivationally_related_form',B):0.358153 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 85162 30501
+(tt(A,'_derivationally_related_form',B):0.000582411 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3434 2
+(tt(A,'_derivationally_related_form',B):0.00178375 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 94
+(tt(A,'_derivationally_related_form',B):0.00116144 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2583 3
+(tt(A,'_derivationally_related_form',B):0.353431 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84936 30019
+(tt(A,'_derivationally_related_form',B):0.000549451 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 1820 1
+(tt(A,'_derivationally_related_form',B):0.000965842 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 93
+(tt(A,'_derivationally_related_form',B):0.0528571 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 700 37
+(tt(A,'_derivationally_related_form',B):0.00294334 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4077 12
+(tt(A,'_derivationally_related_form',B):0.0117154 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8109 95
+(tt(A,'_derivationally_related_form',B):0.057101 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 683 39
+(tt(A,'_derivationally_related_form',B):0.00294118 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 4080 12
+(tt(A,'_derivationally_related_form',B):0.015063 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 3253 49
+(tt(A,'_derivationally_related_form',B):0.00395257 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 506 2
+(tt(A,'_derivationally_related_form',B):0.000838223 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 1193 1
+(tt(A,'_derivationally_related_form',B):0.00377358 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1060 4
+(tt(A,'_derivationally_related_form',B):0.0666667 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_member_meronym'),B)), % 15 1
+(tt(A,'_derivationally_related_form',B):0.00396825 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 504 2
+(tt(A,'_derivationally_related_form',B):0.511894 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 1135 581
+(tt(A,'_derivationally_related_form',B):0.00478469 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1045 5
+(tt(A,'_derivationally_related_form',B):0.0196078 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_member_meronym',B)), % 51 1
+(tt(A,'_derivationally_related_form',B):0.106061 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 66 7
+(tt(A,'_derivationally_related_form',B):0.0153908 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 4938 76
+(tt(A,'_derivationally_related_form',B):0.00222054 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58094 129
+(tt(A,'_derivationally_related_form',B):0.00506971 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 2367 12
+(tt(A,'_derivationally_related_form',B):0.005805 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22739 132
+(tt(A,'_derivationally_related_form',B):0.0293578 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_also_see'),B)), % 545 16
+(tt(A,'_derivationally_related_form',B):0.00218856 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 58029 127
+(tt(A,'_derivationally_related_form',B):0.0105079 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 571 6
+(tt(A,'_derivationally_related_form',B):0.0510183 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 509993 26019
+(tt(A,'_derivationally_related_form',B):0.002886 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 693 2
+(tt(A,'_derivationally_related_form',B):0.000504796 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 3962 2
+(tt(A,'_derivationally_related_form',B):0.0209084 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 2774 58
+(tt(A,'_derivationally_related_form',B):0.00121443 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5764 7
+(tt(A,'_derivationally_related_form',B):0.010101 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_member_meronym',B)), % 99 1
+(tt(A,'_derivationally_related_form',B):0.0211621 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 2788 59
+(tt(A,'_derivationally_related_form',B):0.00702988 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 1138 8
+(tt(A,'_derivationally_related_form',B):0.00240385 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 416 1
+(tt(A,'_derivationally_related_form',B):0.240683 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 4508 1085
+(tt(A,'_derivationally_related_form',B):0.000990099 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 3030 3
+(tt(A,'_derivationally_related_form',B):0.0338983 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 531 18
+(tt(A,'_derivationally_related_form',B):0.232631 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,i('_also_see'),B)), % 2231 519
+(tt(A,'_derivationally_related_form',B):0.0753769 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,i('_verb_group'),B)), % 199 15
+(tt(A,'_derivationally_related_form',B):0.00101833 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 2946 3
+(tt(A,'_derivationally_related_form',B):0.0133237 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 6905 92
+(tt(A,'_derivationally_related_form',B):0.0701754 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,'_verb_group',B)), % 228 16
+(tt(A,'_derivationally_related_form',B):0.000917712 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 3269 3
+(tt(A,'_derivationally_related_form',B):0.358012 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 85162 30489
+(tt(A,'_derivationally_related_form',B):0.000594354 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3365 2
+(tt(A,'_derivationally_related_form',B):0.00175522 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 92
+(tt(A,'_derivationally_related_form',B):0.00118064 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2541 3
+(tt(A,'_derivationally_related_form',B):0.353816 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84838 30017
+(tt(A,'_derivationally_related_form',B):0.000550055 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 1818 1
+(tt(A,'_derivationally_related_form',B):0.000969538 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 93
+(tt(A,'_derivationally_related_form',B):0.0555556 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 684 38
+(tt(A,'_derivationally_related_form',B):0.00323062 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4024 13
+(tt(A,'_derivationally_related_form',B):0.0125155 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8070 101
+(tt(A,'_derivationally_related_form',B):0.055313 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 687 38
+(tt(A,'_derivationally_related_form',B):0.00323383 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 4020 13
+(tt(A,'_derivationally_related_form',B):0.0146829 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 3201 47
+(tt(A,'_derivationally_related_form',B):0.00197628 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 506 1
+(tt(A,'_derivationally_related_form',B):0.168759 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 3585 605
+(tt(A,'_derivationally_related_form',B):0.00446429 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 672 3
+(tt(A,'_derivationally_related_form',B):0.0576923 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 52 3
+(tt(A,'_derivationally_related_form',B):0.00195695 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 511 1
+(tt(A,'_derivationally_related_form',B):0.003663 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_has_part'),B)), % 273 1
+(tt(A,'_derivationally_related_form',B):0.00397614 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 3018 12
+(tt(A,'_derivationally_related_form',B):0.0159433 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 1129 18
+(tt(A,'_derivationally_related_form',B):0.00218611 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 127
+(tt(A,'_derivationally_related_form',B):0.00223547 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 1342 3
+(tt(A,'_derivationally_related_form',B):0.86171 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 13262 11428
+(tt(A,'_derivationally_related_form',B):0.125881 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 993 125
+(tt(A,'_derivationally_related_form',B):0.00220469 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 128
+(tt(A,'_derivationally_related_form',B):0.00367377 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 1361 5
+(tt(A,'_derivationally_related_form',B):0.0034588 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 39320 136
+(tt(A,'_derivationally_related_form',B):0.00195695 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_member_of_domain_region'),B)), % 511 1
+(tt(A,'_derivationally_related_form',B):0.001998 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 1001 2
+(tt(A,'_derivationally_related_form',B):0.0396557 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 3253 129
+(tt(A,'_derivationally_related_form',B):0.00158983 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2516 4
+(tt(A,'_derivationally_related_form',B):0.0372439 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 3222 120
+(tt(A,'_derivationally_related_form',B):0.00642398 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 3269 21
+(tt(A,'_derivationally_related_form',B):0.0152816 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 6871 105
+(tt(A,'_derivationally_related_form',B):0.00364749 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 16998 62
+(tt(A,'_derivationally_related_form',B):0.0666667 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_meronym',B)), % 30 2
+(tt(A,'_derivationally_related_form',B):0.341615 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 161 55
+(tt(A,'_derivationally_related_form',B):0.00934579 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_has_part',B)), % 321 3
+(tt(A,'_derivationally_related_form',B):0.0150754 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_of_domain_region',B)), % 199 3
+(tt(A,'_derivationally_related_form',B):0.0769231 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 13 1
+(tt(A,'_derivationally_related_form',B):0.341615 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 161 55
+(tt(A,'_derivationally_related_form',B):0.0222222 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,i('_has_part'),B)), % 45 1
+(tt(A,'_derivationally_related_form',B):0.0138889 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,i('_member_meronym'),B)), % 144 2
+(tt(A,'_derivationally_related_form',B):0.245083 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 1322 324
+(tt(A,'_derivationally_related_form',B):0.0619048 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_also_see',B)), % 210 13
+(tt(A,'_derivationally_related_form',B):0.00300677 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 3991 12
+(tt(A,'_derivationally_related_form',B):0.0592208 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1925 114
+(tt(A,'_derivationally_related_form',B):0.0769231 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,i('_also_see'),B)), % 78 6
+(tt(A,'_derivationally_related_form',B):0.737397 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 2559 1887
+(tt(A,'_derivationally_related_form',B):0.0024888 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4018 10
+(tt(A,'_derivationally_related_form',B):0.0148652 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 3969 59
+(tt(A,'_derivationally_related_form',B):0.740955 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 2598 1925
+(tt(A,'_derivationally_related_form',B):0.0198675 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 151 3
+(tt(A,'_derivationally_related_form',B):0.0429624 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 2444 105
+(tt(A,'_derivationally_related_form',B):0.011343 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 2204 25
+(tt(A,'_derivationally_related_form',B):0.027027 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_also_see'),B)), % 37 1
+(tt(A,'_derivationally_related_form',B):0.044255 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 2463 109
+(tt(A,'_derivationally_related_form',B):0.05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 140 7
+(tt(A,'_derivationally_related_form',B):0.00331736 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 2713 9
+(tt(A,'_derivationally_related_form',B):0.0130719 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 153 2
+(tt(A,'_derivationally_related_form',B):0.0137931 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 145 2
+(tt(A,'_derivationally_related_form',B):0.535147 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 441 236
+(tt(A,'_derivationally_related_form',B):0.00409836 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,'_member_meronym',B)), % 244 1
+(tt(A,'_derivationally_related_form',B):0.341615 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 161 55
+(tt(A,'_derivationally_related_form',B):0.333333 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 162 54
+(tt(A,'_derivationally_related_form',B):0.166667 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,i('_has_part'),B)), % 6 1
+(tt(A,'_derivationally_related_form',B):0.00172563 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 1159 2
+(tt(A,'_derivationally_related_form',B):0.0113636 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 176 2
+(tt(A,'_derivationally_related_form',B):0.00743494 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 269 2
+(tt(A,'_derivationally_related_form',B):0.0307521 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 2699 83
+(tt(A,'_derivationally_related_form',B):0.0571429 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_also_see',B)), % 210 12
+(tt(A,'_derivationally_related_form',B):0.00300677 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 3991 12
+(tt(A,'_derivationally_related_form',B):0.0642969 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1913 123
+(tt(A,'_derivationally_related_form',B):0.74226 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 2584 1918
+(tt(A,'_derivationally_related_form',B):0.00248694 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4021 10
+(tt(A,'_derivationally_related_form',B):0.0147944 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 3988 59
+(tt(A,'_derivationally_related_form',B):0.738841 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 2554 1887
+(tt(A,'_derivationally_related_form',B):0.0196078 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 153 3
+(tt(A,'_derivationally_related_form',B):0.0106383 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_member_meronym',B)), % 94 1
+(tt(A,'_derivationally_related_form',B):0.0429624 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2444 105
+(tt(A,'_derivationally_related_form',B):0.0402439 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2460 99
+(tt(A,'_derivationally_related_form',B):0.0148523 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 125637 1866
+(tt(A,'_derivationally_related_form',B):0.000901612 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8873 8
+(tt(A,'_derivationally_related_form',B):0.00224215 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1784 4
+(tt(A,'_derivationally_related_form',B):0.012987 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 154 2
+(tt(A,'_derivationally_related_form',B):0.000594354 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3365 2
+(tt(A,'_derivationally_related_form',B):0.00285714 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1050 3
+(tt(A,'_derivationally_related_form',B):0.0153846 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 195 3
+(tt(A,'_derivationally_related_form',B):0.000294898 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3391 1
+(tt(A,'_derivationally_related_form',B):0.00543774 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 1839 10
+(tt(A,'_derivationally_related_form',B):0.0163934 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 183 3
+(tt(A,'_derivationally_related_form',B):0.175174 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 3585 628
+(tt(A,'_derivationally_related_form',B):0.167822 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 3605 605
+(tt(A,'_derivationally_related_form',B):0.00223547 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 1342 3
+(tt(A,'_derivationally_related_form',B):0.00224551 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 1336 3
+(tt(A,'_derivationally_related_form',B):0.00405186 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 1234 5
+(tt(A,'_derivationally_related_form',B):0.000838223 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 1193 1
+(tt(A,'_derivationally_related_form',B):0.00083682 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 1195 1
+(tt(A,'_derivationally_related_form',B):0.0125786 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 159 2
+(tt(A,'_derivationally_related_form',B):0.000582411 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3434 2
+(tt(A,'_derivationally_related_form',B):0.00284091 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1056 3
+(tt(A,'_derivationally_related_form',B):0.0146341 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 205 3
+(tt(A,'_derivationally_related_form',B):0.000292141 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3423 1
+(tt(A,'_derivationally_related_form',B):0.00582319 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 1889 11
+(tt(A,'_derivationally_related_form',B):0.015544 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 193 3
+(tt(A,'_derivationally_related_form',B):0.0350877 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 57 2
+(tt(A,'_derivationally_related_form',B):0.0333333 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 60 2
+(tt(A,'_derivationally_related_form',B):0.000669792 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1493 1
+(tt(A,'_derivationally_related_form',B):0.00331345 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 1509 5
+(tt(A,'_derivationally_related_form',B):0.00506971 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 2367 12
+(tt(A,'_derivationally_related_form',B):0.00507614 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 2364 12
+(tt(A,'_derivationally_related_form',B):0.000120963 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 8267 1
+(tt(A,'_derivationally_related_form',B):0.00934579 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 321 3
+(tt(A,'_derivationally_related_form',B):0.0096463 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 311 3
+(tt(A,'_derivationally_related_form',B):0.00437637 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 914 4
+(tt(A,'_derivationally_related_form',B):0.00136426 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 733 1
+(tt(A,'_derivationally_related_form',B):9.59463e-05 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 20845 2
+(tt(A,'_derivationally_related_form',B):0.0357815 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 531 19
+(tt(A,'_derivationally_related_form',B):0.0339623 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 530 18
+(tt(A,'_derivationally_related_form',B):0.0369973 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 1865 69
+(tt(A,'_derivationally_related_form',B):0.0017743 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 52415 93
+(tt(A,'_derivationally_related_form',B):0.00284091 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 1056 3
+(tt(A,'_derivationally_related_form',B):0.060659 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 20607 1250
+(tt(A,'_derivationally_related_form',B):0.0540541 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 1517 82
+(tt(A,'_derivationally_related_form',B):0.00174848 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 52617 92
+(tt(A,'_derivationally_related_form',B):0.0149254 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 603 9
+(tt(A,'_derivationally_related_form',B):0.0077221 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 42087 325
+(tt(A,'_derivationally_related_form',B):0.00440529 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 227 1
+(tt(A,'_derivationally_related_form',B):0.0291217 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 2129 62
+(tt(A,'_derivationally_related_form',B):0.000883132 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 3397 3
+(tt(A,'_derivationally_related_form',B):0.0105263 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_similar_to'),B)), % 95 1
+(tt(A,'_derivationally_related_form',B):0.0284091 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 2112 60
+(tt(A,'_derivationally_related_form',B):0.0123288 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 1460 18
+(tt(A,'_derivationally_related_form',B):0.0103093 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_similar_to',B)), % 97 1
+(tt(A,'_derivationally_related_form',B):0.00446429 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 672 3
+(tt(A,'_derivationally_related_form',B):0.0045045 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 666 3
+(tt(A,'_derivationally_related_form',B):0.890816 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 13262 11814
+(tt(A,'_derivationally_related_form',B):0.860801 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 13276 11428
+(tt(A,'_derivationally_related_form',B):0.000368173 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 48890 18
+(tt(A,'_derivationally_related_form',B):0.144221 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 943 136
+(tt(A,'_derivationally_related_form',B):0.14037 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 919 129
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,'_synset_domain_topic_of',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0362967 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 1901 69
+(tt(A,'_derivationally_related_form',B):0.00180272 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 52698 95
+(tt(A,'_derivationally_related_form',B):0.00285714 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 1050 3
+(tt(A,'_derivationally_related_form',B):0.060659 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 20607 1250
+(tt(A,'_derivationally_related_form',B):0.0543046 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 1510 82
+(tt(A,'_derivationally_related_form',B):0.00179441 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 52385 94
+(tt(A,'_derivationally_related_form',B):0.0146819 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 613 9
+(tt(A,'_derivationally_related_form',B):0.00755709 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 42212 319
+(tt(A,'_derivationally_related_form',B):0.00460829 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 217 1
+(tt(A,'_derivationally_related_form',B):0.0294668 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 2138 63
+(tt(A,'_derivationally_related_form',B):0.000888889 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 3375 3
+(tt(A,'_derivationally_related_form',B):0.0103093 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_similar_to'),B)), % 97 1
+(tt(A,'_derivationally_related_form',B):0.0287736 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 2120 61
+(tt(A,'_derivationally_related_form',B):0.0123796 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 1454 18
+(tt(A,'_derivationally_related_form',B):0.0102041 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_similar_to',B)), % 98 1
+(tt(A,'_derivationally_related_form',B):0.00377358 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 1060 4
+(tt(A,'_derivationally_related_form',B):0.00472144 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 1059 5
+(tt(A,'_derivationally_related_form',B):0.00166205 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1805 3
+(tt(A,'_derivationally_related_form',B):0.00584898 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 22739 133
+(tt(A,'_derivationally_related_form',B):0.00550321 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 22714 125
+(tt(A,'_derivationally_related_form',B):0.0046729 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 1712 8
+(tt(A,'_derivationally_related_form',B):6.42818e-06 :-   r(A,i('_hypernym'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 155565 1
+(tt(A,'_derivationally_related_form',B):0.00240385 :-   r(A,i('_hypernym'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_derivationally_related_form',B)), % 416 1
+(tt(A,'_derivationally_related_form',B):0.00240385 :-   r(A,i('_hypernym'),C),  r(C,i('_member_of_domain_region'),D),  r(D,i('_derivationally_related_form'),B)), % 416 1
+(tt(A,'_derivationally_related_form',B):0.0170455 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 176 3
+(tt(A,'_derivationally_related_form',B):0.0112994 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 177 2
+(tt(A,'_derivationally_related_form',B):0.00136426 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_has_part',B)), % 733 1
+(tt(A,'_derivationally_related_form',B):0.0642969 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 1913 123
+(tt(A,'_derivationally_related_form',B):0.0631579 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 1900 120
+(tt(A,'_derivationally_related_form',B):0.0208333 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 96 2
+(tt(A,'_derivationally_related_form',B):0.00224215 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 1784 4
+(tt(A,'_derivationally_related_form',B):0.0434783 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_also_see'),B)), % 23 1
+(tt(A,'_derivationally_related_form',B):0.00222717 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 1796 4
+(tt(A,'_derivationally_related_form',B):0.00833333 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 120 1
+(tt(A,'_derivationally_related_form',B):0.000490677 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 2038 1
+(tt(A,'_derivationally_related_form',B):0.00577731 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 1904 11
+(tt(A,'_derivationally_related_form',B):0.000136537 :-   r(A,i('_hypernym'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 7324 1
+(tt(A,'_derivationally_related_form',B):0.0587013 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 1925 113
+(tt(A,'_derivationally_related_form',B):0.0581456 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 1909 111
+(tt(A,'_derivationally_related_form',B):0.0102041 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 98 1
+(tt(A,'_derivationally_related_form',B):0.011343 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2204 25
+(tt(A,'_derivationally_related_form',B):0.00265076 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 1509 4
+(tt(A,'_derivationally_related_form',B):0.00472689 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1904 9
+(tt(A,'_derivationally_related_form',B):0.011241 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2224 25
+(tt(A,'_derivationally_related_form',B):0.000325796 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 159609 52
+(tt(A,'_derivationally_related_form',B):0.00282105 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8153 23
+(tt(A,'_derivationally_related_form',B):0.0108303 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 277 3
+(tt(A,'_derivationally_related_form',B):0.0154272 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,'_derivationally_related_form',B)), % 6871 106
+(tt(A,'_derivationally_related_form',B):0.0148159 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,i('_derivationally_related_form'),B)), % 7087 105
+(tt(A,'_derivationally_related_form',B):0.00358866 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_derivationally_related_form',B)), % 16998 61
+(tt(A,'_derivationally_related_form',B):0.00358824 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,i('_derivationally_related_form'),B)), % 17000 61
+(tt(A,'_derivationally_related_form',B):6.42818e-06 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 155565 1
+(tt(A,'_derivationally_related_form',B):0.0100503 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 199 2
+(tt(A,'_derivationally_related_form',B):0.010101 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 198 2
+(tt(A,'_derivationally_related_form',B):0.0567686 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 687 39
+(tt(A,'_derivationally_related_form',B):0.0546985 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 713 39
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0078125 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 128 1
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0576923 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 52 3
+(tt(A,'_derivationally_related_form',B):0.0555556 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 54 3
+(tt(A,'_derivationally_related_form',B):1.96715e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 864193 17
+(tt(A,'_derivationally_related_form',B):0.0666667 :-   r(A,i('_member_meronym'),C),  r(C,'_member_of_domain_region',D),  r(D,'_derivationally_related_form',B)), % 30 2
+(tt(A,'_derivationally_related_form',B):0.0967742 :-   r(A,i('_member_meronym'),C),  r(C,'_member_of_domain_region',D),  r(D,i('_derivationally_related_form'),B)), % 31 3
+(tt(A,'_derivationally_related_form',B):0.25416 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 1322 336
+(tt(A,'_derivationally_related_form',B):0.237885 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 1362 324
+(tt(A,'_derivationally_related_form',B):3.96412e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 100905 4
+(tt(A,'_derivationally_related_form',B):0.0106383 :-   r(A,i('_member_meronym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 94 1
+(tt(A,'_derivationally_related_form',B):0.0108696 :-   r(A,i('_member_meronym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 92 1
+(tt(A,'_derivationally_related_form',B):0.0585652 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 683 40
+(tt(A,'_derivationally_related_form',B):0.0578035 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 692 40
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0078125 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 128 1
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0196078 :-   r(A,i('_member_meronym'),C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 51 1
+(tt(A,'_derivationally_related_form',B):0.0196078 :-   r(A,i('_member_meronym'),C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 51 1
+(tt(A,'_derivationally_related_form',B):0.00819672 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 244 2
+(tt(A,'_derivationally_related_form',B):0.00909091 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 220 2
+(tt(A,'_derivationally_related_form',B):0.00192308 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_meronym'),D),  r(D,i('_hypernym'),B)), % 520 1
+(tt(A,'_derivationally_related_form',B):0.000358895 :-   r(A,i('_member_meronym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 8359 3
+(tt(A,'_derivationally_related_form',B):0.0833333 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 12 1
+(tt(A,'_derivationally_related_form',B):0.0657895 :-   r(A,i('_verb_group'),C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 228 15
+(tt(A,'_derivationally_related_form',B):0.0669643 :-   r(A,i('_verb_group'),C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 224 15
+(tt(A,'_derivationally_related_form',B):0.00373134 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4020 15
+(tt(A,'_derivationally_related_form',B):0.015544 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 193 3
+(tt(A,'_derivationally_related_form',B):0.0292453 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 2120 62
+(tt(A,'_derivationally_related_form',B):0.111111 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 18 2
+(tt(A,'_derivationally_related_form',B):0.00373785 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4013 15
+(tt(A,'_derivationally_related_form',B):0.0326087 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 92 3
+(tt(A,'_derivationally_related_form',B):0.0175352 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 4049 71
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0375543 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3222 121
+(tt(A,'_derivationally_related_form',B):0.0380062 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3210 122
+(tt(A,'_derivationally_related_form',B):0.0482759 :-   r(A,i('_verb_group'),C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 145 7
+(tt(A,'_derivationally_related_form',B):0.0482759 :-   r(A,i('_verb_group'),C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 145 7
+(tt(A,'_derivationally_related_form',B):0.00343137 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4080 14
+(tt(A,'_derivationally_related_form',B):0.0163934 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 183 3
+(tt(A,'_derivationally_related_form',B):0.0288826 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 2112 61
+(tt(A,'_derivationally_related_form',B):0.125 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 16 2
+(tt(A,'_derivationally_related_form',B):0.00321067 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4049 13
+(tt(A,'_derivationally_related_form',B):0.032967 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 91 3
+(tt(A,'_derivationally_related_form',B):0.0177035 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 4067 72
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.762725 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 2554 1948
+(tt(A,'_derivationally_related_form',B):0.737872 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 2556 1886
+(tt(A,'_derivationally_related_form',B):0.0336134 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 119 4
+(tt(A,'_derivationally_related_form',B):0.0222382 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 2788 62
+(tt(A,'_derivationally_related_form',B):0.0223102 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 2779 62
+(tt(A,'_derivationally_related_form',B):0.764819 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 2598 1987
+(tt(A,'_derivationally_related_form',B):0.739615 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 2600 1923
+(tt(A,'_derivationally_related_form',B):0.04 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 125 5
+(tt(A,'_derivationally_related_form',B):0.0137931 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 145 2
+(tt(A,'_derivationally_related_form',B):0.013986 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 143 2
+(tt(A,'_derivationally_related_form',B):0.00135257 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4436 6
+(tt(A,'_derivationally_related_form',B):0.0168067 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 476 8
+(tt(A,'_derivationally_related_form',B):0.0350877 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 57 2
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0149953 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3201 48
+(tt(A,'_derivationally_related_form',B):0.0149115 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3219 48
+(tt(A,'_derivationally_related_form',B):0.00200803 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 2490 5
+(tt(A,'_derivationally_related_form',B):0.0137552 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1454 20
+(tt(A,'_derivationally_related_form',B):0.00549451 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 182 1
+(tt(A,'_derivationally_related_form',B):0.00642398 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3269 21
+(tt(A,'_derivationally_related_form',B):0.00647349 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3244 21
+(tt(A,'_derivationally_related_form',B):0.00147394 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 22389 33
+(tt(A,'_derivationally_related_form',B):0.0046729 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 1712 8
+(tt(A,'_derivationally_related_form',B):0.012987 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 77 1
+(tt(A,'_derivationally_related_form',B):0.0135135 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 74 1
+(tt(A,'_derivationally_related_form',B):0.0153704 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3253 50
+(tt(A,'_derivationally_related_form',B):0.0155135 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3223 50
+(tt(A,'_derivationally_related_form',B):0.00199045 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 2512 5
+(tt(A,'_derivationally_related_form',B):0.0136986 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1460 20
+(tt(A,'_derivationally_related_form',B):0.106061 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 66 7
+(tt(A,'_derivationally_related_form',B):0.102941 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 68 7
+(tt(A,'_derivationally_related_form',B):0.00702988 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 1138 8
+(tt(A,'_derivationally_related_form',B):0.00699913 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 1143 8
+(tt(A,'_derivationally_related_form',B):0.0196078 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 153 3
+(tt(A,'_derivationally_related_form',B):0.048 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 125 6
+(tt(A,'_derivationally_related_form',B):0.0423729 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 118 5
+(tt(A,'_derivationally_related_form',B):0.0201342 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 149 3
+(tt(A,'_derivationally_related_form',B):0.0204082 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 98 2
+(tt(A,'_derivationally_related_form',B):0.00809717 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 247 2
+(tt(A,'_derivationally_related_form',B):0.0108303 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 277 3
+(tt(A,'_derivationally_related_form',B):0.0198675 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 151 3
+(tt(A,'_derivationally_related_form',B):0.0420168 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 119 5
+(tt(A,'_derivationally_related_form',B):0.0413223 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 121 5
+(tt(A,'_derivationally_related_form',B):0.0204082 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 147 3
+(tt(A,'_derivationally_related_form',B):0.03125 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 96 3
+(tt(A,'_derivationally_related_form',B):0.555556 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 441 245
+(tt(A,'_derivationally_related_form',B):0.541096 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 438 237
+(tt(A,'_derivationally_related_form',B):0.00300924 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 9637 29
+(tt(A,'_derivationally_related_form',B):0.0833333 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_instance_hypernym',B)), % 12 1
+(tt(A,'_derivationally_related_form',B):0.015873 :-   r(A,i('_similar_to'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 126 2
+(tt(A,'_derivationally_related_form',B):0.0102041 :-   r(A,i('_similar_to'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 98 1
+(tt(A,'_derivationally_related_form',B):0.0153846 :-   r(A,i('_similar_to'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 130 2
+(tt(A,'_derivationally_related_form',B):0.0103093 :-   r(A,i('_similar_to'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 97 1
+(tt(A,'_derivationally_related_form',B):0.000504796 :-   r(A,'_instance_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 3962 2
+(tt(A,'_derivationally_related_form',B):0.00050813 :-   r(A,'_instance_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 3936 2
+(tt(A,'_derivationally_related_form',B):0.0318637 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 2699 86
+(tt(A,'_derivationally_related_form',B):0.0311562 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 2664 83
+(tt(A,'_derivationally_related_form',B):3.52187e-05 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 28394 1
+(tt(A,'_derivationally_related_form',B):0.0703518 :-   r(A,'_verb_group',C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 199 14
+(tt(A,'_derivationally_related_form',B):0.0717949 :-   r(A,'_verb_group',C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 195 14
+(tt(A,'_derivationally_related_form',B):0.00372763 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4024 15
+(tt(A,'_derivationally_related_form',B):0.0146341 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 205 3
+(tt(A,'_derivationally_related_form',B):0.0299345 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 2138 64
+(tt(A,'_derivationally_related_form',B):0.105263 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 19 2
+(tt(A,'_derivationally_related_form',B):0.00373599 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4015 15
+(tt(A,'_derivationally_related_form',B):0.0319149 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 94 3
+(tt(A,'_derivationally_related_form',B):0.0169658 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 4067 69
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.0402705 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3253 131
+(tt(A,'_derivationally_related_form',B):0.0405071 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3234 131
+(tt(A,'_derivationally_related_form',B):0.0034339 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4077 14
+(tt(A,'_derivationally_related_form',B):0.0153846 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 195 3
+(tt(A,'_derivationally_related_form',B):0.0295914 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 2129 63
+(tt(A,'_derivationally_related_form',B):0.117647 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 17 2
+(tt(A,'_derivationally_related_form',B):0.00321305 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4046 13
+(tt(A,'_derivationally_related_form',B):0.0322581 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 93 3
+(tt(A,'_derivationally_related_form',B):0.0171779 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 4075 70
+(tt(A,'_derivationally_related_form',B):0.285714 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 7 2
+(tt(A,'_derivationally_related_form',B):0.765867 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 2584 1979
+(tt(A,'_derivationally_related_form',B):0.740626 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 2587 1916
+(tt(A,'_derivationally_related_form',B):0.0330579 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 121 4
+(tt(A,'_derivationally_related_form',B):0.0219899 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 2774 61
+(tt(A,'_derivationally_related_form',B):0.0220535 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 2766 61
+(tt(A,'_derivationally_related_form',B):0.761235 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 2559 1948
+(tt(A,'_derivationally_related_form',B):0.735753 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 2562 1885
+(tt(A,'_derivationally_related_form',B):0.0338983 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 118 4
+(tt(A,'_derivationally_related_form',B):0.0333333 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 60 2
+(tt(A,'_derivationally_related_form',B):0.0130719 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 153 2
+(tt(A,'_derivationally_related_form',B):0.013245 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 151 2
+(tt(A,'_derivationally_related_form',B):0.0012973 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4625 6
+(tt(A,'_derivationally_related_form',B):0.0203666 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 491 10
+(tt(A,'_derivationally_related_form',B):0.00833333 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 120 1
+(tt(A,'_derivationally_related_form',B):0.0120198 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 8070 97
+(tt(A,'_derivationally_related_form',B):0.0119576 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 8112 97
+(tt(A,'_derivationally_related_form',B):0.00307418 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 10084 31
+(tt(A,'_derivationally_related_form',B):0.000888889 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 3375 3
+(tt(A,'_derivationally_related_form',B):0.00164926 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1819 3
+(tt(A,'_derivationally_related_form',B):0.00166205 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1805 3
+(tt(A,'_derivationally_related_form',B):0.00158983 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 2516 4
+(tt(A,'_derivationally_related_form',B):0.00167715 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 2385 4
+(tt(A,'_derivationally_related_form',B):0.000549904 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 14548 8
+(tt(A,'_derivationally_related_form',B):0.000871394 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 33280 29
+(tt(A,'_derivationally_related_form',B):0.0113454 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 8109 92
+(tt(A,'_derivationally_related_form',B):0.0112847 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 8064 91
+(tt(A,'_derivationally_related_form',B):0.00289335 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 10023 29
+(tt(A,'_derivationally_related_form',B):0.000883132 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 3397 3
+(tt(A,'_derivationally_related_form',B):0.0152662 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 125637 1918
+(tt(A,'_derivationally_related_form',B):9.59463e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_has_part',B)), % 20845 2
+(tt(A,'_derivationally_related_form',B):0.000319531 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 51
+(tt(A,'_derivationally_related_form',B):0.0148323 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 126076 1870
+(tt(A,'_derivationally_related_form',B):0.000692042 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 11560 8
+(tt(A,'_derivationally_related_form',B):0.000409539 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 209992 86
+(tt(A,'_derivationally_related_form',B):0.000403714 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_member_meronym'),B)), % 7431 3
+(tt(A,'_derivationally_related_form',B):0.0012973 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 4625 6
+(tt(A,'_derivationally_related_form',B):0.00103907 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 15
+(tt(A,'_derivationally_related_form',B):0.000358895 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_member_meronym',B)), % 8359 3
+(tt(A,'_derivationally_related_form',B):0.00135257 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 4436 6
+(tt(A,'_derivationally_related_form',B):0.00290547 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 9637 28
+(tt(A,'_derivationally_related_form',B):0.00138793 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 5764 8
+(tt(A,'_derivationally_related_form',B):0.00993377 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 302 3
+(tt(A,'_derivationally_related_form',B):0.00140523 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 5693 8
+(tt(A,'_derivationally_related_form',B):0.000549904 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 14548 8
+(tt(A,'_derivationally_related_form',B):0.00118036 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 12708 15
+(tt(A,'_derivationally_related_form',B):0.00405186 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 1234 5
+(tt(A,'_derivationally_related_form',B):0.0769231 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 13 1
+(tt(A,'_derivationally_related_form',B):0.0769231 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 13 1
+(tt(A,'_derivationally_related_form',B):0.00103907 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 15
+(tt(A,'_derivationally_related_form',B):0.00131752 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 3036 4
+(tt(A,'_derivationally_related_form',B):0.000669792 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 1493 1
+(tt(A,'_derivationally_related_form',B):0.015873 :-   r(A,'_similar_to',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 126 2
+(tt(A,'_derivationally_related_form',B):0.0103093 :-   r(A,'_similar_to',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 97 1
+(tt(A,'_derivationally_related_form',B):0.0153846 :-   r(A,'_similar_to',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 130 2
+(tt(A,'_derivationally_related_form',B):0.0105263 :-   r(A,'_similar_to',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 95 1
+(tt(A,'_has_part',B):0.000678887 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 2946 2
+(tt(A,'_has_part',B):0.000680735 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 2938 2
+(tt(A,'_has_part',B):2.35743e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 84838 2
+(tt(A,'_has_part',B):0.289804 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3423 992
+(tt(A,'_has_part',B):7.63577e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 4
+(tt(A,'_has_part',B):2.35391e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84965 2
+(tt(A,'_has_part',B):0.000554631 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 1803 1
+(tt(A,'_has_part',B):5.22794e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 5
+(tt(A,'_has_part',B):0.00141844 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 705 1
+(tt(A,'_has_part',B):0.00062004 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8064 5
+(tt(A,'_has_part',B):0.017341 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 692 12
+(tt(A,'_has_part',B):5.16725e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58058 3
+(tt(A,'_has_part',B):5.17473e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 57974 3
+(tt(A,'_has_part',B):5.85901e-06 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 512032 3
+(tt(A,'_has_part',B):4.40257e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22714 1
+(tt(A,'_has_part',B):1.17736e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 84936 1
+(tt(A,'_has_part',B):0.296078 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3391 1004
+(tt(A,'_has_part',B):7.60211e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 4
+(tt(A,'_has_part',B):1.17696e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84965 1
+(tt(A,'_has_part',B):0.000545852 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 1832 1
+(tt(A,'_has_part',B):5.23078e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 5
+(tt(A,'_has_part',B):0.00142248 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 703 1
+(tt(A,'_has_part',B):0.000616371 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8112 5
+(tt(A,'_has_part',B):0.0168303 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 713 12
+(tt(A,'_has_part',B):0.000746083 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 4021 3
+(tt(A,'_has_part',B):0.00074757 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4013 3
+(tt(A,'_has_part',B):0.000155095 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 9
+(tt(A,'_has_part',B):0.000172491 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 10
+(tt(A,'_has_part',B):0.00074664 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 4018 3
+(tt(A,'_has_part',B):0.00074757 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4013 3
+(tt(A,'_has_part',B):8.7249e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 126076 11
+(tt(A,'_has_part',B):0.000222494 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8989 2
+(tt(A,'_has_part',B):0.294279 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 1818 535
+(tt(A,'_has_part',B):0.30131 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 1832 552
+(tt(A,'_has_part',B):0.00848033 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 2948 25
+(tt(A,'_has_part',B):0.0213723 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 889 19
+(tt(A,'_has_part',B):0.00178731 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_member_of_domain_region',B)), % 1119 2
+(tt(A,'_has_part',B):0.00931099 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 537 5
+(tt(A,'_has_part',B):0.206897 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,i('_member_of_domain_region'),B)), % 29 6
+(tt(A,'_has_part',B):0.538027 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 1946 1047
+(tt(A,'_has_part',B):0.00867052 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,i('_instance_hypernym'),B)), % 346 3
+(tt(A,'_has_part',B):0.00895522 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 670 6
+(tt(A,'_has_part',B):0.0206986 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 773 16
+(tt(A,'_has_part',B):0.00757576 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 132 1
+(tt(A,'_has_part',B):0.0447443 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 1408 63
+(tt(A,'_has_part',B):0.166667 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_member_of_domain_region'),B)), % 6 1
+(tt(A,'_has_part',B):0.00417101 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 959 4
+(tt(A,'_has_part',B):0.104861 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 24995 2621
+(tt(A,'_has_part',B):0.00310421 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2255 7
+(tt(A,'_has_part',B):0.0175439 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,'_synset_domain_topic_of',B)), % 57 1
+(tt(A,'_has_part',B):1 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,'_member_of_domain_region',B)), % 1 1
+(tt(A,'_has_part',B):0.754545 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,i('_member_of_domain_region'),B)), % 220 166
+(tt(A,'_has_part',B):0.0864198 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,i('_has_part'),B)), % 81 7
+(tt(A,'_has_part',B):0.016129 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,i('_hypernym'),B)), % 62 1
+(tt(A,'_has_part',B):0.156863 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,'_has_part',B)), % 51 8
+(tt(A,'_has_part',B):0.912791 :-   r(A,'_has_part',C),  r(C,'_member_meronym',D),  r(D,i('_member_meronym'),B)), % 172 157
+(tt(A,'_has_part',B):0.125 :-   r(A,'_has_part',C),  r(C,'_member_meronym',D),  r(D,'_instance_hypernym',B)), % 8 1
+(tt(A,'_has_part',B):0.301099 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 1820 548
+(tt(A,'_has_part',B):0.296728 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 1803 535
+(tt(A,'_has_part',B):0.000736648 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 2715 2
+(tt(A,'_has_part',B):0.00276243 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 724 2
+(tt(A,'_has_part',B):0.335834 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 14799 4970
+(tt(A,'_has_part',B):0.00854037 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1288 11
+(tt(A,'_has_part',B):0.0731707 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_member_of_domain_region'),B)), % 41 3
+(tt(A,'_has_part',B):0.00719424 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_has_part'),B)), % 1946 14
+(tt(A,'_has_part',B):0.00104584 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 5737 6
+(tt(A,'_has_part',B):0.333333 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,'_instance_hypernym',B)), % 3 1
+(tt(A,'_has_part',B):0.00644641 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1241 8
+(tt(A,'_has_part',B):0.0198123 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 959 19
+(tt(A,'_has_part',B):0.00673401 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_instance_hypernym'),B)), % 297 2
+(tt(A,'_has_part',B):0.0039604 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 505 2
+(tt(A,'_has_part',B):0.0097507 :-   r(A,'_has_part',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 9948 97
+(tt(A,'_has_part',B):0.5 :-   r(A,'_has_part',C),  r(C,i('_member_of_domain_region'),D),  r(D,i('_member_of_domain_region'),B)), % 2 1
+(tt(A,'_has_part',B):0.037037 :-   r(A,'_has_part',C),  r(C,i('_member_of_domain_region'),D),  r(D,i('_has_part'),B)), % 81 3
+(tt(A,'_has_part',B):0.0153846 :-   r(A,'_has_part',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_instance_hypernym',B)), % 65 1
+(tt(A,'_has_part',B):0.157731 :-   r(A,'_has_part',C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 1287 203
+(tt(A,'_has_part',B):0.00184502 :-   r(A,'_has_part',C),  r(C,i('_instance_hypernym'),D),  r(D,'_has_part',B)), % 1084 2
+(tt(A,'_has_part',B):0.00304878 :-   r(A,'_has_part',C),  r(C,i('_instance_hypernym'),D),  r(D,'_member_of_domain_region',B)), % 328 1
+(tt(A,'_has_part',B):0.119718 :-   r(A,'_has_part',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 142 17
+(tt(A,'_has_part',B):0.0384615 :-   r(A,'_has_part',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_member_meronym'),B)), % 26 1
+(tt(A,'_has_part',B):1 :-   r(A,'_has_part',C),  r(C,i('_instance_hypernym'),D),  r(D,'_hypernym',B)), % 1 1
+(tt(A,'_has_part',B):0.633333 :-   r(A,'_has_part',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 30 19
+(tt(A,'_has_part',B):0.125 :-   r(A,'_has_part',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_member_of_domain_region'),B)), % 8 1
+(tt(A,'_has_part',B):0.0157068 :-   r(A,'_has_part',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 191 3
+(tt(A,'_has_part',B):0.0133333 :-   r(A,'_has_part',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 150 2
+(tt(A,'_has_part',B):0.00584997 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 2906 17
+(tt(A,'_has_part',B):0.0140845 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_has_part'),B)), % 142 2
+(tt(A,'_has_part',B):0.018432 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 113227 2087
+(tt(A,'_has_part',B):0.000853242 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 1172 1
+(tt(A,'_has_part',B):0.131737 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 167 22
+(tt(A,'_has_part',B):0.0173875 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 11560 201
+(tt(A,'_has_part',B):0.117647 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 17 2
+(tt(A,'_has_part',B):4.17005e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 95922 4
+(tt(A,'_has_part',B):4.18463e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 95588 4
+(tt(A,'_has_part',B):0.00140964 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 3547 5
+(tt(A,'_has_part',B):0.00624239 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 13136 82
+(tt(A,'_has_part',B):0.000179598 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 5568 1
+(tt(A,'_has_part',B):0.000127681 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 7832 1
+(tt(A,'_has_part',B):5.03723e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1032314 52
+(tt(A,'_has_part',B):0.000120963 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 8267 1
+(tt(A,'_has_part',B):0.000598384 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 10027 6
+(tt(A,'_has_part',B):4.15416e-05 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 96289 4
+(tt(A,'_has_part',B):4.18235e-05 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 95640 4
+(tt(A,'_has_part',B):0.000289352 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 6912 2
+(tt(A,'_has_part',B):8.93296e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 22389 2
+(tt(A,'_has_part',B):0.0674086 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 39624 2671
+(tt(A,'_has_part',B):0.000330529 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 33280 11
+(tt(A,'_has_part',B):0.00344069 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 24995 86
+(tt(A,'_has_part',B):6.58714e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1032314 68
+(tt(A,'_has_part',B):0.00137646 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 2906 4
+(tt(A,'_has_part',B):0.000338104 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 8873 3
+(tt(A,'_has_part',B):0.000333741 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 8989 3
+(tt(A,'_has_part',B):0.00181159 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 552 1
+(tt(A,'_has_part',B):0.000122654 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 8153 1
+(tt(A,'_has_part',B):7.14313e-05 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 209992 15
+(tt(A,'_has_part',B):0.466667 :-   r(A,'_member_of_domain_region',C),  r(C,'_has_part',D),  r(D,i('_member_of_domain_region'),B)), % 15 7
+(tt(A,'_has_part',B):0.121951 :-   r(A,'_member_of_domain_region',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 41 5
+(tt(A,'_has_part',B):0.0714286 :-   r(A,'_member_of_domain_region',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 14 1
+(tt(A,'_has_part',B):0.030303 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 33 1
+(tt(A,'_has_part',B):0.111111 :-   r(A,'_member_of_domain_region',C),  r(C,'_member_meronym',D),  r(D,i('_member_meronym'),B)), % 18 2
+(tt(A,'_has_part',B):0.00537634 :-   r(A,'_member_of_domain_region',C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 8556 46
+(tt(A,'_has_part',B):0.404247 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_has_part',B)), % 2543 1028
+(tt(A,'_has_part',B):0.1 :-   r(A,'_member_of_domain_region',C),  r(C,i('_hypernym'),D),  r(D,i('_member_of_domain_region'),B)), % 10 1
+(tt(A,'_has_part',B):0.0789474 :-   r(A,'_member_of_domain_region',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 38 3
+(tt(A,'_has_part',B):0.000660066 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 3030 2
+(tt(A,'_has_part',B):0.000658545 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 3037 2
+(tt(A,'_has_part',B):2.34847e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 85162 2
+(tt(A,'_has_part',B):0.296156 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3434 1017
+(tt(A,'_has_part',B):7.59042e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 4
+(tt(A,'_has_part',B):2.35471e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84936 2
+(tt(A,'_has_part',B):0.000549451 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 1820 1
+(tt(A,'_has_part',B):6.23124e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 6
+(tt(A,'_has_part',B):0.00142857 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 700 1
+(tt(A,'_has_part',B):0.000616599 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8109 5
+(tt(A,'_has_part',B):0.0175695 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 683 12
+(tt(A,'_has_part',B):5.16404e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58094 3
+(tt(A,'_has_part',B):5.16983e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 58029 3
+(tt(A,'_has_part',B):5.88243e-06 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 509993 3
+(tt(A,'_has_part',B):4.39773e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22739 1
+(tt(A,'_has_part',B):1.17423e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 85162 1
+(tt(A,'_has_part',B):0.294799 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3365 992
+(tt(A,'_has_part',B):7.6314e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 4
+(tt(A,'_has_part',B):1.17872e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84838 1
+(tt(A,'_has_part',B):0.000550055 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 1818 1
+(tt(A,'_has_part',B):6.25508e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 6
+(tt(A,'_has_part',B):0.00146199 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 684 1
+(tt(A,'_has_part',B):0.000619579 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8070 5
+(tt(A,'_has_part',B):0.0174672 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 687 12
+(tt(A,'_has_part',B):0.000751691 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 3991 3
+(tt(A,'_has_part',B):0.00074664 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4018 3
+(tt(A,'_has_part',B):0.000172135 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 10
+(tt(A,'_has_part',B):0.000189466 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 11
+(tt(A,'_has_part',B):0.000751691 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 3991 3
+(tt(A,'_has_part',B):0.000746083 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4021 3
+(tt(A,'_has_part',B):9.55133e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 125637 12
+(tt(A,'_has_part',B):0.000225403 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8873 2
+(tt(A,'_has_part',B):0.000297177 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3365 1
+(tt(A,'_has_part',B):0.000294898 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3391 1
+(tt(A,'_has_part',B):0.0416009 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 69037 2872
+(tt(A,'_has_part',B):0.000516662 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 7742 4
+(tt(A,'_has_part',B):0.000530004 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_member_of_domain_region',B)), % 16981 9
+(tt(A,'_has_part',B):0.00524246 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_instance_hypernym'),B)), % 9919 52
+(tt(A,'_has_part',B):0.00504202 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_member_of_domain_region'),B)), % 595 3
+(tt(A,'_has_part',B):0.00128387 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 14799 19
+(tt(A,'_has_part',B):0.0036169 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 6912 25
+(tt(A,'_has_part',B):0.000189879 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 10533 2
+(tt(A,'_has_part',B):0.00591716 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 1183 7
+(tt(A,'_has_part',B):0.000810373 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 1234 1
+(tt(A,'_has_part',B):0.00222088 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 39624 88
+(tt(A,'_has_part',B):0.00541272 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',D),  r(D,'_has_part',B)), % 1478 8
+(tt(A,'_has_part',B):0.000669792 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1493 1
+(tt(A,'_has_part',B):0.000291206 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3434 1
+(tt(A,'_has_part',B):0.000292141 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3423 1
+(tt(A,'_has_part',B):0.00040558 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 69037 28
+(tt(A,'_has_part',B):0.00222717 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 2245 5
+(tt(A,'_has_part',B):0.00323102 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 619 2
+(tt(A,'_has_part',B):0.000578805 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 74291 43
+(tt(A,'_has_part',B):0.000287839 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 20845 6
+(tt(A,'_has_part',B):0.0058309 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 343 2
+(tt(A,'_has_part',B):0.000228942 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 52415 12
+(tt(A,'_has_part',B):0.000228063 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 52617 12
+(tt(A,'_has_part',B):0.00110497 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 2715 3
+(tt(A,'_has_part',B):0.000573394 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1744 1
+(tt(A,'_has_part',B):0.0248705 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1930 48
+(tt(A,'_has_part',B):0.817182 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 1455 1189
+(tt(A,'_has_part',B):8.18163e-05 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 48890 4
+(tt(A,'_has_part',B):0.000227713 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 52698 12
+(tt(A,'_has_part',B):0.000229073 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 52385 12
+(tt(A,'_has_part',B):0.00142082 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 7742 11
+(tt(A,'_has_part',B):4.39773e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 22739 1
+(tt(A,'_has_part',B):4.40257e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 22714 1
+(tt(A,'_has_part',B):6.37227e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 31386 2
+(tt(A,'_has_part',B):0.000375094 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 2666 1
+(tt(A,'_has_part',B):2.23135e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 44816 1
+(tt(A,'_has_part',B):0.000475996 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 14706 7
+(tt(A,'_has_part',B):0.0127389 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 157 2
+(tt(A,'_has_part',B):0.000490677 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 2038 1
+(tt(A,'_has_part',B):0.00105042 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 1904 2
+(tt(A,'_has_part',B):0.032646 :-   r(A,i('_hypernym'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 582 19
+(tt(A,'_has_part',B):0.000150367 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 159609 24
+(tt(A,'_has_part',B):0.000186706 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 16068 3
+(tt(A,'_has_part',B):0.0010918 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',D),  r(D,'_member_of_domain_region',B)), % 10991 12
+(tt(A,'_has_part',B):0.000151856 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 39511 6
+(tt(A,'_has_part',B):0.00110619 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',D),  r(D,i('_instance_hypernym'),B)), % 3616 4
+(tt(A,'_has_part',B):0.000294447 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 16981 5
+(tt(A,'_has_part',B):0.000239263 :-   r(A,i('_member_meronym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 8359 2
+(tt(A,'_has_part',B):1.15715e-06 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 864193 1
+(tt(A,'_has_part',B):0.0633926 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_has_part',B)), % 16595 1052
+(tt(A,'_has_part',B):0.000968367 :-   r(A,i('_member_meronym'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 9294 9
+(tt(A,'_has_part',B):0.000986193 :-   r(A,i('_instance_hypernym'),C),  r(C,'_has_part',D),  r(D,'_member_of_domain_region',B)), % 1014 1
+(tt(A,'_has_part',B):0.0127551 :-   r(A,i('_instance_hypernym'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 392 5
+(tt(A,'_has_part',B):0.000803213 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 2490 2
+(tt(A,'_has_part',B):0.00206327 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1454 3
+(tt(A,'_has_part',B):0.00584795 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 171 1
+(tt(A,'_has_part',B):0.00881057 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 227 2
+(tt(A,'_has_part',B):0.00865801 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 231 2
+(tt(A,'_has_part',B):0.00122362 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3269 4
+(tt(A,'_has_part',B):0.00668896 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 299 2
+(tt(A,'_has_part',B):0.00154131 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3244 5
+(tt(A,'_has_part',B):0.000714637 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 22389 16
+(tt(A,'_has_part',B):0.00175234 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 1712 3
+(tt(A,'_has_part',B):0.000796178 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 2512 2
+(tt(A,'_has_part',B):0.00205479 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1460 3
+(tt(A,'_has_part',B):0.0377358 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 583 22
+(tt(A,'_has_part',B):0.00357995 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_has_part',B)), % 838 3
+(tt(A,'_has_part',B):0.00653595 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 153 1
+(tt(A,'_has_part',B):0.00671141 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 149 1
+(tt(A,'_has_part',B):0.00330033 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 303 1
+(tt(A,'_has_part',B):0.00331126 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 302 1
+(tt(A,'_has_part',B):0.0588235 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 17 1
+(tt(A,'_has_part',B):0.0161943 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 247 4
+(tt(A,'_has_part',B):0.0144404 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 277 4
+(tt(A,'_has_part',B):0.015625 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 64 1
+(tt(A,'_has_part',B):0.00662252 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 151 1
+(tt(A,'_has_part',B):0.00680272 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 147 1
+(tt(A,'_has_part',B):0.451906 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 551 249
+(tt(A,'_has_part',B):0.00114143 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 9637 11
+(tt(A,'_has_part',B):0.05 :-   r(A,'_instance_hypernym',C),  r(C,'_has_part',D),  r(D,i('_member_of_domain_region'),B)), % 20 1
+(tt(A,'_has_part',B):0.024 :-   r(A,'_instance_hypernym',C),  r(C,'_has_part',D),  r(D,i('_instance_hypernym'),B)), % 500 12
+(tt(A,'_has_part',B):6.48319e-05 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 61698 4
+(tt(A,'_has_part',B):3.52187e-05 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 28394 1
+(tt(A,'_has_part',B):3.2416e-05 :-   r(A,'_instance_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_instance_hypernym'),B)), % 61698 2
+(tt(A,'_has_part',B):0.00030245 :-   r(A,'_instance_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 9919 3
+(tt(A,'_has_part',B):0.00787402 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_instance_hypernym'),B)), % 127 1
+(tt(A,'_has_part',B):0.000467508 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_member_of_domain_region'),B)), % 8556 4
+(tt(A,'_has_part',B):0.000282618 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 113227 32
+(tt(A,'_has_part',B):0.00591716 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_hypernym'),B)), % 169 1
+(tt(A,'_has_part',B):0.000497884 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_member_of_domain_region',B)), % 16068 8
+(tt(A,'_has_part',B):0.0279711 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_has_part',B)), % 74291 2078
+(tt(A,'_has_part',B):0.00182914 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_member_meronym',B)), % 9294 17
+(tt(A,'_has_part',B):0.00615385 :-   r(A,'_instance_hypernym',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 325 2
+(tt(A,'_has_part',B):0.00696056 :-   r(A,'_instance_hypernym',C),  r(C,'_member_meronym',D),  r(D,i('_instance_hypernym'),B)), % 2586 18
+(tt(A,'_has_part',B):0.0001643 :-   r(A,'_instance_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 42605 7
+(tt(A,'_has_part',B):0.00438596 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 684 3
+(tt(A,'_has_part',B):0.00426743 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 703 3
+(tt(A,'_has_part',B):0.000999001 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 1001 1
+(tt(A,'_has_part',B):0.001 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 1000 1
+(tt(A,'_has_part',B):3.19428e-05 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 313060 10
+(tt(A,'_has_part',B):0.000555247 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 1801 1
+(tt(A,'_has_part',B):0.00428571 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 700 3
+(tt(A,'_has_part',B):0.00425532 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 705 3
+(tt(A,'_has_part',B):0.813376 :-   r(A,'_member_meronym',C),  r(C,i('_member_meronym'),D),  r(D,'_has_part',B)), % 927 754
+(tt(A,'_has_part',B):0.00577201 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 693 4
+(tt(A,'_has_part',B):0.00574713 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 696 4
+(tt(A,'_has_part',B):0.0053374 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 2623 14
+(tt(A,'_has_part',B):0.000145054 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 6894 1
+(tt(A,'_has_part',B):0.000149343 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_member_meronym',B)), % 6696 1
+(tt(A,'_has_part',B):0.0111111 :-   r(A,'_member_meronym',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 90 1
+(tt(A,'_has_part',B):0.000134571 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 7431 1
+(tt(A,'_has_part',B):0.0015528 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 1288 2
+(tt(A,'_has_part',B):0.000549753 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1819 1
+(tt(A,'_has_part',B):0.00110803 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1805 2
+(tt(A,'_has_part',B):1.59189e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 125637 2
+(tt(A,'_has_part',B):0.0110338 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_has_part',B)), % 20845 230
+(tt(A,'_has_part',B):8.77144e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 14
+(tt(A,'_has_part',B):4.69428e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_instance_hypernym'),B)), % 42605 2
+(tt(A,'_has_part',B):1.58634e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 126076 2
+(tt(A,'_has_part',B):0.000519031 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 11560 6
+(tt(A,'_has_part',B):0.000109528 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 209992 23
+(tt(A,'_has_part',B):0.000103767 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 9637 1
+(tt(A,'_has_part',B):7.86906e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 12708 1
+(tt(A,'_has_part',B):0.000138543 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 2
+(tt(A,'_has_part',B):0.000658762 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 3036 2
+(tt(A,'_hypernym',B):0.00314837 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 2541 8
+(tt(A,'_hypernym',B):0.00314218 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 2546 8
+(tt(A,'_hypernym',B):0.00877193 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 114 1
+(tt(A,'_hypernym',B):0.0263158 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,i('_also_see'),B)), % 38 1
+(tt(A,'_hypernym',B):0.00183299 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 4910 9
+(tt(A,'_hypernym',B):0.116541 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 266 31
+(tt(A,'_hypernym',B):0.00197852 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 3538 7
+(tt(A,'_hypernym',B):0.00234506 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,i('_also_see'),B)), % 2985 7
+(tt(A,'_hypernym',B):0.00148002 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 2027 3
+(tt(A,'_hypernym',B):0.562842 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 366 206
+(tt(A,'_hypernym',B):0.0851064 :-   r(A,'_also_see',C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 47 4
+(tt(A,'_hypernym',B):0.00309717 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 2583 8
+(tt(A,'_hypernym',B):0.00312989 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 2556 8
+(tt(A,'_hypernym',B):0.0120482 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 83 1
+(tt(A,'_hypernym',B):0.0116279 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 86 1
+(tt(A,'_hypernym',B):0.0869565 :-   r(A,'_also_see',C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 46 4
+(tt(A,'_hypernym',B):0.002331 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 858 2
+(tt(A,'_hypernym',B):0.0278344 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 2946 82
+(tt(A,'_hypernym',B):0.0282505 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 2938 83
+(tt(A,'_hypernym',B):0.0405405 :-   r(A,'_derivationally_related_form',C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 74 3
+(tt(A,'_hypernym',B):0.0036889 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 3253 12
+(tt(A,'_hypernym',B):0.000777953 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 84838 66
+(tt(A,'_hypernym',B):0.00116857 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3423 4
+(tt(A,'_hypernym',B):0.272635 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 14282
+(tt(A,'_hypernym',B):0.0207355 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2556 53
+(tt(A,'_hypernym',B):0.00077679 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84965 66
+(tt(A,'_hypernym',B):0.00610094 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 1803 11
+(tt(A,'_hypernym',B):0.00136972 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 131
+(tt(A,'_hypernym',B):0.00141844 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 705 1
+(tt(A,'_hypernym',B):0.00963915 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4046 39
+(tt(A,'_hypernym',B):0.000868056 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8064 7
+(tt(A,'_hypernym',B):0.0105263 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_instance_hypernym',B)), % 190 2
+(tt(A,'_hypernym',B):0.00289017 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 692 2
+(tt(A,'_hypernym',B):0.00987898 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 4049 40
+(tt(A,'_hypernym',B):0.00155135 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 3223 5
+(tt(A,'_hypernym',B):0.00587084 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 511 3
+(tt(A,'_hypernym',B):0.00588235 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 510 3
+(tt(A,'_hypernym',B):0.000960615 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1041 1
+(tt(A,'_hypernym',B):0.000944287 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1059 1
+(tt(A,'_hypernym',B):0.0201225 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 1143 23
+(tt(A,'_hypernym',B):0.0318475 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58058 1849
+(tt(A,'_hypernym',B):0.0318936 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 57974 1849
+(tt(A,'_hypernym',B):0.00386439 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5693 22
+(tt(A,'_hypernym',B):4.88251e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 512032 25
+(tt(A,'_hypernym',B):0.00101259 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22714 23
+(tt(A,'_hypernym',B):0.0316101 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 3037 96
+(tt(A,'_hypernym',B):0.0319946 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 2938 94
+(tt(A,'_hypernym',B):0.0645161 :-   r(A,'_derivationally_related_form',C),  r(C,i('_also_see'),D),  r(D,'_synset_domain_topic_of',B)), % 31 2
+(tt(A,'_hypernym',B):0.0033701 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 3264 11
+(tt(A,'_hypernym',B):0.000788829 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 84936 67
+(tt(A,'_hypernym',B):0.00117959 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3391 4
+(tt(A,'_hypernym',B):0.276261 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 14536
+(tt(A,'_hypernym',B):0.00420757 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 713 3
+(tt(A,'_hypernym',B):0.0216025 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2546 55
+(tt(A,'_hypernym',B):0.00078856 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84965 67
+(tt(A,'_hypernym',B):0.00600437 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 1832 11
+(tt(A,'_hypernym',B):0.00139139 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 133
+(tt(A,'_hypernym',B):0.00996264 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4015 40
+(tt(A,'_hypernym',B):0.000862919 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8112 7
+(tt(A,'_hypernym',B):0.0104167 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_instance_hypernym',B)), % 192 2
+(tt(A,'_hypernym',B):0.010466 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 4013 42
+(tt(A,'_hypernym',B):0.00186393 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 3219 6
+(tt(A,'_hypernym',B):0.0198413 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 504 10
+(tt(A,'_hypernym',B):0.0740741 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 54 4
+(tt(A,'_hypernym',B):0.0215686 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 510 11
+(tt(A,'_hypernym',B):0.000331785 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 3014 1
+(tt(A,'_hypernym',B):0.00549725 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 319
+(tt(A,'_hypernym',B):0.00135583 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 13276 18
+(tt(A,'_hypernym',B):0.00541622 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 314
+(tt(A,'_hypernym',B):0.000419287 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2385 1
+(tt(A,'_hypernym',B):0.000831947 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_member_meronym',B)), % 1202 1
+(tt(A,'_hypernym',B):0.00616523 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 3244 20
+(tt(A,'_hypernym',B):0.0546075 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 293 16
+(tt(A,'_hypernym',B):0.00617284 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 162 1
+(tt(A,'_hypernym',B):0.00293686 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 1362 4
+(tt(A,'_hypernym',B):0.00628931 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 159 1
+(tt(A,'_hypernym',B):0.00680272 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_member_meronym'),B)), % 147 1
+(tt(A,'_hypernym',B):0.0164138 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 4021 66
+(tt(A,'_hypernym',B):0.0166957 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4013 67
+(tt(A,'_hypernym',B):0.0340136 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 147 5
+(tt(A,'_hypernym',B):0.00203252 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 2460 5
+(tt(A,'_hypernym',B):0.00201776 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 2478 5
+(tt(A,'_hypernym',B):0.00250941 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 797 2
+(tt(A,'_hypernym',B):0.0143885 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 2224 32
+(tt(A,'_hypernym',B):0.0149254 :-   r(A,'_derivationally_related_form',C),  r(C,i('_similar_to'),D),  r(D,'_derivationally_related_form',B)), % 134 2
+(tt(A,'_hypernym',B):0.0151515 :-   r(A,'_derivationally_related_form',C),  r(C,i('_similar_to'),D),  r(D,i('_derivationally_related_form'),B)), % 132 2
+(tt(A,'_hypernym',B):0.0113636 :-   r(A,'_derivationally_related_form',C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 88 1
+(tt(A,'_hypernym',B):0.124294 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 177 22
+(tt(A,'_hypernym',B):0.0159283 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 4018 64
+(tt(A,'_hypernym',B):0.0161974 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4013 65
+(tt(A,'_hypernym',B):0.0402685 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 149 6
+(tt(A,'_hypernym',B):0.0113683 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2463 28
+(tt(A,'_hypernym',B):0.0029098 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 1031 3
+(tt(A,'_hypernym',B):0.0155902 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1796 28
+(tt(A,'_hypernym',B):0.0104923 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2478 26
+(tt(A,'_hypernym',B):0.000594879 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 126076 75
+(tt(A,'_hypernym',B):0.00133496 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8989 12
+(tt(A,'_hypernym',B):0.013245 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 302 4
+(tt(A,'_hypernym',B):0.0149254 :-   r(A,'_derivationally_related_form',C),  r(C,'_similar_to',D),  r(D,'_derivationally_related_form',B)), % 134 2
+(tt(A,'_hypernym',B):0.0151515 :-   r(A,'_derivationally_related_form',C),  r(C,'_similar_to',D),  r(D,i('_derivationally_related_form'),B)), % 132 2
+(tt(A,'_hypernym',B):0.00220022 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 1818 4
+(tt(A,'_hypernym',B):0.0243902 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 82 2
+(tt(A,'_hypernym',B):0.00218341 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 1832 4
+(tt(A,'_hypernym',B):0.00597015 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 670 4
+(tt(A,'_hypernym',B):0.0178571 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 56 1
+(tt(A,'_hypernym',B):0.0888639 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 889 79
+(tt(A,'_hypernym',B):0.0555556 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 18 1
+(tt(A,'_hypernym',B):0.0813347 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 959 78
+(tt(A,'_hypernym',B):0.00180036 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 24995 45
+(tt(A,'_hypernym',B):0.0248337 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2255 56
+(tt(A,'_hypernym',B):0.00847458 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 118 1
+(tt(A,'_hypernym',B):0.00104275 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 959 1
+(tt(A,'_hypernym',B):0.0021978 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 1820 4
+(tt(A,'_hypernym',B):0.0243902 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 82 2
+(tt(A,'_hypernym',B):0.00221852 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 1803 4
+(tt(A,'_hypernym',B):0.000135144 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 14799 2
+(tt(A,'_hypernym',B):0.00102775 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_has_part'),B)), % 1946 2
+(tt(A,'_hypernym',B):0.000174307 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 5737 1
+(tt(A,'_hypernym',B):0.584162 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 2715 1586
+(tt(A,'_hypernym',B):0.013245 :-   r(A,'_has_part',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 151 2
+(tt(A,'_hypernym',B):0.000344116 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 2906 1
+(tt(A,'_hypernym',B):0.00103806 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 11560 12
+(tt(A,'_hypernym',B):0.0764331 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 157 12
+(tt(A,'_hypernym',B):0.152548 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 3022 461
+(tt(A,'_hypernym',B):0.193063 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 95922 18519
+(tt(A,'_hypernym',B):0.195663 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 95588 18703
+(tt(A,'_hypernym',B):0.00743864 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 42212 314
+(tt(A,'_hypernym',B):0.538609 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 5737 3090
+(tt(A,'_hypernym',B):0.000718391 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 5568 4
+(tt(A,'_hypernym',B):0.000145054 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 6894 1
+(tt(A,'_hypernym',B):0.0318827 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1032314 32913
+(tt(A,'_hypernym',B):0.000191168 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 31386 6
+(tt(A,'_hypernym',B):9.97307e-05 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 10027 1
+(tt(A,'_hypernym',B):0.0143369 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 558 8
+(tt(A,'_hypernym',B):0.37925 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_instance_hypernym',B)), % 2294 870
+(tt(A,'_hypernym',B):0.194654 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 96289 18743
+(tt(A,'_hypernym',B):0.193632 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 95640 18519
+(tt(A,'_hypernym',B):0.00746074 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 42087 314
+(tt(A,'_hypernym',B):0.0730885 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 100905 7375
+(tt(A,'_hypernym',B):0.000615695 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 509993 314
+(tt(A,'_hypernym',B):0.0936864 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 4910 460
+(tt(A,'_hypernym',B):0.000613243 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 512032 314
+(tt(A,'_hypernym',B):0.000160032 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 24995 4
+(tt(A,'_hypernym',B):5.81219e-06 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1032314 6
+(tt(A,'_hypernym',B):2.55542e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 313060 8
+(tt(A,'_hypernym',B):0.735733 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 48890 35970
+(tt(A,'_hypernym',B):0.00950989 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 209992 1997
+(tt(A,'_hypernym',B):0.0217391 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_member_of_domain_usage'),D),  r(D,i('_hypernym'),B)), % 46 1
+(tt(A,'_hypernym',B):0.00543478 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,'_verb_group',B)), % 184 1
+(tt(A,'_hypernym',B):0.0113058 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,i('_also_see'),B)), % 3538 40
+(tt(A,'_hypernym',B):0.00537634 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,i('_verb_group'),B)), % 186 1
+(tt(A,'_hypernym',B):0.298395 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 1059 316
+(tt(A,'_hypernym',B):0.0146834 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3269 48
+(tt(A,'_hypernym',B):0.0147059 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3264 48
+(tt(A,'_hypernym',B):0.00277008 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 361 1
+(tt(A,'_hypernym',B):0.00990099 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 101 1
+(tt(A,'_hypernym',B):0.00288334 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 13526 39
+(tt(A,'_hypernym',B):0.0594595 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 185 11
+(tt(A,'_hypernym',B):0.00154751 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 3231 5
+(tt(A,'_hypernym',B):0.00231481 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 864 2
+(tt(A,'_hypernym',B):0.014603 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3287 48
+(tt(A,'_hypernym',B):0.0144482 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3253 47
+(tt(A,'_hypernym',B):0.0860215 :-   r(A,i('_also_see'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 93 8
+(tt(A,'_hypernym',B):0.00886263 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 677 6
+(tt(A,'_hypernym',B):0.00874636 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 686 6
+(tt(A,'_hypernym',B):0.000925926 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 3240 3
+(tt(A,'_hypernym',B):0.125392 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 319 40
+(tt(A,'_hypernym',B):0.0808081 :-   r(A,i('_also_see'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 99 8
+(tt(A,'_hypernym',B):0.0869565 :-   r(A,i('_also_see'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 23 2
+(tt(A,'_hypernym',B):0.0869565 :-   r(A,i('_also_see'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 23 2
+(tt(A,'_hypernym',B):0.0277228 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 3030 84
+(tt(A,'_hypernym',B):0.0279881 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 3037 85
+(tt(A,'_hypernym',B):0.038961 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 77 3
+(tt(A,'_hypernym',B):0.00365075 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_also_see',B)), % 3287 12
+(tt(A,'_hypernym',B):0.000798478 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 85162 68
+(tt(A,'_hypernym',B):0.00116482 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3434 4
+(tt(A,'_hypernym',B):0.276538 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 14573
+(tt(A,'_hypernym',B):0.0205188 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2583 53
+(tt(A,'_hypernym',B):0.000800603 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84936 68
+(tt(A,'_hypernym',B):0.00604396 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 1820 11
+(tt(A,'_hypernym',B):0.00126702 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 122
+(tt(A,'_hypernym',B):0.00142857 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 700 1
+(tt(A,'_hypernym',B):0.00981114 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4077 40
+(tt(A,'_hypernym',B):0.000863238 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8109 7
+(tt(A,'_hypernym',B):0.0103627 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_instance_hypernym',B)), % 193 2
+(tt(A,'_hypernym',B):0.00146413 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_member_meronym',B)), % 683 1
+(tt(A,'_hypernym',B):0.010049 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 4080 41
+(tt(A,'_hypernym',B):0.00153704 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 3253 5
+(tt(A,'_hypernym',B):0.00592885 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 506 3
+(tt(A,'_hypernym',B):0.00595238 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 504 3
+(tt(A,'_hypernym',B):0.000956938 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1045 1
+(tt(A,'_hypernym',B):0.000943396 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1060 1
+(tt(A,'_hypernym',B):0.0202109 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 1138 23
+(tt(A,'_hypernym',B):0.0320171 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58094 1860
+(tt(A,'_hypernym',B):0.0320529 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 58029 1860
+(tt(A,'_hypernym',B):0.00381679 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5764 22
+(tt(A,'_hypernym',B):4.90203e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 509993 25
+(tt(A,'_hypernym',B):0.00101148 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22739 23
+(tt(A,'_hypernym',B):0.0330033 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 3030 100
+(tt(A,'_hypernym',B):0.032926 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 2946 97
+(tt(A,'_hypernym',B):0.0666667 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_also_see'),D),  r(D,'_synset_domain_topic_of',B)), % 30 2
+(tt(A,'_hypernym',B):0.00336494 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_also_see',B)), % 3269 11
+(tt(A,'_hypernym',B):0.000810221 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 85162 69
+(tt(A,'_hypernym',B):0.00118871 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3365 4
+(tt(A,'_hypernym',B):0.272765 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 14297
+(tt(A,'_hypernym',B):0.00291121 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_member_meronym',B)), % 687 2
+(tt(A,'_hypernym',B):0.0212515 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2541 54
+(tt(A,'_hypernym',B):0.000813315 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84838 69
+(tt(A,'_hypernym',B):0.00605061 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 1818 11
+(tt(A,'_hypernym',B):0.00129272 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 124
+(tt(A,'_hypernym',B):0.00994036 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4024 40
+(tt(A,'_hypernym',B):0.00086741 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8070 7
+(tt(A,'_hypernym',B):0.0103627 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_instance_hypernym',B)), % 193 2
+(tt(A,'_hypernym',B):0.0104478 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 4020 42
+(tt(A,'_hypernym',B):0.00187441 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 3201 6
+(tt(A,'_hypernym',B):0.0197628 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 506 10
+(tt(A,'_hypernym',B):0.0769231 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 52 4
+(tt(A,'_hypernym',B):0.0215264 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 511 11
+(tt(A,'_hypernym',B):0.000331345 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 3018 1
+(tt(A,'_hypernym',B):0.00542225 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 315
+(tt(A,'_hypernym',B):0.00135726 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 13262 18
+(tt(A,'_hypernym',B):0.00533949 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 310
+(tt(A,'_hypernym',B):0.000397456 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2516 1
+(tt(A,'_hypernym',B):0.000829187 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_member_meronym',B)), % 1206 1
+(tt(A,'_hypernym',B):0.00550627 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 3269 18
+(tt(A,'_hypernym',B):0.0590278 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 288 17
+(tt(A,'_hypernym',B):0.00621118 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 161 1
+(tt(A,'_hypernym',B):0.00302572 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 1322 4
+(tt(A,'_hypernym',B):0.00621118 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 161 1
+(tt(A,'_hypernym',B):0.00694444 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,i('_member_meronym'),B)), % 144 1
+(tt(A,'_hypernym',B):0.0167878 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 3991 67
+(tt(A,'_hypernym',B):0.0169238 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4018 68
+(tt(A,'_hypernym',B):0.0331126 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 151 5
+(tt(A,'_hypernym',B):0.00204583 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 2444 5
+(tt(A,'_hypernym',B):0.00203004 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 2463 5
+(tt(A,'_hypernym',B):0.00250941 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 797 2
+(tt(A,'_hypernym',B):0.0145191 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 2204 32
+(tt(A,'_hypernym',B):0.0147059 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_similar_to'),D),  r(D,'_derivationally_related_form',B)), % 136 2
+(tt(A,'_hypernym',B):0.0149254 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_similar_to'),D),  r(D,i('_derivationally_related_form'),B)), % 134 2
+(tt(A,'_hypernym',B):0.0111111 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 90 1
+(tt(A,'_hypernym',B):0.119318 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 176 21
+(tt(A,'_hypernym',B):0.0162866 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 3991 65
+(tt(A,'_hypernym',B):0.0164138 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4021 66
+(tt(A,'_hypernym',B):0.0392157 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 153 6
+(tt(A,'_hypernym',B):0.0110475 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2444 27
+(tt(A,'_hypernym',B):0.00291829 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 1028 3
+(tt(A,'_hypernym',B):0.014574 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1784 26
+(tt(A,'_hypernym',B):0.0101626 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2460 25
+(tt(A,'_hypernym',B):0.000620836 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 125637 78
+(tt(A,'_hypernym',B):0.00146512 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8873 13
+(tt(A,'_hypernym',B):0.0132013 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 303 4
+(tt(A,'_hypernym',B):0.0147059 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_similar_to',D),  r(D,'_derivationally_related_form',B)), % 136 2
+(tt(A,'_hypernym',B):0.0149254 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_similar_to',D),  r(D,i('_derivationally_related_form'),B)), % 134 2
+(tt(A,'_hypernym',B):0.0126582 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 158 2
+(tt(A,'_hypernym',B):0.00148588 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3365 5
+(tt(A,'_hypernym',B):0.00147449 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3391 5
+(tt(A,'_hypernym',B):0.00285714 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1050 3
+(tt(A,'_hypernym',B):7.24249e-05 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 69037 5
+(tt(A,'_hypernym',B):0.300181 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 7742 2324
+(tt(A,'_hypernym',B):5.88893e-05 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_member_of_domain_region',B)), % 16981 1
+(tt(A,'_hypernym',B):0.00410678 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_synset_domain_topic_of'),B)), % 487 2
+(tt(A,'_hypernym',B):0.000270289 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 14799 4
+(tt(A,'_hypernym',B):0.00115741 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 6912 8
+(tt(A,'_hypernym',B):0.00161398 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 10533 17
+(tt(A,'_hypernym',B):0.00169089 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 39624 67
+(tt(A,'_hypernym',B):0.193548 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,'_member_meronym',B)), % 31 6
+(tt(A,'_hypernym',B):0.0360802 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 2245 81
+(tt(A,'_hypernym',B):0.0187547 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2666 50
+(tt(A,'_hypernym',B):0.0125 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 160 2
+(tt(A,'_hypernym',B):0.00174723 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3434 6
+(tt(A,'_hypernym',B):0.00175285 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3423 6
+(tt(A,'_hypernym',B):0.00284091 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1056 3
+(tt(A,'_hypernym',B):0.000362125 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 69037 25
+(tt(A,'_hypernym',B):0.0759717 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 1132 86
+(tt(A,'_hypernym',B):0.000445434 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 2245 1
+(tt(A,'_hypernym',B):0.00161551 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 619 1
+(tt(A,'_hypernym',B):0.000241926 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 8267 2
+(tt(A,'_hypernym',B):0.00274914 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 1455 4
+(tt(A,'_hypernym',B):0.00100604 :-   r(A,i('_has_part'),C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 994 1
+(tt(A,'_hypernym',B):0.010603 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 1509 16
+(tt(A,'_hypernym',B):0.00194553 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 1028 2
+(tt(A,'_hypernym',B):0.00193986 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 1031 2
+(tt(A,'_hypernym',B):0.00267917 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1493 4
+(tt(A,'_hypernym',B):0.0058309 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_has_part',B)), % 343 2
+(tt(A,'_hypernym',B):0.047619 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,'_instance_hypernym',B)), % 21 1
+(tt(A,'_hypernym',B):0.00109409 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 914 1
+(tt(A,'_hypernym',B):0.0136426 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 733 10
+(tt(A,'_hypernym',B):0.000524109 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 1908 1
+(tt(A,'_hypernym',B):0.00892857 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,'_member_meronym',B)), % 224 2
+(tt(A,'_hypernym',B):1.34606e-05 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 74291 1
+(tt(A,'_hypernym',B):0.00291545 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 343 1
+(tt(A,'_hypernym',B):0.00110338 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 20845 23
+(tt(A,'_hypernym',B):0.000612745 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 1632 1
+(tt(A,'_hypernym',B):0.0487805 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 41 2
+(tt(A,'_hypernym',B):0.00819672 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,i('_also_see'),B)), % 366 3
+(tt(A,'_hypernym',B):0.032967 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 273 9
+(tt(A,'_hypernym',B):0.00238481 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 52415 125
+(tt(A,'_hypernym',B):0.00094697 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 1056 1
+(tt(A,'_hypernym',B):0.00111613 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 20607 23
+(tt(A,'_hypernym',B):0.00241367 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 52617 127
+(tt(A,'_hypernym',B):0.00165837 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 603 1
+(tt(A,'_hypernym',B):0.00753425 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 1460 11
+(tt(A,'_hypernym',B):0.0555556 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 18 1
+(tt(A,'_hypernym',B):0.000368324 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 2715 1
+(tt(A,'_hypernym',B):0.0212435 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1930 41
+(tt(A,'_hypernym',B):0.00010227 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 48890 5
+(tt(A,'_hypernym',B):0.00199203 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,'_member_meronym',B)), % 502 1
+(tt(A,'_hypernym',B):0.880077 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 10415 9166
+(tt(A,'_hypernym',B):0.0232558 :-   r(A,i('_hypernym'),C),  r(C,'_member_of_domain_usage',D),  r(D,i('_member_of_domain_usage'),B)), % 43 1
+(tt(A,'_hypernym',B):0.0215054 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,i('_also_see'),B)), % 93 2
+(tt(A,'_hypernym',B):0.00099272 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 3022 3
+(tt(A,'_hypernym',B):0.117216 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 273 32
+(tt(A,'_hypernym',B):0.00220122 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 52698 116
+(tt(A,'_hypernym',B):0.000952381 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 1050 1
+(tt(A,'_hypernym',B):0.00111613 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 20607 23
+(tt(A,'_hypernym',B):0.00225255 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 52385 118
+(tt(A,'_hypernym',B):0.00163132 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 613 1
+(tt(A,'_hypernym',B):0.00825309 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 1454 12
+(tt(A,'_hypernym',B):0.000904159 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 7742 7
+(tt(A,'_hypernym',B):0.026943 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 1930 52
+(tt(A,'_hypernym',B):0.00757576 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 132 1
+(tt(A,'_hypernym',B):0.000359195 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 5568 2
+(tt(A,'_hypernym',B):0.00584795 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 171 1
+(tt(A,'_hypernym',B):0.00233645 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 1712 4
+(tt(A,'_hypernym',B):0.0112782 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 266 3
+(tt(A,'_hypernym',B):0.000886918 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 2255 2
+(tt(A,'_hypernym',B):0.000480077 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 10415 5
+(tt(A,'_hypernym',B):2.23135e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 44816 1
+(tt(A,'_hypernym',B):0.000217108 :-   r(A,i('_hypernym'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_usage',B)), % 4606 1
+(tt(A,'_hypernym',B):6.42818e-06 :-   r(A,i('_hypernym'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 155565 1
+(tt(A,'_hypernym',B):0.00129199 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 14706 19
+(tt(A,'_hypernym',B):0.00830816 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 1324 11
+(tt(A,'_hypernym',B):0.00116279 :-   r(A,i('_hypernym'),C),  r(C,i('_instance_hypernym'),D),  r(D,'_instance_hypernym',B)), % 860 1
+(tt(A,'_hypernym',B):0.000853971 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 1171 1
+(tt(A,'_hypernym',B):0.000869565 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 1150 1
+(tt(A,'_hypernym',B):0.0569211 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 773 44
+(tt(A,'_hypernym',B):0.00212766 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 470 1
+(tt(A,'_hypernym',B):0.00315126 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 1904 6
+(tt(A,'_hypernym',B):0.00226586 :-   r(A,i('_hypernym'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 1324 3
+(tt(A,'_hypernym',B):0.00087108 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 1148 1
+(tt(A,'_hypernym',B):0.00085034 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 1176 1
+(tt(A,'_hypernym',B):0.0556274 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 773 43
+(tt(A,'_hypernym',B):0.00198807 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 1509 3
+(tt(A,'_hypernym',B):0.00499093 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 2204 11
+(tt(A,'_hypernym',B):0.00494604 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 2224 11
+(tt(A,'_hypernym',B):0.000664123 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 159609 106
+(tt(A,'_hypernym',B):0.000735925 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8153 6
+(tt(A,'_hypernym',B):0.00577731 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1904 11
+(tt(A,'_hypernym',B):0.00238663 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,'_member_meronym',B)), % 419 1
+(tt(A,'_hypernym',B):0.000747384 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,i('_has_part'),B)), % 1338 1
+(tt(A,'_hypernym',B):7.20461e-05 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,i('_hypernym'),B)), % 13880 1
+(tt(A,'_hypernym',B):0.0134104 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,'_hypernym',B)), % 44816 601
+(tt(A,'_hypernym',B):0.00110375 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 906 1
+(tt(A,'_hypernym',B):0.00110375 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 906 1
+(tt(A,'_hypernym',B):0.00041684 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',D),  r(D,'_member_meronym',B)), % 2399 1
+(tt(A,'_hypernym',B):9.11743e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_usage',D),  r(D,i('_hypernym'),B)), % 10968 1
+(tt(A,'_hypernym',B):5.88305e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_derivationally_related_form',B)), % 16998 1
+(tt(A,'_hypernym',B):0.00386334 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 155565 601
+(tt(A,'_hypernym',B):5.88235e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,i('_derivationally_related_form'),B)), % 17000 1
+(tt(A,'_hypernym',B):6.74992e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,i('_hypernym'),B)), % 14815 1
+(tt(A,'_hypernym',B):0.000556793 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_instance_hypernym',B)), % 3592 2
+(tt(A,'_hypernym',B):0.000396668 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_member_meronym',B)), % 2521 1
+(tt(A,'_hypernym',B):0.00110375 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 906 1
+(tt(A,'_hypernym',B):0.00110375 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 906 1
+(tt(A,'_hypernym',B):9.09835e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_has_part'),D),  r(D,'_member_of_domain_region',B)), % 10991 1
+(tt(A,'_hypernym',B):0.00291121 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 687 2
+(tt(A,'_hypernym',B):0.00420757 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 713 3
+(tt(A,'_hypernym',B):0.183333 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 120 22
+(tt(A,'_hypernym',B):0.0192308 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 52 1
+(tt(A,'_hypernym',B):0.0185185 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 54 1
+(tt(A,'_hypernym',B):0.212121 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 132 28
+(tt(A,'_hypernym',B):0.00040978 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 7321 3
+(tt(A,'_hypernym',B):0.085689 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,'_member_meronym',B)), % 1132 97
+(tt(A,'_hypernym',B):2.08287e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 864193 18
+(tt(A,'_hypernym',B):0.000777001 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,i('_has_part'),B)), % 1287 1
+(tt(A,'_hypernym',B):0.000257668 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 100905 26
+(tt(A,'_hypernym',B):4.84327e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_member_meronym',B)), % 103236 5
+(tt(A,'_hypernym',B):0.492996 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 14706 7250
+(tt(A,'_hypernym',B):0.00146413 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 683 1
+(tt(A,'_hypernym',B):0.00289017 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 692 2
+(tt(A,'_hypernym',B):0.191667 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 120 23
+(tt(A,'_hypernym',B):0.202899 :-   r(A,i('_member_meronym'),C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 69 14
+(tt(A,'_hypernym',B):0.316733 :-   r(A,i('_member_meronym'),C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 502 159
+(tt(A,'_hypernym',B):0.000396668 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 2521 1
+(tt(A,'_hypernym',B):0.0059082 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 6601 39
+(tt(A,'_hypernym',B):0.00967686 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 103236 999
+(tt(A,'_hypernym',B):0.0333333 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_meronym'),D),  r(D,'_has_part',B)), % 30 1
+(tt(A,'_hypernym',B):0.000107596 :-   r(A,i('_member_meronym'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 9294 1
+(tt(A,'_hypernym',B):0.00107668 :-   r(A,i('_member_meronym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 8359 9
+(tt(A,'_hypernym',B):0.0121951 :-   r(A,i('_member_meronym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 82 1
+(tt(A,'_hypernym',B):0.0384615 :-   r(A,i('_instance_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 26 1
+(tt(A,'_hypernym',B):0.0333333 :-   r(A,i('_instance_hypernym'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 30 1
+(tt(A,'_hypernym',B):0.00765306 :-   r(A,i('_instance_hypernym'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 392 3
+(tt(A,'_hypernym',B):0.0625 :-   r(A,i('_instance_hypernym'),C),  r(C,'_member_of_domain_region',D),  r(D,i('_member_meronym'),B)), % 16 1
+(tt(A,'_hypernym',B):0.0116279 :-   r(A,i('_instance_hypernym'),C),  r(C,'_member_of_domain_region',D),  r(D,'_instance_hypernym',B)), % 86 1
+(tt(A,'_hypernym',B):0.04 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 25 1
+(tt(A,'_hypernym',B):0.00688468 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 581 4
+(tt(A,'_hypernym',B):0.0238095 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 42 1
+(tt(A,'_hypernym',B):9.49397e-05 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 10533 1
+(tt(A,'_hypernym',B):0.00255102 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 392 1
+(tt(A,'_hypernym',B):0.00043592 :-   r(A,i('_instance_hypernym'),C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 2294 1
+(tt(A,'_hypernym',B):0.475581 :-   r(A,i('_instance_hypernym'),C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 860 409
+(tt(A,'_hypernym',B):0.00684932 :-   r(A,i('_instance_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 146 1
+(tt(A,'_hypernym',B):0.000805369 :-   r(A,i('_instance_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 3725 3
+(tt(A,'_hypernym',B):0.0166667 :-   r(A,i('_instance_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 60 1
+(tt(A,'_hypernym',B):0.0638298 :-   r(A,i('_verb_group'),C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 94 6
+(tt(A,'_hypernym',B):0.0156716 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4020 63
+(tt(A,'_hypernym',B):0.0152006 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4013 61
+(tt(A,'_hypernym',B):0.00295421 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 677 2
+(tt(A,'_hypernym',B):0.0314465 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 318 10
+(tt(A,'_hypernym',B):0.0240964 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_also_see'),B)), % 83 2
+(tt(A,'_hypernym',B):0.0314465 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 318 10
+(tt(A,'_hypernym',B):0.00179362 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 26204 47
+(tt(A,'_hypernym',B):0.0728682 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 645 47
+(tt(A,'_hypernym',B):0.0666667 :-   r(A,i('_verb_group'),C),  r(C,i('_also_see'),D),  r(D,'_verb_group',B)), % 30 2
+(tt(A,'_hypernym',B):0.0740741 :-   r(A,i('_verb_group'),C),  r(C,i('_also_see'),D),  r(D,i('_verb_group'),B)), % 27 2
+(tt(A,'_hypernym',B):0.119048 :-   r(A,i('_verb_group'),C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 42 5
+(tt(A,'_hypernym',B):0.0156863 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4080 64
+(tt(A,'_hypernym',B):0.0153124 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4049 62
+(tt(A,'_hypernym',B):0.0157895 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 1330 21
+(tt(A,'_hypernym',B):0.015015 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 1332 20
+(tt(A,'_hypernym',B):0.000474158 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 2109 1
+(tt(A,'_hypernym',B):0.746516 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1148 857
+(tt(A,'_hypernym',B):0.00980392 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 102 1
+(tt(A,'_hypernym',B):0.0566038 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 318 18
+(tt(A,'_hypernym',B):0.0350877 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 114 4
+(tt(A,'_hypernym',B):0.058104 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 327 19
+(tt(A,'_hypernym',B):0.0157895 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 1330 21
+(tt(A,'_hypernym',B):0.0148368 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 1348 20
+(tt(A,'_hypernym',B):0.000465116 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 2150 1
+(tt(A,'_hypernym',B):0.752348 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1171 881
+(tt(A,'_hypernym',B):0.0206897 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 145 3
+(tt(A,'_hypernym',B):0.013986 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 143 2
+(tt(A,'_hypernym',B):0.00135257 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4436 6
+(tt(A,'_hypernym',B):0.0165062 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1454 24
+(tt(A,'_hypernym',B):0.000937207 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3201 3
+(tt(A,'_hypernym',B):0.000931966 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3219 3
+(tt(A,'_hypernym',B):0.0580645 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 155 9
+(tt(A,'_hypernym',B):0.0652174 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 184 12
+(tt(A,'_hypernym',B):0.00275314 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3269 9
+(tt(A,'_hypernym',B):0.00339088 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3244 11
+(tt(A,'_hypernym',B):0.0169492 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 118 2
+(tt(A,'_hypernym',B):0.000312654 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 22389 7
+(tt(A,'_hypernym',B):0.0046729 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 1712 8
+(tt(A,'_hypernym',B):0.012987 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_also_see'),D),  r(D,'_derivationally_related_form',B)), % 77 1
+(tt(A,'_hypernym',B):0.0135135 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_also_see'),D),  r(D,i('_derivationally_related_form'),B)), % 74 1
+(tt(A,'_hypernym',B):0.0178082 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1460 26
+(tt(A,'_hypernym',B):0.000922226 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3253 3
+(tt(A,'_hypernym',B):0.00093081 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3223 3
+(tt(A,'_hypernym',B):0.0580645 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 155 9
+(tt(A,'_hypernym',B):0.0357143 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),D),  r(D,i('_has_part'),B)), % 56 2
+(tt(A,'_hypernym',B):0.0833333 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 144 12
+(tt(A,'_hypernym',B):0.000878735 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 1138 1
+(tt(A,'_hypernym',B):0.0108696 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 184 2
+(tt(A,'_hypernym',B):0.000874891 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 1143 1
+(tt(A,'_hypernym',B):0.00757576 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 132 1
+(tt(A,'_hypernym',B):0.00699301 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 143 1
+(tt(A,'_hypernym',B):0.0333333 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 30 1
+(tt(A,'_hypernym',B):0.00653595 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 153 1
+(tt(A,'_hypernym',B):0.0357143 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 28 1
+(tt(A,'_hypernym',B):0.00671141 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 149 1
+(tt(A,'_hypernym',B):0.015625 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 64 1
+(tt(A,'_hypernym',B):0.025 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 40 1
+(tt(A,'_hypernym',B):0.0833333 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_instance_hypernym',B)), % 12 1
+(tt(A,'_hypernym',B):0.0006226 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 9637 6
+(tt(A,'_hypernym',B):0.000562746 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 1777 1
+(tt(A,'_hypernym',B):0.634043 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 470 298
+(tt(A,'_hypernym',B):0.868421 :-   r(A,i('_similar_to'),C),  r(C,i('_similar_to'),D),  r(D,'_hypernym',B)), % 38 33
+(tt(A,'_hypernym',B):0.891892 :-   r(A,i('_similar_to'),C),  r(C,'_similar_to',D),  r(D,'_hypernym',B)), % 37 33
+(tt(A,'_hypernym',B):0.0737327 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 217 16
+(tt(A,'_hypernym',B):0.00364964 :-   r(A,'_member_meronym',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 274 1
+(tt(A,'_hypernym',B):0.0129623 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 2623 34
+(tt(A,'_hypernym',B):9.58283e-06 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 313060 3
+(tt(A,'_hypernym',B):0.00226131 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 3980 9
+(tt(A,'_hypernym',B):0.0094392 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 1801 17
+(tt(A,'_hypernym',B):0.0660793 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 227 15
+(tt(A,'_hypernym',B):0.0384615 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 26 1
+(tt(A,'_hypernym',B):0.001443 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 693 1
+(tt(A,'_hypernym',B):0.00143678 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 696 1
+(tt(A,'_hypernym',B):0.02 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 50 1
+(tt(A,'_hypernym',B):0.0037594 :-   r(A,'_member_meronym',C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 266 1
+(tt(A,'_hypernym',B):0.988056 :-   r(A,'_member_meronym',C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 3014 2978
+(tt(A,'_hypernym',B):0.0181818 :-   r(A,'_member_meronym',C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 55 1
+(tt(A,'_hypernym',B):0.00107657 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 7431 8
+(tt(A,'_hypernym',B):0.0416667 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_member_meronym',B)), % 24 1
+(tt(A,'_hypernym',B):0.047619 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 42 2
+(tt(A,'_hypernym',B):0.000100817 :-   r(A,'_instance_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 9919 1
+(tt(A,'_hypernym',B):1.76636e-05 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 113227 2
+(tt(A,'_hypernym',B):0.0674157 :-   r(A,'_verb_group',C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 89 6
+(tt(A,'_hypernym',B):0.0154076 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4024 62
+(tt(A,'_hypernym',B):0.014944 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4015 60
+(tt(A,'_hypernym',B):0.00291545 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_also_see',B)), % 686 2
+(tt(A,'_hypernym',B):0.030581 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 327 10
+(tt(A,'_hypernym',B):0.0232558 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_also_see'),B)), % 86 2
+(tt(A,'_hypernym',B):0.0306748 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 326 10
+(tt(A,'_hypernym',B):0.00172776 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 26624 46
+(tt(A,'_hypernym',B):0.0744186 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 645 48
+(tt(A,'_hypernym',B):0.0625 :-   r(A,'_verb_group',C),  r(C,i('_also_see'),D),  r(D,'_verb_group',B)), % 32 2
+(tt(A,'_hypernym',B):0.0689655 :-   r(A,'_verb_group',C),  r(C,i('_also_see'),D),  r(D,i('_verb_group'),B)), % 29 2
+(tt(A,'_hypernym',B):0.119048 :-   r(A,'_verb_group',C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 42 5
+(tt(A,'_hypernym',B):0.0154525 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4077 63
+(tt(A,'_hypernym',B):0.0150766 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4046 61
+(tt(A,'_hypernym',B):0.0148368 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 1348 20
+(tt(A,'_hypernym',B):0.0149925 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 1334 20
+(tt(A,'_hypernym',B):0.000468165 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 2136 1
+(tt(A,'_hypernym',B):0.75085 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1176 883
+(tt(A,'_hypernym',B):0.00990099 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 101 1
+(tt(A,'_hypernym',B):0.0597484 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 318 19
+(tt(A,'_hypernym',B):0.036036 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 111 4
+(tt(A,'_hypernym',B):0.0552147 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 326 18
+(tt(A,'_hypernym',B):0.015015 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 1332 20
+(tt(A,'_hypernym',B):0.0149925 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 1334 20
+(tt(A,'_hypernym',B):0.000469043 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 2132 1
+(tt(A,'_hypernym',B):0.745217 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1150 857
+(tt(A,'_hypernym',B):0.0130719 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 153 2
+(tt(A,'_hypernym',B):0.00662252 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 151 1
+(tt(A,'_hypernym',B):0.0012973 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4625 6
+(tt(A,'_hypernym',B):0.00607187 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 8070 49
+(tt(A,'_hypernym',B):0.0235294 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 85 2
+(tt(A,'_hypernym',B):0.00604043 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 8112 49
+(tt(A,'_hypernym',B):0.00158667 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 10084 16
+(tt(A,'_hypernym',B):0.0121481 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 3375 41
+(tt(A,'_hypernym',B):0.0222222 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 45 1
+(tt(A,'_hypernym',B):0.0156495 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 639 10
+(tt(A,'_hypernym',B):0.0149254 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 536 8
+(tt(A,'_hypernym',B):0.00164926 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1819 3
+(tt(A,'_hypernym',B):0.0232687 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1805 42
+(tt(A,'_hypernym',B):0.00240867 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2491 6
+(tt(A,'_hypernym',B):0.00556439 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 2516 14
+(tt(A,'_hypernym',B):0.00503145 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 2385 12
+(tt(A,'_hypernym',B):0.00123728 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 14548 18
+(tt(A,'_hypernym',B):0.00063101 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 33280 21
+(tt(A,'_hypernym',B):0.00323102 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 619 2
+(tt(A,'_hypernym',B):0.0192308 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 104 2
+(tt(A,'_hypernym',B):0.00604267 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 8109 49
+(tt(A,'_hypernym',B):0.0235294 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 85 2
+(tt(A,'_hypernym',B):0.00607639 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 8064 49
+(tt(A,'_hypernym',B):0.00159633 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 10023 16
+(tt(A,'_hypernym',B):0.0117751 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 3397 40
+(tt(A,'_hypernym',B):0.00789889 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_also_see',B)), % 633 5
+(tt(A,'_hypernym',B):0.000700431 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 125637 88
+(tt(A,'_hypernym',B):0.00100744 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_has_part',B)), % 20845 21
+(tt(A,'_hypernym',B):0.0167472 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 2673
+(tt(A,'_hypernym',B):0.00514416 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_member_meronym',B)), % 8359 43
+(tt(A,'_hypernym',B):0.0221445 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_also_see'),B)), % 858 19
+(tt(A,'_hypernym',B):0.00069006 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 126076 87
+(tt(A,'_hypernym',B):0.00250865 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 11560 29
+(tt(A,'_hypernym',B):0.00105718 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 209992 222
+(tt(A,'_hypernym',B):0.00363343 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_member_meronym'),B)), % 7431 27
+(tt(A,'_hypernym',B):0.00345946 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 4625 16
+(tt(A,'_hypernym',B):0.000831255 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 12
+(tt(A,'_hypernym',B):0.0042953 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_instance_hypernym',B)), % 3725 16
+(tt(A,'_hypernym',B):0.003156 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 4436 14
+(tt(A,'_hypernym',B):0.00228287 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 9637 22
+(tt(A,'_hypernym',B):0.000810373 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 1234 1
+(tt(A,'_hypernym',B):0.00884802 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 5764 51
+(tt(A,'_hypernym',B):0.00843141 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 5693 48
+(tt(A,'_hypernym',B):0.000481166 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 14548 7
+(tt(A,'_hypernym',B):0.000708215 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 12708 9
+(tt(A,'_hypernym',B):0.00241546 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_member_meronym',B)), % 414 1
+(tt(A,'_hypernym',B):0.00878294 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 797 7
+(tt(A,'_hypernym',B):0.00878294 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 797 7
+(tt(A,'_hypernym',B):0.00152397 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 22
+(tt(A,'_hypernym',B):0.00334896 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_has_part',B)), % 1493 5
+(tt(A,'_hypernym',B):0.857143 :-   r(A,'_similar_to',C),  r(C,i('_similar_to'),D),  r(D,'_hypernym',B)), % 42 36
+(tt(A,'_hypernym',B):0.868421 :-   r(A,'_similar_to',C),  r(C,'_similar_to',D),  r(D,'_hypernym',B)), % 38 33
+(tt(A,'_member_of_domain_usage',B):0.273092 :-   r(A,'_member_of_domain_usage',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 249 68
+(tt(A,'_member_of_domain_usage',B):0.275304 :-   r(A,'_member_of_domain_usage',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 247 68
+(tt(A,'_member_of_domain_usage',B):0.00294118 :-   r(A,'_member_of_domain_usage',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 340 1
+(tt(A,'_member_of_domain_usage',B):0.0238095 :-   r(A,'_member_of_domain_usage',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 42 1
+(tt(A,'_member_of_domain_usage',B):0.122525 :-   r(A,'_member_of_domain_usage',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 4848 594
+(tt(A,'_member_of_domain_usage',B):0.0078125 :-   r(A,'_member_of_domain_usage',C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 128 1
+(tt(A,'_member_of_domain_usage',B):0.0026178 :-   r(A,'_member_of_domain_usage',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 382 1
+(tt(A,'_member_of_domain_usage',B):0.272 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 250 68
+(tt(A,'_member_of_domain_usage',B):0.273092 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 249 68
+(tt(A,'_member_of_domain_usage',B):0.00390625 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 256 1
+(tt(A,'_member_of_domain_usage',B):0.166667 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_hypernym'),D),  r(D,'_member_meronym',B)), % 6 1
+(tt(A,'_member_of_domain_usage',B):0.00531915 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 188 1
+(tt(A,'_member_of_domain_usage',B):0.352082 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 1849 651
+(tt(A,'_member_of_domain_usage',B):0.010749 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 2884 31
+(tt(A,'_member_of_domain_usage',B):0.142857 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 7 1
+(tt(A,'_member_of_domain_usage',B):0.0117734 :-   r(A,'_member_of_domain_usage',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 1359 16
+(tt(A,'_member_of_domain_usage',B):0.00201613 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 496 1
+(tt(A,'_member_of_domain_usage',B):0.0176565 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_member_of_domain_usage',B)), % 623 11
+(tt(A,'_member_of_domain_usage',B):0.0436508 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_member_of_domain_usage',B)), % 252 11
+(tt(A,'_member_of_domain_region',B):1.04559e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 1
+(tt(A,'_member_of_domain_region',B):1.04616e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 1
+(tt(A,'_member_of_domain_region',B):0.00154162 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 1946 3
+(tt(A,'_member_of_domain_region',B):0.0246914 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,i('_has_part'),B)), % 81 2
+(tt(A,'_member_of_domain_region',B):0.00172117 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 581 1
+(tt(A,'_member_of_domain_region',B):0.00581395 :-   r(A,'_has_part',C),  r(C,'_member_meronym',D),  r(D,i('_member_meronym'),B)), % 172 1
+(tt(A,'_member_of_domain_region',B):0.0133333 :-   r(A,'_has_part',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 75 1
+(tt(A,'_member_of_domain_region',B):0.179151 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_member_of_domain_region',B)), % 5180 928
+(tt(A,'_member_of_domain_region',B):0.000776398 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1288 1
+(tt(A,'_member_of_domain_region',B):0.00704225 :-   r(A,'_has_part',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 142 1
+(tt(A,'_member_of_domain_region',B):8.83182e-05 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 113227 10
+(tt(A,'_member_of_domain_region',B):0.00531915 :-   r(A,'_member_of_domain_usage',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 188 1
+(tt(A,'_member_of_domain_region',B):0.343023 :-   r(A,'_member_of_domain_region',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 172 59
+(tt(A,'_member_of_domain_region',B):0.341176 :-   r(A,'_member_of_domain_region',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 170 58
+(tt(A,'_member_of_domain_region',B):0.015625 :-   r(A,'_member_of_domain_region',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 64 1
+(tt(A,'_member_of_domain_region',B):0.00195695 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 511 1
+(tt(A,'_member_of_domain_region',B):0.0075188 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 266 2
+(tt(A,'_member_of_domain_region',B):0.0019685 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 508 1
+(tt(A,'_member_of_domain_region',B):0.030303 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 33 1
+(tt(A,'_member_of_domain_region',B):0.142793 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 4461 637
+(tt(A,'_member_of_domain_region',B):0.00201613 :-   r(A,'_member_of_domain_region',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 496 1
+(tt(A,'_member_of_domain_region',B):0.342857 :-   r(A,'_member_of_domain_region',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 175 60
+(tt(A,'_member_of_domain_region',B):0.337209 :-   r(A,'_member_of_domain_region',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 172 58
+(tt(A,'_member_of_domain_region',B):0.015625 :-   r(A,'_member_of_domain_region',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 64 1
+(tt(A,'_member_of_domain_region',B):0.166387 :-   r(A,'_member_of_domain_region',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 595 99
+(tt(A,'_member_of_domain_region',B):0.5 :-   r(A,'_member_of_domain_region',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 2 1
+(tt(A,'_member_of_domain_region',B):0.0416667 :-   r(A,'_member_of_domain_region',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 24 1
+(tt(A,'_member_of_domain_region',B):0.0629067 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 461 29
+(tt(A,'_member_of_domain_region',B):0.229882 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 4163 957
+(tt(A,'_member_of_domain_region',B):0.191011 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 89 17
+(tt(A,'_member_of_domain_region',B):0.0118343 :-   r(A,'_member_of_domain_region',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 169 2
+(tt(A,'_member_of_domain_region',B):0.0186335 :-   r(A,'_member_of_domain_region',C),  r(C,'_instance_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 161 3
+(tt(A,'_member_of_domain_region',B):0.0253623 :-   r(A,'_member_of_domain_region',C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 8556 217
+(tt(A,'_member_of_domain_region',B):0.0526316 :-   r(A,'_member_of_domain_region',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 19 1
+(tt(A,'_member_of_domain_region',B):0.0454545 :-   r(A,'_member_of_domain_region',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 22 1
+(tt(A,'_member_of_domain_region',B):0.0185641 :-   r(A,'_member_of_domain_region',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 8134 151
+(tt(A,'_member_of_domain_region',B):0.02 :-   r(A,'_member_of_domain_region',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_instance_hypernym'),B)), % 50 1
+(tt(A,'_member_of_domain_region',B):5.88893e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 16981 1
+(tt(A,'_member_of_domain_region',B):6.22355e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 16068 1
+(tt(A,'_member_of_domain_region',B):1.03854e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 1
+(tt(A,'_member_of_domain_region',B):1.04251e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 1
+(tt(A,'_member_of_domain_region',B):0.0453141 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_member_of_domain_region',B)), % 16507 748
+(tt(A,'_member_of_domain_region',B):2.897e-05 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 69037 2
+(tt(A,'_member_of_domain_region',B):0.00811908 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',D),  r(D,'_has_part',B)), % 1478 12
+(tt(A,'_member_of_domain_region',B):0.00075358 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',D),  r(D,i('_hypernym'),B)), % 1327 1
+(tt(A,'_member_of_domain_region',B):0.000129166 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 7742 1
+(tt(A,'_member_of_domain_region',B):0.0552971 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_member_of_domain_region',B)), % 16981 939
+(tt(A,'_member_of_domain_region',B):0.00168067 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_member_of_domain_region'),B)), % 595 1
+(tt(A,'_member_of_domain_region',B):0.000135144 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 14799 2
+(tt(A,'_member_of_domain_region',B):0.00205339 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_synset_domain_topic_of'),B)), % 487 1
+(tt(A,'_member_of_domain_region',B):0.000130365 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 69037 9
+(tt(A,'_member_of_domain_region',B):4.03817e-05 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 74291 3
+(tt(A,'_member_of_domain_region',B):0.00210084 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,'_has_part',B)), % 476 1
+(tt(A,'_member_of_domain_region',B):0.000100817 :-   r(A,'_instance_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 9919 1
+(tt(A,'_member_of_domain_region',B):0.0583147 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_member_of_domain_region',B)), % 16068 937
+(tt(A,'_member_of_domain_region',B):0.000116877 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_member_of_domain_region'),B)), % 8556 1
+(tt(A,'_member_of_domain_region',B):0.00680272 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 147 1
+(tt(A,'_member_of_domain_region',B):8.83182e-06 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 113227 1
+(tt(A,'_member_of_domain_region',B):0.000107685 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_has_part',B)), % 74291 8
+(tt(A,'_member_of_domain_region',B):0.00271003 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,'_member_meronym',B)), % 369 1
+(tt(A,'_member_of_domain_region',B):1.6208e-05 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 61698 1
+(tt(A,'_member_of_domain_region',B):0.00438596 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 684 3
+(tt(A,'_member_of_domain_region',B):0.00284495 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 703 2
+(tt(A,'_member_of_domain_region',B):0.00428571 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 700 3
+(tt(A,'_member_of_domain_region',B):0.00283688 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 705 2
+(tt(A,'_member_meronym',B):3.81789e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 2
+(tt(A,'_member_meronym',B):0.000294679 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 84838 25
+(tt(A,'_member_meronym',B):0.0035057 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3423 12
+(tt(A,'_member_meronym',B):0.000306008 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84965 26
+(tt(A,'_member_meronym',B):0.00141844 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 705 1
+(tt(A,'_member_meronym',B):2.09118e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 2
+(tt(A,'_member_meronym',B):4.49191e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 512032 23
+(tt(A,'_member_meronym',B):5.70158e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 3
+(tt(A,'_member_meronym',B):0.000294339 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 84936 25
+(tt(A,'_member_meronym',B):0.00353878 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3391 12
+(tt(A,'_member_meronym',B):0.000306008 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84965 26
+(tt(A,'_member_meronym',B):0.00284495 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 703 2
+(tt(A,'_member_meronym',B):3.13847e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 3
+(tt(A,'_member_meronym',B):0.000248694 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 4021 1
+(tt(A,'_member_meronym',B):0.00024919 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4013 1
+(tt(A,'_member_meronym',B):1.72328e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 1
+(tt(A,'_member_meronym',B):1.72491e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 1
+(tt(A,'_member_meronym',B):0.00024888 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 4018 1
+(tt(A,'_member_meronym',B):0.00024919 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4013 1
+(tt(A,'_member_meronym',B):3.17269e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 126076 4
+(tt(A,'_member_meronym',B):0.00165017 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 1818 3
+(tt(A,'_member_meronym',B):0.00163755 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 1832 3
+(tt(A,'_member_meronym',B):0.0010661 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 938 1
+(tt(A,'_member_meronym',B):0.00489396 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 613 3
+(tt(A,'_member_meronym',B):0.00112022 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 24995 28
+(tt(A,'_member_meronym',B):0.00852273 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 1408 12
+(tt(A,'_member_meronym',B):0.000443459 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2255 1
+(tt(A,'_member_meronym',B):0.0978261 :-   r(A,'_has_part',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 92 9
+(tt(A,'_member_meronym',B):0.0116279 :-   r(A,'_has_part',C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 86 1
+(tt(A,'_member_meronym',B):0.00164835 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 1820 3
+(tt(A,'_member_meronym',B):0.00166389 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 1803 3
+(tt(A,'_member_meronym',B):0.0010582 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 945 1
+(tt(A,'_member_meronym',B):0.00497512 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 603 3
+(tt(A,'_member_meronym',B):0.447312 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_member_meronym',B)), % 465 208
+(tt(A,'_member_meronym',B):0.0769231 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 13 1
+(tt(A,'_member_meronym',B):8.65052e-05 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 11560 1
+(tt(A,'_member_meronym',B):2.36899e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 42212 1
+(tt(A,'_member_meronym',B):2.90609e-06 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1032314 3
+(tt(A,'_member_meronym',B):0.00967388 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 10027 97
+(tt(A,'_member_meronym',B):2.37603e-05 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 42087 1
+(tt(A,'_member_meronym',B):2.94122e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 509993 15
+(tt(A,'_member_meronym',B):0.00838817 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_member_meronym',B)), % 864193 7249
+(tt(A,'_member_meronym',B):3.1248e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 512032 16
+(tt(A,'_member_meronym',B):4.0008e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 24995 1
+(tt(A,'_member_meronym',B):1.64679e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1032314 17
+(tt(A,'_member_meronym',B):6.06912e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 313060 19
+(tt(A,'_member_meronym',B):3.52187e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_instance_hypernym'),B)), % 28394 1
+(tt(A,'_member_meronym',B):6.00962e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 33280 2
+(tt(A,'_member_meronym',B):7.20461e-05 :-   r(A,'_hypernym',C),  r(C,i('_member_of_domain_usage'),D),  r(D,'_member_of_domain_usage',B)), % 13880 1
+(tt(A,'_member_meronym',B):0.00109409 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_has_part',B)), % 914 1
+(tt(A,'_member_meronym',B):0.00215517 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 464 1
+(tt(A,'_member_meronym',B):0.000122654 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 8153 1
+(tt(A,'_member_meronym',B):3.80967e-05 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 209992 8
+(tt(A,'_member_meronym',B):0.0116279 :-   r(A,'_member_of_domain_region',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 172 2
+(tt(A,'_member_meronym',B):0.0117647 :-   r(A,'_member_of_domain_region',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 170 2
+(tt(A,'_member_meronym',B):0.0171429 :-   r(A,'_member_of_domain_region',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 175 3
+(tt(A,'_member_meronym',B):0.0174419 :-   r(A,'_member_of_domain_region',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 172 3
+(tt(A,'_member_meronym',B):0.365497 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 684 250
+(tt(A,'_member_meronym',B):0.366999 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 703 258
+(tt(A,'_member_meronym',B):0.0138249 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 217 3
+(tt(A,'_member_meronym',B):0.566456 :-   r(A,'_member_meronym',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 632 358
+(tt(A,'_member_meronym',B):0.00873908 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,'_has_part',B)), % 801 7
+(tt(A,'_member_meronym',B):0.00152497 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 2623 4
+(tt(A,'_member_meronym',B):0.0230914 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 313060 7229
+(tt(A,'_member_meronym',B):0.0040201 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 3980 16
+(tt(A,'_member_meronym',B):0.578125 :-   r(A,'_member_meronym',C),  r(C,'_member_of_domain_region',D),  r(D,i('_member_of_domain_region'),B)), % 128 74
+(tt(A,'_member_meronym',B):0.365714 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 700 256
+(tt(A,'_member_meronym',B):0.35461 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 705 250
+(tt(A,'_member_meronym',B):0.0132159 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 227 3
+(tt(A,'_member_meronym',B):0.163858 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 1068 175
+(tt(A,'_member_meronym',B):0.166667 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 6 1
+(tt(A,'_member_meronym',B):0.00577201 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 693 4
+(tt(A,'_member_meronym',B):0.00574713 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 696 4
+(tt(A,'_member_meronym',B):0.0037714 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 6894 26
+(tt(A,'_member_meronym',B):0.285932 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_member_meronym'),B)), % 2623 750
+(tt(A,'_member_meronym',B):0.00790514 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_instance_hypernym'),B)), % 253 2
+(tt(A,'_member_meronym',B):0.0454545 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 22 1
+(tt(A,'_member_meronym',B):0.901804 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 998 900
+(tt(A,'_member_meronym',B):0.0115942 :-   r(A,'_member_meronym',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_member_of_domain_region',B)), % 1380 16
+(tt(A,'_member_meronym',B):0.95591 :-   r(A,'_member_meronym',C),  r(C,i('_member_meronym'),D),  r(D,'_member_meronym',B)), % 8029 7675
+(tt(A,'_member_meronym',B):0.0811496 :-   r(A,'_member_meronym',C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 2366 192
+(tt(A,'_member_meronym',B):0.0181818 :-   r(A,'_member_meronym',C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 55 1
+(tt(A,'_member_meronym',B):0.142857 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,i('_synset_domain_topic_of'),B)), % 7 1
+(tt(A,'_member_meronym',B):0.995372 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,i('_member_meronym'),B)), % 2809 2796
+(tt(A,'_member_meronym',B):0.00089222 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 5604 5
+(tt(A,'_member_meronym',B):0.183787 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 1801 331
+(tt(A,'_member_meronym',B):0.333333 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_member_meronym'),B)), % 3 1
+(tt(A,'_member_meronym',B):0.00726686 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 7431 54
+(tt(A,'_member_meronym',B):0.0238095 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 42 1
+(tt(A,'_member_meronym',B):2.64954e-05 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 113227 3
+(tt(A,'_member_meronym',B):0.00591716 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_hypernym'),B)), % 169 1
+(tt(A,'_member_meronym',B):0.000161527 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_has_part',B)), % 74291 12
+(tt(A,'_member_meronym',B):0.0171078 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_member_meronym',B)), % 9294 159
+(tt(A,'_member_meronym',B):2.34714e-05 :-   r(A,'_instance_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 42605 1
+(tt(A,'_member_meronym',B):1.89761e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 1
+(tt(A,'_member_meronym',B):0.0003053 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 85162 26
+(tt(A,'_member_meronym',B):0.00349447 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_has_part',B)), % 3434 12
+(tt(A,'_member_meronym',B):0.000306113 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84936 26
+(tt(A,'_member_meronym',B):0.00142857 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 700 1
+(tt(A,'_member_meronym',B):1.03854e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 1
+(tt(A,'_member_meronym',B):4.70595e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 509993 24
+(tt(A,'_member_meronym',B):3.8157e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 2
+(tt(A,'_member_meronym',B):0.0003053 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 85162 26
+(tt(A,'_member_meronym',B):0.00356612 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_has_part',B)), % 3365 12
+(tt(A,'_member_meronym',B):0.000306466 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84838 26
+(tt(A,'_member_meronym',B):0.00292398 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 684 2
+(tt(A,'_member_meronym',B):2.08503e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 2
+(tt(A,'_member_meronym',B):0.000250564 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 3991 1
+(tt(A,'_member_meronym',B):0.00024888 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 4018 1
+(tt(A,'_member_meronym',B):1.72135e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 1
+(tt(A,'_member_meronym',B):1.72242e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 1
+(tt(A,'_member_meronym',B):0.000250564 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 3991 1
+(tt(A,'_member_meronym',B):0.000248694 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 4021 1
+(tt(A,'_member_meronym',B):3.18378e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 125637 4
+(tt(A,'_member_meronym',B):0.000297177 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3365 1
+(tt(A,'_member_meronym',B):0.000294898 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3391 1
+(tt(A,'_member_meronym',B):0.0400221 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_member_meronym',B)), % 3623 145
+(tt(A,'_member_meronym',B):0.000201633 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_instance_hypernym'),B)), % 9919 2
+(tt(A,'_member_meronym',B):0.0013132 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',D),  r(D,'_member_meronym',B)), % 1523 2
+(tt(A,'_member_meronym',B):0.000124797 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 8013 1
+(tt(A,'_member_meronym',B):0.000291206 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3434 1
+(tt(A,'_member_meronym',B):0.000292141 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3423 1
+(tt(A,'_member_meronym',B):0.0153173 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 914 14
+(tt(A,'_member_meronym',B):1.90785e-05 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 52415 1
+(tt(A,'_member_meronym',B):0.00440529 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 227 1
+(tt(A,'_member_meronym',B):0.000518135 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1930 1
+(tt(A,'_member_meronym',B):0.0032522 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 48890 159
+(tt(A,'_member_meronym',B):9.60154e-05 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 10415 1
+(tt(A,'_member_meronym',B):0.010574 :-   r(A,i('_hypernym'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 1324 14
+(tt(A,'_member_meronym',B):1.89761e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 52698 1
+(tt(A,'_member_meronym',B):0.00460829 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 217 1
+(tt(A,'_member_meronym',B):0.00109051 :-   r(A,i('_hypernym'),C),  r(C,i('_instance_hypernym'),D),  r(D,'_member_of_domain_region',B)), % 917 1
+(tt(A,'_member_meronym',B):3.13266e-05 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 159609 5
+(tt(A,'_member_meronym',B):2.23135e-05 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,'_hypernym',B)), % 44816 1
+(tt(A,'_member_meronym',B):6.74992e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,i('_hypernym'),B)), % 14815 1
+(tt(A,'_member_meronym',B):6.42818e-06 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 155565 1
+(tt(A,'_member_meronym',B):0.00041684 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',D),  r(D,'_member_meronym',B)), % 2399 1
+(tt(A,'_member_meronym',B):0.0014556 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 687 1
+(tt(A,'_member_meronym',B):0.00280505 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 713 2
+(tt(A,'_member_meronym',B):0.0104167 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 96 1
+(tt(A,'_member_meronym',B):4.51288e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 864193 39
+(tt(A,'_member_meronym',B):0.00146413 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 683 1
+(tt(A,'_member_meronym',B):0.00289017 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 692 2
+(tt(A,'_member_meronym',B):0.010101 :-   r(A,i('_member_meronym'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 99 1
+(tt(A,'_member_meronym',B):0.00980392 :-   r(A,i('_member_meronym'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 102 1
+(tt(A,'_member_meronym',B):0.000271998 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_hypernym',B)), % 14706 4
+(tt(A,'_member_meronym',B):0.00699301 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 143 1
+(tt(A,'_member_meronym',B):0.0099004 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 100905 999
+(tt(A,'_member_meronym',B):0.0655488 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_member_meronym',B)), % 103236 6767
+(tt(A,'_member_meronym',B):0.00131595 :-   r(A,i('_member_meronym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 8359 11
+(tt(A,'_member_meronym',B):0.0333333 :-   r(A,i('_instance_hypernym'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 30 1
+(tt(A,'_member_meronym',B):0.00765306 :-   r(A,i('_instance_hypernym'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 392 3
+(tt(A,'_member_meronym',B):0.000312402 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3201 1
+(tt(A,'_member_meronym',B):0.000310655 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3219 1
+(tt(A,'_member_meronym',B):0.000307409 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3253 1
+(tt(A,'_member_meronym',B):0.00031027 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3223 1
+(tt(A,'_member_meronym',B):0.0333333 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 30 1
+(tt(A,'_member_meronym',B):0.000268456 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_instance_hypernym',B)), % 3725 1
+(tt(A,'_member_meronym',B):2.38783e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 125637 3
+(tt(A,'_member_meronym',B):0.00017301 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 11560 2
+(tt(A,'_member_meronym',B):2.37952e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 126076 3
+(tt(A,'_member_meronym',B):0.00107657 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_member_meronym'),B)), % 7431 8
+(tt(A,'_member_meronym',B):4.28588e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 209992 9
+(tt(A,'_member_meronym',B):7.51837e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 12
+(tt(A,'_member_meronym',B):3.00481e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 33280 1
+(tt(A,'_instance_hypernym',B):0.436842 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_instance_hypernym',B)), % 190 83
+(tt(A,'_instance_hypernym',B):3.81789e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 2
+(tt(A,'_instance_hypernym',B):0.442708 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_instance_hypernym',B)), % 192 85
+(tt(A,'_instance_hypernym',B):3.80105e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 2
+(tt(A,'_instance_hypernym',B):1.953e-06 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 512032 1
+(tt(A,'_instance_hypernym',B):0.0283582 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 670 19
+(tt(A,'_instance_hypernym',B):0.111111 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 18 2
+(tt(A,'_instance_hypernym',B):4.0008e-05 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 24995 1
+(tt(A,'_instance_hypernym',B):0.333333 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_instance_hypernym',B)), % 3 1
+(tt(A,'_instance_hypernym',B):0.0123457 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,i('_has_part'),B)), % 81 1
+(tt(A,'_instance_hypernym',B):0.0327869 :-   r(A,'_has_part',C),  r(C,'_member_of_domain_region',D),  r(D,'_instance_hypernym',B)), % 122 4
+(tt(A,'_instance_hypernym',B):0.0923077 :-   r(A,'_has_part',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_instance_hypernym',B)), % 65 6
+(tt(A,'_instance_hypernym',B):0.000202716 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 14799 3
+(tt(A,'_instance_hypernym',B):0.553867 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 724 401
+(tt(A,'_instance_hypernym',B):0.428571 :-   r(A,'_has_part',C),  r(C,i('_member_meronym'),D),  r(D,'_instance_hypernym',B)), % 14 6
+(tt(A,'_instance_hypernym',B):0.5 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,'_instance_hypernym',B)), % 2 1
+(tt(A,'_instance_hypernym',B):0.056338 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_has_part'),B)), % 142 8
+(tt(A,'_instance_hypernym',B):0.23913 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_member_meronym'),B)), % 46 11
+(tt(A,'_instance_hypernym',B):0.00137646 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 2906 4
+(tt(A,'_instance_hypernym',B):0.00170648 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 1172 2
+(tt(A,'_instance_hypernym',B):0.000259516 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 11560 3
+(tt(A,'_instance_hypernym',B):0.166667 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 12 2
+(tt(A,'_instance_hypernym',B):0.000144676 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 6912 1
+(tt(A,'_instance_hypernym',B):0.0714286 :-   r(A,'_member_of_domain_region',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 14 1
+(tt(A,'_instance_hypernym',B):1 :-   r(A,'_member_of_domain_region',C),  r(C,'_member_of_domain_region',D),  r(D,'_instance_hypernym',B)), % 1 1
+(tt(A,'_instance_hypernym',B):0.7125 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_of_domain_region'),D),  r(D,'_instance_hypernym',B)), % 160 114
+(tt(A,'_instance_hypernym',B):0.00168067 :-   r(A,'_member_of_domain_region',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 595 1
+(tt(A,'_instance_hypernym',B):0.116279 :-   r(A,'_member_of_domain_region',C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 43 5
+(tt(A,'_instance_hypernym',B):0.111111 :-   r(A,'_member_of_domain_region',C),  r(C,i('_member_meronym'),D),  r(D,i('_hypernym'),B)), % 9 1
+(tt(A,'_instance_hypernym',B):0.00591716 :-   r(A,'_member_of_domain_region',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 169 1
+(tt(A,'_instance_hypernym',B):0.333333 :-   r(A,'_member_of_domain_region',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_instance_hypernym',B)), % 3 1
+(tt(A,'_instance_hypernym',B):0.435233 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_instance_hypernym',B)), % 193 84
+(tt(A,'_instance_hypernym',B):3.79521e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 2
+(tt(A,'_instance_hypernym',B):0.430052 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_instance_hypernym',B)), % 193 83
+(tt(A,'_instance_hypernym',B):3.8157e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 2
+(tt(A,'_instance_hypernym',B):1.96081e-06 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 509993 1
+(tt(A,'_instance_hypernym',B):0.00813743 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 7742 63
+(tt(A,'_instance_hypernym',B):0.000289352 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 6912 2
+(tt(A,'_instance_hypernym',B):4.3455e-05 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_has_part',B)), % 69037 3
+(tt(A,'_instance_hypernym',B):0.167853 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 10533 1768
+(tt(A,'_instance_hypernym',B):0.000375094 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2666 1
+(tt(A,'_instance_hypernym',B):0.0236018 :-   r(A,i('_has_part'),C),  r(C,'_member_of_domain_region',D),  r(D,'_instance_hypernym',B)), % 1949 46
+(tt(A,'_instance_hypernym',B):0.00618375 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 1132 7
+(tt(A,'_instance_hypernym',B):0.000753219 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 69037 52
+(tt(A,'_instance_hypernym',B):0.0173516 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 2190 38
+(tt(A,'_instance_hypernym',B):0.527778 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,'_instance_hypernym',B)), % 36 19
+(tt(A,'_instance_hypernym',B):0.00270636 :-   r(A,i('_has_part'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_has_part',B)), % 1478 4
+(tt(A,'_instance_hypernym',B):0.0714286 :-   r(A,i('_has_part'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_instance_hypernym',B)), % 42 3
+(tt(A,'_instance_hypernym',B):0.05 :-   r(A,i('_has_part'),C),  r(C,i('_member_meronym'),D),  r(D,'_instance_hypernym',B)), % 180 9
+(tt(A,'_instance_hypernym',B):0.00132538 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 1509 2
+(tt(A,'_instance_hypernym',B):0.00157233 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 1908 3
+(tt(A,'_instance_hypernym',B):0.0002331 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 4290 1
+(tt(A,'_instance_hypernym',B):1.34606e-05 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 74291 1
+(tt(A,'_instance_hypernym',B):0.0803571 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,'_member_meronym',B)), % 224 18
+(tt(A,'_instance_hypernym',B):0.0252101 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,'_has_part',B)), % 476 12
+(tt(A,'_instance_hypernym',B):9.59463e-05 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 20845 2
+(tt(A,'_instance_hypernym',B):0.0333333 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 30 1
+(tt(A,'_instance_hypernym',B):0.0196078 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_instance_hypernym',B)), % 51 1
+(tt(A,'_instance_hypernym',B):0.00109051 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_instance_hypernym',D),  r(D,'_hypernym',B)), % 917 1
+(tt(A,'_instance_hypernym',B):1.28564e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_hypernym',B)), % 155565 2
+(tt(A,'_instance_hypernym',B):0.000423908 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_synset_domain_topic_of',B)), % 2359 1
+(tt(A,'_instance_hypernym',B):0.0595768 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_instance_hypernym',B)), % 3592 214
+(tt(A,'_instance_hypernym',B):0.00239044 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 3765 9
+(tt(A,'_instance_hypernym',B):1 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_instance_hypernym',B)), % 1 1
+(tt(A,'_instance_hypernym',B):0.00295858 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 1014 3
+(tt(A,'_instance_hypernym',B):1.15715e-06 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 864193 1
+(tt(A,'_instance_hypernym',B):0.000552029 :-   r(A,i('_member_meronym'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 3623 2
+(tt(A,'_instance_hypernym',B):3.96412e-05 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 100905 4
+(tt(A,'_instance_hypernym',B):0.29432 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_instance_hypernym',B)), % 581 171
+(tt(A,'_instance_hypernym',B):0.0909091 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 132 12
+(tt(A,'_instance_hypernym',B):0.00255102 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 392 1
+(tt(A,'_instance_hypernym',B):0.00226757 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 441 1
+(tt(A,'_instance_hypernym',B):0.00228311 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 438 1
+(tt(A,'_instance_hypernym',B):0.00212766 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 470 1
+(tt(A,'_instance_hypernym',B):0.030303 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_member_of_domain_region'),D),  r(D,'_instance_hypernym',B)), % 33 1
+(tt(A,'_instance_hypernym',B):0.00643117 :-   r(A,'_instance_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 42605 274
+(tt(A,'_instance_hypernym',B):0.000127681 :-   r(A,'_instance_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 7832 1
+(tt(A,'_instance_hypernym',B):0.706806 :-   r(A,'_instance_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_hypernym',B)), % 2483 1755
+(tt(A,'_instance_hypernym',B):0.142857 :-   r(A,'_instance_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_instance_hypernym',B)), % 7 1
+(tt(A,'_instance_hypernym',B):0.00095057 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 1052 1
+(tt(A,'_instance_hypernym',B):0.279904 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_instance_hypernym',B)), % 10818 3028
+(tt(A,'_instance_hypernym',B):0.10541 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 28394 2993
+(tt(A,'_instance_hypernym',B):0.000273448 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 3657 1
+(tt(A,'_instance_hypernym',B):0.0103627 :-   r(A,'_member_meronym',C),  r(C,'_has_part',D),  r(D,'_instance_hypernym',B)), % 193 2
+(tt(A,'_instance_hypernym',B):0.5 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,'_instance_hypernym',B)), % 2 1
+(tt(A,'_instance_hypernym',B):0.880597 :-   r(A,'_member_meronym',C),  r(C,i('_member_meronym'),D),  r(D,'_instance_hypernym',B)), % 134 118
+(tt(A,'_instance_hypernym',B):0.05 :-   r(A,'_member_meronym',C),  r(C,i('_has_part'),D),  r(D,'_instance_hypernym',B)), % 40 2
+(tt(A,'_instance_hypernym',B):0.000134571 :-   r(A,'_member_meronym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 7431 1
+(tt(A,'_instance_hypernym',B):0.000549753 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_hypernym'),B)), % 1819 1
+(tt(A,'_instance_hypernym',B):0.000100245 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 16
+(tt(A,'_instance_hypernym',B):0.000119632 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_member_meronym',B)), % 8359 1
+(tt(A,'_instance_hypernym',B):1.42863e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 209992 3
+(tt(A,'_instance_hypernym',B):0.0609396 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_instance_hypernym',B)), % 3725 227
+(tt(A,'_instance_hypernym',B):0.342373 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_instance_hypernym'),D),  r(D,'_instance_hypernym',B)), % 295 101
+(tt(A,'_instance_hypernym',B):3.00481e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 33280 1
+(tt(A,'_verb_group',B):0.004329 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 2541 11
+(tt(A,'_verb_group',B):0.0043205 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 2546 11
+(tt(A,'_verb_group',B):0.001222 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 4910 6
+(tt(A,'_verb_group',B):0.00425861 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 2583 11
+(tt(A,'_verb_group',B):0.0043036 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 2556 11
+(tt(A,'_verb_group',B):0.0425532 :-   r(A,'_also_see',C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 47 2
+(tt(A,'_verb_group',B):0.0434783 :-   r(A,'_also_see',C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 46 2
+(tt(A,'_verb_group',B):0.0011655 :-   r(A,'_also_see',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 858 1
+(tt(A,'_verb_group',B):0.000744488 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 39
+(tt(A,'_verb_group',B):0.227958 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 4049 923
+(tt(A,'_verb_group',B):0.00391236 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2556 10
+(tt(A,'_verb_group',B):0.000153004 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84965 13
+(tt(A,'_verb_group',B):0.000690088 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 66
+(tt(A,'_verb_group',B):0.222689 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4046 901
+(tt(A,'_verb_group',B):0.000248016 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8064 2
+(tt(A,'_verb_group',B):0.000129659 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 84838 11
+(tt(A,'_verb_group',B):0.00587084 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 511 3
+(tt(A,'_verb_group',B):0.00588235 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 510 3
+(tt(A,'_verb_group',B):0.00103345 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58058 60
+(tt(A,'_verb_group',B):0.0010177 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 57974 59
+(tt(A,'_verb_group',B):0.00175654 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5693 10
+(tt(A,'_verb_group',B):0.000741205 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 39
+(tt(A,'_verb_group',B):0.232494 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 4013 933
+(tt(A,'_verb_group',B):0.00392773 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2546 10
+(tt(A,'_verb_group',B):0.000153004 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84965 13
+(tt(A,'_verb_group',B):0.00066954 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 64
+(tt(A,'_verb_group',B):0.22665 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4015 910
+(tt(A,'_verb_group',B):0.000246548 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8112 2
+(tt(A,'_verb_group',B):0.000141283 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 84936 12
+(tt(A,'_verb_group',B):0.00595238 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 504 3
+(tt(A,'_verb_group',B):0.00588235 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 510 3
+(tt(A,'_verb_group',B):0.00373134 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 536 2
+(tt(A,'_verb_group',B):0.0010512 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 61
+(tt(A,'_verb_group',B):0.00103495 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 60
+(tt(A,'_verb_group',B):0.000419287 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2385 1
+(tt(A,'_verb_group',B):0.0123457 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 162 2
+(tt(A,'_verb_group',B):0.0125786 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 159 2
+(tt(A,'_verb_group',B):0.041958 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 143 6
+(tt(A,'_verb_group',B):0.0397351 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 151 6
+(tt(A,'_verb_group',B):0.0124224 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 161 2
+(tt(A,'_verb_group',B):0.0125786 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 159 2
+(tt(A,'_verb_group',B):4.75903e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 126076 6
+(tt(A,'_verb_group',B):0.000246124 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,i('_hypernym'),B)), % 8126 2
+(tt(A,'_verb_group',B):0.00132363 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 3022 4
+(tt(A,'_verb_group',B):0.000667209 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 95922 64
+(tt(A,'_verb_group',B):0.000659079 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 95588 63
+(tt(A,'_verb_group',B):9.97705e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 10023 1
+(tt(A,'_verb_group',B):0.00087108 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 1148 1
+(tt(A,'_verb_group',B):0.000881834 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 1134 1
+(tt(A,'_verb_group',B):4.74662e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1032314 49
+(tt(A,'_verb_group',B):0.000246124 :-   r(A,'_hypernym',C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 8126 2
+(tt(A,'_verb_group',B):0.00227273 :-   r(A,'_hypernym',C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 440 1
+(tt(A,'_verb_group',B):0.000685437 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 96289 66
+(tt(A,'_verb_group',B):0.000679632 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 95640 65
+(tt(A,'_verb_group',B):0.000198334 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 10084 2
+(tt(A,'_verb_group',B):0.00308642 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,'_also_see',B)), % 648 2
+(tt(A,'_verb_group',B):0.0116279 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 2150 25
+(tt(A,'_verb_group',B):0.0117261 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 2132 25
+(tt(A,'_verb_group',B):0.000850123 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 11763 10
+(tt(A,'_verb_group',B):0.0126103 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1586 20
+(tt(A,'_verb_group',B):0.000369658 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_also_see',B)), % 13526 5
+(tt(A,'_verb_group',B):0.0383148 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 26204 1004
+(tt(A,'_verb_group',B):0.001222 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_also_see'),B)), % 4910 6
+(tt(A,'_verb_group',B):0.0365084 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 26624 972
+(tt(A,'_verb_group',B):4.84349e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1032314 50
+(tt(A,'_verb_group',B):0.00304878 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,'_also_see',B)), % 656 2
+(tt(A,'_verb_group',B):0.0113798 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 2109 24
+(tt(A,'_verb_group',B):0.011236 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 2136 24
+(tt(A,'_verb_group',B):0.000850123 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 11763 10
+(tt(A,'_verb_group',B):0.0120253 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1580 19
+(tt(A,'_verb_group',B):4.28588e-05 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 209992 9
+(tt(A,'_verb_group',B):0.000944287 :-   r(A,i('_also_see'),C),  r(C,'_also_see',D),  r(D,'_hypernym',B)), % 1059 1
+(tt(A,'_verb_group',B):0.000611808 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3269 2
+(tt(A,'_verb_group',B):0.000612745 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3264 2
+(tt(A,'_verb_group',B):0.000369658 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 13526 5
+(tt(A,'_verb_group',B):0.00304878 :-   r(A,i('_also_see'),C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 656 2
+(tt(A,'_verb_group',B):0.000608458 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3287 2
+(tt(A,'_verb_group',B):0.000614817 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3253 2
+(tt(A,'_verb_group',B):0.00308642 :-   r(A,i('_also_see'),C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 648 2
+(tt(A,'_verb_group',B):0.224129 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4020 901
+(tt(A,'_verb_group',B):0.226763 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4013 910
+(tt(A,'_verb_group',B):0.0304348 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 230 7
+(tt(A,'_verb_group',B):0.0880503 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 318 28
+(tt(A,'_verb_group',B):0.091195 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 318 29
+(tt(A,'_verb_group',B):0.0370936 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 26204 972
+(tt(A,'_verb_group',B):0.00155039 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 645 1
+(tt(A,'_verb_group',B):0.223284 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4080 911
+(tt(A,'_verb_group',B):0.222524 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4049 901
+(tt(A,'_verb_group',B):0.0350877 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 228 8
+(tt(A,'_verb_group',B):0.865414 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 1330 1151
+(tt(A,'_verb_group',B):0.857357 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 1332 1142
+(tt(A,'_verb_group',B):0.0113798 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 2109 24
+(tt(A,'_verb_group',B):0.0226481 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1148 26
+(tt(A,'_verb_group',B):0.0880503 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 318 28
+(tt(A,'_verb_group',B):0.0856269 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 327 28
+(tt(A,'_verb_group',B):0.00087108 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1148 1
+(tt(A,'_verb_group',B):0.866165 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 1330 1152
+(tt(A,'_verb_group',B):0.847181 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 1348 1142
+(tt(A,'_verb_group',B):0.0116279 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 2150 25
+(tt(A,'_verb_group',B):0.0222032 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1171 26
+(tt(A,'_verb_group',B):0.0482759 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 145 7
+(tt(A,'_verb_group',B):0.041958 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 143 6
+(tt(A,'_verb_group',B):0.02367 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4436 105
+(tt(A,'_verb_group',B):0.000740066 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 39
+(tt(A,'_verb_group',B):0.228922 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 4080 934
+(tt(A,'_verb_group',B):0.00387147 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_also_see'),B)), % 2583 10
+(tt(A,'_verb_group',B):0.000141283 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84936 12
+(tt(A,'_verb_group',B):0.000695822 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 67
+(tt(A,'_verb_group',B):0.223449 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 4077 911
+(tt(A,'_verb_group',B):0.00024664 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 8109 2
+(tt(A,'_verb_group',B):0.000117423 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 85162 10
+(tt(A,'_verb_group',B):0.00592885 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 506 3
+(tt(A,'_verb_group',B):0.00595238 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 504 3
+(tt(A,'_verb_group',B):0.00105002 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58094 61
+(tt(A,'_verb_group',B):0.00103397 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 58029 60
+(tt(A,'_verb_group',B):0.00173491 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5764 10
+(tt(A,'_verb_group',B):0.000724983 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 38
+(tt(A,'_verb_group',B):0.229851 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 4020 924
+(tt(A,'_verb_group',B):0.00393546 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_also_see'),B)), % 2541 10
+(tt(A,'_verb_group',B):0.000129659 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84838 11
+(tt(A,'_verb_group',B):0.000677634 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 65
+(tt(A,'_verb_group',B):0.223907 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 4024 901
+(tt(A,'_verb_group',B):0.000247831 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 8070 2
+(tt(A,'_verb_group',B):0.000117423 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 85162 10
+(tt(A,'_verb_group',B):0.00592885 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_derivationally_related_form',B)), % 506 3
+(tt(A,'_verb_group',B):0.00587084 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_derivationally_related_form'),B)), % 511 3
+(tt(A,'_verb_group',B):0.00312989 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 639 2
+(tt(A,'_verb_group',B):0.00106724 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 62
+(tt(A,'_verb_group',B):0.00105067 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 61
+(tt(A,'_verb_group',B):0.000397456 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 2516 1
+(tt(A,'_verb_group',B):0.0124224 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_derivationally_related_form',B)), % 161 2
+(tt(A,'_verb_group',B):0.0124224 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,i('_derivationally_related_form'),B)), % 161 2
+(tt(A,'_verb_group',B):0.0482759 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 145 7
+(tt(A,'_verb_group',B):0.0457516 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 153 7
+(tt(A,'_verb_group',B):0.0124224 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,'_derivationally_related_form',B)), % 161 2
+(tt(A,'_verb_group',B):0.0123457 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,i('_derivationally_related_form'),B)), % 162 2
+(tt(A,'_verb_group',B):4.77566e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 125637 6
+(tt(A,'_verb_group',B):0.00227273 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,i('_hypernym'),B)), % 440 1
+(tt(A,'_verb_group',B):0.000705905 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 52415 37
+(tt(A,'_verb_group',B):0.0007222 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 52617 38
+(tt(A,'_verb_group',B):0.000944287 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,'_also_see',B)), % 1059 1
+(tt(A,'_verb_group',B):0.00132363 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,i('_hypernym'),B)), % 3022 4
+(tt(A,'_verb_group',B):0.003663 :-   r(A,i('_hypernym'),C),  r(C,i('_also_see'),D),  r(D,'_hypernym',B)), % 273 1
+(tt(A,'_verb_group',B):0.00072109 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 52698 38
+(tt(A,'_verb_group',B):0.000725398 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 52385 38
+(tt(A,'_verb_group',B):0.0222032 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 1171 26
+(tt(A,'_verb_group',B):0.0434783 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,i('_also_see'),B)), % 46 2
+(tt(A,'_verb_group',B):0.0217391 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 1150 25
+(tt(A,'_verb_group',B):0.0126582 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 1580 20
+(tt(A,'_verb_group',B):0.0129366 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 773 10
+(tt(A,'_verb_group',B):0.00155039 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 645 1
+(tt(A,'_verb_group',B):0.00155039 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 645 1
+(tt(A,'_verb_group',B):0.021777 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 1148 25
+(tt(A,'_verb_group',B):0.0425532 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,i('_also_see'),B)), % 47 2
+(tt(A,'_verb_group',B):0.0212585 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 1176 25
+(tt(A,'_verb_group',B):0.0119798 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 1586 19
+(tt(A,'_verb_group',B):0.0129366 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 773 10
+(tt(A,'_verb_group',B):5.01225e-05 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 159609 8
+(tt(A,'_verb_group',B):0.230616 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4024 928
+(tt(A,'_verb_group',B):0.233375 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4015 937
+(tt(A,'_verb_group',B):0.034188 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 234 8
+(tt(A,'_verb_group',B):0.088685 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_verb_group',B)), % 327 29
+(tt(A,'_verb_group',B):0.0889571 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_verb_group'),B)), % 326 29
+(tt(A,'_verb_group',B):0.0377855 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 26624 1006
+(tt(A,'_verb_group',B):0.00155039 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 645 1
+(tt(A,'_verb_group',B):0.230071 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4077 938
+(tt(A,'_verb_group',B):0.229115 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4046 927
+(tt(A,'_verb_group',B):0.0387931 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 232 9
+(tt(A,'_verb_group',B):0.876113 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_verb_group',B)), % 1348 1181
+(tt(A,'_verb_group',B):0.865067 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,i('_verb_group'),B)), % 1334 1154
+(tt(A,'_verb_group',B):0.011236 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,i('_hypernym'),B)), % 2136 24
+(tt(A,'_verb_group',B):0.0229592 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_hypernym',B)), % 1176 27
+(tt(A,'_verb_group',B):0.0974843 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,'_verb_group',B)), % 318 31
+(tt(A,'_verb_group',B):0.0920245 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,i('_verb_group'),B)), % 326 30
+(tt(A,'_verb_group',B):0.000881834 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1134 1
+(tt(A,'_verb_group',B):0.871622 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_verb_group',B)), % 1332 1161
+(tt(A,'_verb_group',B):0.865817 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,i('_verb_group'),B)), % 1334 1155
+(tt(A,'_verb_group',B):0.0117261 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,i('_hypernym'),B)), % 2132 25
+(tt(A,'_verb_group',B):0.0234783 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_hypernym',B)), % 1150 27
+(tt(A,'_verb_group',B):0.0522876 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_derivationally_related_form',B)), % 153 8
+(tt(A,'_verb_group',B):0.0463576 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_derivationally_related_form'),B)), % 151 7
+(tt(A,'_verb_group',B):0.0242162 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4625 112
+(tt(A,'_verb_group',B):0.000138543 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 2
+(tt(A,'_verb_group',B):0.000247831 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 8070 2
+(tt(A,'_verb_group',B):0.000246548 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 8112 2
+(tt(A,'_verb_group',B):0.0344828 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_verb_group'),B)), % 232 8
+(tt(A,'_verb_group',B):0.000297501 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 10084 3
+(tt(A,'_verb_group',B):0.0350877 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_verb_group',B)), % 228 8
+(tt(A,'_verb_group',B):0.00024664 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 8109 2
+(tt(A,'_verb_group',B):0.000248016 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 8064 2
+(tt(A,'_verb_group',B):0.0299145 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_verb_group'),B)), % 234 7
+(tt(A,'_verb_group',B):0.000199541 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 10023 2
+(tt(A,'_verb_group',B):0.0304348 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_verb_group',B)), % 230 7
+(tt(A,'_verb_group',B):4.77566e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 125637 6
+(tt(A,'_verb_group',B):0.0245717 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_verb_group',B)), % 4436 109
+(tt(A,'_verb_group',B):0.000138543 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 2
+(tt(A,'_verb_group',B):0.0227027 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_verb_group'),B)), % 4625 105
+(tt(A,'_verb_group',B):4.75903e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 126076 6
+(tt(A,'_verb_group',B):4.28588e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 209992 9
+(tt(A,'_verb_group',B):4.38572e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 7
+(tt(A,'_verb_group',B):0.00173491 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 5764 10
+(tt(A,'_verb_group',B):0.00175654 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 5693 10
+(tt(A,'_verb_group',B):6.8738e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_synset_domain_topic_of'),B)), % 14548 1
+(tt(A,'_verb_group',B):0.00312989 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,'_derivationally_related_form',B)), % 639 2
+(tt(A,'_verb_group',B):0.00373134 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_derivationally_related_form'),B)), % 536 2
+(tt(A,'_synset_domain_topic_of',B):0.421053 :-   r(A,'_also_see',C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 19 8
+(tt(A,'_synset_domain_topic_of',B):0.000662252 :-   r(A,'_also_see',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1510 1
+(tt(A,'_synset_domain_topic_of',B):0.583333 :-   r(A,'_also_see',C),  r(C,i('_also_see'),D),  r(D,'_synset_domain_topic_of',B)), % 24 14
+(tt(A,'_synset_domain_topic_of',B):0.000659196 :-   r(A,'_also_see',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1517 1
+(tt(A,'_synset_domain_topic_of',B):0.0606061 :-   r(A,'_also_see',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 33 2
+(tt(A,'_synset_domain_topic_of',B):0.0020141 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 993 2
+(tt(A,'_synset_domain_topic_of',B):0.00200803 :-   r(A,'_also_see',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 996 2
+(tt(A,'_synset_domain_topic_of',B):0.000114537 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52385 6
+(tt(A,'_synset_domain_topic_of',B):0.000495061 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 84838 42
+(tt(A,'_synset_domain_topic_of',B):0.367049 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 3223 1183
+(tt(A,'_synset_domain_topic_of',B):0.000506091 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84965 43
+(tt(A,'_synset_domain_topic_of',B):0.00141844 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 705 1
+(tt(A,'_synset_domain_topic_of',B):3.13676e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 95640 3
+(tt(A,'_synset_domain_topic_of',B):0.117647 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 68 8
+(tt(A,'_synset_domain_topic_of',B):0.00188857 :-   r(A,'_derivationally_related_form',C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1059 2
+(tt(A,'_synset_domain_topic_of',B):0.00061636 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22714 14
+(tt(A,'_synset_domain_topic_of',B):0.000533949 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58058 31
+(tt(A,'_synset_domain_topic_of',B):0.0708661 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 1143 81
+(tt(A,'_synset_domain_topic_of',B):5.66371e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 512032 29
+(tt(A,'_synset_domain_topic_of',B):0.000569221 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 57974 33
+(tt(A,'_synset_domain_topic_of',B):0.000702617 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5693 4
+(tt(A,'_synset_domain_topic_of',B):0.00554529 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 541 3
+(tt(A,'_synset_domain_topic_of',B):0.000114032 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52617 6
+(tt(A,'_synset_domain_topic_of',B):0.00049449 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 84936 42
+(tt(A,'_synset_domain_topic_of',B):0.373719 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 3219 1203
+(tt(A,'_synset_domain_topic_of',B):0.000506091 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84965 43
+(tt(A,'_synset_domain_topic_of',B):0.00142248 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 703 1
+(tt(A,'_synset_domain_topic_of',B):3.13847e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95588 3
+(tt(A,'_synset_domain_topic_of',B):0.00186567 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 536 1
+(tt(A,'_synset_domain_topic_of',B):0.0444444 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 45 2
+(tt(A,'_synset_domain_topic_of',B):0.00750751 :-   r(A,'_derivationally_related_form',C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 666 5
+(tt(A,'_synset_domain_topic_of',B):8.61638e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 5
+(tt(A,'_synset_domain_topic_of',B):0.01418 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 3244 46
+(tt(A,'_synset_domain_topic_of',B):8.62456e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 5
+(tt(A,'_synset_domain_topic_of',B):0.00220426 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 1361 3
+(tt(A,'_synset_domain_topic_of',B):0.12 :-   r(A,'_derivationally_related_form',C),  r(C,i('_member_meronym'),D),  r(D,'_synset_domain_topic_of',B)), % 25 3
+(tt(A,'_synset_domain_topic_of',B):0.0272109 :-   r(A,'_derivationally_related_form',C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 147 4
+(tt(A,'_synset_domain_topic_of',B):0.0593607 :-   r(A,'_derivationally_related_form',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 438 26
+(tt(A,'_synset_domain_topic_of',B):0.230769 :-   r(A,'_derivationally_related_form',C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 13 3
+(tt(A,'_synset_domain_topic_of',B):0.0268456 :-   r(A,'_derivationally_related_form',C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 149 4
+(tt(A,'_synset_domain_topic_of',B):0.00445434 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1796 8
+(tt(A,'_synset_domain_topic_of',B):0.000103112 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 126076 13
+(tt(A,'_synset_domain_topic_of',B):0.00111247 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8989 10
+(tt(A,'_synset_domain_topic_of',B):0.0463576 :-   r(A,'_derivationally_related_form',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 302 14
+(tt(A,'_synset_domain_topic_of',B):0.0243902 :-   r(A,'_has_part',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 82 2
+(tt(A,'_synset_domain_topic_of',B):0.125 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 56 7
+(tt(A,'_synset_domain_topic_of',B):0.000513875 :-   r(A,'_has_part',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 1946 1
+(tt(A,'_synset_domain_topic_of',B):0.00331126 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 302 1
+(tt(A,'_synset_domain_topic_of',B):0.00104275 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 959 1
+(tt(A,'_synset_domain_topic_of',B):0.106061 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 132 14
+(tt(A,'_synset_domain_topic_of',B):0.000443459 :-   r(A,'_has_part',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2255 1
+(tt(A,'_synset_domain_topic_of',B):0.0333333 :-   r(A,'_has_part',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 30 1
+(tt(A,'_synset_domain_topic_of',B):0.0243902 :-   r(A,'_has_part',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 82 2
+(tt(A,'_synset_domain_topic_of',B):0.716981 :-   r(A,'_has_part',C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 159 114
+(tt(A,'_synset_domain_topic_of',B):0.0932203 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 118 11
+(tt(A,'_synset_domain_topic_of',B):0.00208551 :-   r(A,'_has_part',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 959 2
+(tt(A,'_synset_domain_topic_of',B):0.117647 :-   r(A,'_has_part',C),  r(C,'_instance_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 17 2
+(tt(A,'_synset_domain_topic_of',B):8.65052e-05 :-   r(A,'_has_part',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 11560 1
+(tt(A,'_synset_domain_topic_of',B):0.000289645 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,'_derivationally_related_form',B)), % 6905 2
+(tt(A,'_synset_domain_topic_of',B):0.0510753 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 372 19
+(tt(A,'_synset_domain_topic_of',B):0.000286492 :-   r(A,'_hypernym',C),  r(C,'_also_see',D),  r(D,i('_derivationally_related_form'),B)), % 6981 2
+(tt(A,'_synset_domain_topic_of',B):7.77228e-05 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 167261 13
+(tt(A,'_synset_domain_topic_of',B):0.000512617 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 95588 49
+(tt(A,'_synset_domain_topic_of',B):0.000698394 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 10023 7
+(tt(A,'_synset_domain_topic_of',B):0.00846561 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 945 8
+(tt(A,'_synset_domain_topic_of',B):0.000510832 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 95922 49
+(tt(A,'_synset_domain_topic_of',B):0.0346338 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 2512 87
+(tt(A,'_synset_domain_topic_of',B):0.00113712 :-   r(A,'_hypernym',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 42212 48
+(tt(A,'_synset_domain_topic_of',B):0.0897833 :-   r(A,'_hypernym',C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 323 29
+(tt(A,'_synset_domain_topic_of',B):0.000409207 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 39100 16
+(tt(A,'_synset_domain_topic_of',B):0.00241741 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 1241 3
+(tt(A,'_synset_domain_topic_of',B):2.03426e-05 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1032314 21
+(tt(A,'_synset_domain_topic_of',B):0.000406918 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 39320 16
+(tt(A,'_synset_domain_topic_of',B):0.0511747 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 4299 220
+(tt(A,'_synset_domain_topic_of',B):0.000286752 :-   r(A,'_hypernym',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 31386 9
+(tt(A,'_synset_domain_topic_of',B):0.333333 :-   r(A,'_hypernym',C),  r(C,i('_also_see'),D),  r(D,'_synset_domain_topic_of',B)), % 15 5
+(tt(A,'_synset_domain_topic_of',B):8.96802e-05 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 167261 15
+(tt(A,'_synset_domain_topic_of',B):0.000512338 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 95640 49
+(tt(A,'_synset_domain_topic_of',B):0.000694169 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 10084 7
+(tt(A,'_synset_domain_topic_of',B):0.010661 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 938 10
+(tt(A,'_synset_domain_topic_of',B):0.000508885 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 96289 49
+(tt(A,'_synset_domain_topic_of',B):0.0353414 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 2490 88
+(tt(A,'_synset_domain_topic_of',B):0.00121178 :-   r(A,'_hypernym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 42087 51
+(tt(A,'_synset_domain_topic_of',B):0.000573394 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 1744 1
+(tt(A,'_synset_domain_topic_of',B):0.0909091 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 231 21
+(tt(A,'_synset_domain_topic_of',B):0.00274876 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1819 5
+(tt(A,'_synset_domain_topic_of',B):0.000152253 :-   r(A,'_hypernym',C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 13136 2
+(tt(A,'_synset_domain_topic_of',B):5.04745e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_has_part',B)), % 39624 2
+(tt(A,'_synset_domain_topic_of',B):8.82365e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 509993 45
+(tt(A,'_synset_domain_topic_of',B):0.12256 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 22389 2744
+(tt(A,'_synset_domain_topic_of',B):8.78851e-05 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 512032 45
+(tt(A,'_synset_domain_topic_of',B):0.00168034 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 24995 42
+(tt(A,'_synset_domain_topic_of',B):6.78088e-06 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 1032314 7
+(tt(A,'_synset_domain_topic_of',B):0.107769 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_synset_domain_topic_of',B)), % 399 43
+(tt(A,'_synset_domain_topic_of',B):0.000136537 :-   r(A,'_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_hypernym',B)), % 7324 1
+(tt(A,'_synset_domain_topic_of',B):0.0557491 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 287 16
+(tt(A,'_synset_domain_topic_of',B):0.000344116 :-   r(A,'_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,i('_has_part'),B)), % 2906 1
+(tt(A,'_synset_domain_topic_of',B):0.208955 :-   r(A,'_hypernym',C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 67 14
+(tt(A,'_synset_domain_topic_of',B):0.0140687 :-   r(A,'_hypernym',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 1777 25
+(tt(A,'_synset_domain_topic_of',B):0.108434 :-   r(A,'_hypernym',C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 249 27
+(tt(A,'_synset_domain_topic_of',B):0.222222 :-   r(A,'_hypernym',C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 72 16
+(tt(A,'_synset_domain_topic_of',B):0.048583 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 247 12
+(tt(A,'_synset_domain_topic_of',B):0.000104766 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 209992 22
+(tt(A,'_synset_domain_topic_of',B):0.00165736 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 11464 19
+(tt(A,'_synset_domain_topic_of',B):0.00343474 :-   r(A,'_hypernym',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 2038 7
+(tt(A,'_synset_domain_topic_of',B):0.166667 :-   r(A,i('_also_see'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 12 2
+(tt(A,'_synset_domain_topic_of',B):0.000305904 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3269 1
+(tt(A,'_synset_domain_topic_of',B):0.000306373 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3264 1
+(tt(A,'_synset_domain_topic_of',B):0.00019984 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 5004 1
+(tt(A,'_synset_domain_topic_of',B):0.000526039 :-   r(A,i('_also_see'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1901 1
+(tt(A,'_synset_domain_topic_of',B):0.388889 :-   r(A,i('_also_see'),C),  r(C,i('_also_see'),D),  r(D,'_synset_domain_topic_of',B)), % 18 7
+(tt(A,'_synset_domain_topic_of',B):0.000304229 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3287 1
+(tt(A,'_synset_domain_topic_of',B):0.000307409 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3253 1
+(tt(A,'_synset_domain_topic_of',B):0.000205339 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 4870 1
+(tt(A,'_synset_domain_topic_of',B):0.000536193 :-   r(A,i('_also_see'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1865 1
+(tt(A,'_synset_domain_topic_of',B):0.021978 :-   r(A,i('_also_see'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 182 4
+(tt(A,'_synset_domain_topic_of',B):0.25 :-   r(A,i('_also_see'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 4 1
+(tt(A,'_synset_domain_topic_of',B):9.48803e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 52698 5
+(tt(A,'_synset_domain_topic_of',B):0.000516662 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 85162 44
+(tt(A,'_synset_domain_topic_of',B):0.371964 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 3253 1210
+(tt(A,'_synset_domain_topic_of',B):0.000506264 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 84936 43
+(tt(A,'_synset_domain_topic_of',B):0.00142857 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_member_meronym'),B)), % 700 1
+(tt(A,'_synset_domain_topic_of',B):3.11562e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 96289 3
+(tt(A,'_synset_domain_topic_of',B):0.106061 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 66 7
+(tt(A,'_synset_domain_topic_of',B):0.00188679 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 1060 2
+(tt(A,'_synset_domain_topic_of',B):0.000571705 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 22739 13
+(tt(A,'_synset_domain_topic_of',B):0.000533618 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58094 31
+(tt(A,'_synset_domain_topic_of',B):0.06942 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 1138 79
+(tt(A,'_synset_domain_topic_of',B):5.68635e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 509993 29
+(tt(A,'_synset_domain_topic_of',B):0.000568681 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 58029 33
+(tt(A,'_synset_domain_topic_of',B):0.000693963 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_synset_domain_topic_of'),B)), % 5764 4
+(tt(A,'_synset_domain_topic_of',B):0.00525394 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 571 3
+(tt(A,'_synset_domain_topic_of',B):9.53925e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 52415 5
+(tt(A,'_synset_domain_topic_of',B):0.000516662 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 85162 44
+(tt(A,'_synset_domain_topic_of',B):0.369884 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 3201 1184
+(tt(A,'_synset_domain_topic_of',B):0.000506848 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 84838 43
+(tt(A,'_synset_domain_topic_of',B):0.00146199 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_member_meronym'),B)), % 684 1
+(tt(A,'_synset_domain_topic_of',B):3.12754e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 95922 3
+(tt(A,'_synset_domain_topic_of',B):0.00156495 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 639 1
+(tt(A,'_synset_domain_topic_of',B):0.0434783 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 46 2
+(tt(A,'_synset_domain_topic_of',B):0.00744048 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 672 5
+(tt(A,'_synset_domain_topic_of',B):8.60674e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 5
+(tt(A,'_synset_domain_topic_of',B):0.0143775 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 3269 47
+(tt(A,'_synset_domain_topic_of',B):8.61208e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 5
+(tt(A,'_synset_domain_topic_of',B):0.00220426 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 1361 3
+(tt(A,'_synset_domain_topic_of',B):0.136364 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_member_meronym'),D),  r(D,'_synset_domain_topic_of',B)), % 22 3
+(tt(A,'_synset_domain_topic_of',B):0.0264901 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 151 4
+(tt(A,'_synset_domain_topic_of',B):0.0589569 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 441 26
+(tt(A,'_synset_domain_topic_of',B):0.25 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 12 3
+(tt(A,'_synset_domain_topic_of',B):0.0261438 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 153 4
+(tt(A,'_synset_domain_topic_of',B):0.0044843 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1784 8
+(tt(A,'_synset_domain_topic_of',B):0.000103473 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 125637 13
+(tt(A,'_synset_domain_topic_of',B):0.00112701 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8873 10
+(tt(A,'_synset_domain_topic_of',B):0.0462046 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 303 14
+(tt(A,'_synset_domain_topic_of',B):0.00148588 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 3365 5
+(tt(A,'_synset_domain_topic_of',B):0.0696203 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 158 11
+(tt(A,'_synset_domain_topic_of',B):0.00147449 :-   r(A,i('_has_part'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 3391 5
+(tt(A,'_synset_domain_topic_of',B):0.341338 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 583 199
+(tt(A,'_synset_domain_topic_of',B):0.00616016 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_synset_domain_topic_of'),B)), % 487 3
+(tt(A,'_synset_domain_topic_of',B):0.000743293 :-   r(A,i('_has_part'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 14799 11
+(tt(A,'_synset_domain_topic_of',B):0.107143 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 140 15
+(tt(A,'_synset_domain_topic_of',B):0.00027761 :-   r(A,i('_has_part'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 39624 11
+(tt(A,'_synset_domain_topic_of',B):0.00145603 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 3434 5
+(tt(A,'_synset_domain_topic_of',B):0.075 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 160 12
+(tt(A,'_synset_domain_topic_of',B):0.00146071 :-   r(A,i('_has_part'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 3423 5
+(tt(A,'_synset_domain_topic_of',B):0.000883392 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_hypernym',B)), % 1132 1
+(tt(A,'_synset_domain_topic_of',B):0.030837 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 227 7
+(tt(A,'_synset_domain_topic_of',B):0.00105485 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 948 1
+(tt(A,'_synset_domain_topic_of',B):0.000563857 :-   r(A,i('_has_part'),C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 3547 2
+(tt(A,'_synset_domain_topic_of',B):0.0701754 :-   r(A,i('_has_part'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 342 24
+(tt(A,'_synset_domain_topic_of',B):0.181818 :-   r(A,i('_has_part'),C),  r(C,i('_member_meronym'),D),  r(D,'_synset_domain_topic_of',B)), % 11 2
+(tt(A,'_synset_domain_topic_of',B):0.0199637 :-   r(A,i('_has_part'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 551 11
+(tt(A,'_synset_domain_topic_of',B):0.318182 :-   r(A,i('_has_part'),C),  r(C,'_instance_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 22 7
+(tt(A,'_synset_domain_topic_of',B):0.1 :-   r(A,i('_has_part'),C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 10 1
+(tt(A,'_synset_domain_topic_of',B):0.0487805 :-   r(A,i('_has_part'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 41 2
+(tt(A,'_synset_domain_topic_of',B):0.142857 :-   r(A,i('_hypernym'),C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 14 2
+(tt(A,'_synset_domain_topic_of',B):0.000133037 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 52617 7
+(tt(A,'_synset_domain_topic_of',B):0.000294377 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_synset_domain_topic_of'),B)), % 3397 1
+(tt(A,'_synset_domain_topic_of',B):2.37603e-05 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 42087 1
+(tt(A,'_synset_domain_topic_of',B):0.00013355 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 52415 7
+(tt(A,'_synset_domain_topic_of',B):0.0363014 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 1460 53
+(tt(A,'_synset_domain_topic_of',B):0.000679381 :-   r(A,i('_hypernym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 20607 14
+(tt(A,'_synset_domain_topic_of',B):0.0763889 :-   r(A,i('_hypernym'),C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 144 11
+(tt(A,'_synset_domain_topic_of',B):0.882845 :-   r(A,i('_hypernym'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 717 633
+(tt(A,'_synset_domain_topic_of',B):0.000727908 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 20607 15
+(tt(A,'_synset_domain_topic_of',B):0.000132832 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 52698 7
+(tt(A,'_synset_domain_topic_of',B):0.0378267 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 1454 55
+(tt(A,'_synset_domain_topic_of',B):0.000133626 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 52385 7
+(tt(A,'_synset_domain_topic_of',B):0.000296296 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_synset_domain_topic_of'),B)), % 3375 1
+(tt(A,'_synset_domain_topic_of',B):2.36899e-05 :-   r(A,i('_hypernym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 42212 1
+(tt(A,'_synset_domain_topic_of',B):0.000129166 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 7742 1
+(tt(A,'_synset_domain_topic_of',B):0.105263 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 171 18
+(tt(A,'_synset_domain_topic_of',B):0.00166205 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,i('_synset_domain_topic_of'),B)), % 1805 3
+(tt(A,'_synset_domain_topic_of',B):0.000179598 :-   r(A,i('_hypernym'),C),  r(C,i('_has_part'),D),  r(D,i('_hypernym'),B)), % 5568 1
+(tt(A,'_synset_domain_topic_of',B):0.0432243 :-   r(A,i('_hypernym'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 1712 74
+(tt(A,'_synset_domain_topic_of',B):0.15 :-   r(A,i('_hypernym'),C),  r(C,i('_member_meronym'),D),  r(D,'_synset_domain_topic_of',B)), % 40 6
+(tt(A,'_synset_domain_topic_of',B):0.046875 :-   r(A,i('_hypernym'),C),  r(C,i('_instance_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 64 3
+(tt(A,'_synset_domain_topic_of',B):0.0625 :-   r(A,i('_hypernym'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 96 6
+(tt(A,'_synset_domain_topic_of',B):0.0148936 :-   r(A,i('_hypernym'),C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 470 7
+(tt(A,'_synset_domain_topic_of',B):0.133333 :-   r(A,i('_hypernym'),C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 30 4
+(tt(A,'_synset_domain_topic_of',B):0.0612245 :-   r(A,i('_hypernym'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 98 6
+(tt(A,'_synset_domain_topic_of',B):0.032491 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 277 9
+(tt(A,'_synset_domain_topic_of',B):5.63878e-05 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 159609 9
+(tt(A,'_synset_domain_topic_of',B):0.000367963 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 8153 3
+(tt(A,'_synset_domain_topic_of',B):0.00787815 :-   r(A,i('_hypernym'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 1904 15
+(tt(A,'_synset_domain_topic_of',B):0.0170032 :-   r(A,i('_member_of_domain_usage'),C),  r(C,'_member_of_domain_usage',D),  r(D,'_synset_domain_topic_of',B)), % 941 16
+(tt(A,'_synset_domain_topic_of',B):5.88893e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 16981 1
+(tt(A,'_synset_domain_topic_of',B):0.0606189 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_synset_domain_topic_of',B)), % 2359 143
+(tt(A,'_synset_domain_topic_of',B):0.000835189 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_member_of_domain_region',D),  r(D,'_instance_hypernym',B)), % 3592 3
+(tt(A,'_synset_domain_topic_of',B):0.00019305 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 5180 1
+(tt(A,'_synset_domain_topic_of',B):6.22355e-05 :-   r(A,i('_member_of_domain_region'),C),  r(C,'_instance_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 16068 1
+(tt(A,'_synset_domain_topic_of',B):0.0314961 :-   r(A,i('_member_meronym'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 127 4
+(tt(A,'_synset_domain_topic_of',B):0.166667 :-   r(A,i('_member_meronym'),C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 6 1
+(tt(A,'_synset_domain_topic_of',B):0.0123267 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 649 8
+(tt(A,'_synset_domain_topic_of',B):0.000149343 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,i('_member_meronym'),B)), % 6696 1
+(tt(A,'_synset_domain_topic_of',B):2.3143e-06 :-   r(A,i('_member_meronym'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 864193 2
+(tt(A,'_synset_domain_topic_of',B):9.91031e-06 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,i('_hypernym'),B)), % 100905 1
+(tt(A,'_synset_domain_topic_of',B):0.370629 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 143 53
+(tt(A,'_synset_domain_topic_of',B):9.68654e-06 :-   r(A,i('_member_meronym'),C),  r(C,'_member_meronym',D),  r(D,'_member_meronym',B)), % 103236 1
+(tt(A,'_synset_domain_topic_of',B):0.0344828 :-   r(A,i('_member_meronym'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 116 4
+(tt(A,'_synset_domain_topic_of',B):0.106796 :-   r(A,i('_member_meronym'),C),  r(C,i('_member_meronym'),D),  r(D,'_synset_domain_topic_of',B)), % 103 11
+(tt(A,'_synset_domain_topic_of',B):0.147059 :-   r(A,i('_member_meronym'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 34 5
+(tt(A,'_synset_domain_topic_of',B):0.25 :-   r(A,i('_member_meronym'),C),  r(C,'_instance_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 4 1
+(tt(A,'_synset_domain_topic_of',B):0.181818 :-   r(A,i('_instance_hypernym'),C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 11 2
+(tt(A,'_synset_domain_topic_of',B):0.377953 :-   r(A,i('_instance_hypernym'),C),  r(C,'_instance_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 127 48
+(tt(A,'_synset_domain_topic_of',B):0.142857 :-   r(A,i('_instance_hypernym'),C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 7 1
+(tt(A,'_synset_domain_topic_of',B):0.333333 :-   r(A,i('_instance_hypernym'),C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 3 1
+(tt(A,'_synset_domain_topic_of',B):0.142857 :-   r(A,i('_verb_group'),C),  r(C,'_also_see',D),  r(D,'_synset_domain_topic_of',B)), % 7 1
+(tt(A,'_synset_domain_topic_of',B):0.00074757 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4013 3
+(tt(A,'_synset_domain_topic_of',B):0.0217391 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 92 2
+(tt(A,'_synset_domain_topic_of',B):0.000246975 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_hypernym'),B)), % 4049 1
+(tt(A,'_synset_domain_topic_of',B):0.000746269 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4020 3
+(tt(A,'_synset_domain_topic_of',B):0.0550459 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 109 6
+(tt(A,'_synset_domain_topic_of',B):0.00377358 :-   r(A,i('_verb_group'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 2120 8
+(tt(A,'_synset_domain_topic_of',B):0.000310366 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3222 1
+(tt(A,'_synset_domain_topic_of',B):0.257143 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 35 9
+(tt(A,'_synset_domain_topic_of',B):0.000623053 :-   r(A,i('_verb_group'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3210 2
+(tt(A,'_synset_domain_topic_of',B):0.00195771 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 2554 5
+(tt(A,'_synset_domain_topic_of',B):0.739496 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 119 88
+(tt(A,'_synset_domain_topic_of',B):0.00234742 :-   r(A,i('_verb_group'),C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 2556 6
+(tt(A,'_synset_domain_topic_of',B):0.000740924 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4049 3
+(tt(A,'_synset_domain_topic_of',B):0.021978 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 91 2
+(tt(A,'_synset_domain_topic_of',B):0.000245881 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_hypernym'),B)), % 4067 1
+(tt(A,'_synset_domain_topic_of',B):0.000735294 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4080 3
+(tt(A,'_synset_domain_topic_of',B):0.0576923 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 104 6
+(tt(A,'_synset_domain_topic_of',B):0.00378788 :-   r(A,i('_verb_group'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 2112 8
+(tt(A,'_synset_domain_topic_of',B):0.0601504 :-   r(A,i('_verb_group'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 133 8
+(tt(A,'_synset_domain_topic_of',B):0.00230947 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 2598 6
+(tt(A,'_synset_domain_topic_of',B):0.752 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 125 94
+(tt(A,'_synset_domain_topic_of',B):0.00269231 :-   r(A,i('_verb_group'),C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 2600 7
+(tt(A,'_synset_domain_topic_of',B):0.125 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 16 2
+(tt(A,'_synset_domain_topic_of',B):0.000450857 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4436 2
+(tt(A,'_synset_domain_topic_of',B):0.00210084 :-   r(A,i('_verb_group'),C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_hypernym'),B)), % 476 1
+(tt(A,'_synset_domain_topic_of',B):0.0121951 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 82 1
+(tt(A,'_synset_domain_topic_of',B):0.0709677 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 155 11
+(tt(A,'_synset_domain_topic_of',B):0.00206327 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 1454 3
+(tt(A,'_synset_domain_topic_of',B):0.025 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 40 1
+(tt(A,'_synset_domain_topic_of',B):0.00584795 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_has_part',D),  r(D,'_hypernym',B)), % 171 1
+(tt(A,'_synset_domain_topic_of',B):0.000917712 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3269 3
+(tt(A,'_synset_domain_topic_of',B):0.0326087 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 184 6
+(tt(A,'_synset_domain_topic_of',B):0.000924784 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3244 3
+(tt(A,'_synset_domain_topic_of',B):0.00847458 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 118 1
+(tt(A,'_synset_domain_topic_of',B):0.00343053 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 583 2
+(tt(A,'_synset_domain_topic_of',B):0.0178571 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_has_part'),D),  r(D,i('_has_part'),B)), % 56 1
+(tt(A,'_synset_domain_topic_of',B):0.0121951 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 82 1
+(tt(A,'_synset_domain_topic_of',B):0.0709677 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 155 11
+(tt(A,'_synset_domain_topic_of',B):0.00205479 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 1460 3
+(tt(A,'_synset_domain_topic_of',B):0.0357143 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 28 1
+(tt(A,'_synset_domain_topic_of',B):0.000878735 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 1138 1
+(tt(A,'_synset_domain_topic_of',B):0.0380435 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 184 7
+(tt(A,'_synset_domain_topic_of',B):0.000874891 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 1143 1
+(tt(A,'_synset_domain_topic_of',B):0.00757576 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,i('_hypernym'),D),  r(D,i('_has_part'),B)), % 132 1
+(tt(A,'_synset_domain_topic_of',B):0.0357143 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 28 1
+(tt(A,'_synset_domain_topic_of',B):0.6 :-   r(A,i('_synset_domain_topic_of'),C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 65 39
+(tt(A,'_synset_domain_topic_of',B):0.0501672 :-   r(A,'_instance_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 299 15
+(tt(A,'_synset_domain_topic_of',B):0.166667 :-   r(A,'_instance_hypernym',C),  r(C,i('_member_meronym'),D),  r(D,'_synset_domain_topic_of',B)), % 6 1
+(tt(A,'_synset_domain_topic_of',B):0.173004 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 1052 182
+(tt(A,'_synset_domain_topic_of',B):0.00933629 :-   r(A,'_instance_hypernym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_instance_hypernym',B)), % 10818 101
+(tt(A,'_synset_domain_topic_of',B):0.003367 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_has_part'),B)), % 297 1
+(tt(A,'_synset_domain_topic_of',B):3.52187e-05 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 28394 1
+(tt(A,'_synset_domain_topic_of',B):0.00689655 :-   r(A,'_instance_hypernym',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 435 3
+(tt(A,'_synset_domain_topic_of',B):0.0789474 :-   r(A,'_member_meronym',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 38 3
+(tt(A,'_synset_domain_topic_of',B):0.25 :-   r(A,'_member_meronym',C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 8 2
+(tt(A,'_synset_domain_topic_of',B):0.0842105 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 95 8
+(tt(A,'_synset_domain_topic_of',B):3.19428e-06 :-   r(A,'_member_meronym',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 313060 1
+(tt(A,'_synset_domain_topic_of',B):0.470588 :-   r(A,'_member_meronym',C),  r(C,'_member_meronym',D),  r(D,'_synset_domain_topic_of',B)), % 17 8
+(tt(A,'_synset_domain_topic_of',B):0.2 :-   r(A,'_member_meronym',C),  r(C,i('_instance_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 5 1
+(tt(A,'_synset_domain_topic_of',B):0.0810811 :-   r(A,'_member_meronym',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 37 3
+(tt(A,'_synset_domain_topic_of',B):0.24 :-   r(A,'_member_meronym',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 50 12
+(tt(A,'_synset_domain_topic_of',B):0.000747198 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 4015 3
+(tt(A,'_synset_domain_topic_of',B):0.0212766 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,i('_has_part'),B)), % 94 2
+(tt(A,'_synset_domain_topic_of',B):0.000745527 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 4024 3
+(tt(A,'_synset_domain_topic_of',B):0.0545455 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 110 6
+(tt(A,'_synset_domain_topic_of',B):0.00374181 :-   r(A,'_verb_group',C),  r(C,'_derivationally_related_form',D),  r(D,'_hypernym',B)), % 2138 8
+(tt(A,'_synset_domain_topic_of',B):0.000614817 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 3253 2
+(tt(A,'_synset_domain_topic_of',B):0.25 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 36 9
+(tt(A,'_synset_domain_topic_of',B):0.000927644 :-   r(A,'_verb_group',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 3234 3
+(tt(A,'_synset_domain_topic_of',B):0.00193498 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_derivationally_related_form',B)), % 2584 5
+(tt(A,'_synset_domain_topic_of',B):0.752066 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,'_synset_domain_topic_of',B)), % 121 91
+(tt(A,'_synset_domain_topic_of',B):0.00231929 :-   r(A,'_verb_group',C),  r(C,i('_verb_group'),D),  r(D,i('_derivationally_related_form'),B)), % 2587 6
+(tt(A,'_synset_domain_topic_of',B):0.000741473 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 4046 3
+(tt(A,'_synset_domain_topic_of',B):0.0215054 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_has_part'),B)), % 93 2
+(tt(A,'_synset_domain_topic_of',B):0.000735835 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 4077 3
+(tt(A,'_synset_domain_topic_of',B):0.0571429 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 105 6
+(tt(A,'_synset_domain_topic_of',B):0.00375763 :-   r(A,'_verb_group',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_hypernym',B)), % 2129 8
+(tt(A,'_synset_domain_topic_of',B):0.0510949 :-   r(A,'_verb_group',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 137 7
+(tt(A,'_synset_domain_topic_of',B):0.00195389 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_derivationally_related_form',B)), % 2559 5
+(tt(A,'_synset_domain_topic_of',B):0.745763 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,'_synset_domain_topic_of',B)), % 118 88
+(tt(A,'_synset_domain_topic_of',B):0.00234192 :-   r(A,'_verb_group',C),  r(C,'_verb_group',D),  r(D,i('_derivationally_related_form'),B)), % 2562 6
+(tt(A,'_synset_domain_topic_of',B):0.00833333 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_hypernym',B)), % 120 1
+(tt(A,'_synset_domain_topic_of',B):0.111111 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,'_synset_domain_topic_of',B)), % 18 2
+(tt(A,'_synset_domain_topic_of',B):0.000432432 :-   r(A,'_verb_group',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 4625 2
+(tt(A,'_synset_domain_topic_of',B):0.287608 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_derivationally_related_form',B)), % 8070 2321
+(tt(A,'_synset_domain_topic_of',B):0.289201 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_derivationally_related_form'),B)), % 8112 2346
+(tt(A,'_synset_domain_topic_of',B):0.000796178 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,i('_instance_hypernym'),B)), % 2512 2
+(tt(A,'_synset_domain_topic_of',B):0.842149 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_derivationally_related_form',D),  r(D,'_synset_domain_topic_of',B)), % 1191 1003
+(tt(A,'_synset_domain_topic_of',B):0.660714 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,i('_has_part'),B)), % 1288 851
+(tt(A,'_synset_domain_topic_of',B):0.863071 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_has_part',D),  r(D,'_synset_domain_topic_of',B)), % 482 416
+(tt(A,'_synset_domain_topic_of',B):0.00080289 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,'_hypernym',B)), % 2491 2
+(tt(A,'_synset_domain_topic_of',B):0.00247525 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_instance_hypernym'),B)), % 404 1
+(tt(A,'_synset_domain_topic_of',B):0.0877704 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 33280 2921
+(tt(A,'_synset_domain_topic_of',B):0.564103 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_hypernym',D),  r(D,'_synset_domain_topic_of',B)), % 156 88
+(tt(A,'_synset_domain_topic_of',B):1 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_has_part'),D),  r(D,'_synset_domain_topic_of',B)), % 2 2
+(tt(A,'_synset_domain_topic_of',B):0.427105 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_has_part'),D),  r(D,'_has_part',B)), % 487 208
+(tt(A,'_synset_domain_topic_of',B):0.293501 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_derivationally_related_form',B)), % 8109 2380
+(tt(A,'_synset_domain_topic_of',B):0.287822 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_derivationally_related_form'),B)), % 8064 2321
+(tt(A,'_synset_domain_topic_of',B):0.000723327 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,i('_instance_hypernym'),B)), % 2765 2
+(tt(A,'_synset_domain_topic_of',B):0.844113 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_derivationally_related_form'),D),  r(D,'_synset_domain_topic_of',B)), % 1206 1018
+(tt(A,'_synset_domain_topic_of',B):0.00813455 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_derivationally_related_form',B)), % 125637 1022
+(tt(A,'_synset_domain_topic_of',B):9.59463e-05 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_has_part',B)), % 20845 2
+(tt(A,'_synset_domain_topic_of',B):0.00580794 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_hypernym',B)), % 159609 927
+(tt(A,'_synset_domain_topic_of',B):0.00800311 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_derivationally_related_form'),B)), % 126076 1009
+(tt(A,'_synset_domain_topic_of',B):0.0359862 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_has_part'),B)), % 11560 416
+(tt(A,'_synset_domain_topic_of',B):0.000409539 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,i('_hypernym'),B)), % 209992 86
+(tt(A,'_synset_domain_topic_of',B):0.334233 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_synset_domain_topic_of'),D),  r(D,'_synset_domain_topic_of',B)), % 9637 3221
+(tt(A,'_synset_domain_topic_of',B):0.560725 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,'_synset_domain_topic_of',B)), % 1655 928
+(tt(A,'_synset_domain_topic_of',B):0.000157381 :-   r(A,'_synset_domain_topic_of',C),  r(C,i('_hypernym'),D),  r(D,i('_hypernym'),B)), % 12708 2
+(tt(A,'_synset_domain_topic_of',B):1 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_instance_hypernym',D),  r(D,'_derivationally_related_form',B)), % 2 2
+(tt(A,'_synset_domain_topic_of',B):1 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_instance_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 2 2
+(tt(A,'_synset_domain_topic_of',B):0.0333333 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_instance_hypernym',D),  r(D,i('_hypernym'),B)), % 30 1
+(tt(A,'_synset_domain_topic_of',B):0.0261153 :-   r(A,'_synset_domain_topic_of',C),  r(C,'_synset_domain_topic_of',D),  r(D,i('_synset_domain_topic_of'),B)), % 14436 377
+(tt(A,'_similar_to',B):0.0312796 :-   r(A,'_similar_to',C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1055 33
+(tt(A,'_similar_to',B):1.72328e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58029 1
+(tt(A,'_similar_to',B):1.72491e-05 :-   r(A,'_derivationally_related_form',C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 57974 1
+(tt(A,'_similar_to',B):1.72242e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58058 1
+(tt(A,'_similar_to',B):1.72491e-05 :-   r(A,'_derivationally_related_form',C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 57974 1
+(tt(A,'_similar_to',B):1.72135e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,'_derivationally_related_form',B)), % 58094 1
+(tt(A,'_similar_to',B):1.72242e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,i('_hypernym'),D),  r(D,i('_derivationally_related_form'),B)), % 58058 1
+(tt(A,'_similar_to',B):1.72135e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,'_derivationally_related_form',B)), % 58094 1
+(tt(A,'_similar_to',B):1.72328e-05 :-   r(A,i('_derivationally_related_form'),C),  r(C,'_hypernym',D),  r(D,i('_derivationally_related_form'),B)), % 58029 1
+(tt(A,'_similar_to',B):0.0306977 :-   r(A,i('_similar_to'),C),  r(C,'_hypernym',D),  r(D,i('_hypernym'),B)), % 1075 33
+(tt(A,'_similar_to',B):0.0312796 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,i('_similar_to'),B)), % 1055 33
+(tt(A,'_similar_to',B):0.0334884 :-   r(A,'_hypernym',C),  r(C,i('_hypernym'),D),  r(D,'_similar_to',B)) % 1075 36
+]).

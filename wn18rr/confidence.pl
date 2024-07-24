@@ -14,28 +14,28 @@ r(S,i(R),T):-
 main:-
   open('out_conf.pl',write,St),
   in(R),
-  concurrent_maplist(confidence, R, RC, _S),
+  concurrent_maplist(confidence, R, RC, S),
   writeln(St,'out(['),
-  write_rules(RC,St),
+  write_rules(RC,S,St),
   writeln(St,']).'),
   close(St).
 
-write_rules([(H:P:-B)],S):-!,
+write_rules([(H:P:-B)],[(SB,SH)],S):-!,
   copy_term((H,B),(H1,B1)),
   numbervars((H1,B1),0,_M),
   and2list(B1,BL),
   write(S,'('),
   write_disj_clause(S,([H1:P]:-BL)),
-  writeln(S,')').
+  write(S,') % '), write(S,SB),write(S,' '),writeln(S,SH).
 
-write_rules(([H:P:-B|T]),S):-!,
+write_rules([H:P:-B|T],[(SB,SH)|ST],S):-!,
   copy_term((H,B),(H1,B1)),
   numbervars((H1,B1),0,_M),
   and2list(B1,BL),
   write(S,'('),
   write_disj_clause(S,([H1:P]:-BL)),
-  writeln(S,'),'),
-  write_rules(T,S).
+  write(S,'), % '), write(S,SB),write(S,' '),writeln(S,SH),
+  write_rules(T,ST,S).
 
 
 
