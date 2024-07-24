@@ -82,3 +82,7 @@ rank_group_found([(S1 - _E1)|T],S,NG,N,R):-
   NG1 is NG+1.0,
   rank_group_found(T,S1,NG1,N1,R)
 ).
+
+main_hr:-
+  main(H1,H3,H5,H10,MRR),writeln(H1),writeln(H3),writeln(H5),writeln(H10),writeln(MRR).
+:- initialization(main_hr,main).
