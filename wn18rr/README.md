@@ -44,7 +44,7 @@ MRR     0.412144
 ```
 % cd rank
 % /usr/bin/time swipl computeinsts.pl > inst.pl
-        5,79 real         5,59 user         0,16 sys
+        2,95 real         9,92 user         0,56 sys
 ```
 1. computation of the scores for the answers
 ```

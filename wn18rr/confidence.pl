@@ -1,15 +1,10 @@
 
 
-:- include(train).
+:- ensure_loaded(train).
 %:- include(valid).
 
 
 :- include(theory).
-r(S,R,T):-
-  t(S,R,T).
-
-r(S,i(R),T):-
-  t(T,R,S).
 
 main:-
   open('out_conf.pl',write,St),
@@ -71,9 +66,12 @@ write_body(S,[A]):-!,
 write_body(S,[A|T]):-
   format(S,"  ~q,",[A]),
   write_body(S,T).
-confidence(((tt(A,R,B):_P):-Body),((tt(A,R,B):C):-Body),(SupportBody,SupportRule)):-
-  (aggregate_all(count, (A,B),Body,SupportBody)->
-    (aggregate_all(count, (t(A,R,B),once(Body)),SupportRule)->
+confidence(((tt(A,R,B):_P):-Body),((tt(A,R,B):C):-Body_no_inv),(SupportBody,SupportRule)):-
+  and2list(Body,BodyL),
+  maplist(remove_inv_lit,BodyL,BodyL_no_inv),
+  list2and(BodyL_no_inv,Body_no_inv),
+  (aggregate_all(count, (A,B),Body_no_inv,SupportBody)->
+    (aggregate_all(count, (t(A,R,B),once(Body_no_inv)),SupportRule)->
       true
     ;
       SupportRule=0
@@ -91,13 +89,6 @@ confidence(((tt(A,R,B):_P):-Body),((tt(A,R,B):C):-Body),(SupportBody,SupportRule
 %,
 %  write(((tt(A,R,B):P):-Body)),write(C),write(' '),write(SupportBody),write(' '),write(SupportRule),nl.
   
-  
-write_rule(S,R,(SB,SR)):-
-  write(S,'('),
-  write_canonical(S,R),
-  write(S,'), %'),
-  write(S,SB),write(S,' '),write(S,SR),nl(S).
-
 
 and2list((A,B),[A|L]):-
   !,
@@ -110,4 +101,16 @@ list2and([A],A):-
 
 list2and([A|L],(A,B)):-
   list2and(L,B).
+
+remove_inv_lit(r(A,i(R),B),t(B,R,A)):-!.
+remove_inv_lit(r(A,R,B),t(A,R,B)).
+
+
+write_rule(S,R,(SB,SR)):-
+  write(S,'('),
+  write_canonical(S,R),
+  write(S,'), %'),
+  write(S,SB),write(S,' '),write(S,SR),nl(S).
+
+
 :- initialization(main,main).

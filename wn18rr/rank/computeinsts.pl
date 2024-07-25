@@ -1,14 +1,16 @@
 
-:-include(train).
-:-include(valid3).
-:-include(test2).
+:-ensure_loaded(train).
 
-:-include(out_no_inv).
+:- multifile t/4.
+:-ensure_loaded(valid3).
+:-ensure_loaded(test2).
+
+:-ensure_loaded(out_no_inv).
 main:-
   findall(tt(1,S,R,T),t(2,S,R,T),TestAtoms),
   out(R00),
   maplist(generate_cl,R00,Prog),
-  maplist(write_ins(Prog),TestAtoms).
+  concurrent_maplist(write_ins(Prog),TestAtoms).
 
 
 generate_cl((tt(H,R,T):_P:-Body),(tt(1,H,R,T),Body1)):-!,
