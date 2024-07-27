@@ -12,13 +12,15 @@ target = f"test.txt"
 
 rules = f"out_sup_conf_novalid.txt"
 
-out = f"ranking-file.txt"
+out = f"ranking-file-all.txt"
 
 options = Options()
 options.set("ranking_handler.disc_at_least", 20)
 options.set("ranking_handler.aggregation_function", "noisyor")
 options.set("ranking_handler.num_top_rules", -1)
 options.set("ranking_handler.num_threads", -1)
+options.set("ranking_handler.topk", 100000000)
+
 
 options.set("loader.b_min_preds", -1)
 options.set("loader.b_min_support", -1)
