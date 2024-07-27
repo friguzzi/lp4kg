@@ -4,7 +4,7 @@ from clause import TripleSet
 
 target = f"test.txt"
 
-out = f"ranking-file.txt"
+out = f"ranking-file-all.txt"
 
 testset = TripleSet(target)
 ranking = Ranking(out)
