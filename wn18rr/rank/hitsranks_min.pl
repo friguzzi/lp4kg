@@ -45,15 +45,6 @@ rankl(E,L,R):-
   % ),
   rank_group_min(L,E,+inf,0,1,R).
 
-position([],_E,_P,R):-
-  R= +inf.
-
-position([(_ - E)|_T],E,P,R):-!,
-  R is P.
-
-position([(_ - E0)|T],E,P,R):-
-  P1 is P+1,
-  position(T,E,P1,R).
 
 /**
 * rank_group(+OrderedList:list,:Element:term,+CurrentScore:float,+LengthOfCurrentGroup:float,+CurrentPosition:float,-Rank:float) is det
