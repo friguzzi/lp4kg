@@ -1,12 +1,12 @@
 
-:-ensure_loaded(inst).
+:-ensure_loaded(instoi).
 
 :-ensure_loaded(train).
 
 :- multifile t/4.
-:-ensure_loaded(valid3).
+%:-ensure_loaded(valid3).
 :-ensure_loaded(test2).
-:-ensure_loaded(out_no_inv).
+:-ensure_loaded(out_conf_oi).
 main:-
   findall(rank(G,A,Ans),i(G,A,Ans),TestAtoms),
   out(R00),
