@@ -4,7 +4,7 @@
 :-ensure_loaded(train).
 
 :- multifile t/4.
-:-ensure_loaded(valid3).
+%:-ensure_loaded(valid3).
 :-ensure_loaded(test2).
 :-ensure_loaded(out_conf_oi).
 main:-

@@ -1,11 +1,12 @@
 
-:-[inst].
+:-ensure_loaded(inst).
 
-:-include(train).
-:-include(valid3).
-:-include(test2).
+:-ensure_loaded(train).
 
-:-include(out_no_inv).
+:- multifile t/4.
+:-ensure_loaded(valid3).
+:-ensure_loaded(test2).
+:-ensure_loaded(out_no_inv).
 main:-
   findall(rank(G,A,Ans),i(G,A,Ans),TestAtoms),
   out(R00),

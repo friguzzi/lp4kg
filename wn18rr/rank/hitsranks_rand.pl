@@ -37,7 +37,7 @@ hit(K,R,H):-
  * https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rank.html
  */
 rankl(E,L,R):-
-  rank_group(L,E,+inf,0.0,1.0,R).
+  rank_group_rand(L,E,+inf,0,1,R).
 
 /**
 * rank_group(+OrderedList:list,:Element:term,+CurrentScore:float,+LengthOfCurrentGroup:float,+CurrentPosition:float,-Rank:float) is det
@@ -45,23 +45,23 @@ rankl(E,L,R):-
 * CurrentScore is the score of the current group. LengthOfCurrentGroup is the number of elements in the current group.
 * CurrentPosition is the position of the first element in the list.
 */
-rank_group([],_E,_S,_NG,_N,+inf).
+rank_group_rand([],_E,_S,_NG,_N,+inf).
 
-rank_group([(S1 - E1)|T],E,S,NG,N,R):-
-N1 is N+1.0,
+rank_group_rand([(S1 - E1)|T],E,S,NG,N,R):-
+N1 is N+1,
 (E1==E->
   (S1<S->
-    rank_group_found(T,S1,1.0,N1,R)
+    rank_group_rand_found(T,S1,1,N1,R)
   ;
-    NG1 is NG+1.0,
-    rank_group_found(T,S1,NG1,N1,R)
+    NG1 is NG+1,
+    rank_group_rand_found(T,S1,NG1,N1,R)
   )
 ;
   (S1<S->
-    rank_group(T,E,S1,1.0,N1,R)
+    rank_group_rand(T,E,S1,1,N1,R)
   ;
-    NG1 is NG+1.0,
-    rank_group(T,E,S1,NG1,N1,R)
+    NG1 is NG+1,
+    rank_group_rand(T,E,S1,NG1,N1,R)
   )
 ).
 
@@ -71,17 +71,20 @@ N1 is N+1.0,
 * CurrentScore is the score of the current group. LengthOfCurrentGroup is the number of elements in the current group.
 * CurrentPosition is the position of the first element in the list. The group contains the element to be ranked.
 */
-rank_group_found([],_S,NG,N,R):-
-R is N-(NG+1.0)/2.
+rank_group_rand_found([],_S,NG,N,R):-
+  Low is N-NG,
+  random(Low,N,R).
 
-rank_group_found([(S1 - _E1)|T],S,NG,N,R):-
+rank_group_rand_found([(S1 - _E1)|T],S,NG,N,R):-
 (S1<S->
-  R is N-(NG+1.0)/2
+  Low is N-NG,
+  random(Low,N,R)
 ;
-  N1 is N+1.0,
-  NG1 is NG+1.0,
-  rank_group_found(T,S1,NG1,N1,R)
+  N1 is N+1,
+  NG1 is NG+1,
+  rank_group_rand_found(T,S1,NG1,N1,R)
 ).
+
 
 main_hr:-
   main(H1,H3,H5,H10,MRR),writeln(H1),writeln(H3),writeln(H5),writeln(H10),writeln(MRR).
