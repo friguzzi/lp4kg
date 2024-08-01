@@ -45,9 +45,10 @@ rr(Rank,RR):-
 
 write_ins(Prog,Ex):-
   %write(Ex),write(' '),
+  copy_term(Prog,Prog1),
   Ex=..[Pred,_,Ent,Rel,CorrAns],
   Ex1=..[Pred,1,Ent,Rel,_Arg1],
-  (find_inst(Prog,Ex)->
+  (find_inst(Prog1,Ex)->
     findall(Ex1,find_inst(Prog,Ex1),Atoms0),
     sort(Atoms0,Atoms),
     filter_atoms(Atoms,CorrAns,Inst)

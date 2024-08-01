@@ -57,7 +57,8 @@ write_ins(Prog,Ex):-
 find_inst_100(Prog,Ex,CorrAns,I):-
   Ex=..[Pred,_,Ent,Rel,CorrAns],
   Ex1=..[Pred,1,Ent,Rel,Arg1],
-  find_inst(Prog,Ex,CorrAns),!,
+  copy_term(Prog,Prog1),
+  find_inst(Prog1,Ex,CorrAns),!,
   assert(a(Ex,CorrAns)),
   assert(n(Ex,1)),
   find_inst(Prog,Ex,Ex1,Arg1),
