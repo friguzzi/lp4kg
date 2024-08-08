@@ -3,11 +3,11 @@ Debuggee command was: /hpc/home/rzf/bin/swipl --stack-limit=450g inst2ranks_oi10
 finished reading file, now analyzing data:
 
 MOST CALLS TO ALLOCATION FUNCTIONS
-166266810 calls to allocation functions with 1.05M peak consumption from
+427297706 calls to allocation functions with 1.11M peak consumption from
 tmp_malloc
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1364
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-158571797 calls with 8.98K peak consumption from:
+407198177 calls with 36.43K peak consumption from:
     growBuffer
       at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:56
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -39,7 +39,7 @@ tmp_malloc
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-7178185 calls with 0B peak consumption from:
+19454433 calls with 2.64K peak consumption from:
     growBuffer
       at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:56
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -184,9 +184,9 @@ tmp_malloc
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-  and 109553 from 390 other places
+  and 237821 from 390 other places
 
-2881717 calls to allocation functions with 39.68M peak consumption from
+3339419 calls to allocation functions with 51.45M peak consumption from
 allocHeapOrHalt::allocHeap
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:179
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -398,7 +398,241 @@ allocHeapOrHalt
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-  and 128151 from 1562 other places
+  and 585853 from 1568 other places
+
+774236 calls to allocation functions with 0B peak consumption from
+tmp_realloc
+  at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1400
+  in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+258834 calls with 0B peak consumption from:
+    growBuffer
+      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    Output_0
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1793
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileArgument___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2798
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileArgument___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2836
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileClauseGuarded___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1961
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileClause___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1864
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    assert_term___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4351
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    record_clause___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4555
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_record_clause3_va
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4571
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_sig_atomic1_va
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_sig_atomic1_va
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    query_loop
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    prologToplevel
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    main
+      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
+      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
+254761 calls with 0B peak consumption from:
+    growBuffer
+      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    addAtom::addAtom::addWord::addUnalignedBuf
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:275
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    addAtom::addAtom::addWord
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:392
+    addAtom::addAtom
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:434
+    addAtom
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:412
+    compile_term_to_heap___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:535
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileTermToHeap_ex___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:724
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    add_findall_bag___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-bag.c:249
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    query_loop
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    prologToplevel
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    main
+      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
+      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
+129345 calls with 0B peak consumption from:
+    growBuffer
+      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    Output_0
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1793
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileArgument___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2658
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileArgument___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2816
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileArgument___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2836
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileClauseGuarded___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1961
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileClause___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1864
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    assert_term___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4351
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    record_clause___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4555
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_record_clause3_va
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4571
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_sig_atomic1_va
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_sig_atomic1_va
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    query_loop
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    prologToplevel
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    main
+      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
+      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
+77904 calls with 0B peak consumption from:
+    growBuffer
+      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compile_term_to_heap___LD::addFunctor::addWord::addUnalignedBuf
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:275
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compile_term_to_heap___LD::addFunctor::addWord
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:392
+    compile_term_to_heap___LD::addFunctor
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:456
+    compile_term_to_heap___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:626
+    compileTermToHeap_ex___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:724
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    thread_send_message___LD::create_thread_message___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4203
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    thread_send_message___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4996
+    pl_thread_send_message2_va
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    query_loop
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    prologToplevel
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    main
+      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
+      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
+51936 calls with 0B peak consumption from:
+    growBuffer
+      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    addAtom::addAtom::addWord::addUnalignedBuf
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:275
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    addAtom::addAtom::addWord
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:392
+    addAtom::addAtom
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:434
+    addAtom
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:412
+    compile_term_to_heap___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:535
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileTermToHeap_ex___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:724
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    thread_send_message___LD::create_thread_message___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4203
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    thread_send_message___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4996
+    pl_thread_send_message2_va
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    query_loop
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    prologToplevel
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    main
+      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
+      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
+  and 1456 from 100 other places
 
 723108 calls to allocation functions with 460.28M peak consumption from
 PL_malloc_atomic
@@ -690,240 +924,6 @@ PL_malloc_atomic
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 65332 from 414 other places
 
-702976 calls to allocation functions with 0B peak consumption from
-tmp_realloc
-  at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1400
-  in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-258834 calls with 0B peak consumption from:
-    growBuffer
-      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    Output_0
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1793
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileArgument___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2798
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileArgument___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2836
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileClauseGuarded___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1961
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileClause___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1864
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    assert_term___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4351
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    record_clause___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4555
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_record_clause3_va
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4571
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_sig_atomic1_va
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_sig_atomic1_va
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-254761 calls with 0B peak consumption from:
-    growBuffer
-      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    addAtom::addAtom::addWord::addUnalignedBuf
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:275
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    addAtom::addAtom::addWord
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:392
-    addAtom::addAtom
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:434
-    addAtom
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:412
-    compile_term_to_heap___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:535
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileTermToHeap_ex___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:724
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    add_findall_bag___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-bag.c:249
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-129345 calls with 0B peak consumption from:
-    growBuffer
-      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    Output_0
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1793
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileArgument___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2658
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileArgument___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2816
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileArgument___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2836
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileClauseGuarded___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1961
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileClause___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1864
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    assert_term___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4351
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    record_clause___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4555
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_record_clause3_va
-      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:4571
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_sig_atomic1_va
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_sig_atomic1_va
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-35148 calls with 0B peak consumption from:
-    growBuffer
-      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compile_term_to_heap___LD::addFunctor::addWord::addUnalignedBuf
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:275
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compile_term_to_heap___LD::addFunctor::addWord
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:392
-    compile_term_to_heap___LD::addFunctor
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:456
-    compile_term_to_heap___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:626
-    compileTermToHeap_ex___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:724
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    thread_send_message___LD::create_thread_message___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4203
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    thread_send_message___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4996
-    pl_thread_send_message2_va
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-23432 calls with 0B peak consumption from:
-    growBuffer
-      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    addAtom::addAtom::addWord::addUnalignedBuf
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:275
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    addAtom::addAtom::addWord
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:392
-    addAtom::addAtom
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:434
-    addAtom
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:412
-    compile_term_to_heap___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:535
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    compileTermToHeap_ex___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:724
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    thread_send_message___LD::create_thread_message___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4203
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    thread_send_message___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4996
-    pl_thread_send_message2_va
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-  and 1456 from 100 other places
-
 127769 calls to allocation functions with 0B peak consumption from
 PL_realloc
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1204
@@ -1204,11 +1204,11 @@ PL_realloc
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 44 from 17 other places
 
-39488 calls to allocation functions with 76.79K peak consumption from
+123450 calls to allocation functions with 75.57K peak consumption from
 save_backtrace
   at /hpc/home/rzf/swipl-devel/src/os/pl-cstack.c:339
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-12275 calls with 23.12K peak consumption from:
+39108 calls with 22.24K peak consumption from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1234,7 +1234,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-9031 calls with 21.74K peak consumption from:
+28440 calls with 19.18K peak consumption from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1265,7 +1265,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-7693 calls with 11.26K peak consumption from:
+24140 calls with 12.93K peak consumption from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1287,7 +1287,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-6644 calls with 10.56K peak consumption from:
+21988 calls with 12.35K peak consumption from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1307,7 +1307,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-2317 calls with 5.63K peak consumption from:
+7272 calls with 4.58K peak consumption from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1338,13 +1338,13 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-  and 1528 from 30 other places
+  and 2502 from 31 other places
 
-19017 calls to allocation functions with 4.11K peak consumption from
+63627 calls to allocation functions with 4.11K peak consumption from
 S__setbuf
   at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:199
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-10674 calls with 0B peak consumption from:
+35766 calls with 0B peak consumption from:
     put_byte::S__flushbufc
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:596
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1382,7 +1382,7 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-3558 calls with 0B peak consumption from:
+11924 calls with 0B peak consumption from:
     put_byte::S__flushbufc
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:596
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1437,7 +1437,7 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-1186 calls with 0B peak consumption from:
+3974 calls with 0B peak consumption from:
     Slock::S__lock
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:325
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1467,7 +1467,7 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-1186 calls with 0B peak consumption from:
+3974 calls with 0B peak consumption from:
     Slock::S__lock
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:325
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1497,7 +1497,7 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-1186 calls with 0B peak consumption from:
+3974 calls with 0B peak consumption from:
     Slock::S__lock
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:325
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1527,13 +1527,13 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-  and 1227 from 13 other places
+  and 4015 from 13 other places
 
-15498 calls to allocation functions with 6.36M peak consumption from
+51745 calls to allocation functions with 6.36M peak consumption from
 PL_malloc_uncollectable
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1119
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-10674 calls with 0B peak consumption from:
+35766 calls with 0B peak consumption from:
     Snew
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:3321
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1559,7 +1559,7 @@ PL_malloc_uncollectable
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-3558 calls with 0B peak consumption from:
+11925 calls with 0B peak consumption from:
     Snew
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:3321
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1602,7 +1602,7 @@ PL_malloc_uncollectable
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-1186 calls with 0B peak consumption from:
+3974 calls with 0B peak consumption from:
     Snew
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:3321
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1716,11 +1716,11 @@ PL_malloc_uncollectable
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 47 from 25 other places
 
-15418 calls to allocation functions with 0B peak consumption from
+51665 calls to allocation functions with 0B peak consumption from
 Sopenmem
   at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:4072
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-10674 calls with 0B peak consumption from:
+35766 calls with 0B peak consumption from:
     setupOutputRedirect
       at /hpc/home/rzf/swipl-devel/src/os/pl-file.c:1683
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1740,7 +1740,7 @@ Sopenmem
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-3558 calls with 0B peak consumption from:
+11925 calls with 0B peak consumption from:
     tellString
       at /hpc/home/rzf/swipl-devel/src/os/pl-file.c:2524
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1777,7 +1777,7 @@ Sopenmem
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-1186 calls with 0B peak consumption from:
+3974 calls with 0B peak consumption from:
     setupOutputRedirect
       at /hpc/home/rzf/swipl-devel/src/os/pl-file.c:1683
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1798,11 +1798,11 @@ Sopenmem
     __clone3
       in /lib64/libc.so.6
 
-13021 calls to allocation functions with 272.63G peak consumption from
+30061 calls to allocation functions with 572.14G peak consumption from
 PL_malloc_atomic_unmanaged
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1119
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-11715 calls with 272.62G peak consumption from:
+25967 calls with 572.14G peak consumption from:
     compileTermToHeap_ex___LD
       at /hpc/home/rzf/swipl-devel/src/pl-rec.c:734
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1826,7 +1826,7 @@ PL_malloc_atomic_unmanaged
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-1186 calls with 49.69K peak consumption from:
+3974 calls with 166.78K peak consumption from:
     compileTermToHeap_ex___LD
       at /hpc/home/rzf/swipl-devel/src/pl-rec.c:734
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1954,11 +1954,11 @@ PL_malloc_atomic_unmanaged
 
 
 PEAK MEMORY CONSUMERS
-272.63G peak memory consumed over 13021 calls from
+572.14G peak memory consumed over 30061 calls from
 PL_malloc_atomic_unmanaged
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1119
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-272.62G consumed over 11715 calls from:
+572.14G consumed over 25967 calls from:
     compileTermToHeap_ex___LD
       at /hpc/home/rzf/swipl-devel/src/pl-rec.c:734
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -1982,7 +1982,7 @@ PL_malloc_atomic_unmanaged
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-49.69K consumed over 1186 calls from:
+166.78K consumed over 3974 calls from:
     compileTermToHeap_ex___LD
       at /hpc/home/rzf/swipl-devel/src/pl-rec.c:734
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -2302,7 +2302,7 @@ PL_malloc_atomic
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 664.69K from 414 other places
 
-39.68M peak memory consumed over 2881717 calls from
+51.45M peak memory consumed over 3339419 calls from
 allocHeapOrHalt::allocHeap
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:179
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -2410,95 +2410,66 @@ allocHeapOrHalt
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-850.94K consumed over 96 calls from:
-    alloc_thread
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:1595
+6.29M consumed over 1 calls from:
+    hashDefinition::newClauseIndexTable
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:677
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_thread_create
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2277
+    hashDefinition
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:1688
+    first_clause_guarded___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:480
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4517
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-524.29K consumed over 1 calls from:
-    lookupBlob___LD::rehashAtoms
-      at /hpc/home/rzf/swipl-devel/src/pl-atom.c:1399
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    lookupBlob___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-atom.c:585
-    lookupAtom___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-atom.c:661
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    textToAtom___LD
-      at /hpc/home/rzf/swipl-devel/src/os/pl-text.c:469
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    get_token___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:3170
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    complex_term___LD::get_token___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:4099
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    complex_term___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:4099
-    simple_term___LD::read_compound___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:4492
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    simple_term___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:4733
-    complex_term___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:4187
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    read_term___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:4915
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    read_clause___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:5212
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_read_clause3_va
-      at /hpc/home/rzf/swipl-devel/src/pl-read.c:5243
+    firstClause___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:577
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:3429
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     callProlog
       at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_sig_atomic1_va
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+5.48M consumed over 228426 calls from:
+    newClauseRef
+      at /hpc/home/rzf/swipl-devel/src/pl-proc.c:1218
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    addClauseBucket
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:928
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    addClauseToIndex
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:1557
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    hashDefinition
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:1704
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    first_clause_guarded___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:480
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    firstClause___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-index.c:577
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:3429
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     callProlog
       at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_sig_atomic1_va
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-  and 1.58M from 1562 other places
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+  and 2.96M from 1568 other places
 
-6.36M peak memory consumed over 15498 calls from
+6.36M peak memory consumed over 51745 calls from
 PL_malloc_uncollectable
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1119
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -2821,7 +2792,7 @@ PL_malloc_uncollectable
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 119.68K from 25 other places
 
-1.05M peak memory consumed over 166266810 calls from
+1.11M peak memory consumed over 427297706 calls from
 tmp_malloc
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1364
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -2910,14 +2881,57 @@ tmp_malloc
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-16.40K consumed over 1 calls from:
+36.43K consumed over 407198177 calls from:
+    growBuffer
+      at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:56
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileSubClause
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:3155
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileBody___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2489
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileBody___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2290
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileClauseGuarded___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:2010
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileClause___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-comp.c:1864
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:5602
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+30.78K consumed over 103872 calls from:
     pushSegStack_::pushSegStack_
       at /hpc/home/rzf/swipl-devel/src/pl-segstack.c:82
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     pushSegStack_
       at /hpc/home/rzf/swipl-devel/src/pl-segstack.c:71
-    pl_new_findall_bag0_va
-      at /hpc/home/rzf/swipl-devel/src/pl-bag.c:174
+    compile_term_to_heap___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:617
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    compileTermToHeap_ex___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-rec.c:724
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    thread_send_message___LD::create_thread_message___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4203
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    thread_send_message___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4996
+    pl_thread_send_message2_va
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     PL_next_solution___LD
       at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
@@ -2931,28 +2945,36 @@ tmp_malloc
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-16.40K consumed over 1 calls from:
-    pushSegStack_::pushSegStack_
-      at /hpc/home/rzf/swipl-devel/src/pl-segstack.c:82
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pushSegStack_
-      at /hpc/home/rzf/swipl-devel/src/pl-segstack.c:71
-    pl_new_findall_bag0_va
-      at /hpc/home/rzf/swipl-devel/src/pl-bag.c:174
+  and 70.58K from 390 other places
+
+827.87K peak memory consumed over 29953 calls from
+thread_send_message___LD::create_thread_message___LD
+  at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4206
+  in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+thread_send_message___LD
+  at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4996
+700.70K consumed over 25967 calls from:
+    pl_thread_send_message2_va
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     PL_next_solution___LD
       at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    trapUndefined___LD::autoLoader
-      at /hpc/home/rzf/swipl-devel/src/pl-proc.c:2986
+    query_loop
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    trapUndefined___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-proc.c:3029
-    getProcDefinedDefinition___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:1611
+    prologToplevel
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    main
+      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
+      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
+127.17K consumed over 3974 calls from:
+    pl_thread_send_message2_va
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:3316
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
     callProlog
       at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
@@ -2964,7 +2986,7 @@ tmp_malloc
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-  and 44.11K from 390 other places
+  and 0B from 3 other places
 
 802.82K peak memory consumed over 98 calls from
 initGuardCStack
@@ -3009,47 +3031,6 @@ initGuardCStack
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-
-371.81K peak memory consumed over 12913 calls from
-thread_send_message___LD::create_thread_message___LD
-  at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4206
-  in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-thread_send_message___LD
-  at /hpc/home/rzf/swipl-devel/src/pl-thread.c:4996
-333.86K consumed over 11715 calls from:
-    pl_thread_send_message2_va
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    query_loop
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:147
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    prologToplevel
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:593
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    main
-      at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
-      in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-37.95K consumed over 1186 calls from:
-    pl_thread_send_message2_va
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:5017
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      in /lib64/libc.so.6
-    __clone3
-      in /lib64/libc.so.6
-  and 0B from 3 other places
 
 158.30K peak memory consumed over 194 calls from
 findBuffer::allocStringBuffer::allocNewStringBuffer
@@ -3210,11 +3191,11 @@ findBuffer
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 544B from 1 other places
 
-76.79K peak memory consumed over 39488 calls from
+75.57K peak memory consumed over 123450 calls from
 save_backtrace
   at /hpc/home/rzf/swipl-devel/src/os/pl-cstack.c:339
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-23.12K consumed over 12275 calls from:
+22.24K consumed over 39108 calls from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3240,7 +3221,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-21.74K consumed over 9031 calls from:
+19.18K consumed over 28440 calls from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3271,7 +3252,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-11.26K consumed over 7693 calls from:
+12.93K consumed over 24140 calls from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3293,7 +3274,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-10.56K consumed over 6644 calls from:
+12.35K consumed over 21988 calls from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3313,7 +3294,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-5.63K consumed over 2317 calls from:
+4.58K consumed over 7272 calls from:
     garbageCollect
       at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4421
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3344,7 +3325,7 @@ save_backtrace
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-  and 4.48K from 30 other places
+  and 4.29K from 31 other places
 
 72.70K peak memory consumed over 1 calls from
 _GLOBAL__sub_I_eh_alloc.cc
@@ -3363,11 +3344,11 @@ _GLOBAL__sub_I_eh_alloc.cc
 
 
 MOST TEMPORARY ALLOCATIONS
-151786755 temporary allocations of 166266810 allocations in total (91.29%) from
+398793147 temporary allocations of 427297706 allocations in total (93.33%) from
 tmp_malloc
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1364
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-144491552 temporary allocations of 158571797 allocations in total (91.12%) from:
+379462956 temporary allocations of 407198177 allocations in total (93.19%) from:
     growBuffer
       at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:56
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3399,7 +3380,7 @@ tmp_malloc
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-7020617 temporary allocations of 7178185 allocations in total (97.80%) from:
+19049294 temporary allocations of 19454433 allocations in total (97.92%) from:
     growBuffer
       at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:56
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3517,7 +3498,7 @@ tmp_malloc
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-4563 temporary allocations of 11589 allocations in total (39.37%) from:
+10874 temporary allocations of 25841 allocations in total (42.08%) from:
     growBuffer
       at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:56
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3551,7 +3532,7 @@ tmp_malloc
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 2.36K from 390 other places
 
-263868 temporary allocations of 702976 allocations in total (37.54%) from
+272821 temporary allocations of 774236 allocations in total (35.24%) from
 tmp_realloc
   at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:1400
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3674,7 +3655,7 @@ tmp_realloc
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-6280 temporary allocations of 23432 allocations in total (26.80%) from:
+15233 temporary allocations of 51936 allocations in total (29.33%) from:
     growBuffer
       at /hpc/home/rzf/swipl-devel/src/os/pl-buffer.c:62
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -3786,6 +3767,159 @@ tmp_realloc
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 16B from 100 other places
+
+214853 temporary allocations of 3339419 allocations in total (6.43%) from
+allocHeapOrHalt::allocHeap
+  at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:179
+  in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+allocHeapOrHalt
+  at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:193
+26085 temporary allocations of 37885 allocations in total (68.85%) from:
+    newTableEnum
+      at /hpc/home/rzf/swipl-devel/src/os/pl-table.c:678
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    garbageCollect::gvars_to_term_refs
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:1110
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    garbageCollect
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4487
+    makeMoreStackSpace
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4632
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    copy_term_refs___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:817
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_copy_term2_va
+      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:1017
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+24103 temporary allocations of 27818 allocations in total (86.65%) from:
+    PL_open_query
+      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:2754
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:494
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_sig_atomic1_va
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+22494 temporary allocations of 23844 allocations in total (94.34%) from:
+    PL_open_query
+      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:2754
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callCleanupHandler___LD::call_term___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:790
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callCleanupHandler___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:861
+    PL_next_solution___LD::callCleanupHandler___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:817
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:6798
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+22475 temporary allocations of 37885 allocations in total (59.32%) from:
+    newTableEnum
+      at /hpc/home/rzf/swipl-devel/src/os/pl-table.c:678
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    garbageCollect::term_refs_to_gvars
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:1166
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    garbageCollect
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4500
+    makeMoreStackSpace
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4632
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    copy_term_refs___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:817
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_copy_term2_va
+      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:1017
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+19212 temporary allocations of 27717 allocations in total (69.31%) from:
+    newTableEnum
+      at /hpc/home/rzf/swipl-devel/src/os/pl-table.c:678
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    garbageCollect::gvars_to_term_refs
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:1110
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    garbageCollect
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4487
+    f_ensureStackSpace___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4698
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_unify_list___LD::ensureStackSpace_ex___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-gc.h:118
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_unify_list___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-fli.c:3354
+    term_variables___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-prims.c:3387
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    pl_term_variables22_va
+      at /hpc/home/rzf/swipl-devel/src/pl-prims.c:3404
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    PL_next_solution___LD
+      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    callProlog
+      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
+      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
+    start_thread
+      in /lib64/libc.so.6
+    __clone3
+      in /lib64/libc.so.6
+  and 100.48K from 1568 other places
 
 130297 temporary allocations of 723108 allocations in total (18.02%) from
 PL_malloc_atomic
@@ -4347,164 +4481,11 @@ PL_realloc
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 26B from 17 other places
 
-61790 temporary allocations of 2881717 allocations in total (2.14%) from
-allocHeapOrHalt::allocHeap
-  at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:179
-  in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-allocHeapOrHalt
-  at /hpc/home/rzf/swipl-devel/src/pl-alloc.c:193
-7293 temporary allocations of 11052 allocations in total (65.99%) from:
-    newTableEnum
-      at /hpc/home/rzf/swipl-devel/src/os/pl-table.c:678
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    garbageCollect::gvars_to_term_refs
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:1110
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    garbageCollect
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4487
-    makeMoreStackSpace
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4632
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    copy_term_refs___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:817
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_copy_term2_va
-      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:1017
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      in /lib64/libc.so.6
-    __clone3
-      in /lib64/libc.so.6
-7044 temporary allocations of 8302 allocations in total (84.85%) from:
-    PL_open_query
-      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:2754
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:494
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_sig_atomic1_va
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:393
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      in /lib64/libc.so.6
-    __clone3
-      in /lib64/libc.so.6
-6613 temporary allocations of 7116 allocations in total (92.93%) from:
-    PL_open_query
-      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:2754
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callCleanupHandler___LD::call_term___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:790
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callCleanupHandler___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:861
-    PL_next_solution___LD::callCleanupHandler___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-wam.c:817
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:6798
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      in /lib64/libc.so.6
-    __clone3
-      in /lib64/libc.so.6
-5995 temporary allocations of 11049 allocations in total (54.26%) from:
-    newTableEnum
-      at /hpc/home/rzf/swipl-devel/src/os/pl-table.c:678
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    garbageCollect::term_refs_to_gvars
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:1166
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    garbageCollect
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4500
-    makeMoreStackSpace
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4632
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    copy_term_refs___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:817
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_copy_term2_va
-      at /hpc/home/rzf/swipl-devel/src/pl-copyterm.c:1017
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      in /lib64/libc.so.6
-    __clone3
-      in /lib64/libc.so.6
-5484 temporary allocations of 8308 allocations in total (66.01%) from:
-    newTableEnum
-      at /hpc/home/rzf/swipl-devel/src/os/pl-table.c:678
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    garbageCollect::gvars_to_term_refs
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:1110
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    garbageCollect
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4487
-    f_ensureStackSpace___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.c:4698
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_unify_list___LD::ensureStackSpace_ex___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-gc.h:118
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_unify_list___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-fli.c:3354
-    term_variables___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-prims.c:3387
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    pl_term_variables22_va
-      at /hpc/home/rzf/swipl-devel/src/pl-prims.c:3404
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    PL_next_solution___LD
-      at /hpc/home/rzf/swipl-devel/src/pl-vmi.c:4476
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    callProlog
-      at /hpc/home/rzf/swipl-devel/src/pl-pro.c:495
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      at /hpc/home/rzf/swipl-devel/src/pl-thread.c:2089
-      in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-    start_thread
-      in /lib64/libc.so.6
-    __clone3
-      in /lib64/libc.so.6
-  and 29.36K from 1562 other places
-
-12287 temporary allocations of 19017 allocations in total (64.61%) from
+41917 temporary allocations of 63627 allocations in total (65.88%) from
 S__setbuf
   at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:199
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
-9916 temporary allocations of 10674 allocations in total (92.90%) from:
+33552 temporary allocations of 35766 allocations in total (93.81%) from:
     put_byte::S__flushbufc
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:596
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -4542,7 +4523,7 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-1000 temporary allocations of 1186 allocations in total (84.32%) from:
+3432 temporary allocations of 3974 allocations in total (86.36%) from:
     put_byte::S__flushbufc
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:596
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -4572,7 +4553,7 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-823 temporary allocations of 1186 allocations in total (69.39%) from:
+2938 temporary allocations of 3974 allocations in total (73.93%) from:
     Slock::S__lock
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:325
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -4602,7 +4583,7 @@ S__setbuf
       in /lib64/libc.so.6
     __clone3
       in /lib64/libc.so.6
-547 temporary allocations of 1186 allocations in total (46.12%) from:
+1994 temporary allocations of 3974 allocations in total (50.18%) from:
     Slock::S__lock
       at /hpc/home/rzf/swipl-devel/src/os/pl-stream.c:325
       in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -4655,7 +4636,7 @@ S__setbuf
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 0B from 13 other places
 
-219 temporary allocations of 235 allocations in total (93.19%) from
+220 temporary allocations of 313 allocations in total (70.29%) from
 __qsort_r
   in /lib64/libc.so.6
 193 temporary allocations of 197 allocations in total (97.97%) from:
@@ -4826,7 +4807,7 @@ __qsort_r
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-  and 1B from 2 other places
+  and 2B from 4 other places
 
 65 temporary allocations of 145 allocations in total (44.83%) from
 _nl_make_l10nflist.localalias
@@ -4955,7 +4936,7 @@ _nl_make_l10nflist.localalias
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
   and 35B from 40 other places
 
-45 temporary allocations of 65 allocations in total (69.23%) from
+45 temporary allocations of 73 allocations in total (61.64%) from
 assessAddKey
   at /hpc/home/rzf/swipl-devel/src/pl-index.c:2332
   in /hpc/home/rzf/lib/swipl/lib/x86_64-linux/libswipl.so.9
@@ -5153,7 +5134,7 @@ assessAddKey
     main
       at /hpc/home/rzf/swipl-devel/src/pl-main.c:139
       in /hpc/home/rzf/lib/swipl/bin/x86_64-linux/swipl
-  and 10B from 11 other places
+  and 10B from 12 other places
 
 5 temporary allocations of 10 allocations in total (50.00%) from
 _nl_normalize_codeset
@@ -5273,10 +5254,10 @@ _nl_normalize_codeset
   and 0B from 5 other places
 
 
-total runtime: 1043.04s.
-calls to allocation functions: 170819814 (163770/s)
-temporary memory allocations: 152370761 (146083/s)
-peak heap memory consumption: 273.13G
-peak RSS (including heaptrack overhead): 303.42G
-total memory leaked: 273.11G
+total runtime: 2804.22s.
+calls to allocation functions: 432614975 (154272/s)
+temporary memory allocations: 399568801 (142488/s)
+peak heap memory consumption: 572.66G
+peak RSS (including heaptrack overhead): 534.49G
+total memory leaked: 572.66G
 suppressed leaks: 1.79K
